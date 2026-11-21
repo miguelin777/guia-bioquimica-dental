@@ -1,0 +1,3379 @@
+{
+ "agente": 1,
+ "paginas": "1-25",
+ "temas": [
+  {
+   "id": "betaox",
+   "titulo": "Ciclo de la β-oxidación",
+   "emoji": "🔥",
+   "paginas": [
+    1,
+    4
+   ],
+   "descripcion": "Cómo la mitocondria degrada los ácidos grasos de dos en dos carbonos hasta acetil-CoA, y cuánto ATP rinde el palmitato.",
+   "imprescindibles": [
+    "La β-oxidación es un proceso catabólico: quita un par de carbonos por ciclo hasta convertir todo el ácido graso en acetil-CoA.",
+    "Ocurre en la matriz mitocondrial y cada ciclo tiene 4 pasos: oxidación (FAD) → hidratación → oxidación (NAD⁺) → tiólisis.",
+    "Primero se activa el ácido graso: ácido graso + CoA → acil-CoA, por la acil-CoA sintetasa de la membrana mitocondrial externa.",
+    "La CoA no cruza la membrana interna: la CPT I pasa el acilo a la carnitina y la CPT II lo devuelve a otra CoA dentro de la matriz.",
+    "Paso 1: la acil-CoA deshidrogenasa forma un doble enlace entre C-2 (α) y C-3 (β) usando FAD → Δ²-trans-enoil-CoA + FADH₂.",
+    "Paso 2: la enoil-CoA hidratasa añade H₂O al doble enlace → β-hidroxiacil-CoA.",
+    "Paso 3: la β-hidroxiacil-CoA deshidrogenasa convierte el –OH en cetona (=O) usando NAD⁺ → β-cetoacil-CoA + NADH.",
+    "Paso 4 (tiólisis): la tiolasa rompe el β-cetoacil-CoA con otra CoA → acetil-CoA + acil-CoA 2 carbonos más corto.",
+    "Cada vuelta rinde 1 FADH₂, 1 NADH y 1 acetil-CoA; el acetil-CoA va al ciclo de Krebs y FADH₂/NADH a la cadena respiratoria.",
+    "El número de acetil-CoA depende del largo de la cadena alifática del ácido graso.",
+    "Valores del material: FADH₂ = 2 ATP, NADH = 3 ATP, acetil-CoA = 12 ATP.",
+    "Palmitato: 7 FADH₂ (14) + 7 NADH (21) + 8 acetil-CoA (96) = 131 ATP − 2 de activación = 129 ATP netos."
+   ],
+   "secciones": [
+    {
+     "id": "betaox-1",
+     "titulo": "¿Qué es la β-oxidación?",
+     "paginas": [
+      1,
+      1
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La **β-oxidación** (oxidación beta) es un proceso **catabólico** en el que los ácidos grasos sufren la **remoción de un par de átomos de carbono en cada ciclo**, hasta que el ácido graso se descompone por completo en moléculas de **acetil-CoA**."
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "El **acetil-CoA** puede ingresar al **ciclo de Krebs**.",
+        "Las coenzimas reducidas **NADH** y **FADH₂** sirven como **donadores de electrones** en la **cadena respiratoria** (ahí se obtiene ATP).",
+        "Lugar: la **matriz** (interior) de la **mitocondria**.",
+        "Cada ciclo se compone de **4 pasos**."
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "β-oxidación = **matriz mitocondrial** · **2 carbonos por vuelta** · **4 pasos** · productos: **acetil-CoA + NADH + FADH₂**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Se llama «β» porque la oxidación ocurre en el **carbono β (C-3)** del acilo: ese carbono termina como grupo cetona justo antes del corte.",
+       "extra": true
+      },
+      {
+       "tipo": "truco",
+       "md": "Imagina unas tijeras que cortan el ácido graso de **2 en 2 carbonos** desde el extremo unido a la CoA: cada corte suelta un **acetil-CoA** (que tiene 2 C)."
+      }
+     ]
+    },
+    {
+     "id": "betaox-2",
+     "titulo": "Activación y transporte a la mitocondria (carnitina)",
+     "paginas": [
+      3,
+      3
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Antes de que la β-oxidación pueda ocurrir, los ácidos grasos deben **activarse**, es decir, «reciben más energía» al unirse a la **coenzima A (HSCoA)**. La reacción **ácido graso + CoA → acil-CoA** la cataliza la **acil-CoA sintetasa**, que está en la **membrana externa de la mitocondria**."
+      },
+      {
+       "tipo": "texto",
+       "md": "El material recuerda que la mitocondria está rodeada por **dos membranas** (externa e interna), mientras que la célula tiene solo una membrana."
+      },
+      {
+       "tipo": "texto",
+       "md": "La β-oxidación ocurre **dentro** de la mitocondria (matriz). Para llevar ahí el ácido graso se necesita una **molécula transportadora**, porque la **coenzima A no puede pasar la membrana interna**. Ese transportador es la **carnitina** (el material la llama «aminoácido»)."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Lanzadera de carnitina",
+       "items": [
+        {
+         "nombre": "1. Activación (membrana externa)",
+         "detalle": "Acil-CoA sintetasa: ácido graso + CoA → acil-CoA."
+        },
+        {
+         "nombre": "2. CPT I",
+         "detalle": "La carnitina palmitoiltransferasa I transfiere el acilo de la CoA a la carnitina (acil-carnitina) y libera la CoA al exterior."
+        },
+        {
+         "nombre": "3. Cruce",
+         "detalle": "La acil-carnitina pasa al interior de la mitocondria (la CoA sola no podría)."
+        },
+        {
+         "nombre": "4. CPT II (membrana interna)",
+         "detalle": "La carnitina palmitoiltransferasa II hace el proceso al revés: transfiere el resto acilo de la carnitina a otra CoA, ahora en la matriz → acil-CoA listo para oxidarse."
+        }
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "La **CoA no atraviesa la membrana mitocondrial interna**; por eso el acilo viaja unido a la **carnitina**: **CPT I** (afuera) lo pone en la carnitina y **CPT II** (adentro) lo regresa a la CoA."
+      },
+      {
+       "tipo": "truco",
+       "md": "**CPT I** = la **I**da (carga el acilo en la carnitina, afuera); **CPT II** = la entrega (lo descarga en otra CoA, adentro)."
+      },
+      {
+       "tipo": "texto",
+       "md": "En los libros, entre CPT I y CPT II actúa una **translocasa** (carnitina–acilcarnitina translocasa) que mete la acil-carnitina y saca la carnitina libre. La CPT I es el paso regulado: la inhibe el malonil-CoA.",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "Si falta carnitina o falla la CPT, no se pueden «quemar» grasas: en ayuno o ejercicio prolongado aparecen debilidad muscular e hipoglucemia, porque el cuerpo depende solo de la glucosa.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "betaox-3",
+     "titulo": "Las 4 reacciones de cada vuelta",
+     "paginas": [
+      2,
+      4
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La β-oxidación consiste en **4 pasos** cuyos productos finales son **una molécula de acetil-CoA** (entra al ciclo de Krebs como parte de la respiración celular) y **una molécula de acil-CoA 2 carbonos más corta** que antes. Además se producen **un FADH₂** y **un NADH/H⁺**, que entran a la cadena respiratoria para obtener ATP."
+      },
+      {
+       "tipo": "texto",
+       "md": "El ácido graso **repite estas 4 reacciones tantas veces como sea necesario**, hasta descomponerse por completo en acetil-CoA. Como pierde un par de carbonos por ciclo, **el número de acetil-CoA depende del largo de su cadena alifática**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Para ubicar los carbonos: el **C-1** es el del tioéster unido a la CoA (C=O~SCoA), el **C-2** es el **carbono α** y el **C-3** es el **carbono β**."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Una vuelta de β-oxidación",
+       "items": [
+        {
+         "nombre": "1. Oxidación (FAD)",
+         "detalle": "La acil-CoA deshidrogenasa forma un doble enlace entre C-2 (α) y C-3 (β) del acil-CoA. El agente oxidante es el FAD → FADH₂. Producto: Δ²-trans-enoil-CoA."
+        },
+        {
+         "nombre": "2. Hidratación",
+         "detalle": "La enoil-CoA hidratasa hidrata (añade H₂O) el doble enlace entre C-2 y C-3. Producto: β-hidroxiacil-CoA (–OH en el carbono β)."
+        },
+        {
+         "nombre": "3. Oxidación (NAD⁺)",
+         "detalle": "La (β-)hidroxiacil-CoA deshidrogenasa convierte el grupo hidroxilo (–OH) en grupo cetona (=O). Esta vez el oxidante es el NAD⁺ → NADH + H⁺. Producto: β-cetoacil-CoA (3-cetoacil-CoA)."
+        },
+        {
+         "nombre": "4. Tiólisis",
+         "detalle": "Una tiolasa (acil-CoA-aciltransferasa) separa el 3-cetoacil-CoA con el grupo tiol de otra molécula de CoA, que se inserta entre C-2 y C-3. Productos: acetil-CoA + acil-CoA acortado en 2 carbonos, que vuelve a empezar el ciclo."
+        }
+       ]
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Paso",
+        "Enzima",
+        "Entra / sale",
+        "Producto"
+       ],
+       "filas": [
+        [
+         "1. Oxidación",
+         "Acil-CoA deshidrogenasa",
+         "FAD → FADH₂",
+         "Δ²-trans-enoil-CoA"
+        ],
+        [
+         "2. Hidratación",
+         "Enoil-CoA hidratasa",
+         "+ H₂O",
+         "β-hidroxiacil-CoA"
+        ],
+        [
+         "3. Oxidación",
+         "β-hidroxiacil-CoA deshidrogenasa",
+         "NAD⁺ → NADH + H⁺",
+         "β-cetoacil-CoA"
+        ],
+        [
+         "4. Tiólisis",
+         "Tiolasa (acil-CoA-aciltransferasa)",
+         "+ CoA",
+         "Acetil-CoA + acil-CoA (n − 2 C)"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 2,
+       "pie": "Esquema de una vuelta: acil-CoA → Δ²-trans-enoil-CoA → β-hidroxiacil-CoA → β-cetoacil-CoA → acetil-CoA + acil-CoA acortado en dos carbonos, que «sufre otra secuencia de oxidación». Fíjate dónde entran FAD, H₂O, NAD⁺ y CoA y en las etiquetas αC (C-2) y βC (C-3). Ojo: aquí los círculos van del 1 al 5 (el 1 es el sustrato), mientras el texto numera 4 reacciones."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 4,
+       "pie": "Versión circular («Explicándolo»): oxidación (FAD → FADH₂), hidratación (H₂O), oxidación (NAD⁺ → NADH + H⁺) y tiólisis (HS-CoA → sale acetil-CoA), que devuelve un acil-CoA con dos carbonos menos. La caja resume el Paso 1 (oxidación de acil-CoA: formación de FADH₂, acil-CoA deshidrogenasa, se forma enoil-CoA, doble enlace entre C2 y C3) y el Paso 2 (hidratación: enoil-CoA hidratasa → β-hidroxiacil-CoA)."
+      },
+      {
+       "tipo": "clave",
+       "md": "Por cada ciclo se forma **1 FADH₂, 1 NADH y 1 acetil-CoA**. Orden de las coenzimas: **FAD primero, NAD⁺ después**."
+      },
+      {
+       "tipo": "truco",
+       "md": "Recuerda **«O-H-O-T»**: **O**xidación con FAD, **H**idratación, **O**xidación con NAD⁺, **T**iólisis. Y la F de **F**AD va antes que la N de **N**AD, como en el abecedario."
+      }
+     ]
+    },
+    {
+     "id": "betaox-4",
+     "titulo": "Balance energético: el palmitato",
+     "paginas": [
+      4,
+      4
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "El material calcula el ATP que rinde la β-oxidación completa del **palmitato** (ácido graso saturado de **16 carbonos**)."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Concepto",
+        "Cálculo",
+        "ATP"
+       ],
+       "filas": [
+        [
+         "7 FADH₂",
+         "7 × 2 ATP",
+         "14"
+        ],
+        [
+         "7 NADH",
+         "7 × 3 ATP",
+         "21"
+        ],
+        [
+         "Subtotal coenzimas",
+         "14 + 21",
+         "35"
+        ],
+        [
+         "8 acetil-CoA (ciclo de Krebs)",
+         "8 × 12 ATP",
+         "96"
+        ],
+        [
+         "Subtotal",
+         "35 + 96",
+         "131"
+        ],
+        [
+         "Palmitato → palmitoil-CoA (activación)",
+         "gasto",
+         "−2"
+        ],
+        [
+         "TOTAL NETO",
+         "131 − 2",
+         "129 ATP"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "Dato de examen: **palmitato = 129 ATP netos** (131 brutos − 2 de la activación), con los valores del material: **FADH₂ = 2, NADH = 3, acetil-CoA = 12 ATP**."
+      },
+      {
+       "tipo": "texto",
+       "md": "¿Por qué 8 acetil-CoA pero solo 7 FADH₂ y 7 NADH? Porque 16 C ÷ 2 = 8 acetil-CoA, pero bastan **7 vueltas**: en la última, el fragmento de 4 C se parte en **dos** acetil-CoA a la vez.",
+       "extra": true
+      },
+      {
+       "tipo": "truco",
+       "md": "Para un ácido graso saturado de *n* carbonos: **vueltas = n/2 − 1** y **acetil-CoA = n/2**. Palmitato (16 C): 7 vueltas y 8 acetil-CoA.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Lo que el material llama «oxidación de palmitato a palmitoil-CoA» es en realidad la **activación** (la acil-CoA sintetasa gasta 1 ATP → AMP + PPᵢ, equivalente a 2 ATP).",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Los libros actuales usan NADH ≈ 2.5 ATP, FADH₂ ≈ 1.5 ATP y acetil-CoA ≈ 10 ATP, y obtienen **106 ATP** netos para el palmitato. Para tu examen usa los valores del material (129).",
+       "extra": true
+      }
+     ]
+    }
+   ],
+   "figuras": [
+    {
+     "pagina": 2,
+     "pie": "Las 4 reacciones de la β-oxidación con enzimas, coenzimas y la numeración de carbonos α y β.",
+     "seccion": "betaox-3"
+    },
+    {
+     "pagina": 4,
+     "pie": "Ciclo de la β-oxidación en forma circular y el resumen de los pasos 1 y 2.",
+     "seccion": "betaox-3"
+    }
+   ],
+   "glosario": [
+    {
+     "termino": "β-oxidación",
+     "definicion": "Vía catabólica mitocondrial que degrada ácidos grasos quitando 2 carbonos por ciclo en forma de acetil-CoA."
+    },
+    {
+     "termino": "Acil-CoA",
+     "definicion": "Ácido graso unido a la coenzima A por un enlace tioéster; es la forma activada del ácido graso."
+    },
+    {
+     "termino": "Acetil-CoA",
+     "definicion": "Unidad de 2 carbonos unida a CoA; producto de cada vuelta, entra al ciclo de Krebs."
+    },
+    {
+     "termino": "Acil-CoA sintetasa",
+     "definicion": "Enzima de la membrana mitocondrial externa que activa el ácido graso uniéndolo a la CoA."
+    },
+    {
+     "termino": "Carnitina",
+     "definicion": "Molécula transportadora que lleva el grupo acilo a través de la membrana mitocondrial interna."
+    },
+    {
+     "termino": "CPT I",
+     "definicion": "Carnitina palmitoiltransferasa I: pasa el acilo de la CoA a la carnitina y libera la CoA afuera."
+    },
+    {
+     "termino": "CPT II",
+     "definicion": "Carnitina palmitoiltransferasa II (membrana interna): devuelve el acilo a una CoA dentro de la matriz."
+    },
+    {
+     "termino": "Carbono α / carbono β",
+     "definicion": "C-2 y C-3 del acilo, contando como C-1 el carbono unido a la CoA."
+    },
+    {
+     "termino": "Δ²-trans-enoil-CoA",
+     "definicion": "Producto del paso 1, con doble enlace trans entre C-2 y C-3."
+    },
+    {
+     "termino": "β-hidroxiacil-CoA",
+     "definicion": "Producto del paso 2 (hidratación), con un –OH en el carbono β."
+    },
+    {
+     "termino": "β-cetoacil-CoA",
+     "definicion": "Producto del paso 3, con un grupo cetona en el carbono β; es el sustrato de la tiolasa."
+    },
+    {
+     "termino": "Tiólisis",
+     "definicion": "Ruptura de un enlace C–C usando el grupo tiol (–SH) de una CoA; último paso de cada vuelta."
+    },
+    {
+     "termino": "FAD / FADH₂",
+     "definicion": "Coenzima oxidante del paso 1; ya reducida (FADH₂) dona electrones a la cadena respiratoria."
+    },
+    {
+     "termino": "NAD⁺ / NADH",
+     "definicion": "Coenzima oxidante del paso 3; el NADH dona electrones a la cadena respiratoria."
+    },
+    {
+     "termino": "Palmitato",
+     "definicion": "Ácido graso saturado de 16 C; su β-oxidación completa rinde 129 ATP netos según el material."
+    }
+   ],
+   "tarjetas": [
+    {
+     "id": "betaox-t1",
+     "frente": "¿Qué es la β-oxidación?",
+     "reverso": "Proceso catabólico en el que el ácido graso pierde un par de carbonos por ciclo hasta descomponerse por completo en acetil-CoA.",
+     "seccion": "betaox-1"
+    },
+    {
+     "id": "betaox-t2",
+     "frente": "¿Dónde ocurre la β-oxidación?",
+     "reverso": "En la matriz (interior) de la mitocondria.",
+     "seccion": "betaox-1"
+    },
+    {
+     "id": "betaox-t3",
+     "frente": "¿A dónde van el acetil-CoA y las coenzimas reducidas que produce la β-oxidación?",
+     "reverso": "El acetil-CoA al ciclo de Krebs; el NADH y el FADH₂ a la cadena respiratoria como donadores de electrones.",
+     "seccion": "betaox-1"
+    },
+    {
+     "id": "betaox-t4",
+     "frente": "¿Qué significa «activar» un ácido graso?",
+     "reverso": "Unirlo a la coenzima A (HSCoA) para formar acil-CoA («recibe más energía»).",
+     "seccion": "betaox-2"
+    },
+    {
+     "id": "betaox-t5",
+     "frente": "¿Qué enzima activa al ácido graso y dónde está?",
+     "reverso": "La acil-CoA sintetasa, en la membrana externa de la mitocondria.",
+     "seccion": "betaox-2"
+    },
+    {
+     "id": "betaox-t6",
+     "frente": "¿Por qué se necesita la carnitina?",
+     "reverso": "Porque la coenzima A no puede cruzar la membrana mitocondrial interna; la carnitina transporta el grupo acilo a la matriz.",
+     "seccion": "betaox-2"
+    },
+    {
+     "id": "betaox-t7",
+     "frente": "¿Qué hace la carnitina palmitoiltransferasa I (CPT I)?",
+     "reverso": "Transfiere el acilo de la CoA a la carnitina y libera la CoA al exterior.",
+     "seccion": "betaox-2"
+    },
+    {
+     "id": "betaox-t8",
+     "frente": "¿Qué hace la carnitina palmitoiltransferasa II (CPT II)?",
+     "reverso": "En la membrana interna, transfiere el acilo de la carnitina a otra CoA, ya dentro de la matriz.",
+     "seccion": "betaox-2"
+    },
+    {
+     "id": "betaox-t9",
+     "frente": "Paso 1 de la β-oxidación: enzima, coenzima y producto",
+     "reverso": "Acil-CoA deshidrogenasa; FAD → FADH₂; forma doble enlace entre C-2 y C-3 → Δ²-trans-enoil-CoA.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t10",
+     "frente": "Paso 2 de la β-oxidación: enzima y producto",
+     "reverso": "Enoil-CoA hidratasa; añade H₂O al doble enlace → β-hidroxiacil-CoA.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t11",
+     "frente": "Paso 3 de la β-oxidación: enzima, coenzima y producto",
+     "reverso": "β-hidroxiacil-CoA deshidrogenasa; NAD⁺ → NADH; convierte –OH en cetona → β-cetoacil-CoA.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t12",
+     "frente": "Paso 4 de la β-oxidación: ¿qué pasa en la tiólisis?",
+     "reverso": "La tiolasa rompe el 3-cetoacil-CoA con otra CoA → acetil-CoA + acil-CoA 2 carbonos más corto.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t13",
+     "frente": "¿Qué son el carbono α y el carbono β?",
+     "reverso": "El C-2 (α) y el C-3 (β) del acilo; el C-1 es el que está unido a la CoA.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t14",
+     "frente": "¿Qué se obtiene en cada vuelta de β-oxidación?",
+     "reverso": "1 FADH₂ + 1 NADH + 1 acetil-CoA, y un acil-CoA 2 carbonos más corto.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t15",
+     "frente": "¿De qué depende cuántos acetil-CoA da un ácido graso?",
+     "reverso": "Del largo de su cadena alifática (número de carbonos): cada ciclo quita 2.",
+     "seccion": "betaox-3"
+    },
+    {
+     "id": "betaox-t16",
+     "frente": "Valores de ATP que usa el material",
+     "reverso": "FADH₂ = 2 ATP; NADH = 3 ATP; acetil-CoA = 12 ATP.",
+     "seccion": "betaox-4"
+    },
+    {
+     "id": "betaox-t17",
+     "frente": "Balance completo del palmitato",
+     "reverso": "7 FADH₂ (14) + 7 NADH (21) = 35; + 8 acetil-CoA (96) = 131; − 2 de activación = 129 ATP.",
+     "seccion": "betaox-4"
+    },
+    {
+     "id": "betaox-t18",
+     "frente": "¿Por qué se restan 2 ATP en el balance del palmitato?",
+     "reverso": "Por la activación del palmitato a palmitoil-CoA (el material la llama «oxidación de palmitato a palmitoil-CoA»).",
+     "seccion": "betaox-4"
+    },
+    {
+     "id": "betaox-t19",
+     "frente": "Palmitato (16 C): ¿cuántas vueltas y cuántos acetil-CoA?",
+     "reverso": "7 vueltas y 8 acetil-CoA (la última vuelta parte 4 C en dos acetil-CoA).",
+     "seccion": "betaox-4"
+    }
+   ],
+   "preguntas": [
+    {
+     "id": "betaox-q1",
+     "tipo": "opcion",
+     "seccion": "betaox-1",
+     "dificultad": 1,
+     "pagina": 1,
+     "enunciado": "¿En qué compartimento celular ocurre la β-oxidación de los ácidos grasos?",
+     "opciones": [
+      "En la matriz mitocondrial",
+      "En el citosol",
+      "En la membrana mitocondrial externa",
+      "En el retículo endoplásmico liso"
+     ],
+     "correcta": 0,
+     "explicacion": "El material dice que la oxidación beta tiene lugar en la matriz interior de las mitocondrias. La trampa es la membrana externa: ahí solo se ACTIVA el ácido graso (acil-CoA sintetasa), no se oxida."
+    },
+    {
+     "id": "betaox-q2",
+     "tipo": "opcion",
+     "seccion": "betaox-1",
+     "dificultad": 1,
+     "pagina": 1,
+     "enunciado": "En cada ciclo de la β-oxidación, el ácido graso pierde:",
+     "opciones": [
+      "Dos átomos de carbono que salen como acetil-CoA",
+      "Un átomo de carbono que sale como CO₂",
+      "Tres átomos de carbono que salen como piruvato",
+      "Cuatro átomos de carbono que salen como acetoacetil-CoA"
+     ],
+     "correcta": 0,
+     "explicacion": "Cada ciclo remueve un par de átomos de carbono, que se liberan como acetil-CoA (2 C). La β-oxidación no libera CO₂ directamente ni forma piruvato."
+    },
+    {
+     "id": "betaox-q3",
+     "tipo": "vf",
+     "seccion": "betaox-2",
+     "dificultad": 1,
+     "pagina": 3,
+     "enunciado": "La coenzima A puede atravesar libremente la membrana mitocondrial interna llevando el ácido graso a la matriz.",
+     "correcta": false,
+     "explicacion": "Falso. El material dice que la CoA NO puede pasar la membrana interior; por eso el acilo se transfiere a la carnitina (CPT I) y dentro de la matriz se devuelve a otra CoA (CPT II)."
+    },
+    {
+     "id": "betaox-q4",
+     "tipo": "opcion",
+     "seccion": "betaox-2",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "¿Qué enzima transfiere el grupo acilo de la carnitina a una coenzima A ya dentro de la matriz mitocondrial?",
+     "opciones": [
+      "Carnitina palmitoiltransferasa II",
+      "Carnitina palmitoiltransferasa I",
+      "Acil-CoA sintetasa",
+      "Tiolasa"
+     ],
+     "correcta": 0,
+     "explicacion": "La CPT II, en la membrana interna, hace el proceso al revés que la CPT I: pasa el acilo de la carnitina a otra CoA en la matriz. La CPT I trabaja afuera (carga el acilo en la carnitina) y la acil-CoA sintetasa activa el ácido graso."
+    },
+    {
+     "id": "betaox-q5",
+     "tipo": "completar",
+     "seccion": "betaox-2",
+     "dificultad": 1,
+     "pagina": 3,
+     "enunciado": "Los ácidos grasos se activan al unirse a la coenzima A formando ___, en una reacción catalizada por la acil-CoA sintetasa.",
+     "respuestas": [
+      "acil-CoA",
+      "acil CoA",
+      "acilCoA",
+      "acil-coenzima A"
+     ],
+     "explicacion": "Ácido graso + HSCoA → acil-CoA. Es la forma «activada» que luego se transporta con la carnitina y entra a la β-oxidación."
+    },
+    {
+     "id": "betaox-q6",
+     "tipo": "ordenar",
+     "seccion": "betaox-2",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "Ordena el recorrido de un ácido graso desde el citosol hasta empezar la β-oxidación:",
+     "items": [
+      "Ácido graso + CoA → acil-CoA (acil-CoA sintetasa, membrana externa)",
+      "CPT I pasa el acilo a la carnitina y libera la CoA afuera",
+      "La acil-carnitina pasa al interior de la mitocondria",
+      "CPT II devuelve el acilo a otra CoA dentro de la matriz",
+      "La acil-CoA deshidrogenasa inicia la primera oxidación"
+     ],
+     "explicacion": "Primero se activa (acil-CoA), luego la lanzadera de carnitina (CPT I afuera → cruce → CPT II adentro) y ya en la matriz arranca el paso 1 con FAD."
+    },
+    {
+     "id": "betaox-q7",
+     "tipo": "ordenar",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "Ordena las reacciones de una vuelta de β-oxidación:",
+     "items": [
+      "Oxidación con FAD (acil-CoA deshidrogenasa)",
+      "Hidratación (enoil-CoA hidratasa)",
+      "Oxidación con NAD⁺ (β-hidroxiacil-CoA deshidrogenasa)",
+      "Tiólisis (tiolasa)"
+     ],
+     "explicacion": "O-H-O-T: oxidación (FAD), hidratación, oxidación (NAD⁺) y tiólisis. La primera oxidación usa FAD y la segunda NAD⁺."
+    },
+    {
+     "id": "betaox-q8",
+     "tipo": "ordenar",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 2,
+     "enunciado": "Según el esquema de la pág. 2, ordena los intermediarios de una vuelta de β-oxidación:",
+     "items": [
+      "Acil-CoA",
+      "Δ²-trans-enoil-CoA",
+      "β-hidroxiacil-CoA",
+      "β-cetoacil-CoA",
+      "Acetil-CoA + acil-CoA acortado"
+     ],
+     "explicacion": "Acil-CoA → (FAD) enoil-CoA con doble enlace C2=C3 → (H₂O) β-hidroxiacil-CoA → (NAD⁺) β-cetoacil-CoA → (CoA, tiolasa) acetil-CoA + acil-CoA con 2 C menos.",
+     "figura": 2
+    },
+    {
+     "id": "betaox-q9",
+     "tipo": "relacionar",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "Relaciona cada enzima con lo que hace:",
+     "pares": [
+      [
+       "Acil-CoA deshidrogenasa",
+       "Forma el doble enlace C2=C3 con FAD"
+      ],
+      [
+       "Enoil-CoA hidratasa",
+       "Añade H₂O al doble enlace"
+      ],
+      [
+       "β-hidroxiacil-CoA deshidrogenasa",
+       "Convierte el –OH en cetona con NAD⁺"
+      ],
+      [
+       "Tiolasa",
+       "Corta con otra CoA y libera acetil-CoA"
+      ],
+      [
+       "Acil-CoA sintetasa",
+       "Activa el ácido graso uniéndolo a la CoA"
+      ]
+     ],
+     "explicacion": "Las dos deshidrogenasas oxidan (la primera con FAD, la segunda con NAD⁺); la hidratasa añade agua; la tiolasa hace la tiólisis. La sintetasa trabaja antes, en la activación."
+    },
+    {
+     "id": "betaox-q10",
+     "tipo": "relacionar",
+     "seccion": "betaox-4",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "Relaciona cada parte del balance del palmitato con los ATP que aporta según el material:",
+     "pares": [
+      [
+       "7 FADH₂",
+       "14 ATP"
+      ],
+      [
+       "7 NADH",
+       "21 ATP"
+      ],
+      [
+       "8 acetil-CoA",
+       "96 ATP"
+      ],
+      [
+       "Activación a palmitoil-CoA",
+       "−2 ATP"
+      ],
+      [
+       "Balance neto",
+       "129 ATP"
+      ]
+     ],
+     "explicacion": "FADH₂ × 2, NADH × 3 y acetil-CoA × 12: 14 + 21 + 96 = 131; menos 2 de la activación = 129 ATP."
+    },
+    {
+     "id": "betaox-q11",
+     "tipo": "opcion",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "¿Qué coenzima actúa como agente oxidante en el primer paso de la β-oxidación (acil-CoA deshidrogenasa)?",
+     "opciones": [
+      "FAD",
+      "NAD⁺",
+      "NADP⁺",
+      "Coenzima A"
+     ],
+     "correcta": 0,
+     "explicacion": "En el paso 1 el oxidante es el FAD (se forma FADH₂). El NAD⁺ es el oxidante del paso 3, y la CoA participa en la tiólisis (paso 4)."
+    },
+    {
+     "id": "betaox-q12",
+     "tipo": "opcion",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "La acil-CoA deshidrogenasa forma un doble enlace entre:",
+     "opciones": [
+      "El C-2 (carbono α) y el C-3 (carbono β)",
+      "El C-1 y el C-2",
+      "El C-3 (carbono β) y el C-4",
+      "Los dos últimos carbonos del extremo metilo"
+     ],
+     "correcta": 0,
+     "explicacion": "El material lo dice tal cual: el doble enlace se forma entre C-2 (α) y C-3 (β). Por eso el producto es Δ²-trans-enoil-CoA (Δ² = doble enlace que empieza en el C-2)."
+    },
+    {
+     "id": "betaox-q13",
+     "tipo": "opcion",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "En el tercer paso, la β-hidroxiacil-CoA deshidrogenasa:",
+     "opciones": [
+      "Oxida el grupo –OH a cetona (=O) usando NAD⁺",
+      "Añade agua al doble enlace usando FAD",
+      "Rompe la cadena usando una segunda CoA",
+      "Reduce la cetona a alcohol usando NADH"
+     ],
+     "correcta": 0,
+     "explicacion": "Es una oxidación: el –OH del carbono β pasa a cetona y el NAD⁺ se reduce a NADH. Añadir agua es el paso 2 y romper con CoA es el paso 4. No es una reducción."
+    },
+    {
+     "id": "betaox-q14",
+     "tipo": "completar",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "El último paso de cada vuelta, en el que otra molécula de CoA rompe el 3-cetoacil-CoA, se llama ___.",
+     "respuestas": [
+      "tiólisis",
+      "tiolisis"
+     ],
+     "explicacion": "Tiólisis: ruptura con el grupo tiol (–SH) de una CoA, catalizada por la tiolasa. Libera acetil-CoA y un acil-CoA 2 C más corto."
+    },
+    {
+     "id": "betaox-q15",
+     "tipo": "vf",
+     "seccion": "betaox-3",
+     "dificultad": 1,
+     "pagina": 4,
+     "enunciado": "Por cada vuelta de β-oxidación se forman una molécula de FADH₂, una de NADH y una de acetil-CoA.",
+     "correcta": true,
+     "explicacion": "Verdadero: es literalmente lo que dice el material (pág. 4). FADH₂ del paso 1, NADH del paso 3 y acetil-CoA del paso 4."
+    },
+    {
+     "id": "betaox-q16",
+     "tipo": "opcion",
+     "seccion": "betaox-3",
+     "dificultad": 3,
+     "pagina": 3,
+     "enunciado": "Un compañero dice: «Todos los ácidos grasos dan el mismo número de acetil-CoA, porque las 4 reacciones siempre son iguales». ¿Qué le respondes con base en el material?",
+     "opciones": [
+      "Depende del largo de la cadena alifática: cada vuelta quita solo 2 carbonos",
+      "Tiene razón: siempre se forman 8 acetil-CoA",
+      "Depende de cuánta carnitina tenga la célula",
+      "Depende de si el ácido graso entró por CPT I o por CPT II"
+     ],
+     "correcta": 0,
+     "explicacion": "Las reacciones son las mismas, pero se repiten tantas veces como haga falta; como cada ciclo quita 2 C, una cadena más larga da más acetil-CoA. Los 8 acetil-CoA son solo del palmitato (16 C)."
+    },
+    {
+     "id": "betaox-q17",
+     "tipo": "opcion",
+     "seccion": "betaox-4",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "Según el material, ¿cuántos ATP netos rinde la oxidación completa del palmitato?",
+     "opciones": [
+      "129",
+      "131",
+      "106",
+      "35"
+     ],
+     "correcta": 0,
+     "explicacion": "131 es el subtotal antes de restar los 2 ATP de la activación; 35 es solo lo que aportan FADH₂ + NADH; 106 es el valor de libros actuales con otros rendimientos. El material da 129."
+    },
+    {
+     "id": "betaox-q18",
+     "tipo": "opcion",
+     "seccion": "betaox-4",
+     "dificultad": 3,
+     "pagina": 4,
+     "enunciado": "En el balance del palmitato hay 8 acetil-CoA pero solo 7 FADH₂ y 7 NADH. ¿Por qué?",
+     "opciones": [
+      "Porque 16 C dan 8 acetil-CoA en solo 7 vueltas: la última vuelta parte un fragmento de 4 C en dos acetil-CoA",
+      "Porque un acetil-CoA se gasta en activar el palmitato",
+      "Porque la última vuelta usa NADPH en lugar de NADH",
+      "Porque un FADH₂ y un NADH se pierden al cruzar la membrana con la carnitina"
+     ],
+     "correcta": 0,
+     "explicacion": "Cada vuelta da 1 FADH₂ y 1 NADH; para cortar 16 C en 8 piezas de 2 C se necesitan 7 cortes (7 vueltas). En la séptima vuelta el butiril-CoA (4 C) da 2 acetil-CoA."
+    },
+    {
+     "id": "betaox-q19",
+     "tipo": "completar",
+     "seccion": "betaox-4",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "Según el balance del material, cada acetil-CoA que entra al ciclo de Krebs equivale a ___ ATP.",
+     "respuestas": [
+      "12",
+      "doce"
+     ],
+     "explicacion": "El material usa 12 ATP por acetil-CoA (8 × 12 = 96). Recuerda también FADH₂ = 2 y NADH = 3."
+    },
+    {
+     "id": "betaox-q20",
+     "tipo": "vf",
+     "seccion": "betaox-4",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "En el balance del material, los 2 ATP que se restan corresponden a convertir el palmitato en palmitoil-CoA.",
+     "correcta": true,
+     "explicacion": "Verdadero. El material lo escribe como «oxidación de palmitato a palmitoil-CoA = −2 ATP»; en realidad es la activación (unión a la CoA), que cuesta el equivalente a 2 ATP."
+    },
+    {
+     "id": "betaox-q21",
+     "tipo": "vf",
+     "seccion": "betaox-2",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "La acil-CoA sintetasa, que activa al ácido graso, se localiza en la membrana mitocondrial interna.",
+     "correcta": false,
+     "explicacion": "Falso: el material la ubica en la membrana EXTERNA de la mitocondria. En la membrana interna está la CPT II."
+    },
+    {
+     "id": "betaox-q22",
+     "tipo": "opcion",
+     "seccion": "betaox-3",
+     "dificultad": 2,
+     "pagina": 4,
+     "enunciado": "En el esquema circular de la pág. 4, ¿qué molécula entra en la tiólisis y qué producto sale del ciclo?",
+     "opciones": [
+      "Entra HS-CoA y sale acetil-CoA",
+      "Entra H₂O y sale FADH₂",
+      "Entra NAD⁺ y sale un acil-CoA con dos carbonos más",
+      "Entra FAD y sale β-hidroxiacil-CoA"
+     ],
+     "correcta": 0,
+     "explicacion": "En la tiólisis la tiolasa usa HS-CoA y libera acetil-CoA; el acil-CoA que regresa al ciclo tiene dos carbonos MENOS. El H₂O entra en la hidratación y el FAD en la primera oxidación.",
+     "figura": 4
+    },
+    {
+     "id": "betaox-q23",
+     "tipo": "opcion",
+     "seccion": "betaox-2",
+     "dificultad": 3,
+     "pagina": 3,
+     "enunciado": "Durante un ayuno prolongado, un paciente obtiene energía de sus reservas de grasa. ¿Qué secuencia describe correctamente el destino del palmitato?",
+     "opciones": [
+      "Se activa a palmitoil-CoA, entra a la matriz con ayuda de la carnitina, se oxida a acetil-CoA que va al ciclo de Krebs, y el NADH/FADH₂ va a la cadena respiratoria",
+      "Se oxida en el citosol hasta piruvato y luego entra a la mitocondria como lactato",
+      "Entra directo a la matriz unido a la CoA y ahí se convierte en glucosa",
+      "Se transforma en glicerol en la membrana externa y produce ATP solo por glucólisis"
+     ],
+     "correcta": 0,
+     "explicacion": "Ruta completa del material: activación (acil-CoA sintetasa) → lanzadera de carnitina (CPT I/II) → β-oxidación en la matriz → acetil-CoA al Krebs y coenzimas reducidas a la cadena respiratoria. La CoA no cruza sola la membrana interna.",
+     "caso": true
+    },
+    {
+     "id": "betaox-q24",
+     "tipo": "completar",
+     "seccion": "betaox-2",
+     "dificultad": 2,
+     "pagina": 3,
+     "enunciado": "Para cruzar la membrana mitocondrial interna, el grupo acilo se transfiere a la ___.",
+     "respuestas": [
+      "carnitina"
+     ],
+     "explicacion": "La carnitina es la molécula transportadora; la CPT I le pasa el acilo y la CPT II lo regresa a la CoA dentro de la matriz."
+    },
+    {
+     "id": "betaox-q25",
+     "tipo": "opcion",
+     "seccion": "betaox-3",
+     "dificultad": 3,
+     "pagina": 2,
+     "enunciado": "Observa el esquema de la pág. 2. ¿Cuál de estos intermediarios tiene un grupo cetona (C=O) en el carbono β?",
+     "opciones": [
+      "β-cetoacil-CoA",
+      "β-hidroxiacil-CoA",
+      "Δ²-trans-enoil-CoA",
+      "Acil-CoA"
+     ],
+     "correcta": 0,
+     "explicacion": "El β-cetoacil-CoA se forma cuando la β-hidroxiacil-CoA deshidrogenasa oxida el –OH del carbono β a cetona. El β-hidroxiacil-CoA tiene un –OH, el enoil-CoA un doble enlace y el acil-CoA ninguno de los dos.",
+     "figura": 2
+    }
+   ],
+   "alertas": [
+    {
+     "pagina": 3,
+     "nota": "Llama a la carnitina «aminoácido». En los libros es un compuesto de amonio cuaternario derivado de lisina y metionina; no es uno de los aminoácidos de las proteínas. Se enseña como dice el material."
+    },
+    {
+     "pagina": 3,
+     "nota": "Dice que las mitocondrias están «rodeadas por dos membranas lipídicas dobles, mientras que las células disponen de una capa solamente». Lo correcto es que la mitocondria tiene dos membranas (externa e interna, cada una es una bicapa) y la célula una sola membrana plasmática (también bicapa)."
+    },
+    {
+     "pagina": 3,
+     "nota": "El texto menciona colores de una imagen (acil-CoA sintetasa «naranja», ácidos grasos «rojo», carnitina «verde») que no viene en el material."
+    },
+    {
+     "pagina": 2,
+     "nota": "El esquema numera con círculos del 1 al 5 (el 1 es el sustrato acil-CoA y la tiolasa es el 5), mientras que el texto de las págs. 3–4 numera 4 reacciones (1)–(4). No es un error, pero puede confundir."
+    },
+    {
+     "pagina": 4,
+     "nota": "El balance (129 ATP) usa los valores clásicos: NADH = 3, FADH₂ = 2, acetil-CoA = 12 ATP. Los libros actuales (Lehninger) usan 2.5 / 1.5 / 10 y obtienen 106 ATP netos. Además, el material llama «oxidación de palmitato a palmitoil-CoA» a la activación (gasta ATP → AMP + PPᵢ = 2 enlaces de alta energía)."
+    },
+    {
+     "pagina": 4,
+     "nota": "El balance no explica de dónde salen 7 FADH₂/NADH y 8 acetil-CoA; se deduce de que el palmitato tiene 16 C (8 acetil-CoA en 7 vueltas). Esa explicación se añadió como bloque extra. La caja de «Explicándolo» solo describe los pasos 1 y 2."
+    }
+   ]
+  },
+  {
+   "id": "carbohidratos",
+   "titulo": "Carbohidratos",
+   "emoji": "🍞",
+   "paginas": [
+    5,
+    25
+   ],
+   "descripcion": "Qué son los carbohidratos, cómo se clasifican (mono, di y polisacáridos), sus enlaces, su digestión e intolerancias, y cómo la glucólisis lleva la glucosa a piruvato, lactato y el ciclo de Cori.",
+   "imprescindibles": [
+    "Carbohidratos: fórmula (CH₂O)n, «carbono-hidrato»; son el alimento principal que da energía y carbono para sintetizar proteínas, ácidos nucleicos, lípidos y otros carbohidratos.",
+    "Funciones: estructural (celulosa) y almacenamiento de energía y carbono (almidón en plantas; glucógeno en animales y bacterias).",
+    "Clases: monosacáridos (azúcares simples), oligosacáridos (2 o varios monómeros) y polisacáridos (de 100 a miles de unidades).",
+    "Aldosas = grupo aldehído; cetosas = grupo cetona. La aldosa más simple es el gliceraldehído y la cetosa más simple la dihidroxiacetona.",
+    "Por número de carbonos: triosas (3), tetrosas (4), pentosas (5) y hexosas (6); las más abundantes en las células son pentosas y hexosas.",
+    "Glucosa (dextrosa): principal combustible; preferida por el cerebro y los eritrocitos. Fructosa (levulosa): cetosa, azúcar de la fruta, 2 veces más dulce que la sacarosa.",
+    "Galactosemia: falta una enzima para metabolizar la galactosa → se acumulan galactosa, galactosa-1-fosfato y galactitol → daño hepático, cataratas y retraso mental; tratamiento: diagnóstico precoz y dieta sin galactosa.",
+    "Disacárido = 2 monosacáridos unidos por enlace glucosídico; lactosa = galactosa + glucosa β(1,4); maltosa = 2 glucosas α(1,4); sacarosa = azúcar de mesa.",
+    "Intolerancia a la lactosa: baja la síntesis de lactasa tras la infancia → el disacárido no digerido jala agua (diarrea osmótica) y las bacterias del colon lo fermentan (gas, distensión, cólico).",
+    "Celulosa: glucosas β(1-4) sin ramificar, no la digerimos (sí los rumiantes); almidón: reserva vegetal que digerimos con amilasa salival y pancreática; glucógeno: poliglucosa ramificada de hígado y músculo, la degrada la glucógeno fosforilasa.",
+    "Ácido hialurónico: heteropolisacárido más importante; sustancia fundamental del tejido conjuntivo y líquido sinovial (lubrica y amortigua).",
+    "Glucólisis = vía de Embden-Meyerhof: glucosa → 2 piruvato en el citosol de todas las células; neto 2 ATP + 2 NADH₂.",
+    "Etapas 1–5 gastan 2 ATP (hexocinasa y fosfofructocinasa); etapas 6–10 producen 4 ATP (fosfoglicerato cinasa y piruvato cinasa) y 2 NADH₂ (gliceraldehído-3-fosfato deshidrogenasa).",
+    "La fosfofructocinasa se inhibe con ATP alto y se activa con AMP y ADP altos.",
+    "Con O₂ el piruvato va a acetil-CoA (piruvato deshidrogenasa); sin O₂ suficiente (ejercicio violento) se reduce a lactato (músculo, bacterias); en levaduras da etanol + CO₂. Ciclo de Cori: lactato del músculo → hígado (gluconeogénesis) → glucosa → músculo."
+   ],
+   "secciones": [
+    {
+     "id": "carbohidratos-1",
+     "titulo": "Definición, funciones y clases",
+     "paginas": [
+      5,
+      8
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Los **carbohidratos** son sustancias que existen en forma natural con una composición de acuerdo con la fórmula **(C·H₂O)n**, es decir, «**carbono-hidrato**»."
+      },
+      {
+       "tipo": "texto",
+       "md": "En la mayoría de los organismos son los **alimentos principales**: al degradarse entregan la **energía** y el **carbono** para la biosíntesis de **proteínas, ácidos nucleicos, lípidos y otros carbohidratos**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Papel",
+        "Ejemplo"
+       ],
+       "filas": [
+        [
+         "1. Estructural",
+         "Celulosa en las plantas"
+        ],
+        [
+         "2. Almacenamiento energético de carbono",
+         "Almidón en las plantas; glucógeno en los animales y bacterias"
+        ]
+       ]
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Clase",
+        "Qué es"
+       ],
+       "filas": [
+        [
+         "Monosacáridos",
+         "Unidades monoméricas, llamadas azúcares simples"
+        ],
+        [
+         "Oligosacáridos",
+         "Unión de 2 o varios monómeros"
+        ],
+        [
+         "Polisacáridos",
+         "Sustancias de peso molecular muy alto: desde 100 hasta algunos miles de unidades monoméricas"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "Clases: **mono** (1 unidad, azúcar simple) → **oligo** (2 o varias) → **poli** (de **100 a miles** de unidades). Funciones: **estructural** (celulosa) o **almacén** (almidón, glucógeno)."
+      },
+      {
+       "tipo": "truco",
+       "md": "«Oligo» = pocos, «poli» = muchos. La celulosa **sostiene** a la planta; el almidón y el glucógeno son la **despensa** (de plantas y de animales, respectivamente)."
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-2",
+     "titulo": "Monosacáridos: aldosas, cetosas y número de carbonos",
+     "paginas": [
+      9,
+      11
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Los **monosacáridos** tienen la fórmula empírica **(CH₂O)n**, donde n es un número entero que va de **3 a 9**. Se agrupan en dos clases generales: **aldosas** y **cetosas**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Rasgo",
+        "Aldosas",
+        "Cetosas"
+       ],
+       "filas": [
+        [
+         "Grupo funcional",
+         "Aldehído (–CHO), en el C-1",
+         "Cetona (C=O), en el C-2 en las 2-cetosas"
+        ],
+        [
+         "La más simple (triosa)",
+         "Gliceraldehído (aldotriosa, C₃H₆O₃)",
+         "Dihidroxiacetona (cetotriosa)"
+        ],
+        [
+         "Familia del esquema",
+         "Aldotriosa, aldotetrosa, aldopentosa, aldohexosa",
+         "Cetotriosa, cetotetrosa, cetopentosa, cetohexosa"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "Los azúcares también se clasifican por su **número de átomos de carbono**: los más pequeños, las **triosas**, tienen 3; los de 4, 5 y 6 carbonos se llaman **tetrosas, pentosas y hexosas**. Los monosacáridos **más abundantes en las células son las pentosas y las hexosas**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "N.º de C",
+        "Nombre",
+        "Fórmula",
+        "Ejemplos del esquema"
+       ],
+       "filas": [
+        [
+         "3",
+         "Triosa",
+         "C₃H₆O₃",
+         "Gliceraldehído (aldotriosa) · dihidroxiacetona (cetotriosa)"
+        ],
+        [
+         "4",
+         "Tetrosa",
+         "C₄H₈O₄",
+         "Aldotetrosa · cetotetrosa"
+        ],
+        [
+         "5",
+         "Pentosa",
+         "C₅H₁₀O₅",
+         "Aldopentosa · cetopentosa"
+        ],
+        [
+         "6",
+         "Hexosa",
+         "C₆H₁₂O₆",
+         "Aldohexosa · cetohexosa"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 10,
+       "pie": "Familia de las aldosas (arriba) y de las 2-cetosas (abajo), de 3 a 6 carbonos, con su numeración. En las aldosas el C=O está en el C-1 (aldehído); en las 2-cetosas está en el C-2 y ambos extremos son CH₂OH. Los títulos de cada familia vienen subrayados en el material."
+      },
+      {
+       "tipo": "clave",
+       "md": "**Aldosa = aldehído** (C-1); **cetosa = cetona** (C-2). **Gliceraldehído** = aldosa más simple; **dihidroxiacetona** = cetosa más simple. **Pentosas y hexosas** = las más abundantes en las células."
+      },
+      {
+       "tipo": "truco",
+       "md": "El nombre lo dice: **ald**osa → **ald**ehído; **cet**osa → **cet**ona. El prefijo cuenta carbonos: tri-3, tetr-4, pent-5, hex-6 (aldo**hexosa** = aldehído + 6 C)."
+      },
+      {
+       "tipo": "texto",
+       "md": "Ejemplos típicos: la glucosa y la galactosa son aldohexosas, la ribosa (del ARN) es una aldopentosa y la fructosa es una cetohexosa.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-3",
+     "titulo": "Glucosa, fructosa y galactosa (y la galactosemia)",
+     "paginas": [
+      12,
+      16
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Entre los monosacáridos **más importantes** de los seres vivos están la **glucosa**, la **fructosa** y la **galactosa**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Monosacárido",
+        "Otro nombre",
+        "Datos clave"
+       ],
+       "filas": [
+        [
+         "D-glucosa",
+         "Dextrosa",
+         "Principal combustible de las células; abundante en todo el mundo vivo"
+        ],
+        [
+         "D-fructosa",
+         "Levulosa, «azúcar de la fruta»",
+         "Cetosa; frutas, algunos vegetales y miel; por gramo es 2 veces más dulce que la sacarosa"
+        ],
+        [
+         "Galactosa",
+         "—",
+         "Necesaria para sintetizar lactosa, glucolípidos, ciertos fosfolípidos, proteoglucanos y glucoproteínas"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "**Glucosa.** Se encuentra en cantidades importantes en todo el mundo vivo y es el **principal combustible de las células**. En los animales es la **fuente de energía preferida de las células cerebrales** y de las células con **pocas mitocondrias o sin ellas, como los eritrocitos**. Las células con **aporte limitado de oxígeno**, como las del **globo ocular**, también usan mucha glucosa. Sus **fuentes alimentarias** son el **almidón** de las plantas y los disacáridos **lactosa, maltosa y sacarosa**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Fructosa.** Es miembro importante de la familia de las **cetosas**. Como por gramo es **dos veces más dulce que la sacarosa**, puede usarse en menor cantidad; por eso se usa a menudo como **edulcorante en alimentos procesados**. En el **sistema reproductor masculino** se sintetiza en las **vesículas seminales**, se incorpora al **semen** y los **espermatozoides** la usan como fuente de energía."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Galactosa.** Se necesita para sintetizar **lactosa** (en las glándulas mamarias lactantes), **glucolípidos** y algunos **fosfolípidos, proteoglucanos y glucoproteínas**. Su síntesis **no disminuye** si se come poca galactosa o lactosa (la lactosa es su principal fuente alimentaria), porque se sintetiza con facilidad a partir de la **glucosa-1-fosfato**. La interconversión galactosa ⇌ glucosa la cataliza una **epimerasa**."
+      },
+      {
+       "tipo": "clinica",
+       "md": "**Galactosemia** (enfermedad genética): falta una **enzima necesaria para metabolizar la galactosa**. Se acumulan **galactosa, galactosa-1-fosfato y galactitol** (un alcohol de azúcar) que producen **daño hepático, cataratas y retraso mental grave**. El **único tratamiento eficaz** es el **diagnóstico precoz** y una **alimentación sin galactosa**."
+      },
+      {
+       "tipo": "clave",
+       "md": "La glucosa es el combustible preferido del **cerebro** y de los **eritrocitos** (sin mitocondrias). Galactosemia → **galactitol** → **cataratas** + daño hepático + retraso mental; se trata **quitando la galactosa** de la dieta."
+      },
+      {
+       "tipo": "truco",
+       "md": "**Dextrosa** = glucosa y **levulosa** = fructosa (dextro = derecha, levo = izquierda, por cómo desvían la luz polarizada).",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "En los libros, la interconversión ocurre como UDP-glucosa ⇌ UDP-galactosa (UDP-galactosa 4-epimerasa), y la galactosemia clásica se debe a deficiencia de galactosa-1-fosfato uridiltransferasa (GALT).",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "En odontología: la fructosa, la sacarosa y otros azúcares de alimentos procesados son fermentados por las bacterias de la placa (p. ej., *Streptococcus mutans*), que producen ácidos que desmineralizan el esmalte → caries.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-4",
+     "titulo": "Disacáridos y enlace glucosídico",
+     "paginas": [
+      16,
+      20
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Los **disacáridos** son moléculas formadas por **dos monosacáridos** unidos mediante un **enlace glucosídico**. En el esquema, al unirse dos monosacáridos se forma un **enlace O-glucosídico** y se libera una molécula de **H₂O**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Cuando un monosacárido está unido a través de su **carbono anomérico** al grupo **hidroxilo del carbono 4** de otro monosacárido, el enlace glucosídico se denomina **1,4**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 16,
+       "pie": "Formación de un disacárido: el OH del C-1 (anomérico, α) de una glucosa y el OH del C-4 de otra se unen; se forma el enlace O-glucosídico y sale H₂O."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Disacárido",
+        "Monosacáridos",
+        "Enlace",
+        "Dónde / dato"
+       ],
+       "filas": [
+        [
+         "Lactosa",
+         "Galactosa + glucosa",
+         "β(1,4)",
+         "Azúcar de la leche"
+        ],
+        [
+         "Maltosa",
+         "D-glucosa + D-glucosa",
+         "α(1,4)",
+         "Azúcar de malta"
+        ],
+        [
+         "Sacarosa",
+         "Glucosa + fructosa (dato de libros)",
+         "Glucosídico (el material no lo completa)",
+         "Azúcar de mesa: caña (*Saccharum officinarum*) o remolacha (*Beta vulgaris*)"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "**Lactosa:** disacárido de la **leche**. Una molécula de **galactosa**, por el hidroxilo de su **carbono 1**, se une mediante un **enlace glucosídico β** al hidroxilo del **carbono 4 de una glucosa** → enlace **β(1,4)**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 19,
+       "pie": "Estructura de la β-lactosa: la galactosa (anillo de abajo) se une por su C-1 con orientación β al C-4 de la glucosa (anillo de arriba) a través de un puente –O–."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Maltosa** (azúcar de malta): enlace glucosídico **α(1,4)** entre **dos moléculas de D-glucosa**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Sacarosa** (azúcar común de mesa: azúcar de **caña** o de **remolacha**): se produce en las **hojas y tallos** de las plantas y es una fuente de energía que se **transporta por toda la planta**. Sus monosacáridos están unidos por un enlace glucosídico."
+      },
+      {
+       "tipo": "texto",
+       "md": "La sacarosa está formada por **glucosa + fructosa** unidas por un enlace **α(1→β2)** entre los dos carbonos anoméricos; por eso no es un azúcar reductor. (En el material la frase quedó incompleta.)",
+       "extra": true
+      },
+      {
+       "tipo": "clave",
+       "md": "**Lactosa = galactosa + glucosa, β(1,4)**; **maltosa = glucosa + glucosa, α(1,4)**. La diferencia α/β y quién se une con quién es lo que más preguntan."
+      },
+      {
+       "tipo": "truco",
+       "md": "**L**actosa → **L**eche; **M**altosa → **M**alta; **S**acarosa → azúcar de me**s**a. Y «**β**» de lactosa como «**b**ebé» que toma leche."
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-5",
+     "titulo": "Digestión de disacáridos e intolerancia a la lactosa",
+     "paginas": [
+      17,
+      18
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La digestión de los disacáridos y de otros carbohidratos se hace con **enzimas sintetizadas por las células que recubren el intestino delgado**. Los carbohidratos se **absorben principalmente como monosacáridos**."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "¿Qué pasa si falta una de esas enzimas?",
+       "items": [
+        {
+         "nombre": "1. Disacárido sin digerir",
+         "detalle": "La deficiencia de la enzima produce síntomas desagradables al ingerir el disacárido, que no se puede digerir ni absorber."
+        },
+        {
+         "nombre": "2. Efecto osmótico",
+         "detalle": "El disacárido sin digerir sigue por el intestino y su presión osmótica extrae agua de los tejidos circundantes → diarrea."
+        },
+        {
+         "nombre": "3. Fermentación bacteriana",
+         "detalle": "Las bacterias del colon fermentan el disacárido y producen gas → distensión y dolor cólico."
+        }
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "La deficiencia **más común** es la **intolerancia a la lactosa**: puede presentarse en la **mayoría de los adultos**, excepto en quienes tienen **antepasados del norte de Europa** y de **determinados grupos africanos**. Se origina por la **gran reducción de la síntesis de la enzima lactasa tras la infancia**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Tratamiento:** eliminar la lactosa de la alimentación o (en algunos casos) tratar los alimentos con la **enzima lactasa**."
+      },
+      {
+       "tipo": "clinica",
+       "md": "Adulto con diarrea, gases, distensión y cólicos después de tomar leche, pero que tolera pan o fruta → pensar en **intolerancia a la lactosa** (déficit de lactasa). Manejo: quitar la lactosa o usar productos tratados con lactasa."
+      },
+      {
+       "tipo": "clave",
+       "md": "Diarrea = mecanismo **osmótico** (el disacárido no absorbido jala agua). Gas y cólico = **fermentación** por bacterias del colon. Causa = **↓ lactasa** después de la infancia."
+      },
+      {
+       "tipo": "texto",
+       "md": "En los libros, el disacárido que no se digiere en el intestino delgado pasa al **intestino grueso (colon)**, donde atrae agua y es fermentado; el material escribe «intestino delgado».",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-6",
+     "titulo": "Polisacáridos: homopolisacáridos",
+     "paginas": [
+      21,
+      21
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Los polisacáridos se dividen en **homopolisacáridos** (todos los residuos **idénticos**) y **heteropolisacáridos** (residuos **diferentes**)."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Homopolisacárido",
+        "Estructura",
+        "Dónde está",
+        "Función / dato clave"
+       ],
+       "filas": [
+        [
+         "Celulosa",
+         "Poliglucosa no ramificada; enlaces β(1-4); cadenas paralelas que forman fibras",
+         "Pared celular de las plantas",
+         "Estructural; compuesto orgánico natural más abundante de la Tierra; valor nutritivo casi nulo, salvo para rumiantes"
+        ],
+        [
+         "Quitina",
+         "—",
+         "Capas externas de invertebrados (langosta); pared de la mayoría de los hongos, muchas algas y algunas levaduras",
+         "Mayor componente estructural orgánico de esas capas"
+        ],
+        [
+         "Almidones",
+         "Poliglucosa",
+         "Solo en plantas: gránulos en el citoplasma y en plastidios (incluido el cloroplasto)",
+         "Reserva de alimento; lo degradan α y β amilasas; el humano lo digiere (amilasa salival y pancreática)"
+        ],
+        [
+         "Glucógeno",
+         "Poliglucosa ramificada",
+         "Bacterias y humanos; más abundante en hígado y músculo",
+         "Almacén de carbono y energía; dentro de la célula lo degrada la glucógeno fosforilasa"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "**Celulosa.** Es el compuesto orgánico de origen natural **más abundante** de la superficie de la Tierra y existe en todo el reino vegetal como componente **estructural de la pared celular**. Sus fibras microscópicas son agregados de cadenas **no ramificadas** de poliglucosa, **alineadas en paralelo**; todos los residuos de glucosa están unidos por enlaces **β(1-4)**. En la pared, las fibras están densamente empacadas en capas, y la **hemicelulosa, la pectina y la lignina** funcionan como **materiales cementantes** que dan más fuerza. Su valor nutritivo es **prácticamente nulo** para los animales superiores, **excepto los rumiantes**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Quitina.** Mayor componente estructural orgánico de las **capas externas de los invertebrados**, como la langosta. Está en la pared celular de la mayoría de los **hongos**, muchas **algas** y algunas **levaduras**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Almidones.** Grupo de compuestos de poliglucosa que se encuentran **exclusivamente en las plantas**, como **gránulos** en el citoplasma y en los **plastidios** (incluido el cloroplasto). Su función es la **reserva de alimento**: cuando la planta necesita carbono y energía, los libera de los gránulos y los degradan las enzimas hidrolíticas **α y β amilasas**. A diferencia de la celulosa, **el ser humano sí digiere el almidón** gracias a la **amilasa salival y pancreática**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Glucógeno.** Almacena carbono y energía en células **bacterianas y humanas**; sus gránulos abundan en las células **hepáticas y musculares**. Es una molécula de **poliglucosa ramificada**. Dentro de la célula lo degrada la **glucógeno fosforilasa**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 21,
+       "pie": "Arriba, la molécula de celulosa: cadena lineal de glucosas unidas por puentes –O– β(1-4) (cada glucosa «volteada» respecto a la anterior). Abajo, el glucógeno: cadena de glucosas con una ramificación que sale del CH₂ (C-6)."
+      },
+      {
+       "tipo": "clave",
+       "md": "Celulosa y almidón son **poliglucosa**, pero la celulosa tiene enlaces **β(1-4)** y **no la digerimos**; el almidón **sí** (amilasa salival y pancreática). Glucógeno = poliglucosa **ramificada** en **hígado y músculo**."
+      },
+      {
+       "tipo": "truco",
+       "md": "**C**elulosa = **C**onstrucción (pared vegetal); **A**lmidón = **A**horro de la planta; **G**lucógeno = **G**uardadito del hígado y el músculo."
+      },
+      {
+       "tipo": "clinica",
+       "md": "La digestión del almidón **empieza en la boca** con la amilasa salival; por eso los almidones pegajosos (pan, galletas) que se quedan entre los dientes acaban siendo fuente de azúcares para las bacterias de la placa.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Los almidones incluyen amilosa (lineal, α1-4) y amilopectina (ramificada, α1-4 y α1-6); el glucógeno se parece a la amilopectina pero está más ramificado (ramas α1-6). La quitina es un polímero de N-acetilglucosamina con enlaces β(1-4). Los rumiantes digieren la celulosa gracias a los microorganismos de su rumen. La lignina no es un polisacárido, sino un polímero fenólico.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-7",
+     "titulo": "Heteropolisacáridos, peptidoglicano y glucoproteínas",
+     "paginas": [
+      22,
+      22
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Los **heteropolisacáridos** tienen **residuos diferentes**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Ácido hialurónico:** es el heteropolisacárido de **mayor importancia en los animales superiores**. En el **tejido conjuntivo** es el principal componente de la **sustancia fundamental**, un material gelatinoso que llena los espacios extracelulares. Otra fuente abundante es el **líquido (fluido) sinovial**, relleno viscoso alrededor de las articulaciones que sirve como **lubricante y amortiguador de los golpes**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Paredes celulares bacterianas:** son **heterogéneas** porque su composición difiere de un género a otro (varían los niveles de péptidos, proteínas, lípidos y carbohidratos, que son sus mayores componentes) y **homogéneas** porque los péptidos y carbohidratos siempre se disponen en el **mismo armazón**: una red de **cadenas de polisacáridos entrelazadas covalentemente** mediante **pequeños puentes de polipéptidos**. Por esta conjugación de péptidos y carbohidratos el compuesto se llama **peptidoglicano**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Glucoproteínas (glicoproteínas):** carbohidratos unidos a las **cadenas laterales de aminoácidos específicos**. Son frecuentes en los líquidos y las células animales, con funciones muy diversas:"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "Hormonas",
+        "Anticuerpos",
+        "Enzimas",
+        "Proteínas receptoras",
+        "Proteínas transportadoras",
+        "Proteínas de adhesión celular",
+        "Proteínas del control del crecimiento",
+        "Proteínas de reconocimiento celular",
+        "Proteínas que confieren un grupo sanguíneo característico",
+        "Proteínas que dan estabilidad estructural a agregados multimoleculares"
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "**Ácido hialurónico** = sustancia fundamental del conjuntivo + **líquido sinovial** (lubrica y amortigua). **Peptidoglicano** = polisacáridos + puentes de péptidos en la **pared bacteriana**."
+      },
+      {
+       "tipo": "truco",
+       "md": "**Pepti-do-glicano** = **péptidos** + **glicano** (azúcares): el nombre ya te dice que mezcla proteína y carbohidrato."
+      },
+      {
+       "tipo": "clinica",
+       "md": "En odontología: el líquido sinovial de la **articulación temporomandibular (ATM)** es rico en ácido hialurónico, y hay geles de ácido hialurónico para tratar encías. El peptidoglicano de la pared de las bacterias de la placa es el blanco de antibióticos como la amoxicilina. Las mucinas de la saliva, que lubrican la boca, son glucoproteínas.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-8",
+     "titulo": "Glucólisis (vía de Embden-Meyerhof)",
+     "paginas": [
+      23,
+      24
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La **glucólisis**, también llamada **vía de Embden-Meyerhof**, es la **principal vía para el metabolismo de la glucosa** y ocurre en el **citosol de todas las células**. Puede funcionar de manera **aerobia o anaerobia**, según la disponibilidad de **oxígeno** y de la **cadena de transporte de electrones**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Definición escrita a mano en el material: **¿qué es la glucólisis? Degradar o catabolizar la glucosa hasta que quede un piruvato.**"
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Fase",
+        "Reacción resumida"
+       ],
+       "filas": [
+        [
+         "Etapas 1–5 (inversión)",
+         "Glucosa + 2 ATP → 2 gliceraldehído-3-fosfato + 2 ADP"
+        ],
+        [
+         "Etapas 6–10 (ganancia)",
+         "2 gliceraldehído-3-fosfato + 2 H₃PO₄ + 4 ADP + 2 NAD → 2 piruvato + 4 ATP + 2 NADH₂"
+        ],
+        [
+         "Total",
+         "Glucosa + 2 ADP + 2 H₃PO₄ + 2 NAD → 2 piruvato + 2 ATP + 2 NADH₂"
+        ]
+       ]
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Las 10 etapas",
+       "items": [
+        {
+         "nombre": "1. Hexocinasa (gasta ATP)",
+         "detalle": "Fosforila la glucosa → glucosa-6-fosfato (entra ATP, sale ADP). La reacción también la puede hacer la glucocinasa, cuando la glucosa sanguínea está alta."
+        },
+        {
+         "nombre": "2. Fosfoglucosa isomerasa",
+         "detalle": "Convierte la glucosa-6-fosfato en su isómero fructosa-6-fosfato; así queda un –CH₂OH en el carbono 1 listo para fosforilarse."
+        },
+        {
+         "nombre": "3. Fosfofructocinasa (gasta ATP)",
+         "detalle": "Introduce un segundo fosfato (el ATP es el donador) → fructosa-1,6-difosfato; completa la activación. Se inhibe con ATP alto y se activa con AMP y ADP altos (señal de que hay que sintetizar más ATP)."
+        },
+        {
+         "nombre": "4. Aldolasa",
+         "detalle": "Rompe la cadena entre los carbonos 3 y 4 de la fructosa → dihidroxiacetona fosfato + gliceraldehído-3-fosfato: dos «cadenas de 3 C» isómeras, llamadas triosas fosfato."
+        },
+        {
+         "nombre": "5. Triosa fosfato isomerasa",
+         "detalle": "Interconvierte de forma reversible las dos triosas fosfato; en la glucólisis la reacción se desplaza a la derecha → gliceraldehído-3-fosfato (desde aquí todo va ×2)."
+        },
+        {
+         "nombre": "6. Gliceraldehído-3-fosfato deshidrogenasa",
+         "detalle": "Oxida el gliceraldehído-3-fosfato a su ácido (ácido 3-fosfoglicérico) y a la vez forma un anhídrido de ácido con fosfato inorgánico → 1,3-difosfoglicerato; 2 NAD → 2 NADH₂."
+        },
+        {
+         "nombre": "7. Fosfoglicerato cinasa (forma ATP)",
+         "detalle": "Pasa los fosfatos del anhídrido a 2 ADP → 2 ATP + 3-fosfoglicerato. Equilibra los 2 ATP gastados en las etapas 1 y 3."
+        },
+        {
+         "nombre": "8. Fosfogliceromutasa",
+         "detalle": "Mueve el fosfato restante del carbono 3 al carbono 2 del ácido glicérico → 2-fosfoglicerato."
+        },
+        {
+         "nombre": "9. Enolasa",
+         "detalle": "Elimina los elementos del agua (sale H₂O) del 2-fosfoglicerato → fosfoenolpiruvato (éster 2-fosfato del enol del piruvato)."
+        },
+        {
+         "nombre": "10. Piruvato cinasa (forma ATP)",
+         "detalle": "Transfiere el fosfato del fosfoenolpiruvato a 2 ADP → 2 ATP + piruvato, el primer esqueleto de carbono sin fosfato desde la etapa 1. El piruvato puede oxidarse a acetil-CoA o reducirse a lactato por el NADH₂, según las condiciones."
+        }
+       ]
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Etapa",
+        "Enzima",
+        "Sustrato → producto",
+        "Balance"
+       ],
+       "filas": [
+        [
+         "1",
+         "Hexocinasa",
+         "Glucosa → glucosa-6-fosfato",
+         "−1 ATP"
+        ],
+        [
+         "2",
+         "Fosfoglucosa isomerasa",
+         "Glucosa-6-P → fructosa-6-fosfato",
+         "—"
+        ],
+        [
+         "3",
+         "Fosfofructocinasa",
+         "Fructosa-6-P → fructosa-1,6-difosfato",
+         "−1 ATP"
+        ],
+        [
+         "4",
+         "Aldolasa",
+         "Fructosa-1,6-diP → DHAP + gliceraldehído-3-P",
+         "—"
+        ],
+        [
+         "5",
+         "Triosa fosfato isomerasa",
+         "DHAP ⇌ gliceraldehído-3-P",
+         "—"
+        ],
+        [
+         "6",
+         "Gliceraldehído-3-P deshidrogenasa",
+         "2 G3P + 2 H₃PO₄ → 2 1,3-difosfoglicerato",
+         "+2 NADH₂"
+        ],
+        [
+         "7",
+         "Fosfoglicerato cinasa",
+         "→ 2 3-fosfoglicerato",
+         "+2 ATP"
+        ],
+        [
+         "8",
+         "Fosfogliceromutasa",
+         "→ 2 2-fosfoglicerato",
+         "—"
+        ],
+        [
+         "9",
+         "Enolasa",
+         "→ 2 fosfoenolpiruvato",
+         "−2 H₂O"
+        ],
+        [
+         "10",
+         "Piruvato cinasa",
+         "→ 2 piruvato",
+         "+2 ATP"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 23,
+       "pie": "Las 10 reacciones con sus enzimas e intermediarios (resaltados en verde en el material). Fíjate en el ATP que entra en 1 y 3 (notas «entra/sale»), en que la aldolasa genera «cadenas de 3 C», en los 2 NADH₂ de la etapa 6, en los 2 ATP de las etapas 7 y 10 y en el H₂O que sale en la 9."
+      },
+      {
+       "tipo": "clave",
+       "md": "Gasto: etapas **1 (hexocinasa)** y **3 (fosfofructocinasa)** = −2 ATP. Ganancia: etapas **7 (fosfoglicerato cinasa)** y **10 (piruvato cinasa)** = +4 ATP. Neto por glucosa = **2 piruvato + 2 ATP + 2 NADH₂**."
+      },
+      {
+       "tipo": "clave",
+       "md": "La **fosfofructocinasa** es el punto de control: **ATP alto la inhibe**; **AMP y ADP altos la activan** (indican que hay que sintetizar más ATP)."
+      },
+      {
+       "tipo": "truco",
+       "md": "Enzimas en orden: «**H**ola **F**ernando, **F**ue **A**l **T**eatro **G**ritando **F**uerte **F**rente **E**n **P**úblico» = Hexocinasa, Fosfoglucosa isomerasa, Fosfofructocinasa, Aldolasa, Triosa fosfato isomerasa, Gliceraldehído-3-P deshidrogenasa, Fosfoglicerato cinasa, Fosfogliceromutasa, Enolasa, Piruvato cinasa."
+      },
+      {
+       "tipo": "texto",
+       "md": "El material usa la notación antigua **NAD / NADH₂** y **H₃PO₄**; en libros actuales se escribe **NAD⁺ / NADH + H⁺** y **Pᵢ** (fosfato inorgánico). «Difosfato» = «bisfosfato» (fructosa-1,6-bisfosfato, 1,3-bisfosfoglicerato).",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "La hexocinasa (casi todas las células) se satura con poca glucosa; la glucocinasa (hígado y páncreas) trabaja cuando la glucosa en sangre está alta.",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "Los **eritrocitos** no tienen mitocondrias, así que dependen solo de la glucólisis para obtener ATP (por eso la glucosa es su combustible preferido).",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "carbohidratos-9",
+     "titulo": "Destino del piruvato, glucólisis anaerobia y ciclo de Cori",
+     "paginas": [
+      24,
+      25
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "**Metabolismo del piruvato.** En condiciones **aerobias**, el piruvato de la glucólisis **entra a las mitocondrias** y se **oxida (con NAD) y descarboxila** para liberar una unidad de **acetilo**, que forma un **tioéster con la coenzima A** (acetil-CoA). Lo hace el complejo multienzimático **piruvato deshidrogenasa**, con tres cofactores adicionales: **tiamina pirofosfato, una flavina y ácido lipoico**."
+      },
+      {
+       "tipo": "clave",
+       "md": "Cuando **no hay suficiente oxígeno** para oxidar el NADH₂ en el **músculo esquelético durante el ejercicio violento**, el piruvato actúa como **oxidante del NADH₂** y se **reduce a lactato**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Destino del piruvato",
+        "Dónde",
+        "Reacción",
+        "Producto"
+       ],
+       "filas": [
+        [
+         "Acetil-CoA (aerobio)",
+         "Mitocondria",
+         "Oxidación + descarboxilación por la piruvato deshidrogenasa (NAD)",
+         "Acetil-CoA"
+        ],
+        [
+         "Lactato (anaerobio)",
+         "Músculo, bacterias",
+         "2 piruvato + 2 NADH₂ → 2 lactato + 2 NAD",
+         "2 CH₃CHOHCO₂H"
+        ],
+        [
+         "Etanol (fermentación alcohólica)",
+         "Levaduras",
+         "2 piruvato + 2 NADH → 2 etanol + 2 CO₂ + 2 NAD",
+         "2 CH₃CH₂OH + 2 CO₂"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 24,
+       "pie": "Piruvato (2 CH₃COCO₂H) y «cómo se transforma»: a lactato (2 CH₃CHOHCO₂H) en músculo y bacterias, o a etanol + CO₂ (2 CH₃CH₂OH + 2 CO₂) en levaduras. En ambos casos el NADH₂ se reoxida a NAD (flechas curvas). Resaltado: piruvato, lactato-músculo y etanol-levaduras."
+      },
+      {
+       "tipo": "texto",
+       "md": "La **glucólisis oxidativa** es el **productor más eficaz de ATP**, pero se lleva a cabo **tan rápido como lo permite la reserva de oxígeno**. La **glucólisis anaerobia**, en la que la glucosa se **fermenta y produce ácido láctico**, **suple la producción de ATP**. Es necesaria por la demanda de energía del **músculo que se contrae vigorosamente** y por las **interrupciones temporales del suministro de sangre** que provocan las contracciones."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Ciclo de Cori",
+       "items": [
+        {
+         "nombre": "1. Músculo esquelético",
+         "detalle": "Glucógeno → glucosa → (glucólisis) piruvato → lactato."
+        },
+        {
+         "nombre": "2. Sangre",
+         "detalle": "El lactato sale a la sangre (una parte se elimina por la orina)."
+        },
+        {
+         "nombre": "3. Hígado",
+         "detalle": "Se oxida casi el 20% del lactato (→ CO₂ + H₂O), lo que da la energía para el proceso; el resto se usa para sintetizar glucosa (gluconeogénesis)."
+        },
+        {
+         "nombre": "4. Regreso al músculo",
+         "detalle": "La glucosa que libera el hígado viaja por la sangre y repone el glucógeno muscular: así se completa el ciclo de Cori."
+        }
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "La **oxidación del lactato en el hígado** y la **gluconeogénesis** ocurren **después de que cesa el ejercicio**; por eso hace falta un **aumento de la ventilación pulmonar** aunque el cuerpo ya esté en reposo: representa la **reposición del oxígeno** usado durante el ejercicio."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 25,
+       "pie": "«Metabolismo intermediario»: tres columnas (músculo esquelético | sangre | hígado). Músculo: glucógeno → piruvato → lactato (glucólisis). Sangre: lactato (parte a la orina). Hígado: lactato → glucosa (gluconeogénesis) o → CO₂ + H₂O (oxidación); la glucosa vuelve al músculo. Es el ciclo de Cori."
+      },
+      {
+       "tipo": "clave",
+       "md": "**Ciclo de Cori** = lactato del **músculo** → **sangre** → **hígado** (**gluconeogénesis**) → glucosa → sangre → **glucógeno muscular**. En el hígado se oxida **casi el 20 % del lactato** para pagar la energía del proceso."
+      },
+      {
+       "tipo": "truco",
+       "md": "Piensa en el ciclo de Cori como un **reciclaje**: el músculo «tira» lactato, el hígado lo «recicla» en glucosa y se la regresa. El que paga la energía del reciclaje es el ~20 % de lactato que el hígado quema."
+      },
+      {
+       "tipo": "texto",
+       "md": "A ese oxígeno extra que se consume después del ejercicio se le llama coloquialmente «deuda de oxígeno» (EPOC).",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "En la boca ocurre lo mismo que en el músculo sin O₂: las bacterias de la placa (p. ej., *Streptococcus mutans*) hacen glucólisis anaerobia con los azúcares de la dieta y producen **ácido láctico**, que baja el pH de la placa y desmineraliza el esmalte → caries.",
+       "extra": true
+      }
+     ]
+    }
+   ],
+   "figuras": [
+    {
+     "pagina": 10,
+     "pie": "Familias de aldosas y 2-cetosas de 3 a 6 carbonos.",
+     "seccion": "carbohidratos-2"
+    },
+    {
+     "pagina": 16,
+     "pie": "Formación de un enlace O-glucosídico entre dos glucosas con salida de H₂O.",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "pagina": 19,
+     "pie": "Estructura de la β-lactosa: galactosa β(1,4) glucosa.",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "pagina": 21,
+     "pie": "Molécula de celulosa (lineal, β1-4) y fragmento ramificado de glucógeno.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "pagina": 23,
+     "pie": "Resumen y las 10 reacciones de la glucólisis con sus enzimas.",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "pagina": 24,
+     "pie": "Destinos anaerobios del piruvato: lactato (músculo, bacterias) y etanol + CO₂ (levaduras).",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "pagina": 25,
+     "pie": "El ciclo de Cori entre músculo esquelético, sangre e hígado.",
+     "seccion": "carbohidratos-9"
+    }
+   ],
+   "glosario": [
+    {
+     "termino": "Carbohidrato",
+     "definicion": "Biomolécula natural de fórmula (CH₂O)n («carbono-hidrato»), fuente principal de energía y carbono."
+    },
+    {
+     "termino": "Monosacárido",
+     "definicion": "Unidad monomérica o azúcar simple, de 3 a 9 carbonos."
+    },
+    {
+     "termino": "Oligosacárido",
+     "definicion": "Carbohidrato formado por la unión de 2 o varios monómeros."
+    },
+    {
+     "termino": "Polisacárido",
+     "definicion": "Carbohidrato de peso molecular muy alto, de 100 a miles de unidades."
+    },
+    {
+     "termino": "Aldosa",
+     "definicion": "Monosacárido con grupo aldehído (–CHO) en el C-1."
+    },
+    {
+     "termino": "Cetosa",
+     "definicion": "Monosacárido con grupo cetona (C=O), en el C-2 en las 2-cetosas."
+    },
+    {
+     "termino": "Triosa / hexosa",
+     "definicion": "Monosacárido de 3 / 6 carbonos (tetrosa = 4, pentosa = 5)."
+    },
+    {
+     "termino": "Gliceraldehído",
+     "definicion": "La aldosa más simple (aldotriosa)."
+    },
+    {
+     "termino": "Dihidroxiacetona",
+     "definicion": "La cetosa más simple (cetotriosa)."
+    },
+    {
+     "termino": "Dextrosa",
+     "definicion": "Nombre original de la D-glucosa."
+    },
+    {
+     "termino": "Levulosa",
+     "definicion": "Nombre original de la D-fructosa, el «azúcar de la fruta»."
+    },
+    {
+     "termino": "Epimerasa",
+     "definicion": "Enzima que interconvierte galactosa y glucosa."
+    },
+    {
+     "termino": "Galactosemia",
+     "definicion": "Enfermedad genética por falta de una enzima del metabolismo de la galactosa; causa daño hepático, cataratas y retraso mental."
+    },
+    {
+     "termino": "Galactitol",
+     "definicion": "Alcohol de azúcar derivado de la galactosa que se acumula en la galactosemia."
+    },
+    {
+     "termino": "Enlace glucosídico",
+     "definicion": "Enlace (–O–) que une dos monosacáridos; al formarse se libera H₂O."
+    },
+    {
+     "termino": "Carbono anomérico",
+     "definicion": "Carbono del grupo carbonilo original (C-1 en aldosas) que participa en el enlace glucosídico."
+    },
+    {
+     "termino": "Lactasa",
+     "definicion": "Enzima intestinal que digiere la lactosa; su síntesis baja tras la infancia en la mayoría de los adultos."
+    },
+    {
+     "termino": "Homopolisacárido",
+     "definicion": "Polisacárido con todos sus residuos idénticos (celulosa, quitina, almidón, glucógeno)."
+    },
+    {
+     "termino": "Heteropolisacárido",
+     "definicion": "Polisacárido con residuos diferentes (p. ej., ácido hialurónico)."
+    },
+    {
+     "termino": "Quitina",
+     "definicion": "Homopolisacárido estructural del exoesqueleto de invertebrados y de la pared de hongos."
+    },
+    {
+     "termino": "Amilasa",
+     "definicion": "Enzima hidrolítica (α y β) que degrada el almidón; en humanos, salival y pancreática."
+    },
+    {
+     "termino": "Glucógeno fosforilasa",
+     "definicion": "Enzima que degrada el glucógeno dentro de la célula."
+    },
+    {
+     "termino": "Ácido hialurónico",
+     "definicion": "Heteropolisacárido principal de la sustancia fundamental del conjuntivo y del líquido sinovial."
+    },
+    {
+     "termino": "Peptidoglicano",
+     "definicion": "Red de polisacáridos unidos por puentes de polipéptidos que forma la pared bacteriana."
+    },
+    {
+     "termino": "Glucoproteína",
+     "definicion": "Proteína con carbohidratos unidos a cadenas laterales de aminoácidos específicos."
+    },
+    {
+     "termino": "Glucólisis",
+     "definicion": "Vía citosólica que degrada la glucosa hasta 2 piruvatos (vía de Embden-Meyerhof)."
+    },
+    {
+     "termino": "Triosas fosfato",
+     "definicion": "Dihidroxiacetona fosfato y gliceraldehído-3-fosfato, isómeros formados por la aldolasa."
+    },
+    {
+     "termino": "Fosfofructocinasa",
+     "definicion": "Enzima de la etapa 3 de la glucólisis; se inhibe con ATP y se activa con AMP/ADP."
+    },
+    {
+     "termino": "Piruvato deshidrogenasa",
+     "definicion": "Complejo mitocondrial que convierte piruvato en acetil-CoA (cofactores: TPP, flavina, ácido lipoico)."
+    },
+    {
+     "termino": "Gluconeogénesis",
+     "definicion": "Síntesis de glucosa en el hígado a partir de precursores como el lactato."
+    },
+    {
+     "termino": "Ciclo de Cori",
+     "definicion": "Circuito lactato muscular → glucosa hepática → glucógeno muscular."
+    }
+   ],
+   "tarjetas": [
+    {
+     "id": "carbohidratos-t1",
+     "frente": "¿Qué son los carbohidratos?",
+     "reverso": "Sustancias naturales con fórmula (CH₂O)n, es decir, «carbono-hidrato».",
+     "seccion": "carbohidratos-1"
+    },
+    {
+     "id": "carbohidratos-t2",
+     "frente": "¿Para qué sirven los carbohidratos en la mayoría de los organismos?",
+     "reverso": "Son el alimento principal: al degradarse dan energía y carbono para sintetizar proteínas, ácidos nucleicos, lípidos y otros carbohidratos.",
+     "seccion": "carbohidratos-1"
+    },
+    {
+     "id": "carbohidratos-t3",
+     "frente": "Las 2 categorías funcionales de carbohidratos y sus ejemplos",
+     "reverso": "Estructural (celulosa en plantas) y almacenamiento energético de carbono (almidón en plantas; glucógeno en animales y bacterias).",
+     "seccion": "carbohidratos-1"
+    },
+    {
+     "id": "carbohidratos-t4",
+     "frente": "Las 3 clases de carbohidratos",
+     "reverso": "Monosacáridos (azúcares simples), oligosacáridos (2 o varios monómeros) y polisacáridos (de 100 a miles de unidades).",
+     "seccion": "carbohidratos-1"
+    },
+    {
+     "id": "carbohidratos-t5",
+     "frente": "Fórmula de los monosacáridos y rango de n",
+     "reverso": "(CH₂O)n, con n de 3 a 9.",
+     "seccion": "carbohidratos-2"
+    },
+    {
+     "id": "carbohidratos-t6",
+     "frente": "¿Qué distingue a una aldosa de una cetosa?",
+     "reverso": "La aldosa tiene grupo aldehído (–CHO, C-1); la cetosa, grupo cetona (C=O, C-2).",
+     "seccion": "carbohidratos-2"
+    },
+    {
+     "id": "carbohidratos-t7",
+     "frente": "La aldosa y la cetosa más simples",
+     "reverso": "Gliceraldehído (aldosa) y dihidroxiacetona (cetosa); ambas son triosas.",
+     "seccion": "carbohidratos-2"
+    },
+    {
+     "id": "carbohidratos-t8",
+     "frente": "Nombres según el número de carbonos",
+     "reverso": "3 = triosa, 4 = tetrosa, 5 = pentosa, 6 = hexosa.",
+     "seccion": "carbohidratos-2"
+    },
+    {
+     "id": "carbohidratos-t9",
+     "frente": "¿Cuáles son los monosacáridos más abundantes en las células?",
+     "reverso": "Las pentosas y las hexosas.",
+     "seccion": "carbohidratos-2"
+    },
+    {
+     "id": "carbohidratos-t10",
+     "frente": "Los 3 monosacáridos más importantes",
+     "reverso": "Glucosa, fructosa y galactosa.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t11",
+     "frente": "¿Qué células prefieren la glucosa como fuente de energía?",
+     "reverso": "Las cerebrales y las que tienen pocas o ninguna mitocondria (eritrocitos); también las de aporte limitado de O₂, como las del globo ocular.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t12",
+     "frente": "Fuentes alimentarias de glucosa",
+     "reverso": "El almidón de las plantas y los disacáridos lactosa, maltosa y sacarosa.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t13",
+     "frente": "Otro nombre de la D-glucosa y de la D-fructosa",
+     "reverso": "Dextrosa (glucosa); levulosa o azúcar de la fruta (fructosa).",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t14",
+     "frente": "¿Por qué la fructosa se usa como edulcorante?",
+     "reverso": "Por gramo es dos veces más dulce que la sacarosa, así que se usa en menor cantidad.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t15",
+     "frente": "Fructosa en el sistema reproductor masculino",
+     "reverso": "Se sintetiza en las vesículas seminales, se incorpora al semen y los espermatozoides la usan como energía.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t16",
+     "frente": "¿Para qué se necesita la galactosa?",
+     "reverso": "Para sintetizar lactosa (glándula mamaria lactante), glucolípidos y ciertos fosfolípidos, proteoglucanos y glucoproteínas.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t17",
+     "frente": "¿Por qué comer poca galactosa no afecta su síntesis?",
+     "reverso": "Porque se sintetiza fácilmente a partir de glucosa-1-fosfato; una epimerasa interconvierte galactosa y glucosa.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t18",
+     "frente": "Galactosemia: ¿qué se acumula y qué produce?",
+     "reverso": "Galactosa, galactosa-1-fosfato y galactitol → daño hepático, cataratas y retraso mental grave.",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t19",
+     "frente": "Tratamiento de la galactosemia",
+     "reverso": "Diagnóstico precoz y alimentación sin galactosa (el único eficaz).",
+     "seccion": "carbohidratos-3"
+    },
+    {
+     "id": "carbohidratos-t20",
+     "frente": "¿Qué es un disacárido?",
+     "reverso": "Dos monosacáridos unidos por un enlace glucosídico (al formarse sale H₂O).",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "id": "carbohidratos-t21",
+     "frente": "¿Cuándo se llama 1,4 un enlace glucosídico?",
+     "reverso": "Cuando el carbono anomérico (C-1) de un monosacárido se une al OH del C-4 de otro.",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "id": "carbohidratos-t22",
+     "frente": "Lactosa: componentes y enlace",
+     "reverso": "Galactosa + glucosa, enlace β(1,4); es el azúcar de la leche.",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "id": "carbohidratos-t23",
+     "frente": "Maltosa: componentes y enlace",
+     "reverso": "Dos D-glucosas con enlace α(1,4); azúcar de malta.",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "id": "carbohidratos-t24",
+     "frente": "Sacarosa: ¿qué es y dónde se produce?",
+     "reverso": "El azúcar de mesa (de caña o de remolacha); se produce en hojas y tallos y se transporta por toda la planta.",
+     "seccion": "carbohidratos-4"
+    },
+    {
+     "id": "carbohidratos-t25",
+     "frente": "¿Dónde se fabrican las enzimas que digieren los disacáridos?",
+     "reverso": "En las células que recubren el intestino delgado; los carbohidratos se absorben sobre todo como monosacáridos.",
+     "seccion": "carbohidratos-5"
+    },
+    {
+     "id": "carbohidratos-t26",
+     "frente": "¿Por qué da diarrea un disacárido no digerido?",
+     "reverso": "Por presión osmótica: extrae agua de los tejidos circundantes.",
+     "seccion": "carbohidratos-5"
+    },
+    {
+     "id": "carbohidratos-t27",
+     "frente": "¿Por qué da gases un disacárido no digerido?",
+     "reverso": "Las bacterias del colon lo fermentan y producen gas (distensión y dolor cólico).",
+     "seccion": "carbohidratos-5"
+    },
+    {
+     "id": "carbohidratos-t28",
+     "frente": "Causa y tratamiento de la intolerancia a la lactosa",
+     "reverso": "Gran reducción de la síntesis de lactasa tras la infancia; se quita la lactosa de la dieta o se tratan los alimentos con lactasa.",
+     "seccion": "carbohidratos-5"
+    },
+    {
+     "id": "carbohidratos-t29",
+     "frente": "¿Qué adultos suelen conservar la lactasa?",
+     "reverso": "Quienes tienen antepasados del norte de Europa y de determinados grupos africanos.",
+     "seccion": "carbohidratos-5"
+    },
+    {
+     "id": "carbohidratos-t30",
+     "frente": "Homopolisacárido vs. heteropolisacárido",
+     "reverso": "Homo: todos los residuos idénticos. Hetero: residuos diferentes.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "id": "carbohidratos-t31",
+     "frente": "Celulosa: estructura y datos clave",
+     "reverso": "Poliglucosa no ramificada con enlaces β(1-4) en cadenas paralelas; compuesto orgánico más abundante; pared vegetal; no nutre salvo a rumiantes.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "id": "carbohidratos-t32",
+     "frente": "¿Qué materiales cementan la celulosa en la pared vegetal?",
+     "reverso": "La hemicelulosa, la pectina y la lignina.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "id": "carbohidratos-t33",
+     "frente": "Quitina: ¿dónde está?",
+     "reverso": "En las capas externas de invertebrados (langosta) y en la pared de la mayoría de los hongos, muchas algas y algunas levaduras.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "id": "carbohidratos-t34",
+     "frente": "Almidón: dónde está y quién lo degrada",
+     "reverso": "Solo en plantas (gránulos en citoplasma y plastidios); lo degradan α y β amilasas; el humano lo digiere con amilasa salival y pancreática.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "id": "carbohidratos-t35",
+     "frente": "Glucógeno: estructura, dónde abunda y quién lo degrada",
+     "reverso": "Poliglucosa ramificada; abunda en hígado y músculo (también en bacterias); lo degrada la glucógeno fosforilasa.",
+     "seccion": "carbohidratos-6"
+    },
+    {
+     "id": "carbohidratos-t36",
+     "frente": "Ácido hialurónico: ¿dónde está y para qué sirve?",
+     "reverso": "Sustancia fundamental del tejido conjuntivo y líquido sinovial; lubrica y amortigua los golpes en las articulaciones.",
+     "seccion": "carbohidratos-7"
+    },
+    {
+     "id": "carbohidratos-t37",
+     "frente": "¿Qué es el peptidoglicano?",
+     "reverso": "La red de la pared bacteriana: cadenas de polisacáridos unidas covalentemente por pequeños puentes de polipéptidos.",
+     "seccion": "carbohidratos-7"
+    },
+    {
+     "id": "carbohidratos-t38",
+     "frente": "Glucoproteínas: definición y 4 funciones",
+     "reverso": "Carbohidratos unidos a cadenas laterales de aminoácidos específicos; p. ej., hormonas, anticuerpos, enzimas y proteínas de grupo sanguíneo.",
+     "seccion": "carbohidratos-7"
+    },
+    {
+     "id": "carbohidratos-t39",
+     "frente": "Glucólisis: otro nombre y dónde ocurre",
+     "reverso": "Vía de Embden-Meyerhof; en el citosol de todas las células.",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t40",
+     "frente": "Ecuación total de la glucólisis",
+     "reverso": "Glucosa + 2 ADP + 2 H₃PO₄ + 2 NAD → 2 piruvato + 2 ATP + 2 NADH₂.",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t41",
+     "frente": "¿Qué etapas de la glucólisis gastan ATP y cuáles lo forman?",
+     "reverso": "Gastan: 1 (hexocinasa) y 3 (fosfofructocinasa). Forman: 7 (fosfoglicerato cinasa) y 10 (piruvato cinasa).",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t42",
+     "frente": "Regulación de la fosfofructocinasa",
+     "reverso": "Se inhibe con ATP alto; se activa con AMP y ADP altos.",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t43",
+     "frente": "¿Qué hace la aldolasa?",
+     "reverso": "Rompe la fructosa-1,6-difosfato entre C-3 y C-4 → dihidroxiacetona fosfato + gliceraldehído-3-fosfato (triosas fosfato).",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t44",
+     "frente": "¿Qué hace la gliceraldehído-3-fosfato deshidrogenasa?",
+     "reverso": "Oxida el G3P y lo une a fosfato inorgánico → 1,3-difosfoglicerato; produce NADH₂.",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t45",
+     "frente": "¿Qué hacen la fosfogliceromutasa y la enolasa?",
+     "reverso": "Mutasa: pasa el fosfato del C-3 al C-2. Enolasa: quita H₂O del 2-fosfoglicerato → fosfoenolpiruvato.",
+     "seccion": "carbohidratos-8"
+    },
+    {
+     "id": "carbohidratos-t46",
+     "frente": "Destino del piruvato con oxígeno",
+     "reverso": "Entra a la mitocondria; la piruvato deshidrogenasa (TPP, flavina, ácido lipoico) lo oxida y descarboxila → acetil-CoA.",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "id": "carbohidratos-t47",
+     "frente": "Destino del piruvato en músculo sin O₂ suficiente",
+     "reverso": "Oxida el NADH₂ y se reduce a lactato (ejercicio violento).",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "id": "carbohidratos-t48",
+     "frente": "¿Qué producen las levaduras a partir del piruvato?",
+     "reverso": "Etanol y CO₂ (2 CH₃CH₂OH + 2 CO₂).",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "id": "carbohidratos-t49",
+     "frente": "Glucólisis oxidativa vs. anaerobia",
+     "reverso": "La oxidativa es la más eficaz para hacer ATP pero depende de la reserva de O₂; la anaerobia fermenta la glucosa a ácido láctico y suple ATP.",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "id": "carbohidratos-t50",
+     "frente": "Ciclo de Cori",
+     "reverso": "Lactato del músculo → sangre → hígado (gluconeogénesis) → glucosa → sangre → glucógeno muscular.",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "id": "carbohidratos-t51",
+     "frente": "¿Qué porcentaje del lactato se oxida en el hígado y para qué?",
+     "reverso": "Casi el 20 %, para dar la energía que necesita la gluconeogénesis.",
+     "seccion": "carbohidratos-9"
+    },
+    {
+     "id": "carbohidratos-t52",
+     "frente": "¿Por qué seguimos respirando agitado después del ejercicio?",
+     "reverso": "La oxidación del lactato y la gluconeogénesis hepáticas ocurren después del ejercicio y reponen el O₂ usado.",
+     "seccion": "carbohidratos-9"
+    }
+   ],
+   "preguntas": [
+    {
+     "id": "carbohidratos-q1",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-1",
+     "dificultad": 1,
+     "pagina": 8,
+     "enunciado": "Según el material, un oligosacárido es:",
+     "opciones": [
+      "La unión de 2 o varios monómeros",
+      "Una unidad monomérica llamada azúcar simple",
+      "Una sustancia de 100 a miles de unidades monoméricas",
+      "Un carbohidrato unido a cadenas laterales de aminoácidos"
+     ],
+     "correcta": 0,
+     "explicacion": "Oligo = pocos: de 2 a varios monómeros. El azúcar simple es el monosacárido, 100 a miles de unidades es un polisacárido y el carbohidrato unido a aminoácidos es una glucoproteína."
+    },
+    {
+     "id": "carbohidratos-q2",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-1",
+     "dificultad": 1,
+     "pagina": 7,
+     "enunciado": "¿Cuál de estos carbohidratos cumple un papel ESTRUCTURAL según el material?",
+     "opciones": [
+      "La celulosa de las plantas",
+      "El almidón de las plantas",
+      "El glucógeno de los animales",
+      "El glucógeno de las bacterias"
+     ],
+     "correcta": 0,
+     "explicacion": "El material pone a la celulosa como ejemplo de carbohidrato estructural. Almidón y glucógeno son de almacenamiento energético de carbono."
+    },
+    {
+     "id": "carbohidratos-q3",
+     "tipo": "vf",
+     "seccion": "carbohidratos-1",
+     "dificultad": 1,
+     "pagina": 6,
+     "enunciado": "Al degradarse, los carbohidratos aportan energía y también el carbono para sintetizar proteínas, ácidos nucleicos, lípidos y otros carbohidratos.",
+     "correcta": true,
+     "explicacion": "Verdadero: el material dice que entregan la energía y el carbono para la biosíntesis de esas moléculas."
+    },
+    {
+     "id": "carbohidratos-q4",
+     "tipo": "completar",
+     "seccion": "carbohidratos-1",
+     "dificultad": 1,
+     "pagina": 8,
+     "enunciado": "Los polisacáridos son sustancias de peso molecular muy alto: desde ___ hasta algunos miles de unidades monoméricas.",
+     "respuestas": [
+      "100",
+      "cien"
+     ],
+     "explicacion": "El material define a los polisacáridos como sustancias de 100 hasta algunos miles de unidades monoméricas."
+    },
+    {
+     "id": "carbohidratos-q5",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-2",
+     "dificultad": 1,
+     "pagina": 9,
+     "enunciado": "¿Qué distingue a una aldosa de una cetosa?",
+     "opciones": [
+      "El grupo funcional: aldehído en la aldosa y cetona en la cetosa",
+      "El número de carbonos: la aldosa tiene 3 y la cetosa 6",
+      "La aldosa es un disacárido y la cetosa un monosacárido",
+      "La aldosa tiene enlace α y la cetosa enlace β"
+     ],
+     "correcta": 0,
+     "explicacion": "Las aldosas contienen un grupo aldehído y las cetosas un grupo cetona. Ojo: el material dice «según el número de carbonos» al presentarlas, pero el número de carbonos define triosas, tetrosas, etc.; aldosa/cetosa depende del grupo carbonilo."
+    },
+    {
+     "id": "carbohidratos-q6",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-2",
+     "dificultad": 2,
+     "pagina": 11,
+     "enunciado": "¿Cuál es la cetosa más simple?",
+     "opciones": [
+      "Dihidroxiacetona",
+      "Gliceraldehído",
+      "Fructosa",
+      "Ribulosa"
+     ],
+     "correcta": 0,
+     "explicacion": "La dihidroxiacetona (cetotriosa) es la cetosa más simple. El gliceraldehído es la ALDOSA más simple; la fructosa es una cetosa, pero de 6 carbonos."
+    },
+    {
+     "id": "carbohidratos-q7",
+     "tipo": "completar",
+     "seccion": "carbohidratos-2",
+     "dificultad": 1,
+     "pagina": 11,
+     "enunciado": "Los monosacáridos de cinco átomos de carbono se llaman ___.",
+     "respuestas": [
+      "pentosas",
+      "pentosa"
+     ],
+     "explicacion": "3 C = triosas, 4 = tetrosas, 5 = pentosas, 6 = hexosas."
+    },
+    {
+     "id": "carbohidratos-q8",
+     "tipo": "vf",
+     "seccion": "carbohidratos-2",
+     "dificultad": 2,
+     "pagina": 11,
+     "enunciado": "Según el material, los monosacáridos más abundantes en las células son las triosas y las tetrosas.",
+     "correcta": false,
+     "explicacion": "Falso: los más abundantes son las pentosas y las hexosas. Las triosas son las más pequeñas (3 C)."
+    },
+    {
+     "id": "carbohidratos-q9",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-2",
+     "dificultad": 2,
+     "pagina": 10,
+     "enunciado": "En el esquema de las familias de aldosas y 2-cetosas, ¿en qué carbono está el grupo carbonilo (C=O) de una 2-cetosa?",
+     "opciones": [
+      "En el C-2",
+      "En el C-1",
+      "En el último carbono (CH₂OH)",
+      "En el C-3"
+     ],
+     "correcta": 0,
+     "explicacion": "Por eso se llaman 2-cetosas: el C=O está en el C-2 y el C-1 es un CH₂OH. En las aldosas el C=O está en el C-1 (aldehído).",
+     "figura": 10
+    },
+    {
+     "id": "carbohidratos-q10",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-2",
+     "dificultad": 2,
+     "pagina": 10,
+     "enunciado": "Si los monosacáridos siguen la fórmula (CH₂O)n, ¿qué fórmula molecular tiene una aldopentosa?",
+     "opciones": [
+      "C₅H₁₀O₅",
+      "C₅H₁₂O₆",
+      "C₆H₁₂O₆",
+      "C₄H₈O₄"
+     ],
+     "correcta": 0,
+     "explicacion": "Pentosa = 5 C → (CH₂O)₅ = C₅H₁₀O₅. C₆H₁₂O₆ es una hexosa y C₄H₈O₄ una tetrosa (como en el esquema de la pág. 10)."
+    },
+    {
+     "id": "carbohidratos-q11",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-2",
+     "dificultad": 1,
+     "pagina": 11,
+     "enunciado": "Relaciona cada número de carbonos con el nombre del monosacárido:",
+     "pares": [
+      [
+       "3 carbonos",
+       "Triosa"
+      ],
+      [
+       "4 carbonos",
+       "Tetrosa"
+      ],
+      [
+       "5 carbonos",
+       "Pentosa"
+      ],
+      [
+       "6 carbonos",
+       "Hexosa"
+      ]
+     ],
+     "explicacion": "Triosas (3), tetrosas (4), pentosas (5) y hexosas (6), «en tal orden», como dice el material."
+    },
+    {
+     "id": "carbohidratos-q12",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 12,
+     "enunciado": "¿Por qué la glucosa es la fuente de energía preferida de los eritrocitos?",
+     "opciones": [
+      "Porque carecen de mitocondrias",
+      "Porque tienen exceso de oxígeno",
+      "Porque no tienen transportadores de fructosa",
+      "Porque sintetizan su propia galactosa"
+     ],
+     "correcta": 0,
+     "explicacion": "El material dice que la glucosa es la fuente preferida de las células con pocas o ninguna mitocondria, como los eritrocitos: sin mitocondrias no pueden oxidar otras moléculas (como ácidos grasos) y dependen de la glucólisis."
+    },
+    {
+     "id": "carbohidratos-q13",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-3",
+     "dificultad": 1,
+     "pagina": 13,
+     "enunciado": "La D-fructosa también se conoce como:",
+     "opciones": [
+      "Levulosa",
+      "Dextrosa",
+      "Azúcar de malta",
+      "Azúcar de leche"
+     ],
+     "correcta": 0,
+     "explicacion": "Fructosa = levulosa o azúcar de la fruta. Dextrosa es la glucosa, el azúcar de malta es la maltosa y el de la leche es la lactosa."
+    },
+    {
+     "id": "carbohidratos-q14",
+     "tipo": "vf",
+     "seccion": "carbohidratos-3",
+     "dificultad": 1,
+     "pagina": 13,
+     "enunciado": "La fructosa es una aldosa que se encuentra en frutas, algunos vegetales y la miel.",
+     "correcta": false,
+     "explicacion": "Falso: la fructosa pertenece a la familia de las CETOSAS. Lo demás (frutas, vegetales, miel) sí es correcto."
+    },
+    {
+     "id": "carbohidratos-q15",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 13,
+     "enunciado": "¿Por qué la fructosa se usa a menudo como edulcorante en alimentos procesados?",
+     "opciones": [
+      "Porque por gramo es dos veces más dulce que la sacarosa y se usa en menor cantidad",
+      "Porque no aporta energía al organismo",
+      "Porque es la fuente de energía preferida del cerebro",
+      "Porque no puede ser fermentada por bacterias"
+     ],
+     "correcta": 0,
+     "explicacion": "Al ser el doble de dulce por gramo, se necesita menos. Sí aporta energía, la preferida del cerebro es la glucosa, y las bacterias sí fermentan la fructosa."
+    },
+    {
+     "id": "carbohidratos-q16",
+     "tipo": "completar",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 14,
+     "enunciado": "La fructosa del semen se sintetiza en las ___ seminales y los espermatozoides la usan como fuente de energía.",
+     "respuestas": [
+      "vesículas",
+      "vesicula",
+      "vesículas seminales"
+     ],
+     "explicacion": "Las vesículas seminales sintetizan fructosa, que se incorpora al semen como combustible de los espermatozoides."
+    },
+    {
+     "id": "carbohidratos-q17",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 15,
+     "enunciado": "¿Por qué una dieta baja en lactosa NO disminuye la síntesis de glucolípidos y glucoproteínas que necesitan galactosa?",
+     "opciones": [
+      "Porque la galactosa se sintetiza fácilmente a partir de glucosa-1-fosfato y una epimerasa interconvierte ambos azúcares",
+      "Porque esas moléculas en realidad no contienen galactosa",
+      "Porque la fructosa sustituye a la galactosa en esas moléculas",
+      "Porque la lactasa fabrica galactosa a partir de la maltosa"
+     ],
+     "correcta": 0,
+     "explicacion": "El material lo explica así: la galactosa se sintetiza con facilidad a partir de glucosa-1-fosfato, y la interconversión galactosa ⇌ glucosa la cataliza una epimerasa."
+    },
+    {
+     "id": "carbohidratos-q18",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 15,
+     "enunciado": "Un lactante alimentado con leche materna desarrolla daño hepático y cataratas. En su sangre se acumulan galactosa, galactosa-1-fosfato y galactitol. ¿Cuál es el diagnóstico y el tratamiento según el material?",
+     "opciones": [
+      "Galactosemia; diagnóstico precoz y alimentación sin galactosa",
+      "Intolerancia a la lactosa; tratar la leche con lactasa",
+      "Deficiencia de amilasa; dieta sin almidón",
+      "Galactosemia; dar suplementos de galactosa"
+     ],
+     "correcta": 0,
+     "explicacion": "La acumulación de galactosa, galactosa-1-fosfato y galactitol es típica de la galactosemia (falta una enzima para metabolizar la galactosa). El único tratamiento eficaz es el diagnóstico precoz y quitar la galactosa. Tratar con lactasa no sirve: liberaría aún más galactosa.",
+     "caso": true
+    },
+    {
+     "id": "carbohidratos-q19",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 15,
+     "enunciado": "Relaciona cada término con su dato:",
+     "pares": [
+      [
+       "Dextrosa",
+       "Nombre original de la D-glucosa"
+      ],
+      [
+       "Levulosa",
+       "Nombre original de la D-fructosa"
+      ],
+      [
+       "Galactitol",
+       "Alcohol de azúcar acumulado en la galactosemia"
+      ],
+      [
+       "Epimerasa",
+       "Interconvierte galactosa y glucosa"
+      ],
+      [
+       "Vesículas seminales",
+       "Sintetizan fructosa para el semen"
+      ]
+     ],
+     "explicacion": "Todos son datos textuales de las págs. 12–15."
+    },
+    {
+     "id": "carbohidratos-q20",
+     "tipo": "vf",
+     "seccion": "carbohidratos-3",
+     "dificultad": 2,
+     "pagina": 15,
+     "enunciado": "En la galactosemia se acumulan galactosa, galactosa-1-fosfato y galactitol, que producen daño hepático, cataratas y retraso mental grave.",
+     "correcta": true,
+     "explicacion": "Verdadero, tal cual lo dice el material (pág. 15)."
+    },
+    {
+     "id": "carbohidratos-q21",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-4",
+     "dificultad": 2,
+     "pagina": 19,
+     "enunciado": "La lactosa está formada por:",
+     "opciones": [
+      "Galactosa unida por su C-1 al C-4 de una glucosa mediante un enlace β(1,4)",
+      "Dos glucosas unidas por un enlace α(1,4)",
+      "Glucosa y fructosa unidas por un enlace β(1,4)",
+      "Galactosa unida por su C-4 al C-1 de una fructosa mediante un enlace α(1,4)"
+     ],
+     "correcta": 0,
+     "explicacion": "Lactosa = galactosa (C-1, β) + glucosa (C-4) → β(1,4). Dos glucosas α(1,4) es la maltosa; glucosa + fructosa es la sacarosa."
+    },
+    {
+     "id": "carbohidratos-q22",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-4",
+     "dificultad": 2,
+     "pagina": 20,
+     "enunciado": "¿Qué enlace tiene la maltosa?",
+     "opciones": [
+      "α(1,4) entre dos moléculas de D-glucosa",
+      "β(1,4) entre galactosa y glucosa",
+      "β(1-4) entre glucosas, igual que la celulosa",
+      "Un enlace entre glucosa y fructosa"
+     ],
+     "correcta": 0,
+     "explicacion": "La maltosa (azúcar de malta) tiene un enlace α(1,4) entre dos D-glucosas. β(1,4) galactosa-glucosa es la lactosa; β(1-4) entre glucosas es la celulosa."
+    },
+    {
+     "id": "carbohidratos-q23",
+     "tipo": "completar",
+     "seccion": "carbohidratos-4",
+     "dificultad": 2,
+     "pagina": 16,
+     "enunciado": "Cuando un monosacárido se une a través de su carbono ___ al hidroxilo del carbono 4 de otro monosacárido, el enlace glucosídico se llama 1,4.",
+     "respuestas": [
+      "anomérico",
+      "anomerico"
+     ],
+     "explicacion": "El carbono anomérico (C-1 en las aldosas como la glucosa) es el que forma el enlace glucosídico."
+    },
+    {
+     "id": "carbohidratos-q24",
+     "tipo": "vf",
+     "seccion": "carbohidratos-4",
+     "dificultad": 2,
+     "pagina": 16,
+     "enunciado": "Según el esquema de la pág. 16, al formarse un enlace O-glucosídico entre dos monosacáridos se libera una molécula de agua.",
+     "correcta": true,
+     "explicacion": "Verdadero: el esquema muestra dos glucosas que se unen por un puente –O– (enlace O-glucosídico) y «+ H₂O» como producto: es una reacción de condensación.",
+     "figura": 16
+    },
+    {
+     "id": "carbohidratos-q25",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-4",
+     "dificultad": 1,
+     "pagina": 20,
+     "enunciado": "Relaciona cada azúcar con su fuente o nombre común:",
+     "pares": [
+      [
+       "Lactosa",
+       "Azúcar de la leche"
+      ],
+      [
+       "Maltosa",
+       "Azúcar de malta"
+      ],
+      [
+       "Sacarosa",
+       "Azúcar de caña o de remolacha"
+      ],
+      [
+       "Fructosa",
+       "Azúcar de la fruta"
+      ]
+     ],
+     "explicacion": "Lactosa en la leche, maltosa = azúcar de malta, sacarosa = azúcar de mesa (caña o remolacha) y fructosa = azúcar de la fruta."
+    },
+    {
+     "id": "carbohidratos-q26",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-4",
+     "dificultad": 3,
+     "pagina": 19,
+     "enunciado": "Observa la β-lactosa de la pág. 19. ¿Qué afirmación es correcta?",
+     "opciones": [
+      "El C-1 de la galactosa se une, con configuración β, al OH del C-4 de la glucosa",
+      "El C-1 de la glucosa se une al C-1 de la galactosa",
+      "Ambas unidades son glucosa unidas por un enlace α",
+      "La unión ocurre entre los C-6 (CH₂OH) de ambas moléculas"
+     ],
+     "correcta": 0,
+     "explicacion": "El material: la galactosa se une por el OH de su carbono 1, con enlace β, al OH del carbono 4 de la glucosa → β(1,4). Los CH₂OH no participan en el enlace."
+    },
+    {
+     "id": "carbohidratos-q27",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-4",
+     "dificultad": 1,
+     "pagina": 20,
+     "enunciado": "Según el material, la sacarosa se produce en:",
+     "opciones": [
+      "Las hojas y los tallos de las plantas, y se transporta por toda la planta",
+      "Las glándulas mamarias lactantes",
+      "Las vesículas seminales",
+      "Los gránulos de los plastidios como reserva"
+     ],
+     "correcta": 0,
+     "explicacion": "La sacarosa se forma en hojas y tallos y es la fuente de energía que viaja por la planta. La lactosa se hace en la glándula mamaria; la fructosa del semen en las vesículas seminales; los gránulos de plastidios guardan almidón."
+    },
+    {
+     "id": "carbohidratos-q28",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-5",
+     "dificultad": 2,
+     "pagina": 17,
+     "enunciado": "¿Cuál es el mecanismo de la diarrea cuando falta una enzima que digiere disacáridos?",
+     "opciones": [
+      "El disacárido no absorbido ejerce presión osmótica y extrae agua de los tejidos",
+      "Las bacterias del colon producen toxinas que destruyen el epitelio",
+      "El exceso de monosacárido absorbido aumenta la secreción de bilis",
+      "La enzima no digerida irrita la mucosa intestinal"
+     ],
+     "correcta": 0,
+     "explicacion": "Como los carbohidratos se absorben como monosacáridos, el disacárido sin digerir se queda en la luz intestinal y por ósmosis jala agua → diarrea. Las bacterias causan gas (fermentación), no la diarrea osmótica."
+    },
+    {
+     "id": "carbohidratos-q29",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-5",
+     "dificultad": 2,
+     "pagina": 18,
+     "enunciado": "Una paciente de 30 años refiere distensión, gases, dolor cólico y diarrea cada vez que toma leche, pero tolera bien el pan y la fruta. ¿Qué explica mejor su cuadro, según el material?",
+     "opciones": [
+      "La gran reducción de la síntesis de lactasa tras la infancia (intolerancia a la lactosa)",
+      "La falta de la enzima que metaboliza la galactosa (galactosemia)",
+      "La ausencia de amilasa pancreática para digerir almidón",
+      "La deficiencia de glucógeno fosforilasa en el hígado"
+     ],
+     "correcta": 0,
+     "explicacion": "Síntomas solo con la leche = intolerancia a la lactosa, la deficiencia más común en adultos. La galactosemia es genética, grave y desde el nacimiento (daño hepático, cataratas); tolera el pan, así que no falta amilasa.",
+     "caso": true
+    },
+    {
+     "id": "carbohidratos-q30",
+     "tipo": "vf",
+     "seccion": "carbohidratos-5",
+     "dificultad": 2,
+     "pagina": 18,
+     "enunciado": "La intolerancia a la lactosa es rara en adultos y solo aparece en personas con antepasados del norte de Europa.",
+     "correcta": false,
+     "explicacion": "Falso, es al revés: puede darse en la MAYORÍA de los adultos, excepto en quienes tienen antepasados del norte de Europa y de ciertos grupos africanos (que conservan la lactasa)."
+    },
+    {
+     "id": "carbohidratos-q31",
+     "tipo": "ordenar",
+     "seccion": "carbohidratos-5",
+     "dificultad": 2,
+     "pagina": 18,
+     "enunciado": "Ordena lo que ocurre cuando una persona con intolerancia a la lactosa toma leche:",
+     "items": [
+      "Ingiere lactosa",
+      "Por falta de lactasa la lactosa no se digiere",
+      "El disacárido sin digerir jala agua por ósmosis",
+      "Las bacterias del colon lo fermentan",
+      "Aparecen diarrea, gas, distensión y dolor cólico"
+     ],
+     "explicacion": "Sin lactasa no hay monosacáridos que absorber; el disacárido atrae agua (diarrea) y las bacterias del colon lo fermentan (gas, distensión, cólico)."
+    },
+    {
+     "id": "carbohidratos-q32",
+     "tipo": "completar",
+     "seccion": "carbohidratos-5",
+     "dificultad": 1,
+     "pagina": 18,
+     "enunciado": "La intolerancia a la lactosa se origina por la gran reducción de la síntesis de la enzima ___ tras la infancia.",
+     "respuestas": [
+      "lactasa"
+     ],
+     "explicacion": "La lactasa digiere la lactosa; su síntesis disminuye después de la infancia en la mayoría de los adultos."
+    },
+    {
+     "id": "carbohidratos-q33",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-6",
+     "dificultad": 2,
+     "pagina": 21,
+     "enunciado": "Celulosa y almidón son poliglucosa. ¿Por qué el humano digiere el almidón pero no la celulosa?",
+     "opciones": [
+      "Porque la celulosa tiene enlaces β(1-4) y el humano solo tiene amilasas (salival y pancreática), que degradan el almidón",
+      "Porque el almidón solo existe en animales y la celulosa en plantas",
+      "Porque la celulosa es un heteropolisacárido y el almidón un homopolisacárido",
+      "Porque la celulosa no contiene glucosa"
+     ],
+     "correcta": 0,
+     "explicacion": "Ambos son homopolisacáridos de glucosa y ambos son vegetales; la diferencia está en el enlace: la celulosa es β(1-4) y nuestras amilasas solo atacan el almidón. Por eso su valor nutritivo es casi nulo (salvo en rumiantes)."
+    },
+    {
+     "id": "carbohidratos-q34",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-6",
+     "dificultad": 1,
+     "pagina": 21,
+     "enunciado": "¿Cuál es el compuesto orgánico de origen natural más abundante de la superficie de la Tierra?",
+     "opciones": [
+      "Celulosa",
+      "Glucógeno",
+      "Quitina",
+      "Ácido hialurónico"
+     ],
+     "correcta": 0,
+     "explicacion": "La celulosa, componente estructural de la pared celular en todo el reino vegetal."
+    },
+    {
+     "id": "carbohidratos-q35",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-6",
+     "dificultad": 2,
+     "pagina": 21,
+     "enunciado": "Según el material, ¿qué enzima degrada el glucógeno dentro de la célula?",
+     "opciones": [
+      "Glucógeno fosforilasa",
+      "Amilasa salival",
+      "Lactasa",
+      "Fosfofructocinasa"
+     ],
+     "correcta": 0,
+     "explicacion": "Dentro de la célula el glucógeno lo degrada la glucógeno fosforilasa. La amilasa salival digiere almidón en el tubo digestivo, la lactasa digiere lactosa y la fosfofructocinasa es de la glucólisis."
+    },
+    {
+     "id": "carbohidratos-q36",
+     "tipo": "vf",
+     "seccion": "carbohidratos-6",
+     "dificultad": 2,
+     "pagina": 21,
+     "enunciado": "Los almidones se encuentran exclusivamente en las plantas, como gránulos en el citoplasma y en plastidios como el cloroplasto.",
+     "correcta": true,
+     "explicacion": "Verdadero, textual del material. En animales el polisacárido de reserva es el glucógeno."
+    },
+    {
+     "id": "carbohidratos-q37",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-6",
+     "dificultad": 2,
+     "pagina": 21,
+     "enunciado": "Relaciona cada polisacárido con su característica:",
+     "pares": [
+      [
+       "Celulosa",
+       "Cadenas lineales β(1-4) de la pared vegetal"
+      ],
+      [
+       "Quitina",
+       "Capa externa de la langosta y pared de hongos"
+      ],
+      [
+       "Almidón",
+       "Reserva vegetal degradada por amilasas"
+      ],
+      [
+       "Glucógeno",
+       "Poliglucosa ramificada de hígado y músculo"
+      ],
+      [
+       "Ácido hialurónico",
+       "Sustancia fundamental y líquido sinovial"
+      ]
+     ],
+     "explicacion": "Los cuatro primeros son homopolisacáridos; el ácido hialurónico es el heteropolisacárido más importante en animales superiores."
+    },
+    {
+     "id": "carbohidratos-q38",
+     "tipo": "completar",
+     "seccion": "carbohidratos-6",
+     "dificultad": 2,
+     "pagina": 21,
+     "enunciado": "Los homopolisacáridos tienen todos sus residuos idénticos; los ___ tienen residuos diferentes.",
+     "respuestas": [
+      "heteropolisacáridos",
+      "heteropolisacaridos",
+      "heteropolisacárido"
+     ],
+     "explicacion": "Hetero = diferentes. Ejemplo: el ácido hialurónico."
+    },
+    {
+     "id": "carbohidratos-q39",
+     "tipo": "vf",
+     "seccion": "carbohidratos-6",
+     "dificultad": 1,
+     "pagina": 21,
+     "enunciado": "La celulosa tiene un alto valor nutritivo para los humanos porque la amilasa salival la degrada.",
+     "correcta": false,
+     "explicacion": "Falso: su valor nutritivo es prácticamente nulo para los animales superiores, excepto los rumiantes. La amilasa degrada el almidón, no la celulosa."
+    },
+    {
+     "id": "carbohidratos-q40",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-7",
+     "dificultad": 2,
+     "pagina": 22,
+     "enunciado": "¿Por qué el material dice que la pared bacteriana es «homogénea»?",
+     "opciones": [
+      "Porque péptidos y carbohidratos siempre forman el mismo armazón: cadenas de polisacáridos unidas por puentes de polipéptidos",
+      "Porque todos los géneros bacterianos tienen la misma cantidad de lípidos",
+      "Porque está formada solo por celulosa",
+      "Porque sus carbohidratos son residuos idénticos de glucosa"
+     ],
+     "correcta": 0,
+     "explicacion": "Es heterogénea en composición (cambia entre géneros), pero homogénea en estructura: siempre es la red de peptidoglicano (polisacáridos + puentes de polipéptidos)."
+    },
+    {
+     "id": "carbohidratos-q41",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-7",
+     "dificultad": 2,
+     "pagina": 22,
+     "enunciado": "Un paciente con trastorno de la articulación temporomandibular (ATM) tiene un líquido sinovial menos viscoso, que lubrica y amortigua peor. ¿Qué heteropolisacárido está implicado?",
+     "opciones": [
+      "Ácido hialurónico",
+      "Peptidoglicano",
+      "Quitina",
+      "Glucógeno"
+     ],
+     "correcta": 0,
+     "explicacion": "El material dice que el ácido hialurónico abunda en el líquido sinovial, el relleno viscoso de las articulaciones que lubrica y amortigua los golpes. La ATM es una articulación sinovial (dato añadido).",
+     "caso": true
+    },
+    {
+     "id": "carbohidratos-q42",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-7",
+     "dificultad": 2,
+     "pagina": 22,
+     "enunciado": "¿Cuál de estas funciones NO aparece en el material como función de las glucoproteínas?",
+     "opciones": [
+      "Ser la reserva de glucosa del hígado",
+      "Conferir un grupo sanguíneo característico",
+      "Actuar como anticuerpos",
+      "Participar en el reconocimiento celular"
+     ],
+     "correcta": 0,
+     "explicacion": "La reserva de glucosa del hígado es el glucógeno (un homopolisacárido). Grupo sanguíneo, anticuerpos y reconocimiento celular sí están en la lista de funciones de las glucoproteínas."
+    },
+    {
+     "id": "carbohidratos-q43",
+     "tipo": "completar",
+     "seccion": "carbohidratos-7",
+     "dificultad": 2,
+     "pagina": 22,
+     "enunciado": "Por la conjugación de péptidos y carbohidratos, el compuesto de la pared celular bacteriana se llama ___.",
+     "respuestas": [
+      "peptidoglicano",
+      "peptidoglucano",
+      "mureína"
+     ],
+     "explicacion": "Peptidoglicano: red de cadenas de polisacáridos unidas covalentemente por pequeños puentes de polipéptidos."
+    },
+    {
+     "id": "carbohidratos-q44",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-8",
+     "dificultad": 1,
+     "pagina": 23,
+     "enunciado": "La glucólisis también se conoce como vía de:",
+     "opciones": [
+      "Embden-Meyerhof",
+      "Krebs",
+      "Cori",
+      "Warburg-Dickens"
+     ],
+     "correcta": 0,
+     "explicacion": "Glucólisis = vía de Embden-Meyerhof (resaltado en el material). Krebs es el ciclo del ácido cítrico y Cori es el ciclo lactato–glucosa entre músculo e hígado."
+    },
+    {
+     "id": "carbohidratos-q45",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-8",
+     "dificultad": 1,
+     "pagina": 23,
+     "enunciado": "¿Dónde ocurre la glucólisis?",
+     "opciones": [
+      "En el citosol de todas las células",
+      "En la matriz mitocondrial, solo en el hígado",
+      "En la membrana mitocondrial interna",
+      "En el núcleo de las células musculares"
+     ],
+     "correcta": 0,
+     "explicacion": "El material dice que ocurre en el citosol de todas las células. Lo que pasa en la matriz mitocondrial es la oxidación del piruvato (y la β-oxidación)."
+    },
+    {
+     "id": "carbohidratos-q46",
+     "tipo": "ordenar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 3,
+     "pagina": 23,
+     "enunciado": "Con base en el esquema de la pág. 23, ordena los intermediarios de la glucólisis desde la glucosa:",
+     "items": [
+      "Glucosa",
+      "Glucosa-6-fosfato",
+      "Fructosa-6-fosfato",
+      "Fructosa-1,6-difosfato",
+      "Gliceraldehído-3-fosfato",
+      "1,3-difosfoglicerato",
+      "3-fosfoglicerato"
+     ],
+     "explicacion": "Glucosa → (hexocinasa) G6P → (isomerasa) F6P → (PFK) F-1,6-diP → (aldolasa/TPI) G3P → (G3P deshidrogenasa) 1,3-difosfoglicerato → (fosfoglicerato cinasa) 3-fosfoglicerato. Después siguen 2-fosfoglicerato, fosfoenolpiruvato y piruvato.",
+     "figura": 23
+    },
+    {
+     "id": "carbohidratos-q47",
+     "tipo": "ordenar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 23,
+     "enunciado": "Ordena las enzimas de la primera fase de la glucólisis (etapas 1–5):",
+     "items": [
+      "Hexocinasa",
+      "Fosfoglucosa isomerasa",
+      "Fosfofructocinasa",
+      "Aldolasa",
+      "Triosa fosfato isomerasa"
+     ],
+     "explicacion": "Fosforilar (hexocinasa) → isomerizar (fosfoglucosa isomerasa) → segundo fosfato (fosfofructocinasa) → romper (aldolasa) → igualar las triosas (triosa fosfato isomerasa)."
+    },
+    {
+     "id": "carbohidratos-q48",
+     "tipo": "ordenar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "Ordena las enzimas de la segunda fase de la glucólisis (etapas 6–10):",
+     "items": [
+      "Gliceraldehído-3-fosfato deshidrogenasa",
+      "Fosfoglicerato cinasa",
+      "Fosfogliceromutasa",
+      "Enolasa",
+      "Piruvato cinasa"
+     ],
+     "explicacion": "Oxidar y fosforilar (G3P deshidrogenasa) → primer ATP (fosfoglicerato cinasa) → mover el fosfato (mutasa) → quitar agua (enolasa) → segundo ATP (piruvato cinasa)."
+    },
+    {
+     "id": "carbohidratos-q49",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "Relaciona cada enzima de la glucólisis con lo que hace:",
+     "pares": [
+      [
+       "Hexocinasa",
+       "Fosforila la glucosa con ATP"
+      ],
+      [
+       "Aldolasa",
+       "Rompe la hexosa entre C-3 y C-4"
+      ],
+      [
+       "Gliceraldehído-3-P deshidrogenasa",
+       "Forma NADH₂ y un anhídrido con fosfato"
+      ],
+      [
+       "Fosfogliceromutasa",
+       "Mueve el fosfato del C-3 al C-2"
+      ],
+      [
+       "Enolasa",
+       "Elimina agua y forma fosfoenolpiruvato"
+      ],
+      [
+       "Piruvato cinasa",
+       "Pasa el fosfato del PEP al ADP"
+      ]
+     ],
+     "explicacion": "Son las descripciones de las etapas 1, 4, 6, 8, 9 y 10 del material."
+    },
+    {
+     "id": "carbohidratos-q50",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 23,
+     "enunciado": "¿En qué etapas de la glucólisis se GASTA ATP?",
+     "opciones": [
+      "Etapas 1 (hexocinasa) y 3 (fosfofructocinasa)",
+      "Etapas 7 (fosfoglicerato cinasa) y 10 (piruvato cinasa)",
+      "Etapas 4 (aldolasa) y 5 (triosa fosfato isomerasa)",
+      "Etapas 6 (G3P deshidrogenasa) y 9 (enolasa)"
+     ],
+     "correcta": 0,
+     "explicacion": "En la 1 y la 3 entra ATP para fosforilar (activación). En la 7 y la 10 se FORMA ATP; en la 6 se forma NADH₂ y en la 9 sale agua."
+    },
+    {
+     "id": "carbohidratos-q51",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-8",
+     "dificultad": 3,
+     "pagina": 23,
+     "enunciado": "Al final de una carrera, el músculo de un deportista tiene AMP y ADP altos y ATP bajo. ¿Qué le ocurre a la fosfofructocinasa?",
+     "opciones": [
+      "Se activa, porque AMP y ADP altos indican que hay que sintetizar más ATP",
+      "Se inhibe, porque AMP y ADP altos indican exceso de energía",
+      "No cambia, porque solo la regula la concentración de glucosa",
+      "Se inhibe, porque el ATP alto frena la glucólisis"
+     ],
+     "correcta": 0,
+     "explicacion": "El material: la fosfofructocinasa se inhibe con ATP alto y se activa con AMP y ADP altos, que indican la necesidad de sintetizar más ATP. Aquí el ATP está bajo, así que no hay inhibición."
+    },
+    {
+     "id": "carbohidratos-q52",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-8",
+     "dificultad": 3,
+     "pagina": 23,
+     "enunciado": "Según el resumen de la glucólisis, ¿cuál es el balance NETO por cada molécula de glucosa?",
+     "opciones": [
+      "2 piruvato + 2 ATP + 2 NADH₂",
+      "2 piruvato + 4 ATP + 2 NADH₂",
+      "2 lactato + 2 ATP + 2 NAD",
+      "2 piruvato + 2 ATP + 4 NADH₂"
+     ],
+     "correcta": 0,
+     "explicacion": "Las etapas 6–10 producen 4 ATP, pero las etapas 1–5 gastaron 2 → neto 2 ATP. Además 2 NADH₂ y 2 piruvatos. Lactato solo si el piruvato se reduce después (sin O₂)."
+    },
+    {
+     "id": "carbohidratos-q53",
+     "tipo": "completar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "En la etapa 4, la ___ rompe la fructosa-1,6-difosfato en dihidroxiacetona fosfato y gliceraldehído-3-fosfato.",
+     "respuestas": [
+      "aldolasa"
+     ],
+     "explicacion": "La aldolasa corta entre los carbonos 3 y 4 y da dos «cadenas de 3 C» (triosas fosfato)."
+    },
+    {
+     "id": "carbohidratos-q54",
+     "tipo": "vf",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "La dihidroxiacetona fosfato y el gliceraldehído-3-fosfato son isómeros (triosas fosfato) y la triosa fosfato isomerasa los interconvierte de forma reversible.",
+     "correcta": true,
+     "explicacion": "Verdadero. En la glucólisis la reacción se desplaza hacia el gliceraldehído-3-fosfato, que es el que sigue la vía; por eso a partir de aquí todo va ×2."
+    },
+    {
+     "id": "carbohidratos-q55",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-8",
+     "dificultad": 3,
+     "pagina": 24,
+     "enunciado": "¿Qué quiere decir el material con que la etapa 7 «equilibra» los ATP de las etapas 1 y 3?",
+     "opciones": [
+      "Que los 2 ATP que forma la fosfoglicerato cinasa reponen los 2 ATP gastados por la hexocinasa y la fosfofructocinasa",
+      "Que en la etapa 7 se gastan otros 2 ATP, igual que en las etapas 1 y 3",
+      "Que la fosfoglicerato cinasa regresa el fosfato a la glucosa",
+      "Que después de la etapa 7 ya no se produce más ATP"
+     ],
+     "correcta": 0,
+     "explicacion": "Hasta la etapa 7 el balance queda en cero (−2 + 2). La ganancia neta de 2 ATP viene de la etapa 10 (piruvato cinasa)."
+    },
+    {
+     "id": "carbohidratos-q56",
+     "tipo": "completar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 1,
+     "pagina": 23,
+     "enunciado": "Según la nota del material, la glucólisis consiste en degradar o catabolizar la glucosa hasta que quede un ___.",
+     "respuestas": [
+      "piruvato",
+      "acido piruvico"
+     ],
+     "explicacion": "Glucosa (6 C) → 2 piruvatos (3 C cada uno)."
+    },
+    {
+     "id": "carbohidratos-q57",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-8",
+     "dificultad": 2,
+     "pagina": 23,
+     "enunciado": "Relaciona cada parte de la glucólisis con su balance:",
+     "pares": [
+      [
+       "Etapas 1–5",
+       "Gastan 2 ATP"
+      ],
+      [
+       "Etapas 6–10",
+       "Forman 4 ATP y 2 NADH₂"
+      ],
+      [
+       "Total",
+       "2 ATP netos y 2 piruvatos"
+      ],
+      [
+       "Etapa 9",
+       "Libera H₂O"
+      ]
+     ],
+     "explicacion": "Resumen de la pág. 23: inversión de 2 ATP, ganancia de 4 ATP + 2 NADH₂, neto 2 ATP; la enolasa (etapa 9) quita agua."
+    },
+    {
+     "id": "carbohidratos-q58",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "Cuando hay suficiente oxígeno, ¿qué le pasa al piruvato?",
+     "opciones": [
+      "Entra a la mitocondria y la piruvato deshidrogenasa lo oxida y descarboxila a acetil-CoA",
+      "Se queda en el citosol y se reduce a lactato",
+      "Se convierte en etanol y CO₂",
+      "Va al hígado para formar glucosa por gluconeogénesis"
+     ],
+     "correcta": 0,
+     "explicacion": "En condiciones aerobias el piruvato entra a la mitocondria, se oxida (NAD) y descarboxila, y el acetilo forma un tioéster con la CoA. Lactato es la vía sin O₂; etanol solo en levaduras."
+    },
+    {
+     "id": "carbohidratos-q59",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "¿Cuáles son los tres cofactores adicionales del complejo piruvato deshidrogenasa que menciona el material?",
+     "opciones": [
+      "Tiamina pirofosfato, una flavina y ácido lipoico",
+      "Biotina, NADPH y ácido fólico",
+      "Carnitina, FAD y coenzima Q",
+      "Piridoxal fosfato, hierro y cobre"
+     ],
+     "correcta": 0,
+     "explicacion": "El material menciona tiamina pirofosfato (vitamina B₁), una flavina y ácido lipoico (además del NAD y la CoA). La carnitina es de la β-oxidación."
+    },
+    {
+     "id": "carbohidratos-q60",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "Según el esquema del destino del piruvato, ¿qué producen las levaduras?",
+     "opciones": [
+      "Etanol y CO₂",
+      "Lactato",
+      "Acetil-CoA y NADH₂",
+      "Glucosa"
+     ],
+     "correcta": 0,
+     "explicacion": "Levaduras: piruvato → 2 CH₃CH₂OH + 2 CO₂ (fermentación alcohólica). El lactato es de músculo y bacterias.",
+     "figura": 24
+    },
+    {
+     "id": "carbohidratos-q61",
+     "tipo": "vf",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 24,
+     "enunciado": "En el ejercicio violento con poco oxígeno, el piruvato actúa como oxidante del NADH₂ y se reduce a lactato en el músculo esquelético.",
+     "correcta": true,
+     "explicacion": "Verdadero, es la frase resaltada del material: sin O₂ suficiente para oxidar el NADH₂, el piruvato lo oxida y se convierte en lactato."
+    },
+    {
+     "id": "carbohidratos-q62",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-9",
+     "dificultad": 3,
+     "pagina": 24,
+     "enunciado": "¿Para qué le sirve al músculo convertir el piruvato en lactato cuando falta oxígeno?",
+     "opciones": [
+      "Para reoxidar el NADH₂ a NAD y que la glucólisis siga dando ATP",
+      "Para producir más ATP que la glucólisis oxidativa",
+      "Para guardar el exceso de glucosa como glucógeno",
+      "Para eliminar el CO₂ de la contracción"
+     ],
+     "correcta": 0,
+     "explicacion": "El esquema muestra que al formar lactato el NADH₂ vuelve a NAD; ese NAD lo necesita la etapa 6, así que la glucólisis anaerobia puede seguir y «suplir la producción de ATP». No rinde más ATP: la más eficaz es la oxidativa."
+    },
+    {
+     "id": "carbohidratos-q63",
+     "tipo": "ordenar",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 25,
+     "enunciado": "Con el esquema de la pág. 25, ordena el ciclo de Cori empezando en el músculo:",
+     "items": [
+      "Glucógeno muscular → piruvato (glucólisis)",
+      "Piruvato → lactato en el músculo",
+      "El lactato viaja por la sangre",
+      "En el hígado el lactato se convierte en glucosa (gluconeogénesis)",
+      "La glucosa regresa por la sangre y repone el glucógeno muscular"
+     ],
+     "explicacion": "Músculo (glucólisis → lactato) → sangre → hígado (gluconeogénesis) → sangre → músculo. Parte del lactato se va por la orina y en el hígado ~20 % se oxida a CO₂ + H₂O.",
+     "figura": 25
+    },
+    {
+     "id": "carbohidratos-q64",
+     "tipo": "completar",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 25,
+     "enunciado": "En el hígado se oxida casi el ___ del lactato, lo que proporciona la energía necesaria para la gluconeogénesis.",
+     "respuestas": [
+      "20%",
+      "20 %",
+      "20",
+      "veinte por ciento"
+     ],
+     "explicacion": "Casi el 20 % del lactato se oxida y paga la energía para convertir el resto en glucosa (dato resaltado)."
+    },
+    {
+     "id": "carbohidratos-q65",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 25,
+     "enunciado": "Según el material, ¿por qué la ventilación pulmonar sigue aumentada después de terminar el ejercicio?",
+     "opciones": [
+      "Porque la oxidación del lactato y la gluconeogénesis en el hígado ocurren después del ejercicio y reponen el oxígeno usado",
+      "Porque el músculo sigue produciendo lactato indefinidamente en reposo",
+      "Porque se acumula el CO₂ de la fermentación alcohólica en el músculo",
+      "Porque la glucólisis oxidativa se detiene por completo al terminar el ejercicio"
+     ],
+     "correcta": 0,
+     "explicacion": "El material: la oxidación del lactato y la gluconeogénesis se llevan a cabo después de que cesa el ejercicio; el aumento de la ventilación representa la reposición del oxígeno usado. La fermentación alcohólica es de levaduras."
+    },
+    {
+     "id": "carbohidratos-q66",
+     "tipo": "vf",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 25,
+     "enunciado": "La glucólisis oxidativa es el productor más eficaz de ATP, pero solo puede ir tan rápido como lo permite la reserva de oxígeno.",
+     "correcta": true,
+     "explicacion": "Verdadero (frase resaltada). Cuando el O₂ no alcanza, la glucólisis anaerobia (glucosa → ácido láctico) suple la producción de ATP."
+    },
+    {
+     "id": "carbohidratos-q67",
+     "tipo": "opcion",
+     "seccion": "carbohidratos-9",
+     "dificultad": 3,
+     "pagina": 24,
+     "enunciado": "Un paciente toma refrescos azucarados varias veces al día. Las bacterias de su placa dental degradan esos azúcares por glucólisis sin oxígeno. Según el esquema del destino del piruvato, ¿qué producto ácido generan y desmineraliza el esmalte?",
+     "opciones": [
+      "Lactato (ácido láctico)",
+      "Etanol y CO₂",
+      "Acetil-CoA",
+      "Glucógeno"
+     ],
+     "correcta": 0,
+     "explicacion": "El esquema indica que el piruvato se reduce a lactato en músculo y BACTERIAS. Ese ácido láctico baja el pH de la placa y disuelve el esmalte (relación con la caries, dato añadido). Etanol + CO₂ es de levaduras.",
+     "caso": true
+    },
+    {
+     "id": "carbohidratos-q68",
+     "tipo": "relacionar",
+     "seccion": "carbohidratos-9",
+     "dificultad": 2,
+     "pagina": 25,
+     "enunciado": "Relaciona cada compartimento del ciclo de Cori con lo que ocurre ahí:",
+     "pares": [
+      [
+       "Músculo esquelético",
+       "Glucólisis: glucógeno → lactato"
+      ],
+      [
+       "Sangre",
+       "Transporta lactato y glucosa"
+      ],
+      [
+       "Hígado",
+       "Gluconeogénesis y oxidación del lactato"
+      ],
+      [
+       "Orina",
+       "Elimina una parte del lactato"
+      ]
+     ],
+     "explicacion": "Así se ve en el esquema «Metabolismo intermediario» de la pág. 25."
+    }
+   ],
+   "alertas": [
+    {
+     "pagina": 9,
+     "nota": "Dice que «según el número de carbonos» los monosacáridos se agrupan en aldosas y cetosas. Es incorrecto: aldosa/cetosa depende del grupo carbonilo (aldehído vs. cetona); el número de carbonos define triosas, tetrosas, pentosas y hexosas (lo que el mismo material dice en la pág. 11)."
+    },
+    {
+     "pagina": 17,
+     "nota": "Dice que el disacárido sin digerir «pasa al intestino delgado», donde la presión osmótica extrae agua. En los libros (McKee, de donde parece venir el texto) es el intestino GRUESO (colon), donde además lo fermentan las bacterias (pág. 18)."
+    },
+    {
+     "pagina": 20,
+     "nota": "La frase de la sacarosa quedó incompleta: «sus monosacáridos están unidos por un enlace glucosídico». Tampoco dice cuáles son. En los libros: glucosa + fructosa unidas por enlace α(1→β2) entre ambos carbonos anoméricos (azúcar no reductor). Se añadió como bloque extra."
+    },
+    {
+     "pagina": 21,
+     "nota": "Incluye a la lignina entre los «polisacáridos» cementantes de la pared vegetal. La lignina no es un carbohidrato: es un polímero fenólico. Hemicelulosa y pectina sí son polisacáridos."
+    },
+    {
+     "pagina": 15,
+     "nota": "Escribe «glucosa-l-fosfato» y «galactosa-l-fosfato» con letra L; debe leerse 1 (glucosa-1-fosfato, galactosa-1-fosfato). La interconversión está simplificada: en los libros ocurre como UDP-glucosa ⇌ UDP-galactosa (UDP-galactosa 4-epimerasa)."
+    },
+    {
+     "pagina": 13,
+     "nota": "Dice que la fructosa es «dos veces más dulce» que la sacarosa. Las tablas de dulzor relativo suelen darle ≈1.2–1.8 veces; se enseña como dice el material."
+    },
+    {
+     "pagina": 23,
+     "nota": "Etapa 1: «glucocinasa (hexocinasa saturada-concentraciones sanguíneas altas de glucosa)» está redactado de forma confusa. En los libros: la hexocinasa se satura con poca glucosa (Km bajo) y la glucocinasa (hígado, páncreas; Km alto) trabaja cuando la glucosa sanguínea está alta."
+    },
+    {
+     "pagina": 24,
+     "nota": "Etapa 9 dice que la enolasa elimina «–H del carbono 2 y –OH del carbono 1» del 2-fosfoglicerato. En los libros el –OH sale del carbono 3 (el C-1 es el carboxilo)."
+    },
+    {
+     "pagina": 23,
+     "nota": "Las págs. 23–25 no son de estructura de carbohidratos sino de metabolismo: glucólisis (Embden-Meyerhof), destino del piruvato y ciclo de Cori. Se incluyeron en este tema como secciones 8 y 9. Usan notación antigua (NAD/NADH₂, H₃PO₄, «difosfato») y tienen notas a mano integradas en la guía («entra/sale», «cadenas de 3 C», «¿Qué es glucólisis?», «cómo se transforma»)."
+    },
+    {
+     "pagina": 25,
+     "nota": "El esquema del ciclo de Cori dice «Lactacto» (errata de «lactato») y se titula «Vías catabólicas» aunque incluye la gluconeogénesis, que es anabólica."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2299 @@
+{
+ "agente": 2,
+ "paginas": "26-39, 58-68",
+ "temas": [
+  {
+   "id": "proteinas",
+   "titulo": "Aminoácidos y proteínas",
+   "emoji": "🧬",
+   "paginas": [
+    26,
+    39,
+    58,
+    68
+   ],
+   "descripcion": "De los aminoácidos (estructura y sus 4 clasificaciones) al enlace peptídico, las clasificaciones de las proteínas, sus 4 niveles de estructura, las fuerzas que la estabilizan y la desnaturalización.",
+   "imprescindibles": [
+    "Las proteínas son polímeros de aminoácidos unidos por enlaces peptídicos; con 50 o más aminoácidos ya es proteína, y los más pequeños son péptidos no proteicos.",
+    "Fórmula general: un carbono α unido a un H, un grupo amino (–NH₂), un grupo carboxilo (–COOH) y un grupo R (cadena lateral).",
+    "El grupo R distingue a cada aminoácido: va desde un átomo de H (glicina) hasta el grupo guanidina (arginina).",
+    "Hay 4 clasificaciones de aminoácidos: por composición química del R (7 grupos), por polaridad, por ionización del R y por requerimiento en la dieta.",
+    "Básicos: arginina, lisina e histidina. Ácidos (en el material): ácido aspártico, ácido glutámico, cisteína y tirosina. El resto son neutros.",
+    "No polares (8): alanina, valina, leucina, isoleucina, metionina, fenilalanina, triptófano y prolina; los otros 12 son polares.",
+    "Los 10 esenciales del material (no los producimos, hay que comerlos): treonina, metionina, valina, leucina, isoleucina, fenilalanina, triptófano, lisina, arginina e histidina.",
+    "Enlace peptídico = enlace amida entre el α-carboxilo de un aminoácido y el α-amino del siguiente; al formarse se libera una molécula de agua.",
+    "Cada posición en un péptido es un residuo: 2–10 residuos = oligopéptido; más de 10 = polipéptido.",
+    "Hay 15 tipos funcionales de proteínas: catalíticas (enzimas), estructurales (colágeno), de transporte (hemoglobina), de defensa (anticuerpos), sanguíneas (fibrinógeno), respiratorias (citocromos), de la visión (rodopsina), entre otras.",
+    "Por composición: conjugadas (con grupo prostético; 6 tipos: glico-, metalo-, hemo-, flavo-, fosfo- y lipoproteínas) y no conjugadas (sin grupo prostético).",
+    "Por forma: fibrosas (alargadas, insolubles, ej. colágeno) y globulares (compactas, solubles, ej. todas las enzimas).",
+    "Niveles: primaria = secuencia; secundaria = orientación geométrica del esqueleto (hélice α, lámina β); terciaria = arquitectura 3D completa; cuaternaria = agregación no covalente de 2 o más cadenas. Los tres primeros los tienen todas; el cuarto, solo algunas.",
+    "La estructura terciaria se estabiliza principalmente por interacciones NO covalentes: ion-ion, puentes de hidrógeno, interacciones hidrofóbicas e interacción con el grupo prostético.",
+    "Desnaturalización: pérdida de la conformación nativa (y de la actividad biológica) por agentes físicos o químicos SIN cambiar la secuencia de aminoácidos; a veces es reversible (renaturalización)."
+   ],
+   "secciones": [
+    {
+     "id": "prot-1",
+     "titulo": "Aminoácidos: los bloques de las proteínas",
+     "paginas": [
+      26,
+      29
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Todas las proteínas son **polímeros** compuestos de **aminoácidos**: monómeros que se unen sucesivamente entre sí mediante el **enlace peptídico**. Una sustancia formada por aminoácidos así unidos se llama **polipéptido** o simplemente **péptido**."
+      },
+      {
+       "tipo": "clave",
+       "md": "Cuando un polipéptido tiene **50 o más** aminoácidos se coloca en la categoría de **PROTEÍNA**. A los péptidos más pequeños se les llama **péptidos no proteicos**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Los aminoácidos son los **bloques básicos de todas las proteínas**. Se conocen **más de 300** aminoácidos en la naturaleza; pueden estar **libres** como moléculas individuales disueltas en el protoplasma o **unidos covalentemente** con otros aminoácidos."
+      },
+      {
+       "tipo": "texto",
+       "md": "De esos más de 300, solo **20** son los aminoácidos estándar que el código genético usa para fabricar proteínas: son justo los 20 que aparecen en las tablas de clasificación de este tema.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "**Fórmula general de un aminoácido** (pág. 28): un átomo central, el **carbono α**, con cuatro cosas unidas a él:"
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Parte",
+        "Qué es"
+       ],
+       "filas": [
+        [
+         "Carbono α (C)",
+         "Átomo central; a él se unen los otros cuatro grupos"
+        ],
+        [
+         "H",
+         "Un átomo de hidrógeno"
+        ],
+        [
+         "H₂N–",
+         "Grupo amino"
+        ],
+        [
+         "–COOH",
+         "Grupo carboxilo"
+        ],
+        [
+         "R",
+         "Grupo de cadena lateral: es lo que cambia de un aminoácido a otro"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 28,
+       "pie": "Fórmula general: el carbono α (amarillo) unido a un H, al grupo amino (H₂N), al grupo carboxilo (COOH) y al grupo R. En el material vienen subrayados el átomo de hidrógeno, el carbono α y el grupo amino."
+      },
+      {
+       "tipo": "texto",
+       "md": "El **grupo R** puede variar desde un **sencillo átomo de hidrógeno**, como en la **glicina**, hasta una estructura **más compleja**, como el **grupo guanidina** de la **arginina**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 29,
+       "pie": "Glicina (R = H, el aminoácido más sencillo) frente a arginina (R largo que termina en el grupo guanidina, con varios nitrógenos). Las dos comparten el mismo esqueleto –CH(NH₂)–COOH."
+      },
+      {
+       "tipo": "truco",
+       "md": "Apunte de clase (pág. 29): **«Si no hay N, no hay proteína»**. Todo aminoácido lleva nitrógeno en su grupo amino, así que toda proteína contiene N."
+      },
+      {
+       "tipo": "texto",
+       "md": "Por eso el nitrógeno es la «firma» química de las proteínas frente a los carbohidratos y la mayoría de los lípidos, que no llevan N en su estructura básica.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-2",
+     "titulo": "Las 4 clasificaciones de los aminoácidos",
+     "paginas": [
+      30,
+      33
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "El material clasifica a los aminoácidos de **4 maneras**: 1) por la **composición química** del grupo R, 2) por su **polaridad**, 3) por la **ionización** del grupo R y 4) por el **requerimiento en la dieta**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**1. Por composición química del grupo R** (7 grupos):"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "Alifáticos",
+        "Hidroxilados",
+        "Azufrados",
+        "Aromáticos",
+        "Ácidos",
+        "Básicos",
+        "Imino"
+       ]
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Grupo",
+        "Aminoácidos que suelen ir ahí (libros de texto)"
+       ],
+       "filas": [
+        [
+         "Alifáticos",
+         "Glicina, alanina, valina, leucina, isoleucina"
+        ],
+        [
+         "Hidroxilados (con –OH)",
+         "Serina, treonina"
+        ],
+        [
+         "Azufrados (con S)",
+         "Cisteína, metionina"
+        ],
+        [
+         "Aromáticos (con anillo)",
+         "Fenilalanina, tirosina, triptófano"
+        ],
+        [
+         "Ácidos (y sus amidas)",
+         "Ácido aspártico, ácido glutámico (asparagina, glutamina)"
+        ],
+        [
+         "Básicos",
+         "Lisina, arginina, histidina"
+        ],
+        [
+         "Imino",
+         "Prolina"
+        ]
+       ],
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "**2. Por polaridad** (basada en la estructura del grupo R): en el material quedan **12 polares** y **8 no polares**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Polares (12)",
+        "No polares (8)"
+       ],
+       "filas": [
+        [
+         "Glicina",
+         "Alanina"
+        ],
+        [
+         "Serina",
+         "Valina"
+        ],
+        [
+         "Treonina",
+         "Leucina"
+        ],
+        [
+         "Cisteína",
+         "Isoleucina"
+        ],
+        [
+         "Tirosina",
+         "Metionina"
+        ],
+        [
+         "Ácido aspártico",
+         "Fenilalanina"
+        ],
+        [
+         "Ácido glutámico",
+         "Triptófano"
+        ],
+        [
+         "Asparagina",
+         "Prolina"
+        ],
+        [
+         "Glutamina",
+         ""
+        ],
+        [
+         "Arginina",
+         ""
+        ],
+        [
+         "Lisina",
+         ""
+        ],
+        [
+         "Histidina",
+         ""
+        ]
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Apréndete los 8 **no polares** y todos los demás son polares: «**A**na **V**e **L**a **I**sla, **M**ira **F**otos **T**ristes y **P**iensa» → **A**lanina, **V**alina, **L**eucina, **I**soleucina, **M**etionina, **F**enilalanina, **T**riptófano, **P**rolina."
+      },
+      {
+       "tipo": "texto",
+       "md": "**3. Por ionización del grupo R**: ácidos, básicos y neutros (en la diapositiva los neutros ocupan dos columnas)."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Ácidos (4)",
+        "Básicos (3)",
+        "Neutros (13)"
+       ],
+       "filas": [
+        [
+         "Ácido aspártico, ácido glutámico, cisteína, tirosina",
+         "Arginina, lisina, histidina",
+         "Glicina, alanina, valina, leucina, isoleucina, metionina, fenilalanina, serina, treonina, asparagina, glutamina, prolina, triptófano"
+        ]
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Los **básicos** son solo 3: «**HAL**» → **H**istidina, **A**rginina, **L**isina. Los **ácidos** del material son los dos que se llaman «ácido» (aspártico y glutámico) **más** cisteína y tirosina. Ojo: glutamina y asparagina son **neutras** aunque se parezcan de nombre."
+      },
+      {
+       "tipo": "texto",
+       "md": "**4. Por requerimiento en la dieta**: **esenciales** (los humanos **no pueden producirlos**, hay que obtenerlos de los alimentos) y **no esenciales** (los humanos **sí pueden producirlos**)."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Esenciales (10)",
+        "No esenciales (10)"
+       ],
+       "filas": [
+        [
+         "Treonina",
+         "Glicina"
+        ],
+        [
+         "Metionina",
+         "Alanina"
+        ],
+        [
+         "Valina",
+         "Serina"
+        ],
+        [
+         "Leucina",
+         "Cisteína"
+        ],
+        [
+         "Isoleucina",
+         "Prolina"
+        ],
+        [
+         "Fenilalanina",
+         "Ácido aspártico"
+        ],
+        [
+         "Triptófano",
+         "Ácido glutámico"
+        ],
+        [
+         "Lisina",
+         "Asparagina"
+        ],
+        [
+         "Arginina",
+         "Glutamina"
+        ],
+        [
+         "Histidina",
+         "Tirosina"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "En la diapositiva, la lista de **esenciales** está encerrada con un corchete amarillo y la palabra **«APRENDER»**: hay que saberse los 10 de memoria (treonina, metionina, valina, leucina, isoleucina, fenilalanina, triptófano, lisina, arginina e histidina)."
+      },
+      {
+       "tipo": "truco",
+       "md": "Versión en español del clásico «PVT TIM HALL»: «**F**ue **V**ito **T**res **T**ardes **I**ntentando **M**over **H**asta **A**cá **L**a **L**ibrería» → **F**enilalanina, **V**alina, **T**reonina, **T**riptófano, **I**soleucina, **M**etionina, **H**istidina, **A**rginina, **L**eucina, **L**isina."
+      },
+      {
+       "tipo": "texto",
+       "md": "En libros actuales se cuentan **9** esenciales en el adulto; la **arginina** se considera **condicionalmente esencial** (indispensable en etapas de crecimiento). Para el examen usa la lista del material: **10**.",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "Una dieta pobre en aminoácidos esenciales limita la síntesis de proteínas como el colágeno; eso se nota, por ejemplo, en una cicatrización más lenta de la encía y la mucosa después de una cirugía o extracción.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-3",
+     "titulo": "Enlace peptídico y residuos",
+     "paginas": [
+      34,
+      35
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "En los péptidos, los aminoácidos están unidos **covalentemente** a través del **grupo α-carboxilo** de un aminoácido y el **grupo α-amino** del siguiente. El enlace **amida** resultante se llama **enlace peptídico**."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Formación del enlace peptídico (pág. 34)",
+       "items": [
+        {
+         "nombre": "1. Se acercan los grupos",
+         "detalle": "El grupo carboxilo (–COOH) del aminoácido 1 queda frente al grupo amino (–NH₂) del aminoácido 2."
+        },
+        {
+         "nombre": "2. Salen –OH y H",
+         "detalle": "El carboxilo pierde su –OH y el amino pierde un H."
+        },
+        {
+         "nombre": "3. Se libera agua",
+         "detalle": "Ese –OH y ese H forman una molécula de H₂O que sale de la reacción."
+        },
+        {
+         "nombre": "4. Queda el dipéptido",
+         "detalle": "Se forma el enlace –CO–NH– (enlace peptídico) entre los dos aminoácidos; los grupos R₁ y R₂ no participan."
+        }
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 34,
+       "pie": "Reacción de formación del enlace peptídico. Apunte de clase: «se une el grupo carboxilo del 1 con el amino del 2, formando una molécula de agua». El recuadro de abajo (C=O unido a N–H) es el enlace peptídico del dipéptido."
+      },
+      {
+       "tipo": "texto",
+       "md": "Como se libera agua, es una reacción de **condensación**. El proceso inverso, romper el enlace peptídico agregando agua, es la **hidrólisis**: lo que hacen las proteínas digestivas con las proteínas de los alimentos.",
+       "extra": true
+      },
+      {
+       "tipo": "clave",
+       "md": "Cada posición en un péptido se denomina **residuo de aminoácido**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Número de residuos",
+        "Nombre"
+       ],
+       "filas": [
+        [
+         "2",
+         "Dipéptido"
+        ],
+        [
+         "3",
+         "Tripéptido"
+        ],
+        [
+         "4",
+         "Tetrapéptido"
+        ],
+        [
+         "2 a 10",
+         "Oligopéptido"
+        ],
+        [
+         "Más de 10",
+         "Polipéptido"
+        ],
+        [
+         "Menos de 50",
+         "Péptido no proteico (pág. 27)"
+        ],
+        [
+         "50 o más",
+         "Proteína (pág. 27)"
+        ]
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Escalera de tamaños: **oligo** (2–10) → **poli** (más de 10) → **proteína** (50 o más). «Oligo» = pocos; «poli» = muchos."
+      },
+      {
+       "tipo": "texto",
+       "md": "Todo péptido conserva un **extremo amino libre (N-terminal)** y un **extremo carboxilo libre (C-terminal)**; por convención la secuencia se escribe del N-terminal al C-terminal.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-4",
+     "titulo": "Clasificación funcional de las proteínas",
+     "paginas": [
+      36,
+      39
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Según su **base funcional**, el material enlista **15 tipos** de proteínas. En las diapositivas vienen resaltados el nombre de cada tipo y su ejemplo:"
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "#",
+        "Tipo",
+        "Qué hacen / ejemplo"
+       ],
+       "filas": [
+        [
+         "1",
+         "Catalíticas",
+         "Son enzimas que aceleran y regulan las reacciones"
+        ],
+        [
+         "2",
+         "Estructurales",
+         "Dan una base molecular a las diversas partes del organismo; ej. colágeno del tejido conjuntivo"
+        ],
+        [
+         "3",
+         "Contráctiles",
+         "Pueden estirarse o encogerse en forma reversible"
+        ],
+        [
+         "4",
+         "De defensa natural",
+         "Anticuerpos de la fracción gammaglobulínica de la sangre; interferón (conjunto de proteínas de defensa antiviral)"
+        ],
+        [
+         "5",
+         "Digestivas",
+         "Catalizan la degradación de los alimentos de la dieta"
+        ],
+        [
+         "6",
+         "De transporte",
+         "Hemoglobina, que lleva el oxígeno en la sangre"
+        ],
+        [
+         "7",
+         "Sanguíneas",
+         "Fibrinógeno, participa en la coagulación"
+        ],
+        [
+         "8",
+         "Respiratorias",
+         "Citocromos, transportan electrones a aceptores como el oxígeno"
+        ],
+        [
+         "9",
+         "Represoras",
+         "Regulan la expresión de los genes en los cromosomas"
+        ],
+        [
+         "10",
+         "Receptoras",
+         "Están en la membrana celular"
+        ],
+        [
+         "11",
+         "Ribosomales",
+         "Junto con el ARN forman los ribosomas"
+        ],
+        [
+         "12",
+         "De almacenamiento",
+         "Energía nutricional y almacenamiento de aminoácidos"
+        ],
+        [
+         "13",
+         "Tóxicas o toxinas",
+         "Provienen del veneno de los reptiles venenosos"
+        ],
+        [
+         "14",
+         "De la visión",
+         "Rodopsina, en los fenómenos moleculares de la visión"
+        ],
+        [
+         "15",
+         "Cromosómicas",
+         "Asociadas con el ADN en el núcleo"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "Parejas ejemplo → tipo que más se preguntan: **enzimas** = catalíticas · **colágeno** = estructural · **anticuerpos / interferón** = defensa · **hemoglobina** = transporte · **fibrinógeno** = sanguínea (coagulación) · **citocromos** = respiratorias · **rodopsina** = visión."
+      },
+      {
+       "tipo": "truco",
+       "md": "No las confundas: la **hemoglobina** (lleva O₂) es de **transporte**, pero los **citocromos** (pasan electrones al O₂) son **respiratorias**. Las **ribosomales** van con **ARN**; las **cromosómicas**, con **ADN**."
+      },
+      {
+       "tipo": "texto",
+       "md": "La pág. 39 (apunte) abre el tema de **enzimas** con una sola palabra debajo del título: **«Proteínas»**. O sea: **las enzimas son proteínas** (las catalíticas de esta lista). Su estudio a fondo está en el tema de enzimas."
+      },
+      {
+       "tipo": "clinica",
+       "md": "En odontología: el **colágeno** forma la encía, el ligamento periodontal, la dentina y el hueso; el **fibrinógeno** es clave para formar el coágulo después de una extracción; y los **anticuerpos** (inmunoglobulinas) también están en la saliva como defensa.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-5",
+     "titulo": "Clasificación por composición y por forma",
+     "paginas": [
+      58,
+      60
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La pág. 58 abre el bloque **«Proteínas y enzimas»**. Además de por su función, las proteínas se clasifican por su **composición** y por su **estructura tridimensional (forma)**."
+      },
+      {
+       "tipo": "clave",
+       "md": "Por **composición**: las **conjugadas** constan de un **grupo no peptídico, orgánico o inorgánico**, llamado **grupo prostético**; las **no conjugadas** son las que **carecen** de grupo prostético."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Proteína conjugada",
+        "Grupo prostético"
+       ],
+       "filas": [
+        [
+         "Glicoproteínas",
+         "Carbohidratos"
+        ],
+        [
+         "Metaloproteínas",
+         "Un ion metálico"
+        ],
+        [
+         "Hemoproteínas",
+         "Un grupo hemínico (hemo)"
+        ],
+        [
+         "Flavoproteínas",
+         "Un grupo flavínico"
+        ],
+        [
+         "Fosfoproteínas",
+         "Fosfato"
+        ],
+        [
+         "Lipoproteínas",
+         "Un lípido"
+        ]
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Apunte de clase: «conjugadas: grupo prostético = **6**». El prefijo te dice el grupo: **glico**-azúcar, **metalo**-metal, **hemo**-hemo, **flavo**-flavina, **fosfo**-fosfato, **lipo**-lípido."
+      },
+      {
+       "tipo": "texto",
+       "md": "A las no conjugadas también se les llama **proteínas simples** (solo aminoácidos). Ejemplos de conjugadas: hemoglobina (hemoproteína), caseína de la leche (fosfoproteína), HDL y LDL (lipoproteínas) y las mucinas de la saliva (glicoproteínas).",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Por su **estructura tridimensional** se dividen en **fibrosas** y **globulares**:"
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Característica",
+        "Fibrosas",
+        "Globulares"
+       ],
+       "filas": [
+        [
+         "Forma",
+         "Muy alargada, semejante a un hilo",
+         "Compacta, semejante a un globo (desde una esfera hasta una elipse)"
+        ],
+        [
+         "Organización",
+         "Compuestas de dos o más cadenas polipeptídicas",
+         "Patrón de pliegues y torsiones muy ordenado a lo largo de la cadena"
+        ],
+        [
+         "Peso molecular",
+         "Muy elevado",
+         "El material no lo especifica"
+        ],
+        [
+         "Solubilidad en agua",
+         "Por lo general insolubles",
+         "Mucho más solubles"
+        ],
+        [
+         "Ejemplo",
+         "Colágeno",
+         "Todas las enzimas"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "**Fibrosa** = hilo, insoluble, colágeno. **Globular** = globo compacto, soluble, enzimas."
+      },
+      {
+       "tipo": "clinica",
+       "md": "El colágeno (fibrosa, insoluble) da resistencia a la encía, el ligamento periodontal y la dentina; las enzimas de la saliva, como la amilasa, son globulares y por eso se disuelven en ella.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-6",
+     "titulo": "Niveles de estructura: primaria a cuaternaria",
+     "paginas": [
+      61,
+      64
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "De acuerdo a su estructura, es común referirse a **4 niveles** de estructura en una molécula proteica:"
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Los 4 niveles",
+       "items": [
+        {
+         "nombre": "a) Primario",
+         "detalle": "Identidad de los aminoácidos presentes, la cantidad relativa de cada aminoácido y la secuencia aminoacídica exacta de las cadenas polipeptídicas."
+        },
+        {
+         "nombre": "b) Secundario",
+         "detalle": "Orientación geométrica de la cadena polipeptídica que actúa como esqueleto del polímero; ej. hélice α y lámina β plegada (figura pág. 64)."
+        },
+        {
+         "nombre": "c) Terciario",
+         "detalle": "Completa arquitectura tridimensional de la proteína, incluyendo la orientación de cualquier grupo prostético (el «péptido individual doblado»)."
+        },
+        {
+         "nombre": "d) Cuaternario",
+         "detalle": "Agregación no covalente de dos o más cadenas polipeptídicas («agregados de dos o más péptidos»)."
+        }
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "**Los primeros tres niveles se aplican a todas las proteínas, y el cuarto (cuaternario) solo a algunas**: las formadas por dos o más cadenas."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 63,
+       "pie": "Los 4 niveles: primaria (secuencia de aminoácidos, como cuentas de un collar), secundaria (hélice), terciaria (péptido individual doblado) y cuaternaria (agregados de dos o más péptidos)."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 64,
+       "pie": "Otra vista: de la secuencia (primary structure) salen la lámina β plegada y la hélice α (secondary), que se pliegan en la terciaria y se agrupan en la cuaternaria. Apunte: «los aminoácidos forman las proteínas»."
+      },
+      {
+       "tipo": "truco",
+       "md": "1ª = **qué** aminoácidos y en **qué orden** · 2ª = cómo se **enrolla** el esqueleto (hélice/lámina) · 3ª = cómo se **dobla toda** la cadena en 3D · 4ª = cómo se **juntan varias** cadenas."
+      },
+      {
+       "tipo": "texto",
+       "md": "Ejemplo clásico: la **hemoglobina** (4 cadenas) tiene estructura cuaternaria; la **mioglobina** (una sola cadena) llega solo hasta la terciaria.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-7",
+     "titulo": "Fuerzas que estabilizan la estructura terciaria",
+     "paginas": [
+      65,
+      66
+     ],
+     "bloques": [
+      {
+       "tipo": "clave",
+       "md": "La estabilización de la **estructura terciaria** se debe **principalmente a interacciones no covalentes**."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Las 5 interacciones que la estabilizan",
+       "items": [
+        {
+         "nombre": "1. Atracción ion-ion",
+         "detalle": "Entre cadenas laterales con grupos iónicos de carga opuesta, como lisina y arginina (+) con ácido glutámico y ácido aspártico (−)."
+        },
+        {
+         "nombre": "2. Puentes de hidrógeno (1)",
+         "detalle": "Según el material, «entre uniones peptídicas», como los que hay entre residuos de tirosina y ácido glutámico."
+        },
+        {
+         "nombre": "3. Puentes de hidrógeno (2)",
+         "detalle": "Entre enlaces peptídicos de las regiones helicoidales y entre diferentes segmentos tipo lámina plegada de la cadena."
+        },
+        {
+         "nombre": "4. Interacciones hidrofóbicas",
+         "detalle": "Entre las cadenas laterales no polares."
+        },
+        {
+         "nombre": "5. Interacción con el grupo prostético",
+         "detalle": "Por ejemplo, entre un ion metálico y diversos grupos R."
+        }
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Conéctalo con las clasificaciones: la atracción **ion-ion** usa a los **ácidos** (aspártico, glutámico) y **básicos** (lisina, arginina); la **hidrofóbica**, a los **no polares** (alanina, valina, leucina, isoleucina, metionina, fenilalanina, triptófano, prolina)."
+      },
+      {
+       "tipo": "texto",
+       "md": "Los libros de texto agregan una unión **covalente**: el **puente disulfuro** (–S–S–) entre dos cisteínas, que refuerza la estructura terciaria (por ejemplo, en la queratina del cabello). El material no lo menciona.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Las interacciones hidrofóbicas hacen que los grupos R no polares se escondan en el interior de la proteína globular, lejos del agua, mientras los polares quedan en la superficie.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "prot-8",
+     "titulo": "Desnaturalización de proteínas",
+     "paginas": [
+      67,
+      68
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La **conformación nativa** de una proteína globular es un estado **muy delicado**, sujeto a alteración por **agentes químicos o físicos** (o ambos), **sin ningún cambio en la secuencia de aminoácidos**. La pérdida de la conformación nativa se denomina **desnaturalización**."
+      },
+      {
+       "tipo": "clave",
+       "md": "Desnaturalizar = perder la **forma** y, con ella, la **actividad biológica**, pero **no la secuencia**: la estructura primaria (los enlaces peptídicos) se conserva."
+      },
+      {
+       "tipo": "texto",
+       "md": "En algunos casos el proceso es **reversible**: puede restaurarse la conformación nativa y la actividad biológica. A eso se le llama **renaturalización** («vuelve a ser activa»)."
+      },
+      {
+       "tipo": "texto",
+       "md": "Agentes desnaturalizantes que menciona el esquema de la pág. 68:"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "pH",
+        "Temperatura",
+        "Solubilidad",
+        "… (el esquema deja la lista abierta: hay más agentes químicos y físicos)"
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 68,
+       "pie": "Ciclo: proteína normal → desnaturalización (pérdida de la actividad biológica) → proteína desnaturalizada (cadena desenrollada); de regreso, la renaturalización hace que vuelva a ser activa. Agentes: pH, temperatura, solubilidad…"
+      },
+      {
+       "tipo": "clinica",
+       "md": "Apunte de clase (pág. 67): el profesor usó como ejemplo de desnaturalización **el cabello y sus proteínas**."
+      },
+      {
+       "tipo": "clinica",
+       "md": "La queratina del cabello cambia de forma con calor (plancha, secadora) o químicos (permanente, alaciado) porque se rompen y reacomodan puentes de hidrógeno y disulfuro, sin tocar la secuencia. En el consultorio pasa algo parecido al esterilizar con calor (autoclave): se desnaturalizan las proteínas de los microorganismos.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "El material remite a la **pág. 139** del libro de texto del curso para ampliar este punto."
+      }
+     ]
+    }
+   ],
+   "figuras": [
+    {
+     "pagina": 28,
+     "pie": "Fórmula general de un aminoácido: carbono α con H, grupo amino, grupo carboxilo y grupo R.",
+     "seccion": "prot-1"
+    },
+    {
+     "pagina": 29,
+     "pie": "El grupo R más simple (glicina, R = H) frente a uno complejo (arginina, grupo guanidina).",
+     "seccion": "prot-1"
+    },
+    {
+     "pagina": 34,
+     "pie": "Reacción de formación del enlace peptídico: carboxilo del aminoácido 1 + amino del aminoácido 2 → dipéptido + H₂O.",
+     "seccion": "prot-3"
+    },
+    {
+     "pagina": 63,
+     "pie": "Los 4 niveles de estructura: primaria, secundaria (hélice), terciaria (péptido doblado) y cuaternaria (agregado de varias cadenas).",
+     "seccion": "prot-6"
+    },
+    {
+     "pagina": 64,
+     "pie": "De la secuencia a la hélice α y la lámina β plegada, luego a la terciaria y la cuaternaria.",
+     "seccion": "prot-6"
+    },
+    {
+     "pagina": 68,
+     "pie": "Desnaturalización (pérdida de actividad por pH, temperatura, solubilidad…) y renaturalización (vuelve a ser activa).",
+     "seccion": "prot-8"
+    }
+   ],
+   "glosario": [
+    {
+     "termino": "Aminoácido",
+     "definicion": "Monómero de las proteínas: carbono α con H, grupo amino, grupo carboxilo y grupo R."
+    },
+    {
+     "termino": "Carbono α",
+     "definicion": "Átomo de carbono central del aminoácido, al que se unen el H, el amino, el carboxilo y el R."
+    },
+    {
+     "termino": "Grupo R (cadena lateral)",
+     "definicion": "Parte variable del aminoácido; define su identidad y propiedades (polaridad, carga)."
+    },
+    {
+     "termino": "Grupo guanidina",
+     "definicion": "Grupo nitrogenado complejo presente en el R de la arginina."
+    },
+    {
+     "termino": "Enlace peptídico",
+     "definicion": "Enlace amida (–CO–NH–) entre el α-carboxilo de un aminoácido y el α-amino del siguiente."
+    },
+    {
+     "termino": "Péptido / polipéptido",
+     "definicion": "Sustancia formada por aminoácidos unidos por enlaces peptídicos; polipéptido si tiene más de 10 residuos."
+    },
+    {
+     "termino": "Péptido no proteico",
+     "definicion": "Péptido de menos de 50 aminoácidos, demasiado pequeño para llamarse proteína."
+    },
+    {
+     "termino": "Residuo de aminoácido",
+     "definicion": "Cada posición (cada aminoácido) dentro de un péptido."
+    },
+    {
+     "termino": "Oligopéptido",
+     "definicion": "Péptido de 2 a 10 residuos (dipéptido, tripéptido, tetrapéptido…)."
+    },
+    {
+     "termino": "Aminoácido esencial",
+     "definicion": "El que los humanos no pueden producir y debe obtenerse de la dieta."
+    },
+    {
+     "termino": "Aminoácido no polar",
+     "definicion": "Aminoácido con grupo R hidrofóbico (ej. alanina, valina, leucina)."
+    },
+    {
+     "termino": "Grupo prostético",
+     "definicion": "Grupo no peptídico, orgánico o inorgánico, unido a una proteína conjugada."
+    },
+    {
+     "termino": "Proteína conjugada",
+     "definicion": "Proteína con grupo prostético (glico-, metalo-, hemo-, flavo-, fosfo- o lipoproteína)."
+    },
+    {
+     "termino": "Proteína no conjugada",
+     "definicion": "Proteína que carece de grupo prostético."
+    },
+    {
+     "termino": "Proteína fibrosa",
+     "definicion": "Proteína alargada como hilo, de peso molecular muy alto y por lo general insoluble (ej. colágeno)."
+    },
+    {
+     "termino": "Proteína globular",
+     "definicion": "Proteína compacta en forma de globo, mucho más soluble en agua (ej. las enzimas)."
+    },
+    {
+     "termino": "Estructura primaria",
+     "definicion": "Identidad, cantidad relativa y secuencia exacta de los aminoácidos de la cadena."
+    },
+    {
+     "termino": "Estructura secundaria",
+     "definicion": "Orientación geométrica de la cadena que actúa como esqueleto (hélice α, lámina β)."
+    },
+    {
+     "termino": "Estructura terciaria",
+     "definicion": "Arquitectura tridimensional completa de la proteína, incluido su grupo prostético."
+    },
+    {
+     "termino": "Estructura cuaternaria",
+     "definicion": "Agregación no covalente de dos o más cadenas polipeptídicas."
+    },
+    {
+     "termino": "Hélice α",
+     "definicion": "Estructura secundaria en espiral, estabilizada por puentes de hidrógeno entre enlaces peptídicos."
+    },
+    {
+     "termino": "Lámina β plegada",
+     "definicion": "Estructura secundaria en forma de hoja plegada, con segmentos de cadena unidos por puentes de hidrógeno."
+    },
+    {
+     "termino": "Interacción hidrofóbica",
+     "definicion": "Asociación entre cadenas laterales no polares que se alejan del agua."
+    },
+    {
+     "termino": "Conformación nativa",
+     "definicion": "Forma tridimensional normal y funcional de una proteína."
+    },
+    {
+     "termino": "Desnaturalización",
+     "definicion": "Pérdida de la conformación nativa por agentes físicos o químicos, sin cambiar la secuencia."
+    },
+    {
+     "termino": "Renaturalización",
+     "definicion": "Recuperación de la conformación nativa y de la actividad biológica tras desnaturalizarse."
+    },
+    {
+     "termino": "Fracción gammaglobulínica",
+     "definicion": "Fracción de las proteínas de la sangre donde están los anticuerpos."
+    },
+    {
+     "termino": "Interferón",
+     "definicion": "Conjunto de proteínas de defensa antiviral."
+    },
+    {
+     "termino": "Citocromos",
+     "definicion": "Proteínas respiratorias que transportan electrones a aceptores como el oxígeno."
+    },
+    {
+     "termino": "Rodopsina",
+     "definicion": "Proteína de la visión."
+    },
+    {
+     "termino": "Fibrinógeno",
+     "definicion": "Proteína sanguínea que participa en la coagulación."
+    }
+   ],
+   "tarjetas": [
+    {
+     "id": "prot-t1",
+     "frente": "¿Qué son las proteínas desde el punto de vista químico?",
+     "reverso": "Polímeros de aminoácidos (monómeros) unidos sucesivamente por enlaces peptídicos.",
+     "seccion": "prot-1"
+    },
+    {
+     "id": "prot-t2",
+     "frente": "¿A partir de cuántos aminoácidos un polipéptido se considera proteína?",
+     "reverso": "Con 50 o más. Los más pequeños se llaman péptidos no proteicos.",
+     "seccion": "prot-1"
+    },
+    {
+     "id": "prot-t3",
+     "frente": "¿Cuántos aminoácidos se conocen en la naturaleza y cómo se encuentran?",
+     "reverso": "Más de 300; libres (disueltos en el protoplasma) o unidos covalentemente con otros aminoácidos.",
+     "seccion": "prot-1"
+    },
+    {
+     "id": "prot-t4",
+     "frente": "¿Qué cuatro cosas van unidas al carbono α de un aminoácido?",
+     "reverso": "Un átomo de H, el grupo amino (–NH₂), el grupo carboxilo (–COOH) y el grupo R (cadena lateral).",
+     "seccion": "prot-1"
+    },
+    {
+     "id": "prot-t5",
+     "frente": "¿Qué aminoácido tiene el grupo R más sencillo y cuál es ese R?",
+     "reverso": "La glicina; su R es un solo átomo de hidrógeno.",
+     "seccion": "prot-1"
+    },
+    {
+     "id": "prot-t6",
+     "frente": "¿Qué grupo complejo tiene la arginina en su cadena lateral?",
+     "reverso": "El grupo guanidina.",
+     "seccion": "prot-1"
+    },
+    {
+     "id": "prot-t7",
+     "frente": "¿Cuáles son las 4 clasificaciones de los aminoácidos?",
+     "reverso": "Por composición química del R, por polaridad, por ionización del R y por requerimiento en la dieta.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t8",
+     "frente": "¿Cuáles son los 7 grupos por composición química del R?",
+     "reverso": "Alifáticos, hidroxilados, azufrados, aromáticos, ácidos, básicos e imino.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t9",
+     "frente": "¿Cuáles son los 8 aminoácidos no polares del material?",
+     "reverso": "Alanina, valina, leucina, isoleucina, metionina, fenilalanina, triptófano y prolina («Ana Ve La Isla, Mira Fotos Tristes y Piensa»).",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t10",
+     "frente": "Según la ionización del grupo R, ¿cuáles son los aminoácidos básicos?",
+     "reverso": "Arginina, lisina e histidina.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t11",
+     "frente": "Según la ionización del grupo R, ¿cuáles son ácidos en el material?",
+     "reverso": "Ácido aspártico, ácido glutámico, cisteína y tirosina.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t12",
+     "frente": "¿Qué es un aminoácido esencial?",
+     "reverso": "El que los humanos no pueden producir; hay que obtenerlo de la dieta.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t13",
+     "frente": "¿Cuáles son los 10 aminoácidos esenciales del material?",
+     "reverso": "Treonina, metionina, valina, leucina, isoleucina, fenilalanina, triptófano, lisina, arginina e histidina.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t14",
+     "frente": "¿Tirosina y cisteína son esenciales según el material?",
+     "reverso": "No: las dos están en la lista de no esenciales.",
+     "seccion": "prot-2"
+    },
+    {
+     "id": "prot-t15",
+     "frente": "¿Entre qué grupos se forma el enlace peptídico?",
+     "reverso": "Entre el grupo α-carboxilo de un aminoácido y el grupo α-amino del siguiente; es un enlace amida.",
+     "seccion": "prot-3"
+    },
+    {
+     "id": "prot-t16",
+     "frente": "¿Qué se libera al formarse un enlace peptídico?",
+     "reverso": "Una molécula de agua: el –OH del carboxilo de un aminoácido más un H del amino del otro.",
+     "seccion": "prot-3"
+    },
+    {
+     "id": "prot-t17",
+     "frente": "¿Qué es un residuo de aminoácido?",
+     "reverso": "Cada posición (cada aminoácido) dentro de un péptido.",
+     "seccion": "prot-3"
+    },
+    {
+     "id": "prot-t18",
+     "frente": "Oligopéptido vs. polipéptido",
+     "reverso": "Oligopéptido: de 2 a 10 residuos. Polipéptido: más de 10 residuos.",
+     "seccion": "prot-3"
+    },
+    {
+     "id": "prot-t19",
+     "frente": "¿Cuántos tipos funcionales de proteínas enlista el material?",
+     "reverso": "15.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t20",
+     "frente": "Proteínas catalíticas",
+     "reverso": "Son las enzimas: aceleran y regulan las reacciones.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t21",
+     "frente": "Ejemplo de proteína estructural y dónde se encuentra",
+     "reverso": "El colágeno, en el tejido conjuntivo.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t22",
+     "frente": "Ejemplos de proteínas de defensa natural",
+     "reverso": "Los anticuerpos (fracción gammaglobulínica de la sangre) y el interferón (defensa antiviral).",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t23",
+     "frente": "Proteínas contráctiles",
+     "reverso": "Pueden estirarse o encogerse en forma reversible.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t24",
+     "frente": "Hemoglobina, fibrinógeno y citocromos: ¿qué tipo funcional es cada una?",
+     "reverso": "Hemoglobina = transporte (O₂); fibrinógeno = sanguínea (coagulación); citocromos = respiratorias (transporte de electrones).",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t25",
+     "frente": "Rodopsina",
+     "reverso": "Proteína de la visión.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t26",
+     "frente": "Proteínas ribosomales vs. cromosómicas",
+     "reverso": "Ribosomales: con el ARN forman los ribosomas. Cromosómicas: asociadas con el ADN en el núcleo.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t27",
+     "frente": "Proteínas tóxicas y de almacenamiento",
+     "reverso": "Toxinas: del veneno de reptiles venenosos. Almacenamiento: energía nutricional y reserva de aminoácidos.",
+     "seccion": "prot-4"
+    },
+    {
+     "id": "prot-t28",
+     "frente": "¿Qué es un grupo prostético?",
+     "reverso": "Un grupo no peptídico, orgánico o inorgánico, que forma parte de una proteína conjugada.",
+     "seccion": "prot-5"
+    },
+    {
+     "id": "prot-t29",
+     "frente": "Los 6 tipos de proteínas conjugadas y su grupo prostético",
+     "reverso": "Glico (carbohidratos), metalo (ion metálico), hemo (grupo hemínico), flavo (grupo flavínico), fosfo (fosfato) y lipo (lípido).",
+     "seccion": "prot-5"
+    },
+    {
+     "id": "prot-t30",
+     "frente": "¿Qué son las proteínas no conjugadas?",
+     "reverso": "Las que carecen de grupo prostético.",
+     "seccion": "prot-5"
+    },
+    {
+     "id": "prot-t31",
+     "frente": "Características de las proteínas fibrosas",
+     "reverso": "Alargadas como hilo, peso molecular muy elevado, dos o más cadenas, por lo general insolubles en agua. Ej. colágeno.",
+     "seccion": "prot-5"
+    },
+    {
+     "id": "prot-t32",
+     "frente": "Características de las proteínas globulares",
+     "reverso": "Compactas (pliegues y torsiones ordenados), forma de globo (esfera a elipse), mucho más solubles en agua. Ej. todas las enzimas.",
+     "seccion": "prot-5"
+    },
+    {
+     "id": "prot-t33",
+     "frente": "Estructura primaria",
+     "reverso": "Identidad de los aminoácidos, cantidad relativa de cada uno y secuencia exacta de la cadena.",
+     "seccion": "prot-6"
+    },
+    {
+     "id": "prot-t34",
+     "frente": "Estructura secundaria",
+     "reverso": "Orientación geométrica de la cadena polipeptídica que actúa como esqueleto (hélice α, lámina β plegada).",
+     "seccion": "prot-6"
+    },
+    {
+     "id": "prot-t35",
+     "frente": "Estructura terciaria",
+     "reverso": "Arquitectura tridimensional completa, incluida la orientación de cualquier grupo prostético.",
+     "seccion": "prot-6"
+    },
+    {
+     "id": "prot-t36",
+     "frente": "Estructura cuaternaria",
+     "reverso": "Agregación no covalente de dos o más cadenas polipeptídicas; solo la tienen algunas proteínas.",
+     "seccion": "prot-6"
+    },
+    {
+     "id": "prot-t37",
+     "frente": "¿Qué tipo de interacciones estabilizan principalmente la estructura terciaria?",
+     "reverso": "Interacciones no covalentes.",
+     "seccion": "prot-7"
+    },
+    {
+     "id": "prot-t38",
+     "frente": "Las 5 interacciones que estabilizan la terciaria",
+     "reverso": "Atracción ion-ion, puentes de H (entre uniones peptídicas, p. ej. tirosina–glutámico), puentes de H en hélices y láminas, interacciones hidrofóbicas e interacción con el grupo prostético.",
+     "seccion": "prot-7"
+    },
+    {
+     "id": "prot-t39",
+     "frente": "¿Entre qué aminoácidos se dan las atracciones ion-ion?",
+     "reverso": "Entre cadenas con carga opuesta: lisina y arginina con ácido glutámico y ácido aspártico.",
+     "seccion": "prot-7"
+    },
+    {
+     "id": "prot-t40",
+     "frente": "¿Entre qué cadenas laterales se dan las interacciones hidrofóbicas?",
+     "reverso": "Entre las cadenas laterales no polares.",
+     "seccion": "prot-7"
+    },
+    {
+     "id": "prot-t41",
+     "frente": "¿Qué es la desnaturalización?",
+     "reverso": "La pérdida de la conformación nativa por agentes químicos o físicos, sin cambio en la secuencia de aminoácidos; se pierde la actividad biológica.",
+     "seccion": "prot-8"
+    },
+    {
+     "id": "prot-t42",
+     "frente": "¿La desnaturalización es reversible?",
+     "reverso": "En algunos casos sí: la renaturalización restaura la conformación nativa y la actividad biológica.",
+     "seccion": "prot-8"
+    },
+    {
+     "id": "prot-t43",
+     "frente": "Agentes desnaturalizantes del esquema",
+     "reverso": "pH, temperatura, solubilidad… (agentes físicos y químicos).",
+     "seccion": "prot-8"
+    }
+   ],
+   "preguntas": [
+    {
+     "id": "prot-q1",
+     "tipo": "opcion",
+     "seccion": "prot-1",
+     "dificultad": 1,
+     "pagina": 27,
+     "enunciado": "Según el material, ¿a partir de cuántas unidades de aminoácidos un polipéptido entra en la categoría de proteína?",
+     "opciones": [
+      "10 o más",
+      "50 o más",
+      "20 o más",
+      "100 o más"
+     ],
+     "correcta": 1,
+     "explicacion": "Con 50 o más aminoácidos el polipéptido ya es proteína; los más pequeños son péptidos no proteicos. La trampa es «más de 10»: ese es el límite para llamarlo polipéptido (pág. 35), no proteína."
+    },
+    {
+     "id": "prot-q2",
+     "tipo": "opcion",
+     "seccion": "prot-1",
+     "dificultad": 2,
+     "pagina": 28,
+     "enunciado": "En la fórmula general de un aminoácido, ¿qué parte unida al carbono α es la que cambia de un aminoácido a otro?",
+     "opciones": [
+      "El grupo amino (–NH₂)",
+      "El grupo carboxilo (–COOH)",
+      "El grupo R (cadena lateral)",
+      "El átomo de hidrógeno"
+     ],
+     "correcta": 2,
+     "explicacion": "Todos los aminoácidos comparten el carbono α con H, grupo amino y grupo carboxilo; lo único que varía es el grupo R, que va desde un H (glicina) hasta el grupo guanidina (arginina)."
+    },
+    {
+     "id": "prot-q3",
+     "tipo": "opcion",
+     "seccion": "prot-1",
+     "dificultad": 1,
+     "pagina": 29,
+     "enunciado": "¿Qué aminoácido tiene como grupo R un solo átomo de hidrógeno?",
+     "opciones": [
+      "Alanina",
+      "Arginina",
+      "Prolina",
+      "Glicina"
+     ],
+     "correcta": 3,
+     "explicacion": "La glicina es el aminoácido más sencillo: su R es un átomo de H. La arginina es el ejemplo opuesto del material, con un R complejo (grupo guanidina)."
+    },
+    {
+     "id": "prot-q4",
+     "tipo": "vf",
+     "seccion": "prot-1",
+     "dificultad": 1,
+     "pagina": 28,
+     "enunciado": "Los aminoácidos pueden encontrarse libres, disueltos en el protoplasma, o unidos covalentemente con otros aminoácidos.",
+     "correcta": true,
+     "explicacion": "Así lo dice el material: de los más de 300 aminoácidos conocidos, unos están libres como moléculas individuales y otros unidos covalentemente formando péptidos."
+    },
+    {
+     "id": "prot-q5",
+     "tipo": "completar",
+     "seccion": "prot-1",
+     "dificultad": 1,
+     "pagina": 28,
+     "enunciado": "El átomo central de un aminoácido, al que se unen el H, el grupo amino, el grupo carboxilo y el grupo R, es el carbono ___.",
+     "respuestas": [
+      "alfa",
+      "α"
+     ],
+     "explicacion": "Es el carbono α; por eso se habla del grupo α-amino y del grupo α-carboxilo."
+    },
+    {
+     "id": "prot-q6",
+     "tipo": "completar",
+     "seccion": "prot-1",
+     "dificultad": 1,
+     "pagina": 29,
+     "enunciado": "El grupo R complejo que usa el material como ejemplo es el grupo guanidina de la ___.",
+     "respuestas": [
+      "arginina"
+     ],
+     "explicacion": "La arginina tiene un R largo que termina en el grupo guanidina; es el extremo «complejo», frente a la glicina (R = H)."
+    },
+    {
+     "id": "prot-q7",
+     "tipo": "opcion",
+     "seccion": "prot-2",
+     "dificultad": 2,
+     "pagina": 31,
+     "enunciado": "¿Cuál de estos grupos contiene SOLO aminoácidos no polares según el material?",
+     "opciones": [
+      "Alanina, valina, leucina y prolina",
+      "Serina, treonina, cisteína y tirosina",
+      "Lisina, arginina, histidina y glicina",
+      "Metionina, fenilalanina, glutamina y asparagina"
+     ],
+     "correcta": 0,
+     "explicacion": "Los 8 no polares del material son alanina, valina, leucina, isoleucina, metionina, fenilalanina, triptófano y prolina. La última opción es la trampa: metionina y fenilalanina sí son no polares, pero glutamina y asparagina son polares."
+    },
+    {
+     "id": "prot-q8",
+     "tipo": "opcion",
+     "seccion": "prot-2",
+     "dificultad": 2,
+     "pagina": 32,
+     "enunciado": "Según la ionización del grupo R, ¿qué trío corresponde a los aminoácidos básicos?",
+     "opciones": [
+      "Ácido aspártico, ácido glutámico y cisteína",
+      "Arginina, lisina e histidina",
+      "Glicina, alanina y valina",
+      "Serina, treonina y asparagina"
+     ],
+     "correcta": 1,
+     "explicacion": "Los únicos básicos de la tabla son arginina, lisina e histidina («HAL»). Aspártico, glutámico y cisteína están en la columna de ácidos; los demás son neutros."
+    },
+    {
+     "id": "prot-q9",
+     "tipo": "opcion",
+     "seccion": "prot-2",
+     "dificultad": 3,
+     "pagina": 32,
+     "enunciado": "En la tabla de ionización del material, ¿cuál de estos aminoácidos aparece como ÁCIDO aunque su nombre no lo diga?",
+     "opciones": [
+      "Histidina",
+      "Treonina",
+      "Tirosina",
+      "Glutamina"
+     ],
+     "correcta": 2,
+     "explicacion": "Los ácidos del material son ácido aspártico, ácido glutámico, cisteína y tirosina. La glutamina es la trampa: se parece al ácido glutámico, pero aparece como neutra. La histidina es básica y la treonina, neutra."
+    },
+    {
+     "id": "prot-q10",
+     "tipo": "opcion",
+     "seccion": "prot-2",
+     "dificultad": 1,
+     "pagina": 33,
+     "enunciado": "¿Qué significa que un aminoácido sea esencial?",
+     "opciones": [
+      "Que es indispensable para formar el enlace peptídico",
+      "Que es el más abundante en todas las proteínas",
+      "Que solo puede producirlo el hígado a partir de glucosa",
+      "Que los humanos no pueden producirlo y debe venir de la dieta"
+     ],
+     "correcta": 3,
+     "explicacion": "La clasificación por requerimiento en la dieta define a los esenciales como los que los humanos no pueden producir; los no esenciales sí los producimos. «Esencial» no se refiere a importancia ni a abundancia."
+    },
+    {
+     "id": "prot-q11",
+     "tipo": "opcion",
+     "seccion": "prot-2",
+     "dificultad": 2,
+     "pagina": 33,
+     "enunciado": "¿Cuál de los siguientes es un aminoácido ESENCIAL según el material?",
+     "opciones": [
+      "Histidina",
+      "Tirosina",
+      "Glutamina",
+      "Alanina"
+     ],
+     "correcta": 0,
+     "explicacion": "La histidina está en la lista de 10 esenciales. Tirosina, glutamina y alanina están en la de no esenciales. Ojo: la tirosina es aromática como la fenilalanina, pero solo la fenilalanina es esencial."
+    },
+    {
+     "id": "prot-q12",
+     "tipo": "opcion",
+     "seccion": "prot-2",
+     "dificultad": 3,
+     "pagina": 33,
+     "enunciado": "Una paciente con una dieta muy pobre en proteínas cicatriza mal la encía tras una cirugía periodontal. ¿Qué grupo de aminoácidos depende POR COMPLETO de lo que ella coma?",
+     "opciones": [
+      "Glicina, alanina, serina y prolina",
+      "Treonina, lisina, triptófano y metionina",
+      "Ácido aspártico, ácido glutámico, asparagina y glutamina",
+      "Cisteína, tirosina, glicina y glutamina"
+     ],
+     "correcta": 1,
+     "explicacion": "Treonina, lisina, triptófano y metionina son esenciales: el cuerpo no los produce, así que solo llegan por la dieta. Los de las otras opciones son no esenciales y el organismo puede fabricarlos.",
+     "caso": true
+    },
+    {
+     "id": "prot-q13",
+     "tipo": "vf",
+     "seccion": "prot-2",
+     "dificultad": 2,
+     "pagina": 31,
+     "enunciado": "Según el material, la glicina se clasifica como aminoácido no polar.",
+     "correcta": false,
+     "explicacion": "En la tabla de polaridad del material la glicina aparece en la columna de polares. (Algunos libros la ponen como no polar por su R = H; para el examen sigue al material.)"
+    },
+    {
+     "id": "prot-q14",
+     "tipo": "vf",
+     "seccion": "prot-2",
+     "dificultad": 1,
+     "pagina": 33,
+     "enunciado": "Según el material, la arginina es un aminoácido esencial.",
+     "correcta": true,
+     "explicacion": "La arginina está en la lista de 10 esenciales del material, junto con la histidina y la lisina."
+    },
+    {
+     "id": "prot-q15",
+     "tipo": "completar",
+     "seccion": "prot-2",
+     "dificultad": 1,
+     "pagina": 33,
+     "enunciado": "Los aminoácidos que los humanos no pueden producir y deben obtener de la dieta se llaman aminoácidos ___.",
+     "respuestas": [
+      "esenciales"
+     ],
+     "explicacion": "Son los esenciales (10 en el material). Los que sí podemos producir son los no esenciales."
+    },
+    {
+     "id": "prot-q16",
+     "tipo": "relacionar",
+     "seccion": "prot-2",
+     "dificultad": 1,
+     "pagina": 30,
+     "enunciado": "Relaciona cada criterio de clasificación de los aminoácidos con sus categorías:",
+     "pares": [
+      [
+       "Composición química del R",
+       "Alifáticos, azufrados, aromáticos, imino…"
+      ],
+      [
+       "Polaridad",
+       "Polares y no polares"
+      ],
+      [
+       "Ionización del R",
+       "Ácidos, básicos y neutros"
+      ],
+      [
+       "Requerimiento en la dieta",
+       "Esenciales y no esenciales"
+      ]
+     ],
+     "explicacion": "Son las 4 clasificaciones del material (págs. 30–33). La composición química tiene 7 grupos: alifáticos, hidroxilados, azufrados, aromáticos, ácidos, básicos e imino."
+    },
+    {
+     "id": "prot-q17",
+     "tipo": "relacionar",
+     "seccion": "prot-2",
+     "dificultad": 3,
+     "pagina": 33,
+     "enunciado": "Relaciona cada aminoácido con el dato que lo identifica según el material:",
+     "pares": [
+      [
+       "Glicina",
+       "Su R es un solo átomo de H"
+      ],
+      [
+       "Arginina",
+       "Su R tiene el grupo guanidina"
+      ],
+      [
+       "Metionina",
+       "No polar y esencial"
+      ],
+      [
+       "Tirosina",
+       "Ácida por ionización, aunque su nombre no lo diga"
+      ]
+     ],
+     "explicacion": "Glicina y arginina son los ejemplos de R simple y complejo (pág. 29). La metionina está entre los no polares y los esenciales. La tirosina aparece en la columna de ácidos de la tabla de ionización y es no esencial."
+    },
+    {
+     "id": "prot-q18",
+     "tipo": "opcion",
+     "seccion": "prot-3",
+     "dificultad": 2,
+     "pagina": 34,
+     "enunciado": "El enlace peptídico se forma entre:",
+     "opciones": [
+      "Los grupos R de dos aminoácidos vecinos",
+      "El grupo α-carboxilo de un aminoácido y el grupo α-amino del siguiente",
+      "El grupo α-amino de un aminoácido y el grupo R del siguiente",
+      "Los carbonos α de dos aminoácidos"
+     ],
+     "correcta": 1,
+     "explicacion": "El material lo define como el enlace amida entre el α-carboxilo de un aminoácido y el α-amino del siguiente. Los grupos R no participan: quedan colgando de la cadena."
+    },
+    {
+     "id": "prot-q19",
+     "tipo": "opcion",
+     "seccion": "prot-3",
+     "dificultad": 2,
+     "pagina": 34,
+     "enunciado": "En la reacción de la figura, ¿de dónde salen los átomos de la molécula de agua que se libera?",
+     "opciones": [
+      "Del –OH del carboxilo del aminoácido 1 y de un H del amino del aminoácido 2",
+      "Del H del carbono α de cada aminoácido",
+      "Del –OH del grupo R₁ y de un H del grupo R₂",
+      "De dos H del grupo amino del aminoácido 1 y un O del carboxilo del aminoácido 2"
+     ],
+     "correcta": 0,
+     "explicacion": "En la figura están encerrados el –OH del grupo carboxilo del aminoácido 1 y un H del grupo amino del aminoácido 2: juntos forman el H₂O. Queda el enlace –CO–NH– del dipéptido.",
+     "figura": 34
+    },
+    {
+     "id": "prot-q20",
+     "tipo": "opcion",
+     "seccion": "prot-3",
+     "dificultad": 1,
+     "pagina": 35,
+     "enunciado": "¿Cómo se llama cada posición (cada aminoácido) dentro de un péptido?",
+     "opciones": [
+      "Monómero libre",
+      "Grupo prostético",
+      "Residuo de aminoácido",
+      "Enlace amida"
+     ],
+     "correcta": 2,
+     "explicacion": "El material lo resalta: cada posición en un péptido se denomina residuo de aminoácido. El enlace amida es la unión entre residuos, no el residuo en sí."
+    },
+    {
+     "id": "prot-q21",
+     "tipo": "opcion",
+     "seccion": "prot-3",
+     "dificultad": 2,
+     "pagina": 35,
+     "enunciado": "Un péptido formado por 7 residuos de aminoácido es un:",
+     "opciones": [
+      "Oligopéptido",
+      "Polipéptido",
+      "Proteína",
+      "Tripéptido"
+     ],
+     "correcta": 0,
+     "explicacion": "De 2 a 10 residuos es oligopéptido. Polipéptido es a partir de más de 10, y proteína a partir de 50. Un tripéptido tendría solo 3 residuos."
+    },
+    {
+     "id": "prot-q22",
+     "tipo": "opcion",
+     "seccion": "prot-3",
+     "dificultad": 3,
+     "pagina": 35,
+     "enunciado": "Según el material, un péptido de 30 residuos se clasifica como:",
+     "opciones": [
+      "Oligopéptido",
+      "Proteína",
+      "Polipéptido que todavía es péptido no proteico",
+      "Dipéptido"
+     ],
+     "correcta": 2,
+     "explicacion": "Más de 10 residuos lo hace polipéptido (pág. 35), pero como no llega a 50 no entra en la categoría de proteína: es un péptido no proteico (pág. 27)."
+    },
+    {
+     "id": "prot-q23",
+     "tipo": "vf",
+     "seccion": "prot-3",
+     "dificultad": 2,
+     "pagina": 35,
+     "enunciado": "Un péptido con más de 10 residuos se llama oligopéptido.",
+     "correcta": false,
+     "explicacion": "Es al revés: de 2 a 10 residuos es oligopéptido; con más de 10 residuos se llama polipéptido."
+    },
+    {
+     "id": "prot-q24",
+     "tipo": "completar",
+     "seccion": "prot-3",
+     "dificultad": 1,
+     "pagina": 34,
+     "enunciado": "El enlace amida que une a dos aminoácidos se llama enlace ___.",
+     "respuestas": [
+      "peptídico"
+     ],
+     "explicacion": "Es el enlace peptídico, formado entre el α-carboxilo de un aminoácido y el α-amino del siguiente."
+    },
+    {
+     "id": "prot-q25",
+     "tipo": "ordenar",
+     "seccion": "prot-3",
+     "dificultad": 2,
+     "pagina": 34,
+     "enunciado": "Ordena los pasos de la formación de un dipéptido:",
+     "items": [
+      "Se acercan el grupo carboxilo del aminoácido 1 y el grupo amino del aminoácido 2",
+      "El carboxilo pierde su –OH y el amino pierde un H",
+      "Ese –OH y ese H salen como una molécula de H₂O",
+      "Queda el enlace –CO–NH– y se forma el dipéptido"
+     ],
+     "explicacion": "Es la secuencia de la figura de la pág. 34: carboxilo del 1 + amino del 2 → se elimina agua → enlace peptídico (dipéptido)."
+    },
+    {
+     "id": "prot-q26",
+     "tipo": "ordenar",
+     "seccion": "prot-3",
+     "dificultad": 2,
+     "pagina": 35,
+     "enunciado": "Ordena de menor a mayor tamaño:",
+     "items": [
+      "Dipéptido (2 residuos)",
+      "Tripéptido (3 residuos)",
+      "Tetrapéptido (4 residuos)",
+      "Polipéptido (más de 10 residuos)",
+      "Proteína (50 o más aminoácidos)"
+     ],
+     "explicacion": "Los prefijos di-, tri- y tetra- indican 2, 3 y 4 residuos (oligopéptidos). Con más de 10 es polipéptido y con 50 o más ya es proteína."
+    },
+    {
+     "id": "prot-q27",
+     "tipo": "opcion",
+     "seccion": "prot-4",
+     "dificultad": 1,
+     "pagina": 36,
+     "enunciado": "Según la clasificación funcional, el colágeno del tejido conjuntivo es una proteína:",
+     "opciones": [
+      "Contráctil",
+      "Estructural",
+      "De almacenamiento",
+      "De transporte"
+     ],
+     "correcta": 1,
+     "explicacion": "Las proteínas estructurales dan una base molecular a las partes del organismo; el ejemplo del material es el colágeno del tejido conjuntivo."
+    },
+    {
+     "id": "prot-q28",
+     "tipo": "opcion",
+     "seccion": "prot-4",
+     "dificultad": 1,
+     "pagina": 36,
+     "enunciado": "¿Qué propiedad define a las proteínas contráctiles según el material?",
+     "opciones": [
+      "Aceleran y regulan las reacciones",
+      "Regulan la expresión de los genes",
+      "Pueden estirarse o encogerse en forma reversible",
+      "Se asocian con el ADN en el núcleo"
+     ],
+     "correcta": 2,
+     "explicacion": "Las contráctiles pueden estirar o encoger en forma reversible. Acelerar reacciones es de las catalíticas, regular genes de las represoras y asociarse al ADN de las cromosómicas."
+    },
+    {
+     "id": "prot-q29",
+     "tipo": "opcion",
+     "seccion": "prot-4",
+     "dificultad": 2,
+     "pagina": 37,
+     "enunciado": "Los citocromos, que transportan electrones a aceptores como el oxígeno, son proteínas:",
+     "opciones": [
+      "De transporte",
+      "Sanguíneas",
+      "Receptoras",
+      "Respiratorias"
+     ],
+     "correcta": 3,
+     "explicacion": "El material los pone como proteínas respiratorias. La trampa es «de transporte»: ahí va la hemoglobina, que transporta O₂ en la sangre, no electrones."
+    },
+    {
+     "id": "prot-q30",
+     "tipo": "opcion",
+     "seccion": "prot-4",
+     "dificultad": 2,
+     "pagina": 36,
+     "enunciado": "Un paciente tiene muy baja la fracción gammaglobulínica de la sangre y le dan infecciones de repetición, también en boca. ¿Qué tipo de proteína le falta?",
+     "opciones": [
+      "De defensa natural (anticuerpos)",
+      "De transporte (hemoglobina)",
+      "Sanguínea (fibrinógeno)",
+      "Digestiva"
+     ],
+     "correcta": 0,
+     "explicacion": "Los anticuerpos de la fracción gammaglobulínica son el ejemplo de proteínas de defensa natural del material. Sin ellos, las defensas contra infecciones bajan.",
+     "caso": true
+    },
+    {
+     "id": "prot-q31",
+     "tipo": "opcion",
+     "seccion": "prot-4",
+     "dificultad": 2,
+     "pagina": 37,
+     "enunciado": "Antes de una extracción dental se revisa que el paciente coagule bien. ¿Qué proteína sanguínea del material participa directamente en la coagulación?",
+     "opciones": [
+      "Hemoglobina",
+      "Rodopsina",
+      "Fibrinógeno",
+      "Interferón"
+     ],
+     "correcta": 2,
+     "explicacion": "El fibrinógeno es la proteína sanguínea que participa en la coagulación. La hemoglobina transporta O₂, la rodopsina es de la visión y el interferón es de defensa antiviral.",
+     "caso": true
+    },
+    {
+     "id": "prot-q32",
+     "tipo": "opcion",
+     "seccion": "prot-4",
+     "dificultad": 2,
+     "pagina": 38,
+     "enunciado": "¿Qué proteínas, junto con el ARN, forman los ribosomas?",
+     "opciones": [
+      "Cromosómicas",
+      "Ribosomales",
+      "Represoras",
+      "De almacenamiento"
+     ],
+     "correcta": 1,
+     "explicacion": "Las ribosomales se asocian con el ARN para formar ribosomas. La trampa son las cromosómicas, que se asocian con el ADN en el núcleo."
+    },
+    {
+     "id": "prot-q33",
+     "tipo": "vf",
+     "seccion": "prot-4",
+     "dificultad": 1,
+     "pagina": 36,
+     "enunciado": "El interferón es un conjunto de proteínas de defensa antiviral.",
+     "correcta": true,
+     "explicacion": "Así lo menciona el material dentro de las proteínas de defensa natural, junto con los anticuerpos."
+    },
+    {
+     "id": "prot-q34",
+     "tipo": "completar",
+     "seccion": "prot-4",
+     "dificultad": 2,
+     "pagina": 38,
+     "enunciado": "La ___ es la proteína que participa en los fenómenos moleculares de la visión.",
+     "respuestas": [
+      "rodopsina"
+     ],
+     "explicacion": "La rodopsina es el ejemplo de proteína de la visión del material."
+    },
+    {
+     "id": "prot-q35",
+     "tipo": "completar",
+     "seccion": "prot-4",
+     "dificultad": 1,
+     "pagina": 37,
+     "enunciado": "La ___ es la proteína de transporte que lleva el oxígeno en la sangre.",
+     "respuestas": [
+      "hemoglobina"
+     ],
+     "explicacion": "La hemoglobina es el ejemplo de proteína de transporte del material."
+    },
+    {
+     "id": "prot-q36",
+     "tipo": "relacionar",
+     "seccion": "prot-4",
+     "dificultad": 2,
+     "pagina": 37,
+     "enunciado": "Relaciona cada proteína con su tipo funcional:",
+     "pares": [
+      [
+       "Colágeno",
+       "Estructural"
+      ],
+      [
+       "Hemoglobina",
+       "De transporte"
+      ],
+      [
+       "Fibrinógeno",
+       "Sanguínea"
+      ],
+      [
+       "Citocromos",
+       "Respiratoria"
+      ],
+      [
+       "Rodopsina",
+       "De la visión"
+      ],
+      [
+       "Anticuerpos",
+       "De defensa natural"
+      ]
+     ],
+     "explicacion": "Son los ejemplos resaltados en la clasificación funcional (págs. 36–38). Ojo con hemoglobina (transporte de O₂) y citocromos (respiratorias, transporte de electrones)."
+    },
+    {
+     "id": "prot-q37",
+     "tipo": "opcion",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 59,
+     "enunciado": "Una proteína conjugada se caracteriza por:",
+     "opciones": [
+      "Tener un grupo prostético, un grupo no peptídico orgánico o inorgánico",
+      "Estar formada por dos o más cadenas polipeptídicas",
+      "Ser insoluble en agua",
+      "Carecer de enlaces peptídicos"
+     ],
+     "correcta": 0,
+     "explicacion": "Conjugada = con grupo prostético no peptídico. Tener dos o más cadenas describe la estructura cuaternaria (y a las fibrosas), y la insolubilidad es típica de las fibrosas: son otras clasificaciones."
+    },
+    {
+     "id": "prot-q38",
+     "tipo": "opcion",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 59,
+     "enunciado": "Una proteína cuyo grupo prostético es un ion metálico se llama:",
+     "opciones": [
+      "Hemoproteína",
+      "Flavoproteína",
+      "Fosfoproteína",
+      "Metaloproteína"
+     ],
+     "correcta": 3,
+     "explicacion": "Metaloproteína = ion metálico. La trampa es hemoproteína: su grupo prostético es el grupo hemínico (hemo), no un ion metálico suelto."
+    },
+    {
+     "id": "prot-q39",
+     "tipo": "opcion",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 60,
+     "enunciado": "¿Qué característica corresponde a las proteínas FIBROSAS?",
+     "opciones": [
+      "Forma de globo y mucho más solubles en agua",
+      "Forma alargada como hilo y, por lo general, insolubles en agua",
+      "Estructura compacta por pliegues y torsiones muy ordenados",
+      "Todas las enzimas pertenecen a este grupo"
+     ],
+     "correcta": 1,
+     "explicacion": "Las fibrosas son alargadas como hilo, de peso molecular muy elevado, con dos o más cadenas y casi siempre insolubles (ej. colágeno). Las demás opciones describen a las globulares."
+    },
+    {
+     "id": "prot-q40",
+     "tipo": "opcion",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 60,
+     "enunciado": "Según el material, por su estructura tridimensional, las enzimas son proteínas:",
+     "opciones": [
+      "Fibrosas, alargadas e insolubles",
+      "Conjugadas en todos los casos",
+      "Globulares, compactas y solubles en agua",
+      "No conjugadas en todos los casos"
+     ],
+     "correcta": 2,
+     "explicacion": "El ejemplo de proteínas globulares del material es «todas las enzimas»: compactas y mucho más solubles en agua. Conjugada/no conjugada es otra clasificación (por composición), no por forma."
+    },
+    {
+     "id": "prot-q41",
+     "tipo": "vf",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 59,
+     "enunciado": "Las proteínas no conjugadas son las que carecen de grupo prostético.",
+     "correcta": true,
+     "explicacion": "Correcto: no conjugadas = sin grupo prostético. Las conjugadas sí lo tienen (6 tipos)."
+    },
+    {
+     "id": "prot-q42",
+     "tipo": "completar",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 59,
+     "enunciado": "El grupo no peptídico, orgánico o inorgánico, de una proteína conjugada se llama grupo ___.",
+     "respuestas": [
+      "prostético"
+     ],
+     "explicacion": "Es el grupo prostético; según cuál sea, la proteína es glico-, metalo-, hemo-, flavo-, fosfo- o lipoproteína."
+    },
+    {
+     "id": "prot-q43",
+     "tipo": "completar",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 59,
+     "enunciado": "Una proteína conjugada cuyo grupo prostético es un lípido se llama ___.",
+     "respuestas": [
+      "lipoproteína",
+      "lipoproteina"
+     ],
+     "explicacion": "Lipoproteína = proteína + lípido como grupo prostético."
+    },
+    {
+     "id": "prot-q44",
+     "tipo": "relacionar",
+     "seccion": "prot-5",
+     "dificultad": 2,
+     "pagina": 59,
+     "enunciado": "Relaciona cada proteína conjugada con su grupo prostético:",
+     "pares": [
+      [
+       "Glicoproteína",
+       "Carbohidratos"
+      ],
+      [
+       "Metaloproteína",
+       "Ion metálico"
+      ],
+      [
+       "Hemoproteína",
+       "Grupo hemínico"
+      ],
+      [
+       "Flavoproteína",
+       "Grupo flavínico"
+      ],
+      [
+       "Fosfoproteína",
+       "Fosfato"
+      ],
+      [
+       "Lipoproteína",
+       "Lípido"
+      ]
+     ],
+     "explicacion": "Son los 6 subtipos de proteínas conjugadas del material; el prefijo de cada nombre indica su grupo prostético."
+    },
+    {
+     "id": "prot-q45",
+     "tipo": "opcion",
+     "seccion": "prot-6",
+     "dificultad": 1,
+     "pagina": 61,
+     "enunciado": "La identidad de los aminoácidos, su cantidad relativa y su secuencia exacta corresponden a la estructura:",
+     "opciones": [
+      "Secundaria",
+      "Primaria",
+      "Terciaria",
+      "Cuaternaria"
+     ],
+     "correcta": 1,
+     "explicacion": "Ese es el nivel primario. La secundaria es la orientación geométrica del esqueleto, la terciaria la arquitectura 3D completa y la cuaternaria la unión de varias cadenas."
+    },
+    {
+     "id": "prot-q46",
+     "tipo": "opcion",
+     "seccion": "prot-6",
+     "dificultad": 2,
+     "pagina": 62,
+     "enunciado": "¿Qué nivel de estructura NO lo tienen todas las proteínas?",
+     "opciones": [
+      "Primario",
+      "Secundario",
+      "Terciario",
+      "Cuaternario"
+     ],
+     "correcta": 3,
+     "explicacion": "El material resalta que los primeros tres niveles se aplican a todas las proteínas y el cuarto solo a algunas: las formadas por dos o más cadenas polipeptídicas."
+    },
+    {
+     "id": "prot-q47",
+     "tipo": "opcion",
+     "seccion": "prot-6",
+     "dificultad": 2,
+     "pagina": 63,
+     "enunciado": "En el esquema, la estructura descrita como «agregados de dos o más péptidos» es la:",
+     "opciones": [
+      "Terciaria",
+      "Secundaria",
+      "Cuaternaria",
+      "Primaria"
+     ],
+     "correcta": 2,
+     "explicacion": "La cuaternaria es la agregación no covalente de dos o más cadenas polipeptídicas. La terciaria del esquema es un solo «péptido individual doblado».",
+     "figura": 63
+    },
+    {
+     "id": "prot-q48",
+     "tipo": "opcion",
+     "seccion": "prot-6",
+     "dificultad": 2,
+     "pagina": 64,
+     "enunciado": "La hélice α y la lámina β plegada del esquema son ejemplos de estructura:",
+     "opciones": [
+      "Secundaria",
+      "Primaria",
+      "Terciaria",
+      "Cuaternaria"
+     ],
+     "correcta": 0,
+     "explicacion": "Son formas de orientación geométrica de la cadena (su esqueleto): estructura secundaria. Después se pliegan juntas para formar la terciaria.",
+     "figura": 64
+    },
+    {
+     "id": "prot-q49",
+     "tipo": "opcion",
+     "seccion": "prot-6",
+     "dificultad": 3,
+     "pagina": 62,
+     "enunciado": "La orientación de un grupo prostético (como el hemo) dentro de una proteína de una sola cadena forma parte de su estructura:",
+     "opciones": [
+      "Primaria",
+      "Secundaria",
+      "Terciaria",
+      "Cuaternaria"
+     ],
+     "correcta": 2,
+     "explicacion": "Según el material, el nivel terciario es la arquitectura tridimensional completa de la proteína, incluyendo la orientación de cualquier grupo prostético. No es cuaternaria porque se habla de una sola cadena."
+    },
+    {
+     "id": "prot-q50",
+     "tipo": "vf",
+     "seccion": "prot-6",
+     "dificultad": 2,
+     "pagina": 62,
+     "enunciado": "Los tres primeros niveles de estructura se aplican a todas las proteínas.",
+     "correcta": true,
+     "explicacion": "Correcto, está resaltado en el material: primaria, secundaria y terciaria las tienen todas; la cuaternaria solo algunas."
+    },
+    {
+     "id": "prot-q51",
+     "tipo": "completar",
+     "seccion": "prot-6",
+     "dificultad": 2,
+     "pagina": 62,
+     "enunciado": "La agregación no covalente de dos o más cadenas polipeptídicas corresponde a la estructura ___.",
+     "respuestas": [
+      "cuaternaria"
+     ],
+     "explicacion": "Es la estructura cuaternaria, la única que no tienen todas las proteínas."
+    },
+    {
+     "id": "prot-q52",
+     "tipo": "ordenar",
+     "seccion": "prot-6",
+     "dificultad": 1,
+     "pagina": 62,
+     "enunciado": "Ordena los niveles de estructura de las proteínas, del más simple al más complejo:",
+     "items": [
+      "Primaria: secuencia de aminoácidos",
+      "Secundaria: hélice α o lámina β",
+      "Terciaria: arquitectura 3D completa",
+      "Cuaternaria: agregación de 2 o más cadenas"
+     ],
+     "explicacion": "Cada nivel se construye sobre el anterior: la secuencia se enrolla (2ª), toda la cadena se dobla en 3D (3ª) y, en algunas proteínas, varias cadenas se juntan (4ª)."
+    },
+    {
+     "id": "prot-q53",
+     "tipo": "opcion",
+     "seccion": "prot-7",
+     "dificultad": 2,
+     "pagina": 65,
+     "enunciado": "La estabilización de la estructura terciaria se debe principalmente a:",
+     "opciones": [
+      "Enlaces peptídicos entre residuos",
+      "Interacciones no covalentes",
+      "Enlaces glucosídicos entre grupos prostéticos",
+      "La formación de nuevos aminoácidos"
+     ],
+     "correcta": 1,
+     "explicacion": "El material lo resalta: la terciaria se estabiliza principalmente por interacciones NO covalentes (ion-ion, puentes de H, hidrofóbicas, con el grupo prostético). Los enlaces peptídicos son de la estructura primaria."
+    },
+    {
+     "id": "prot-q54",
+     "tipo": "opcion",
+     "seccion": "prot-7",
+     "dificultad": 3,
+     "pagina": 65,
+     "enunciado": "La atracción entre la cadena lateral de la lisina y la del ácido aspártico dentro de una proteína es un ejemplo de:",
+     "opciones": [
+      "Interacción hidrofóbica",
+      "Enlace peptídico",
+      "Fuerza de atracción ion-ion",
+      "Interacción con el grupo prostético"
+     ],
+     "correcta": 2,
+     "explicacion": "Lisina (básica, +) y ácido aspártico (ácido, −) tienen grupos iónicos de carga opuesta: es una atracción ion-ion. Las hidrofóbicas son entre cadenas no polares."
+    },
+    {
+     "id": "prot-q55",
+     "tipo": "opcion",
+     "seccion": "prot-7",
+     "dificultad": 2,
+     "pagina": 66,
+     "enunciado": "Las interacciones hidrofóbicas que estabilizan la estructura terciaria se dan entre cadenas laterales:",
+     "opciones": [
+      "Con carga opuesta, como lisina y ácido glutámico",
+      "No polares, como leucina, valina o fenilalanina",
+      "Polares con grupo –OH, como serina y treonina",
+      "Del grupo prostético y un ion metálico"
+     ],
+     "correcta": 1,
+     "explicacion": "Las hidrofóbicas son entre cadenas laterales no polares (leucina, valina y fenilalanina están en esa columna). Las de carga opuesta son ion-ion, y la del ion metálico es la interacción con el grupo prostético."
+    },
+    {
+     "id": "prot-q56",
+     "tipo": "vf",
+     "seccion": "prot-7",
+     "dificultad": 2,
+     "pagina": 65,
+     "enunciado": "La estructura terciaria se estabiliza principalmente por enlaces covalentes.",
+     "correcta": false,
+     "explicacion": "Falso: el material dice que se debe principalmente a interacciones NO covalentes."
+    },
+    {
+     "id": "prot-q57",
+     "tipo": "relacionar",
+     "seccion": "prot-7",
+     "dificultad": 3,
+     "pagina": 66,
+     "enunciado": "Relaciona cada interacción que estabiliza la estructura terciaria con su ejemplo:",
+     "pares": [
+      [
+       "Atracción ion-ion",
+       "Lisina (+) con ácido aspártico (−)"
+      ],
+      [
+       "Interacción hidrofóbica",
+       "Cadenas laterales no polares"
+      ],
+      [
+       "Interacción con el grupo prostético",
+       "Ion metálico con diversos grupos R"
+      ],
+      [
+       "Puentes de H entre enlaces peptídicos",
+       "Regiones helicoidales y láminas plegadas"
+      ]
+     ],
+     "explicacion": "Son 4 de las 5 interacciones del material (págs. 65–66). La que falta son los puentes de H «entre uniones peptídicas» con el ejemplo tirosina–ácido glutámico."
+    },
+    {
+     "id": "prot-q58",
+     "tipo": "opcion",
+     "seccion": "prot-8",
+     "dificultad": 2,
+     "pagina": 67,
+     "enunciado": "Cuando una proteína se desnaturaliza, ¿qué se conserva?",
+     "opciones": [
+      "La conformación nativa",
+      "La actividad biológica",
+      "La estructura terciaria",
+      "La secuencia de aminoácidos"
+     ],
+     "correcta": 3,
+     "explicacion": "La desnaturalización es la pérdida de la conformación nativa SIN ningún cambio en la secuencia de aminoácidos. Lo que se pierde es la forma (incluida la terciaria) y, con ella, la actividad biológica."
+    },
+    {
+     "id": "prot-q59",
+     "tipo": "opcion",
+     "seccion": "prot-8",
+     "dificultad": 2,
+     "pagina": 68,
+     "enunciado": "Según el esquema, ¿qué ocurre en la renaturalización?",
+     "opciones": [
+      "La proteína pierde su actividad biológica",
+      "La proteína recupera su conformación y vuelve a ser activa",
+      "Se rompen los enlaces peptídicos y se liberan los aminoácidos",
+      "Se le agrega un grupo prostético nuevo"
+     ],
+     "correcta": 1,
+     "explicacion": "La renaturalización es el camino de regreso: la proteína desnaturalizada recupera su conformación nativa y «vuelve a ser activa». Perder la actividad es la desnaturalización.",
+     "figura": 68
+    },
+    {
+     "id": "prot-q60",
+     "tipo": "opcion",
+     "seccion": "prot-8",
+     "dificultad": 3,
+     "pagina": 67,
+     "enunciado": "Una persona alacia su cabello con plancha caliente y su forma cambia, aunque las cadenas de aminoácidos de sus proteínas no se rompen. ¿Qué le pasó a esas proteínas?",
+     "opciones": [
+      "Se desnaturalizaron: cambió su conformación sin cambiar la secuencia",
+      "Se hidrolizaron sus enlaces peptídicos",
+      "Ganaron estructura cuaternaria",
+      "Se convirtieron en aminoácidos esenciales"
+     ],
+     "correcta": 0,
+     "explicacion": "El calor (temperatura) es un agente físico que altera la conformación nativa sin cambiar la secuencia: eso es desnaturalización. El profesor usó justo el ejemplo del cabello y sus proteínas.",
+     "caso": true
+    },
+    {
+     "id": "prot-q61",
+     "tipo": "vf",
+     "seccion": "prot-8",
+     "dificultad": 2,
+     "pagina": 67,
+     "enunciado": "La desnaturalización implica un cambio en la secuencia de aminoácidos.",
+     "correcta": false,
+     "explicacion": "Falso: el material especifica que ocurre sin ningún cambio en la secuencia de aminoácidos; solo se pierde la conformación nativa."
+    },
+    {
+     "id": "prot-q62",
+     "tipo": "vf",
+     "seccion": "prot-8",
+     "dificultad": 1,
+     "pagina": 67,
+     "enunciado": "En algunos casos la desnaturalización es reversible y la proteína recupera su actividad biológica.",
+     "correcta": true,
+     "explicacion": "Correcto: en algunos casos puede restaurarse la conformación nativa y la actividad biológica (renaturalización)."
+    },
+    {
+     "id": "prot-q63",
+     "tipo": "completar",
+     "seccion": "prot-8",
+     "dificultad": 2,
+     "pagina": 67,
+     "enunciado": "La pérdida de la conformación nativa de una proteína se denomina ___.",
+     "respuestas": [
+      "desnaturalización",
+      "desnaturalizacion"
+     ],
+     "explicacion": "Es la desnaturalización; ocurre por agentes químicos o físicos (pH, temperatura…) sin cambiar la secuencia."
+    },
+    {
+     "id": "prot-q64",
+     "tipo": "ordenar",
+     "seccion": "prot-8",
+     "dificultad": 2,
+     "pagina": 68,
+     "enunciado": "Ordena el ciclo del esquema de desnaturalización:",
+     "items": [
+      "Proteína normal (conformación nativa, activa)",
+      "Actúa un agente como el pH o la temperatura",
+      "Desnaturalización: pérdida de la actividad biológica",
+      "Proteína desnaturalizada (cadena desenrollada)",
+      "Renaturalización: vuelve a ser activa"
+     ],
+     "explicacion": "En el esquema de la pág. 68 la proteína normal se desnaturaliza por agentes (pH, temperatura, solubilidad…), pierde su actividad y, si el proceso es reversible, se renaturaliza y vuelve a ser activa."
+    }
+   ],
+   "alertas": [
+    {
+     "pagina": 31,
+     "nota": "La tabla de polaridad pone a la glicina entre los POLARES. Muchos libros actuales (p. ej. Lehninger) la clasifican como no polar/alifática por su R = H; otros (Harper y ediciones antiguas) como polar sin carga. Se enseñó como dice el material."
+    },
+    {
+     "pagina": 32,
+     "nota": "La tabla de ionización pone a la cisteína y la tirosina como ÁCIDOS. Sus grupos R sí pueden perder un protón, pero a pH fisiológico casi no tienen carga (pKa ≈ 8.3 y ≈ 10.1); los libros suelen llamar ácidos solo al aspártico y al glutámico. Además, la diapositiva repite el encabezado «Neutros» en dos columnas (es un solo grupo de 13). Se enseñó como dice el material."
+    },
+    {
+     "pagina": 33,
+     "nota": "El material da 10 esenciales, incluida la ARGININA. Los libros actuales cuentan 9 en el adulto (His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val); la arginina es condicionalmente esencial (en etapas de crecimiento). Se enseñó la lista de 10 del material. En el margen hay una nota manuscrita leída como «APRENDER» junto a la lista de esenciales."
+    },
+    {
+     "pagina": 30,
+     "nota": "La diapositiva solo enlista los 7 grupos químicos (alifáticos, hidroxilados, azufrados, aromáticos, ácidos, básicos, imino) sin decir qué aminoácidos van en cada uno. La tabla con ejemplos de la guía es bioquímica estándar y está marcada como extra; no hay preguntas que dependan de ella."
+    },
+    {
+     "pagina": 65,
+     "nota": "Punto 2: «enlaces de hidrógeno entre uniones peptídicas, como las que hay entre residuos de tirosina y ácido glutámico». El ejemplo tirosina–glutámico es un puente de H entre CADENAS LATERALES (grupos R), no entre enlaces peptídicos (eso es el punto 3). Probable error de redacción; se enseñó tal cual, con la aclaración."
+    },
+    {
+     "pagina": 66,
+     "nota": "La lista de fuerzas que estabilizan la estructura terciaria no menciona los puentes disulfuro (enlace covalente –S–S– entre cisteínas), que los libros de texto sí incluyen. Se agregó como bloque extra."
+    },
+    {
+     "pagina": 63,
+     "nota": "Nota manuscrita en la figura: «Primaria = fibrosa». No es correcta como equivalencia: fibrosa/globular es una clasificación por forma 3D, y toda proteína (fibrosa o globular) tiene estructura primaria. Quizá se refería a que la primaria se dibuja como un hilo. No se usó en la guía."
+    },
+    {
+     "pagina": 60,
+     "nota": "El material dice que las globulares incluyen «todas las enzimas». Es cierto para casi todas, pero existen ribozimas (ARN catalítico) que no son proteínas. Se respetó la frase del material."
+    },
+    {
+     "pagina": 39,
+     "nota": "Página de apuntes en blanco con el título «ENZIMAS» y la palabra «Proteínas» escrita debajo; no tiene más contenido. Solo se usó para resaltar que las enzimas son proteínas."
+    },
+    {
+     "pagina": 63,
+     "nota": "Las figuras de las págs. 63, 64 y 68 tienen baja resolución; las etiquetas se leen, pero con dificultad (p. ej. «Estructura terciaria (péptido individual doblado)», «agregados de dos o más péptidos», «agentes: pH, temperatura, solubilidad…»)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+
+
+<header class="topbar">
+  <div class="topbar-in gutter">
+    <a class="brand" href="#inicio" aria-label="Inicio">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><polygon class="b1" points="16,2 28.1,9 28.1,23 16,30 3.9,23 3.9,9"/><polygon class="b2" points="16,8.5 22.5,12.25 22.5,19.75 16,23.5 9.5,19.75 9.5,12.25"/><polygon class="b3" points="16,12.6 18.9,14.3 18.9,17.7 16,19.4 13.1,17.7 13.1,14.3"/></svg>
+      <span>Bioquímica Dental<small>Guía de repaso</small></span>
+    </a>
+    <nav class="topnav" aria-label="Principal">
+      <a href="#inicio" data-nav="inicio">Inicio</a>
+      <a href="#repaso" data-nav="repaso">Repaso de hoy</a>
+      <a href="#examen" data-nav="examen">Simulacro</a>
+      <a href="#errores" data-nav="errores">Mis errores</a>
+      <a href="#buscar" data-nav="buscar">Buscar</a>
+      <a href="#progreso" data-nav="progreso">Progreso</a>
+    </nav>
+    <a class="sync" id="sync" href="#progreso" title="Dónde se guarda tu avance"><i></i><span>Guardado en este navegador</span></a>
+  </div>
+</header>
+
+<main id="main" class="gutter">
+  <div class="loading" aria-live="polite">
+    <p>Cargando la guía…</p>
+    <div class="sk" style="width:60%"></div><div class="sk" style="width:85%"></div><div class="sk" style="width:40%"></div>
+  </div>
+</main>
+
+<nav class="botnav" aria-label="Principal">
+  <a href="#inicio" data-nav="inicio"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Inicio</a>
+  <a href="#repaso" data-nav="repaso"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>Repaso</a>
+  <a href="#examen" data-nav="examen"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 13l2 2 4-4"/></svg>Simulacro</a>
+  <a href="#errores" data-nav="errores"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6M12 16.5v.5"/></svg>Errores</a>
+  <a href="#buscar" data-nav="buscar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Buscar</a>
+  <a href="#progreso" data-nav="progreso"><svg viewBox="0 0 24 24"><path d="M4 20V11M10 20V5M16 20v-6M22 20H2"/></svg>Progreso</a>
+</nav>
+
+<div id="lightbox" class="lightbox" hidden data-action="lb-close"><img alt=""><p></p></div>
+<div id="toast" class="toast" hidden role="status"></div>
+

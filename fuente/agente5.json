@@ -1,0 +1,3433 @@
+{
+ "agente": 5,
+ "paginas": "109-141",
+ "temas": [
+  {
+   "id": "nucleicos",
+   "titulo": "Nucleótidos y ácidos nucleicos",
+   "emoji": "🧬",
+   "paginas": [
+    109,
+    134
+   ],
+   "descripcion": "Qué son y para qué sirven los nucleótidos, cómo se arman el ADN y el ARN, cómo se daña y repara el ADN y cómo la información pasa del ADN a la proteína.",
+   "imprescindibles": [
+    "Hay dos ácidos nucleicos: ARN (ribonucleico) y ADN (desoxirribonucleico); los virus solo tienen uno de los dos.",
+    "Nucleótido = fosfato + pentosa + base nitrogenada, siempre unidos en el orden fosfato – azúcar – base.",
+    "Nucleósido = azúcar + base (sin fosfato); el enlace entre el C1 del azúcar y el N1 de una pirimidina o el N9 de una purina es el enlace glucosídico.",
+    "El fosfato se une en la posición 5´ de la pentosa; los nucleótidos vecinos se unen por enlaces fosfodiéster (azúcar-fosfato-azúcar).",
+    "Purinas (2 anillos): adenina y guanina. Pirimidinas (1 anillo): citosina, timina (solo ADN) y uracilo (solo ARN).",
+    "ARN lleva β-D-ribosa (–OH en el C2); ADN lleva β-D-2-desoxirribosa (solo –H en el C2).",
+    "ATP = despachador de energía: ATP → ADP + Pᵢ libera energía y ADP + Pᵢ → ATP la requiere. CTP → fosfolípidos; UTP → carbohidratos y ácidos nucleicos.",
+    "Los ácidos nucleicos son polianiónicos (muchas cargas negativas) por sus grupos fosfato.",
+    "Reglas de Chargaff: A + G = T + C; A = T; G = C.",
+    "Endonucleasas cortan enlaces internos; exonucleasas solo los terminales (reconocen el extremo 3´ o 5´).",
+    "ADN = doble hélice derecha de dos cadenas en direcciones opuestas, unidas por puentes de hidrógeno entre pares A–T y G–C.",
+    "La luz UV forma dímeros de pirimidina, sobre todo timina–timina en la misma tira; el daño no reparado (retenido) causa mutaciones y muerte celular.",
+    "Replicación (copia del ADN), transcripción (ADN → ARNm) y traducción (ARNm → proteína en los ribosomas).",
+    "Codón = 3 nucleótidos del ARNm (UUU = fenilalanina, AUA = isoleucina); el ARNt lleva el anticodón complementario y transporta el aminoácido.",
+    "El código genético es el conjunto de codones y explica cómo los defectos en proteínas causan enfermedades genéticas; los oncogenes son genes capaces de producir cáncer."
+   ],
+   "secciones": [
+    {
+     "id": "nucleicos-1",
+     "titulo": "¿Qué son los ácidos nucleicos? Funciones de los nucleótidos",
+     "paginas": [
+      109,
+      111
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Un **ácido nucleico** es una **sustancia ácida** obtenida a partir del **núcleo celular**. Son **sustancias poliméricas grandes**, responsables de llevar la **información de la herencia**: la **almacenan, duplican, recombinan y transmiten**."
+      },
+      {
+       "tipo": "clave",
+       "md": "Existen **dos clases**: 1) **ácido ribonucleico (ARN o RNA)** y 2) **ácido desoxirribonucleico (ADN o DNA)**. Los **virus solo tienen uno de ellos**, ya sea ARN o ADN (nota del profe: *solamente los virus tienen uno u otro*)."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Funciones de los nucleótidos** (las unidades que forman los ácidos nucleicos):"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "Garantizan los **intercambios energéticos** de la célula.",
+        "Actúan como **señales químicas** en los sistemas celulares, en respuesta a las **hormonas** y otros estímulos extracelulares.",
+        "Son **componentes estructurales de cofactores enzimáticos** y de **intermedios metabólicos**.",
+        "Son los **constituyentes de los ácidos nucleicos** (ADN y ARN), los depositarios moleculares de la información genética."
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "Ejemplos de libro: el **AMP cíclico (AMPc)** es un segundo mensajero de muchas hormonas (señal química), y **NAD⁺, FAD y la coenzima A** llevan un nucleótido de adenina en su estructura (cofactores).",
+       "extra": true
+      },
+      {
+       "tipo": "truco",
+       "md": "Funciones de los nucleótidos = **E-S-C-A**: **E**nergía, **S**eñales, **C**ofactores y **Á**cidos nucleicos."
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-2",
+     "titulo": "Partes del nucleótido y el esqueleto azúcar-fosfato",
+     "paginas": [
+      112,
+      114
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Un nucleótido simple consta de **tres partes químicas**: 1) **fosfato inorgánico**, 2) **un azúcar simple** (una pentosa) y 3) **una base nitrogenada**, que puede ser una **purina** o una **pirimidina**."
+      },
+      {
+       "tipo": "clave",
+       "md": "Las tres partes **siempre** van unidas en el orden **fosfato (P) – azúcar (A) – base nitrogenada (BN)**. El azúcar queda en medio: el fosfato nunca se une directo a la base."
+      },
+      {
+       "tipo": "texto",
+       "md": "Los nucleótidos sucesivos se unen mediante un **enlace éster** (el material lo llama *estérico*) entre el **azúcar** de uno y el **fosfato** del nucleótido adyacente. El enlace **azúcar-fosfato-azúcar (A-P-A)** a lo largo del esqueleto de la cadena polinucleotídica se llama **enlace fosfodiéster** (fosfodiestérico)."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 113,
+       "pie": "Nucleótido (adenosín monofosfato): el fosfato (izquierda) se une al C5´ del azúcar y la base (adenina, arriba) al C1´. El azúcar tiene –OH en C2´ y C3´, así que es ribosa: es un ribonucleótido."
+      },
+      {
+       "tipo": "texto",
+       "md": "La **secuencia de bases nitrogenadas** a lo largo del esqueleto azúcar-fosfato es la **característica estructural e individual funcional** de cada molécula de ADN y ARN."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Característica",
+        "ARN",
+        "ADN"
+       ],
+       "filas": [
+        [
+         "Pentosa",
+         "β-D-ribosa",
+         "β-D-2-desoxirribosa"
+        ],
+        [
+         "Carbono 2 de la pentosa",
+         "Tiene un –OH",
+         "Solo tiene –H"
+        ],
+        [
+         "Sus nucleótidos se llaman",
+         "Ribonucleótidos",
+         "Desoxirribonucleótidos"
+        ]
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "**Desoxi** = «sin oxígeno»: a la desoxirribosa le falta el oxígeno del –OH del **carbono 2**; ahí solo queda –H. Por eso se le agrega «desoxi» al nombre."
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-3",
+     "titulo": "Bases nitrogenadas: purinas y pirimidinas",
+     "paginas": [
+      115,
+      116
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Las bases nitrogenadas son sustancias **derivadas de dos compuestos químicos**: la **pirimidina** (un solo anillo de 6 átomos con 2 N) y la **purina** (dos anillos fusionados, uno de 6 y otro de 5 átomos, con 4 N)."
+      },
+      {
+       "tipo": "clave",
+       "md": "Las bases más frecuentes en ARN y ADN: **purinas → adenina (A) y guanina (G)**; **pirimidinas → citosina (C), timina (T) y uracilo (U)**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 115,
+       "pie": "Anillo de pirimidina (uno solo) frente al de purina (dos anillos fusionados). De aquí derivan todas las bases."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Base",
+        "Tipo",
+        "Se encuentra en",
+        "Rasgo de su estructura"
+       ],
+       "filas": [
+        [
+         "Adenina (A)",
+         "Purina",
+         "ADN y ARN",
+         "Grupo amino (–NH₂)"
+        ],
+        [
+         "Guanina (G)",
+         "Purina",
+         "ADN y ARN",
+         "Un C=O y un grupo amino (–NH₂)"
+        ],
+        [
+         "Citosina (C)",
+         "Pirimidina",
+         "ADN y ARN",
+         "Grupo amino (–NH₂) y un C=O"
+        ],
+        [
+         "Timina (T)",
+         "Pirimidina",
+         "Solo ADN",
+         "Dos C=O y un grupo metilo (–CH₃)"
+        ],
+        [
+         "Uracilo (U)",
+         "Pirimidina",
+         "Solo ARN",
+         "Dos C=O, sin metilo"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 116,
+       "pie": "Estructuras de adenina y guanina (purinas) y de timina, citosina y uracilo (pirimidinas). Fíjate en el –CH₃ de la timina: es lo que la distingue del uracilo."
+      },
+      {
+       "tipo": "truco",
+       "md": "**PURinas = «PURo Agua y Gas»** → **A** y **G** (las de dos anillos). **Pirimidinas = CUT** («cortar» en inglés) → **C**, **U**, **T**: las «cortitas», de un solo anillo."
+      },
+      {
+       "tipo": "texto",
+       "md": "La timina es básicamente un uracilo con un metilo (5-metiluracilo); el ADN usa T y el ARN usa U.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-4",
+     "titulo": "Nucleósido vs nucleótido y su clasificación",
+     "paginas": [
+      117,
+      117
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "A diferencia de los aminoácidos, las bases nitrogenadas **no se encuentran en abundancia en estado libre** en la naturaleza."
+      },
+      {
+       "tipo": "clave",
+       "md": "**Nucleósido = azúcar + base nitrogenada** (sin fosfato). El enlace covalente entre el **C1 del azúcar** y el **N1 de una pirimidina** o el **N9 de una purina** se llama **enlace glucosídico**."
+      },
+      {
+       "tipo": "clave",
+       "md": "**Nucleótido = nucleósido + grupo fosfato**, unido por un enlace éster a la unidad de azúcar. **Los fosfatos se unen en la posición 5´ de la pentosa.**"
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Se clasifican según…",
+        "Tipos"
+       ],
+       "filas": [
+        [
+         "El tipo de pentosa",
+         "Ribonucleótidos (ribosa) o desoxirribonucleótidos (desoxirribosa)"
+        ],
+        [
+         "El número de residuos de fosfato",
+         "Monofosfonucleótidos, difosfonucleótidos o trifosfonucleótidos (p. ej., AMP, ADP y ATP)"
+        ]
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Nucleó**s**ido = **s**in fosfato. Nucleó**t**ido = **t**iene fosfato. Y el nitrógeno del enlace: pirimidina (1 anillo) → **N1**; purina (2 anillos, más grande) → **N9**."
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-5",
+     "titulo": "Nucleótidos trifosfato y energía (ATP, CTP, UTP)",
+     "paginas": [
+      118,
+      118
+     ],
+     "bloques": [
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Nucleótido",
+        "Función según el material"
+       ],
+       "filas": [
+        [
+         "CTP (citosín trifosfato)",
+         "Biosíntesis de fosfolípidos"
+        ],
+        [
+         "UTP (uracil trifosfato)",
+         "Biosíntesis e interconversión de varios carbohidratos; biosíntesis de ARN y ADN"
+        ],
+        [
+         "ATP (adenosín trifosfato)",
+         "El más importante: en todas las células vivas funciona como «departamento de entrega y despacho» de energía química"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "El ATP es **mucho menos estable** que ADP + Pᵢ y representa un **estado energético mayor**. Por tanto: **ATP → ADP + Pᵢ libera energía** y **ADP + Pᵢ → ATP requiere (utiliza) energía**."
+      },
+      {
+       "tipo": "texto",
+       "md": "**GTP** (no viene en el material): aporta energía a la síntesis de proteínas (traducción) y activa a las proteínas G de señalización. El UTP forma **UDP-glucosa**, la forma activada de la glucosa para hacer glucógeno.",
+       "extra": true
+      },
+      {
+       "tipo": "truco",
+       "md": "**A**TP = **A**basto de energía · **C**TP = **C**apas de la membrana (fosfolípidos) · **U**TP = az**ú**cares (carbohidratos) y ácidos nucleicos."
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-6",
+     "titulo": "Ácidos nucleicos: polinucleótidos, propiedades y reglas de Chargaff",
+     "paginas": [
+      119,
+      121
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Los **polinucleótidos** están formados por nucleótidos unidos entre sí por **enlaces fosfodiéster**. Las cadenas **mucho más grandes** de ARN y ADN se llaman **ácidos nucleicos** por la presencia de varios **grupos fosfato débilmente ácidos** a lo largo de la cadena."
+      },
+      {
+       "tipo": "clave",
+       "md": "Los ácidos nucleicos son de naturaleza **polianiónica**: tienen **muchas cargas negativas** (aportadas por los fosfatos)."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Propiedad",
+        "ADN",
+        "ARN"
+       ],
+       "filas": [
+        [
+         "En soluciones diluidas de NaCl",
+         "Insoluble",
+         "Soluble"
+        ],
+        [
+         "En soluciones concentradas de NaCl",
+         "Soluble",
+         "(no se indica)"
+        ],
+        [
+         "En alcohol",
+         "Insoluble",
+         "Insoluble"
+        ],
+        [
+         "Separación de las proteínas",
+         "Con detergente o fenol",
+         "Con detergente o fenol"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "Que sean insolubles en alcohol es la base de la «extracción de ADN» en el laboratorio: el ADN precipita al agregar etanol frío.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Cada ARN y ADN tiene una **composición característica de bases**, pero eso no es lo único que define su estructura: lo que la define es la **secuencia de bases**."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Reglas de Chargaff",
+       "items": [
+        {
+         "nombre": "1. Purinas = pirimidinas",
+         "detalle": "El número de bases púricas (A + G) está equilibrado con el de bases pirimidínicas (T + C): la razón purinas/pirimidinas es aproximadamente 1."
+        },
+        {
+         "nombre": "2. A = T",
+         "detalle": "El número de residuos de adenina está equilibrado con el de timina."
+        },
+        {
+         "nombre": "3. G = C",
+         "detalle": "El número de residuos de guanina está equilibrado con el de citosina."
+        }
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "Problema típico: un ADN de doble cadena con 30 % de A tiene 30 % de T; quedan 40 % para G + C → 20 % de G y 20 % de C.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-7",
+     "titulo": "Nucleasas",
+     "paginas": [
+      122,
+      122
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Las **nucleasas** son enzimas que catalizan la **hidrólisis de los ácidos nucleicos**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Tipo",
+        "Sobre qué enlaces actúa"
+       ],
+       "filas": [
+        [
+         "Endonucleasas",
+         "Enlaces (fosfo)diéster **internos** de la cadena"
+        ],
+        [
+         "Exonucleasas",
+         "**Solamente** los enlaces (fosfo)diéster **terminales**; reconocen el extremo 3´ o el 5´"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "**Las nucleasas tienen especificidad**, ya que:"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "Actúan sobre **ARN, ADN o ambos**.",
+        "Actúan sobre ácidos nucleicos **de una cadena y/o de cadena doble**.",
+        "Las exonucleasas reconocen el **extremo 3´ o 5´**.",
+        "Reconocen sitios de **purina o de pirimidina** → **especificidad de base**.",
+        "Reconocen **ciertas secuencias** → **especificidad de secuencia**."
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "**Endo** = dentro: corta por en medio (como partir una salchicha a la mitad). **Exo** = fuera: va mordiendo desde una punta."
+      },
+      {
+       "tipo": "texto",
+       "md": "Conexión con la digestión: el **jugo pancreático** contiene nucleasas (**desoxirribonucleasas y ribonucleasas**) que digieren los ácidos nucleicos de los alimentos (ver tema de saliva y jugos, pág. 137)."
+      },
+      {
+       "tipo": "texto",
+       "md": "Las **enzimas de restricción** de biotecnología son endonucleasas con especificidad de secuencia.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-8",
+     "titulo": "La doble hélice del ADN",
+     "paginas": [
+      123,
+      124
+     ],
+     "bloques": [
+      {
+       "tipo": "clave",
+       "md": "El ADN consiste en **dos cadenas de polinucleótidos** con una estructura **helicoidal orientada hacia la derecha**, cada una **enrollada alrededor de la otra**, pero moviéndose en **direcciones opuestas** (antiparalelas)."
+      },
+      {
+       "tipo": "texto",
+       "md": "La estructura se **estabiliza por enlaces de hidrógeno intercadena** entre **pares de bases específicos**. Las bases se proyectan desde el esqueleto azúcar-fosfato de cada cadena **hacia el centro de la hélice** y **perpendiculares al eje**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 124,
+       "pie": "Doble hélice: los listones exteriores son el esqueleto azúcar-fosfato («cadenas A-P-A», nota del profe) y los peldaños son los pares de bases adenina–timina y guanina–citosina."
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "**Adenina** se aparea con **timina** (A–T).",
+        "**Guanina** se aparea con **citosina** (G–C).",
+        "Por eso se cumplen las reglas de Chargaff: por cada A hay una T y por cada G una C."
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "A–T se une con **2** puentes de hidrógeno y G–C con **3**; por eso el ADN rico en G–C es más estable al calor.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-9",
+     "titulo": "Daño y reparación del ADN",
+     "paginas": [
+      125,
+      127
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Conservar la **integridad de la información** del ADN es de **suma importancia** para la supervivencia del **organismo** y también de la **especie**."
+      },
+      {
+       "tipo": "texto",
+       "md": "El **daño al ADN** por agentes **ambientales, físicos y químicos** se clasifica en:"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "a) Alteración de **una sola base**",
+        "b) Alteración de **dos bases**",
+        "c) **Rotura de la cadena**",
+        "d) **Enlace cruzado**"
+       ]
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Las regiones dañadas pueden ser…",
+        "Qué pasa"
+       ],
+       "filas": [
+        [
+         "a) Reparadas y reemplazadas (por recombinación)",
+         "Se aprovecha la **redundancia** de la doble hélice: la región defectuosa de una tira se reintegra a su forma original con la **información complementaria de la tira no afectada**."
+        ],
+        [
+         "b) Retenidas",
+         "Conducen a **mutaciones** y potencialmente a la **muerte celular**."
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "La **luz ultravioleta** induce **dímeros de pirimidina-pirimidina**, predominantemente la **dimerización de dos timinas juntas en la misma tira**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Por su tipo, el dímero de timina cae en la categoría «alteración de dos bases».",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "La exposición solar crónica del **labio inferior** (UV) acumula daño en el ADN → **queilitis actínica** y **carcinoma epidermoide de labio**. Por eso se recomienda protector solar labial a pacientes muy expuestos (campesinos, pescadores).",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-10",
+     "titulo": "Tipos de ARN y flujo de la información genética",
+     "paginas": [
+      127,
+      129
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Las células vivas contienen **tres tipos de ARN**, cada uno con un **papel específico** en la **biosíntesis de proteínas**, donde la **secuencia de aminoácidos** se determina por la **secuencia de nucleótidos del ADN**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Tipo de ARN",
+        "Papel"
+       ],
+       "filas": [
+        [
+         "ARN mensajero (ARNm)",
+         "Copia complementaria del mensaje del ADN; lleva los codones a los ribosomas"
+        ],
+        [
+         "ARN de transferencia (ARNt)",
+         "Transporta los aminoácidos y lleva el anticodón"
+        ],
+        [
+         "ARN ribosomal (ARNr)",
+         "Se localiza en los ribosomas, donde se sintetizan las proteínas"
+        ]
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 128,
+       "pie": "Estructura del ARN: una sola cadena 5´→3´ de ribosas (con –OH en el C2´) unidas por enlaces fosfodiéster, con las bases adenina, guanina, citosina y uracilo."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Tres procesos de la preservación y transmisión de la información genética",
+       "items": [
+        {
+         "nombre": "1. Replicación",
+         "detalle": "Copia del ADN para formar moléculas hijas idénticas."
+        },
+        {
+         "nombre": "2. Transcripción",
+         "detalle": "El mensaje genético del ADN se transcribe en forma de ARN mensajero para llevarlo a los ribosomas."
+        },
+        {
+         "nombre": "3. Traducción",
+         "detalle": "En los ribosomas se descifra el mensaje: el ARN sirve de matriz que dirige la secuencia específica de aminoácidos durante la biosíntesis de proteínas."
+        }
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "**Re**plicar = ADN → ADN (fotocopia). **Trans**cribir = ADN → ARN (mismo «idioma» de nucleótidos, solo cambia T por U). **Trad**ucir = ARN → proteína (cambia de idioma: de nucleótidos a aminoácidos)."
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-11",
+     "titulo": "ARN mensajero y codones",
+     "paginas": [
+      130,
+      132
+     ],
+     "bloques": [
+      {
+       "tipo": "lista",
+       "items": [
+        "Una célula viva produce desde **cientos hasta miles** de moléculas de ARNm diferentes.",
+        "Se **sintetiza y degrada en forma constante**.",
+        "También se llama ARN **informativo**, de **transcripción**, **traductivo** y **complementario**.",
+        "Son **copias complementarias** transcritas de secciones del mensaje genético del ADN.",
+        "Son moléculas de **una sola cadena** y de **largo variable**.",
+        "Tienen una **secuencia única** de nucleótidos con **A, G, C y U**.",
+        "Algunos ARNm codifican **un solo polipéptido**; otros codifican **dos o tres** polipéptidos diferentes."
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "Cada conjunto sucesivo de **tres nucleótidos** del ARNm se llama **codón** y da la información para alinear en orden los aminoácidos de un polipéptido. Ejemplos: **UUU = fenilalanina**, **AUA = isoleucina**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 131,
+       "pie": "El ARNm se lee en tripletes consecutivos: GCU · ACG · GAG · CUU · CGG · AGC · UAG (codones 1 a 7)."
+      },
+      {
+       "tipo": "texto",
+       "md": "El codón 7 de la figura (UAG) es un codón de **terminación** (stop): no codifica aminoácido. **AUG** es el codón de inicio (metionina).",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "nucleicos-12",
+     "titulo": "ARN de transferencia, ARN ribosomal y código genético",
+     "paginas": [
+      132,
+      134
+     ],
+     "bloques": [
+      {
+       "tipo": "lista",
+       "items": [
+        "Cada célula tiene **hasta 60** tipos de ARNt.",
+        "Son los **ácidos nucleicos más pequeños**: **73 a 93 nucleótidos**.",
+        "Funcionan como **transportadores de aminoácidos** antes de que se incorporen a las proteínas.",
+        "Cada aminoácido tiene **por lo menos un ARNt específico**."
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "La lectura de los codones del ARNm depende de que cada ARNt tenga una secuencia de **tres nucleótidos** llamada **anticodón**, **complementaria** a la del codón."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 133,
+       "pie": "El ARNt (con su aminoácido arriba) se aparea por el anticodón (3´→5´) con el codón del ARNm (5´→3´): son complementarios y van en sentidos opuestos."
+      },
+      {
+       "tipo": "texto",
+       "md": "El **ARNr** se localiza en los **ribosomas**, que se unen al **retículo endoplásmico**, donde finalmente se realiza la **síntesis de las proteínas**."
+      },
+      {
+       "tipo": "clave",
+       "md": "El **código genético** es el **conjunto de codones**. Es el fundamento para explicar cómo los **defectos en las proteínas** pueden causar una **enfermedad genética**, para **diagnosticarla** y dar el **tratamiento** adecuado."
+      },
+      {
+       "tipo": "texto",
+       "md": "Los **oncogenes** son genes **capaces de producir cáncer**. (Tarea del curso: buscar algunos oncogenes de virus.)"
+      },
+      {
+       "tipo": "clinica",
+       "md": "Oncogenes virales de ejemplo: **src** del virus del sarcoma de Rous y **E6/E7** del **virus del papiloma humano** (VPH-16 y 18), ligados al cáncer de **orofaringe** y de cérvix: por eso importa la exploración bucal completa.",
+       "extra": true
+      },
+      {
+       "tipo": "truco",
+       "md": "El **codón** está en el ARN**m** (el **m**ensaje); el **anticodón** está en el ARN**t** (el **t**axi que trae al aminoácido)."
+      }
+     ]
+    }
+   ],
+   "figuras": [
+    {
+     "pagina": 113,
+     "pie": "Estructura de un nucleótido (AMP): fosfato, ribosa y adenina.",
+     "seccion": "nucleicos-2"
+    },
+    {
+     "pagina": 115,
+     "pie": "Anillos de pirimidina y purina, de los que derivan las bases.",
+     "seccion": "nucleicos-3"
+    },
+    {
+     "pagina": 116,
+     "pie": "Las cinco bases: adenina, guanina, timina, citosina y uracilo.",
+     "seccion": "nucleicos-3"
+    },
+    {
+     "pagina": 124,
+     "pie": "Doble hélice del ADN con pares A–T y G–C y esqueleto azúcar-fosfato.",
+     "seccion": "nucleicos-8"
+    },
+    {
+     "pagina": 128,
+     "pie": "Estructura del ARN: cadena sencilla de ribonucleótidos unidos por enlaces fosfodiéster.",
+     "seccion": "nucleicos-10"
+    },
+    {
+     "pagina": 131,
+     "pie": "Lectura del ARNm en codones de tres nucleótidos.",
+     "seccion": "nucleicos-11"
+    },
+    {
+     "pagina": 133,
+     "pie": "Apareamiento codón (ARNm) – anticodón (ARNt).",
+     "seccion": "nucleicos-12"
+    }
+   ],
+   "glosario": [
+    {
+     "termino": "Ácido nucleico",
+     "definicion": "Polímero grande de nucleótidos (ADN o ARN) que almacena y transmite la información genética."
+    },
+    {
+     "termino": "Nucleótido",
+     "definicion": "Unidad formada por fosfato + pentosa + base nitrogenada."
+    },
+    {
+     "termino": "Nucleósido",
+     "definicion": "Pentosa + base nitrogenada, sin fosfato."
+    },
+    {
+     "termino": "β-D-ribosa",
+     "definicion": "Pentosa del ARN; tiene –OH en el carbono 2."
+    },
+    {
+     "termino": "β-D-2-desoxirribosa",
+     "definicion": "Pentosa del ADN; solo tiene –H en el carbono 2."
+    },
+    {
+     "termino": "Purina",
+     "definicion": "Base de dos anillos fusionados: adenina y guanina."
+    },
+    {
+     "termino": "Pirimidina",
+     "definicion": "Base de un solo anillo: citosina, timina y uracilo."
+    },
+    {
+     "termino": "Enlace glucosídico",
+     "definicion": "Unión del C1 del azúcar con el N1 de una pirimidina o el N9 de una purina."
+    },
+    {
+     "termino": "Enlace fosfodiéster",
+     "definicion": "Unión azúcar-fosfato-azúcar que forma el esqueleto de la cadena de nucleótidos."
+    },
+    {
+     "termino": "Polianiónico",
+     "definicion": "Con muchas cargas negativas; propiedad de los ácidos nucleicos por sus fosfatos."
+    },
+    {
+     "termino": "Reglas de Chargaff",
+     "definicion": "En el ADN: A + G = T + C, A = T y G = C."
+    },
+    {
+     "termino": "Nucleasa",
+     "definicion": "Enzima que hidroliza ácidos nucleicos."
+    },
+    {
+     "termino": "Endonucleasa",
+     "definicion": "Nucleasa que corta enlaces internos de la cadena."
+    },
+    {
+     "termino": "Exonucleasa",
+     "definicion": "Nucleasa que corta solo enlaces terminales, desde el extremo 3´ o 5´."
+    },
+    {
+     "termino": "Dímero de timina",
+     "definicion": "Unión anormal de dos timinas vecinas de la misma tira causada por luz UV."
+    },
+    {
+     "termino": "Replicación",
+     "definicion": "Copia del ADN para formar moléculas hijas idénticas."
+    },
+    {
+     "termino": "Transcripción",
+     "definicion": "Copia del mensaje del ADN en forma de ARN mensajero."
+    },
+    {
+     "termino": "Traducción",
+     "definicion": "Desciframiento del ARNm en los ribosomas para formar la proteína."
+    },
+    {
+     "termino": "Codón",
+     "definicion": "Tres nucleótidos sucesivos del ARNm que indican un aminoácido."
+    },
+    {
+     "termino": "Anticodón",
+     "definicion": "Tres nucleótidos del ARNt complementarios al codón."
+    },
+    {
+     "termino": "Código genético",
+     "definicion": "Conjunto de codones que relaciona nucleótidos con aminoácidos."
+    },
+    {
+     "termino": "Oncogén",
+     "definicion": "Gen capaz de producir cáncer."
+    }
+   ],
+   "tarjetas": [
+    {
+     "id": "nucleicos-t1",
+     "frente": "¿Cuáles son las dos clases de ácidos nucleicos?",
+     "reverso": "ARN (ácido ribonucleico) y ADN (ácido desoxirribonucleico).",
+     "seccion": "nucleicos-1"
+    },
+    {
+     "id": "nucleicos-t2",
+     "frente": "¿Qué tienen de especial los virus respecto a los ácidos nucleicos?",
+     "reverso": "Solo tienen uno de los dos: ARN o ADN.",
+     "seccion": "nucleicos-1"
+    },
+    {
+     "id": "nucleicos-t3",
+     "frente": "¿Qué hacen los ácidos nucleicos con la información genética?",
+     "reverso": "La almacenan, duplican, recombinan y transmiten (llevan la información de la herencia).",
+     "seccion": "nucleicos-1"
+    },
+    {
+     "id": "nucleicos-t4",
+     "frente": "Menciona las 4 funciones de los nucleótidos.",
+     "reverso": "1) Intercambios energéticos. 2) Señales químicas (respuesta a hormonas). 3) Componentes de cofactores enzimáticos e intermedios metabólicos. 4) Constituyentes del ADN y ARN.",
+     "seccion": "nucleicos-1"
+    },
+    {
+     "id": "nucleicos-t5",
+     "frente": "¿Cuáles son las 3 partes de un nucleótido y en qué orden se unen?",
+     "reverso": "Fosfato – azúcar (pentosa) – base nitrogenada. Siempre en ese orden.",
+     "seccion": "nucleicos-2"
+    },
+    {
+     "id": "nucleicos-t6",
+     "frente": "¿Cómo se llama el enlace azúcar-fosfato-azúcar del esqueleto de una cadena de nucleótidos?",
+     "reverso": "Enlace fosfodiéster (fosfodiestérico).",
+     "seccion": "nucleicos-2"
+    },
+    {
+     "id": "nucleicos-t7",
+     "frente": "¿Qué pentosa lleva el ARN y cuál el ADN?",
+     "reverso": "ARN: β-D-ribosa. ADN: β-D-2-desoxirribosa.",
+     "seccion": "nucleicos-2"
+    },
+    {
+     "id": "nucleicos-t8",
+     "frente": "¿En qué carbono difieren la ribosa y la desoxirribosa?",
+     "reverso": "En el carbono 2: la ribosa tiene –OH y la desoxirribosa solo –H (por eso «desoxi»).",
+     "seccion": "nucleicos-2"
+    },
+    {
+     "id": "nucleicos-t9",
+     "frente": "¿Qué le da a cada molécula de ADN o ARN su característica estructural e individual?",
+     "reverso": "La secuencia de bases nitrogenadas a lo largo del esqueleto azúcar-fosfato.",
+     "seccion": "nucleicos-2"
+    },
+    {
+     "id": "nucleicos-t10",
+     "frente": "¿Cuáles son las purinas?",
+     "reverso": "Adenina (A) y guanina (G): bases de dos anillos.",
+     "seccion": "nucleicos-3"
+    },
+    {
+     "id": "nucleicos-t11",
+     "frente": "¿Cuáles son las pirimidinas?",
+     "reverso": "Citosina (C), timina (T) y uracilo (U): bases de un solo anillo.",
+     "seccion": "nucleicos-3"
+    },
+    {
+     "id": "nucleicos-t12",
+     "frente": "¿Qué base es exclusiva del ADN y cuál del ARN?",
+     "reverso": "Timina → solo ADN. Uracilo → solo ARN.",
+     "seccion": "nucleicos-3"
+    },
+    {
+     "id": "nucleicos-t13",
+     "frente": "¿Qué grupo químico distingue a la timina del uracilo?",
+     "reverso": "La timina tiene un grupo metilo (–CH₃).",
+     "seccion": "nucleicos-3"
+    },
+    {
+     "id": "nucleicos-t14",
+     "frente": "¿Qué es un nucleósido?",
+     "reverso": "La parte azúcar + base nitrogenada de un nucleótido (sin fosfato).",
+     "seccion": "nucleicos-4"
+    },
+    {
+     "id": "nucleicos-t15",
+     "frente": "¿Qué es el enlace glucosídico?",
+     "reverso": "El enlace covalente entre el C1 del azúcar y el N1 de una pirimidina o el N9 de una purina.",
+     "seccion": "nucleicos-4"
+    },
+    {
+     "id": "nucleicos-t16",
+     "frente": "¿En qué posición de la pentosa se une el fosfato?",
+     "reverso": "En la posición 5´.",
+     "seccion": "nucleicos-4"
+    },
+    {
+     "id": "nucleicos-t17",
+     "frente": "¿Cómo se clasifican los nucleótidos?",
+     "reverso": "Por la pentosa: ribonucleótidos o desoxirribonucleótidos. Por el número de fosfatos: mono-, di- o trifosfonucleótidos.",
+     "seccion": "nucleicos-4"
+    },
+    {
+     "id": "nucleicos-t18",
+     "frente": "¿Abundan las bases nitrogenadas libres en la naturaleza?",
+     "reverso": "No; a diferencia de los aminoácidos, no se encuentran en abundancia en estado libre.",
+     "seccion": "nucleicos-4"
+    },
+    {
+     "id": "nucleicos-t19",
+     "frente": "¿En qué participa el CTP?",
+     "reverso": "En la biosíntesis de fosfolípidos.",
+     "seccion": "nucleicos-5"
+    },
+    {
+     "id": "nucleicos-t20",
+     "frente": "¿En qué participa el UTP?",
+     "reverso": "En la biosíntesis e interconversión de varios carbohidratos y en la biosíntesis de ARN y ADN.",
+     "seccion": "nucleicos-5"
+    },
+    {
+     "id": "nucleicos-t21",
+     "frente": "¿Por qué ATP → ADP + Pᵢ libera energía?",
+     "reverso": "Porque el ATP es mucho menos estable y está en un estado energético mayor que ADP + Pᵢ. La reacción inversa requiere energía.",
+     "seccion": "nucleicos-5"
+    },
+    {
+     "id": "nucleicos-t22",
+     "frente": "¿Por qué se llaman «ácidos» los ácidos nucleicos?",
+     "reverso": "Por los muchos grupos fosfato débilmente ácidos a lo largo de la cadena.",
+     "seccion": "nucleicos-6"
+    },
+    {
+     "id": "nucleicos-t23",
+     "frente": "¿Qué significa que los ácidos nucleicos sean polianiónicos?",
+     "reverso": "Que tienen muchas cargas negativas (por sus fosfatos).",
+     "seccion": "nucleicos-6"
+    },
+    {
+     "id": "nucleicos-t24",
+     "frente": "¿Cómo se comportan ADN y ARN en NaCl diluido y en alcohol?",
+     "reverso": "NaCl diluido: ADN insoluble, ARN soluble. Alcohol: ambos insolubles. (El ADN sí se disuelve en NaCl concentrado.)",
+     "seccion": "nucleicos-6"
+    },
+    {
+     "id": "nucleicos-t25",
+     "frente": "¿Con qué se separan el ADN y el ARN de sus proteínas?",
+     "reverso": "Con tratamiento con detergente o fenol.",
+     "seccion": "nucleicos-6"
+    },
+    {
+     "id": "nucleicos-t26",
+     "frente": "Enuncia las 3 reglas de Chargaff.",
+     "reverso": "1) A + G = T + C (purinas/pirimidinas ≈ 1). 2) A = T. 3) G = C.",
+     "seccion": "nucleicos-6"
+    },
+    {
+     "id": "nucleicos-t27",
+     "frente": "¿Qué son las nucleasas?",
+     "reverso": "Enzimas que catalizan la hidrólisis de los ácidos nucleicos.",
+     "seccion": "nucleicos-7"
+    },
+    {
+     "id": "nucleicos-t28",
+     "frente": "Endonucleasa vs exonucleasa",
+     "reverso": "Endonucleasa: corta enlaces internos. Exonucleasa: solo enlaces terminales; reconoce el extremo 3´ o 5´.",
+     "seccion": "nucleicos-7"
+    },
+    {
+     "id": "nucleicos-t29",
+     "frente": "Especificidad de base vs especificidad de secuencia de una nucleasa",
+     "reverso": "De base: reconoce sitios de purina o pirimidina. De secuencia: reconoce ciertas secuencias.",
+     "seccion": "nucleicos-7"
+    },
+    {
+     "id": "nucleicos-t30",
+     "frente": "Describe la doble hélice del ADN.",
+     "reverso": "Dos cadenas de polinucleótidos en hélice derecha, enrolladas una en la otra en direcciones opuestas, estabilizadas por puentes de hidrógeno entre pares de bases que apuntan al centro, perpendiculares al eje.",
+     "seccion": "nucleicos-8"
+    },
+    {
+     "id": "nucleicos-t31",
+     "frente": "¿Qué bases se aparean en el ADN?",
+     "reverso": "Adenina con timina (A–T) y guanina con citosina (G–C).",
+     "seccion": "nucleicos-8"
+    },
+    {
+     "id": "nucleicos-t32",
+     "frente": "¿Cómo se clasifica el daño al ADN por agentes ambientales, físicos y químicos?",
+     "reverso": "Alteración de una sola base, alteración de dos bases, rotura de la cadena y enlace cruzado.",
+     "seccion": "nucleicos-9"
+    },
+    {
+     "id": "nucleicos-t33",
+     "frente": "¿Qué pasa si una región dañada del ADN queda retenida?",
+     "reverso": "Conduce a mutaciones y potencialmente a la muerte celular.",
+     "seccion": "nucleicos-9"
+    },
+    {
+     "id": "nucleicos-t34",
+     "frente": "¿Cómo se repara una región dañada «por recombinación» según el material?",
+     "reverso": "Aprovechando la redundancia de la doble hélice: se restaura con la información complementaria de la tira no afectada.",
+     "seccion": "nucleicos-9"
+    },
+    {
+     "id": "nucleicos-t35",
+     "frente": "¿Qué daño produce la luz UV en el ADN?",
+     "reverso": "Dímeros de pirimidina-pirimidina, sobre todo dos timinas juntas en la misma tira.",
+     "seccion": "nucleicos-9"
+    },
+    {
+     "id": "nucleicos-t36",
+     "frente": "¿Cuáles son los tres tipos de ARN de la célula?",
+     "reverso": "ARN mensajero (ARNm), ARN de transferencia (ARNt) y ARN ribosomal (ARNr).",
+     "seccion": "nucleicos-10"
+    },
+    {
+     "id": "nucleicos-t37",
+     "frente": "Define replicación, transcripción y traducción.",
+     "reverso": "Replicación: copia del ADN. Transcripción: ADN → ARNm. Traducción: el ARNm se descifra en los ribosomas para formar la proteína.",
+     "seccion": "nucleicos-10"
+    },
+    {
+     "id": "nucleicos-t38",
+     "frente": "¿Qué otros nombres recibe el ARN mensajero?",
+     "reverso": "ARN informativo, de transcripción, traductivo y complementario.",
+     "seccion": "nucleicos-11"
+    },
+    {
+     "id": "nucleicos-t39",
+     "frente": "Características del ARNm",
+     "reverso": "Cientos a miles por célula; se sintetiza y degrada constantemente; copia complementaria del ADN; una sola cadena de largo variable; bases A, G, C y U.",
+     "seccion": "nucleicos-11"
+    },
+    {
+     "id": "nucleicos-t40",
+     "frente": "¿Qué es un codón? Da los ejemplos del material.",
+     "reverso": "Tres nucleótidos sucesivos del ARNm que indican un aminoácido. UUU = fenilalanina; AUA = isoleucina.",
+     "seccion": "nucleicos-11"
+    },
+    {
+     "id": "nucleicos-t41",
+     "frente": "¿Cuántos polipéptidos puede codificar un ARNm?",
+     "reverso": "Algunos uno solo; otros, dos o tres polipéptidos diferentes.",
+     "seccion": "nucleicos-11"
+    },
+    {
+     "id": "nucleicos-t42",
+     "frente": "Datos clave del ARNt",
+     "reverso": "Hasta 60 por célula; los ácidos nucleicos más pequeños (73–93 nucleótidos); transportan aminoácidos; cada aminoácido tiene al menos un ARNt específico.",
+     "seccion": "nucleicos-12"
+    },
+    {
+     "id": "nucleicos-t43",
+     "frente": "¿Qué es el anticodón?",
+     "reverso": "La secuencia de tres nucleótidos del ARNt, complementaria al codón del ARNm.",
+     "seccion": "nucleicos-12"
+    },
+    {
+     "id": "nucleicos-t44",
+     "frente": "¿Dónde se localiza el ARNr?",
+     "reverso": "En los ribosomas, que se unen al retículo endoplásmico, donde se sintetizan las proteínas.",
+     "seccion": "nucleicos-12"
+    },
+    {
+     "id": "nucleicos-t45",
+     "frente": "¿Qué es el código genético y por qué importa en medicina?",
+     "reverso": "El conjunto de codones. Explica cómo defectos en las proteínas causan enfermedades genéticas y permite diagnosticarlas y tratarlas.",
+     "seccion": "nucleicos-12"
+    },
+    {
+     "id": "nucleicos-t46",
+     "frente": "¿Qué es un oncogén?",
+     "reverso": "Un gen capaz de producir cáncer.",
+     "seccion": "nucleicos-12"
+    }
+   ],
+   "preguntas": [
+    {
+     "id": "nucleicos-q1",
+     "tipo": "opcion",
+     "seccion": "nucleicos-1",
+     "dificultad": 1,
+     "pagina": 110,
+     "enunciado": "Según el material, ¿qué afirmación sobre la presencia de ADN y ARN es correcta?",
+     "opciones": [
+      "Los virus solo tienen uno de los dos: ARN o ADN",
+      "Los virus siempre contienen ADN y ARN juntos",
+      "Las bacterias contienen solo ARN",
+      "Las células humanas contienen solo ADN"
+     ],
+     "correcta": 0,
+     "explicacion": "El material señala que los virus solo tienen uno de ellos (ARN o ADN); el profe lo remarca: «solamente los virus tienen uno u otro». Las células, en cambio, tienen ambos."
+    },
+    {
+     "id": "nucleicos-q2",
+     "tipo": "opcion",
+     "seccion": "nucleicos-1",
+     "dificultad": 2,
+     "pagina": 111,
+     "enunciado": "Una hormona se une a su receptor y, dentro de la célula, la respuesta la transmite un nucleótido. ¿Qué función de los nucleótidos ilustra esto?",
+     "opciones": [
+      "Formar el esqueleto azúcar-fosfato",
+      "Catalizar la hidrólisis de los ácidos nucleicos",
+      "Ser constituyentes de los ácidos nucleicos",
+      "Actuar como señales químicas en respuesta a hormonas"
+     ],
+     "correcta": 3,
+     "explicacion": "Una de las funciones de los nucleótidos es actuar como señales químicas en respuesta a hormonas y otros estímulos extracelulares (p. ej., el AMPc). Hidrolizar ácidos nucleicos es trabajo de las nucleasas, no de los nucleótidos."
+    },
+    {
+     "id": "nucleicos-q3",
+     "tipo": "opcion",
+     "seccion": "nucleicos-2",
+     "dificultad": 1,
+     "pagina": 112,
+     "enunciado": "¿En qué orden se unen las tres partes de un nucleótido?",
+     "opciones": [
+      "Azúcar – fosfato – base nitrogenada",
+      "Fosfato – base nitrogenada – azúcar",
+      "Base nitrogenada – fosfato – azúcar",
+      "Fosfato – azúcar – base nitrogenada"
+     ],
+     "correcta": 3,
+     "explicacion": "Siempre van unidos fosfato (P) – azúcar (A) – base nitrogenada (BN): el azúcar está en medio, con el fosfato en su C5´ y la base en su C1´."
+    },
+    {
+     "id": "nucleicos-q4",
+     "tipo": "opcion",
+     "seccion": "nucleicos-2",
+     "dificultad": 2,
+     "pagina": 114,
+     "enunciado": "¿Qué diferencia estructural distingue a la ribosa de la desoxirribosa?",
+     "opciones": [
+      "En el carbono 1 la desoxirribosa no se une a la base",
+      "En el carbono 2 la ribosa tiene –OH y la desoxirribosa solo –H",
+      "En el carbono 5 la desoxirribosa no puede unir fosfato",
+      "La ribosa es una hexosa y la desoxirribosa una pentosa"
+     ],
+     "correcta": 1,
+     "explicacion": "Ambas son pentosas; difieren en el C2: la ribosa tiene –OH y la desoxirribosa solo –H, de ahí el prefijo «desoxi». Las dos unen fosfato en el C5 y base en el C1."
+    },
+    {
+     "id": "nucleicos-q5",
+     "tipo": "opcion",
+     "seccion": "nucleicos-2",
+     "dificultad": 2,
+     "pagina": 113,
+     "figura": 113,
+     "enunciado": "Observa el nucleótido de la figura. A juzgar por su azúcar, ¿qué tipo de nucleótido es?",
+     "opciones": [
+      "Un desoxirribonucleótido, porque tiene un solo fosfato",
+      "Un ribonucleótido, porque el azúcar tiene –OH en el C2´ y el C3´",
+      "Un nucleósido, porque solo tiene una base",
+      "Un desoxirribonucleótido, porque su base es una purina"
+     ],
+     "correcta": 1,
+     "explicacion": "El azúcar de la figura tiene dos –OH (C2´ y C3´): es ribosa, así que es un ribonucleótido (AMP). El número de fosfatos clasifica en mono/di/tri, no en ribo/desoxi; y tiene fosfato, así que no es nucleósido."
+    },
+    {
+     "id": "nucleicos-q6",
+     "tipo": "opcion",
+     "seccion": "nucleicos-3",
+     "dificultad": 1,
+     "pagina": 115,
+     "enunciado": "¿Qué grupo contiene SOLO pirimidinas?",
+     "opciones": [
+      "Guanina, timina y uracilo",
+      "Adenina y guanina",
+      "Citosina, timina y uracilo",
+      "Adenina, guanina y citosina"
+     ],
+     "correcta": 2,
+     "explicacion": "Las pirimidinas son citosina, timina y uracilo (un anillo). Adenina y guanina son purinas (dos anillos), así que cualquier grupo que las incluya está mal."
+    },
+    {
+     "id": "nucleicos-q7",
+     "tipo": "opcion",
+     "seccion": "nucleicos-3",
+     "dificultad": 2,
+     "pagina": 116,
+     "figura": 116,
+     "enunciado": "En la figura de las bases nitrogenadas, ¿qué rasgo distingue a la timina del uracilo?",
+     "opciones": [
+      "La timina tiene un grupo amino (–NH₂)",
+      "La timina tiene un grupo metilo (–CH₃)",
+      "El uracilo tiene dos anillos fusionados",
+      "El uracilo es una purina"
+     ],
+     "correcta": 1,
+     "explicacion": "En la figura, timina y uracilo son iguales salvo el H₃C (metilo) de la timina. Ambos son pirimidinas de un solo anillo y ninguno tiene grupo amino (eso lo tienen adenina, guanina y citosina)."
+    },
+    {
+     "id": "nucleicos-q8",
+     "tipo": "opcion",
+     "seccion": "nucleicos-4",
+     "dificultad": 2,
+     "pagina": 117,
+     "enunciado": "Un compuesto formado por adenina unida a ribosa, SIN fosfato, es un:",
+     "opciones": [
+      "Nucleótido monofosfato",
+      "Ácido nucleico",
+      "Nucleósido",
+      "Polinucleótido"
+     ],
+     "correcta": 2,
+     "explicacion": "La parte azúcar + base de un nucleótido se llama nucleósido (aquí, adenosina). Para ser nucleótido le falta el fosfato en el C5´; los polinucleótidos y ácidos nucleicos son cadenas de muchos nucleótidos."
+    },
+    {
+     "id": "nucleicos-q9",
+     "tipo": "opcion",
+     "seccion": "nucleicos-4",
+     "dificultad": 3,
+     "pagina": 117,
+     "enunciado": "El enlace glucosídico que une la guanina con su pentosa se forma entre:",
+     "opciones": [
+      "El C1 del azúcar y el N9 de la guanina",
+      "El fosfato y el N1 de la guanina",
+      "El C5 del azúcar y el N9 de la guanina",
+      "El C1 del azúcar y el N1 de la guanina"
+     ],
+     "correcta": 0,
+     "explicacion": "La guanina es purina, así que se une por su N9 al C1 del azúcar. El N1 es el que usan las pirimidinas, y el C5 es donde se une el fosfato, no la base."
+    },
+    {
+     "id": "nucleicos-q10",
+     "tipo": "opcion",
+     "seccion": "nucleicos-5",
+     "dificultad": 1,
+     "pagina": 118,
+     "enunciado": "¿Qué nucleótido trifosfato participa en la biosíntesis de fosfolípidos?",
+     "opciones": [
+      "GTP",
+      "ATP",
+      "CTP",
+      "UTP"
+     ],
+     "correcta": 2,
+     "explicacion": "El material asigna al CTP la biosíntesis de fosfolípidos. El UTP se asocia a carbohidratos y ácidos nucleicos, y el ATP a la entrega de energía."
+    },
+    {
+     "id": "nucleicos-q11",
+     "tipo": "opcion",
+     "seccion": "nucleicos-5",
+     "dificultad": 2,
+     "pagina": 118,
+     "enunciado": "¿Por qué la conversión ATP → ADP + Pᵢ libera energía?",
+     "opciones": [
+      "Porque el ADP es menos estable que el ATP",
+      "Porque se forma un enlace fosfodiéster nuevo",
+      "Porque el Pᵢ aporta energía al unirse al ADP",
+      "Porque el ATP es menos estable y está en un estado energético mayor que ADP + Pᵢ"
+     ],
+     "correcta": 3,
+     "explicacion": "El ATP es mucho menos estable que ADP + Pᵢ y representa un estado energético mayor; al pasar al estado más estable se libera energía. Unir Pᵢ al ADP es justo lo contrario: requiere energía."
+    },
+    {
+     "id": "nucleicos-q12",
+     "tipo": "opcion",
+     "seccion": "nucleicos-6",
+     "dificultad": 2,
+     "pagina": 119,
+     "enunciado": "¿A qué se debe que los ácidos nucleicos sean polianiónicos?",
+     "opciones": [
+      "A los –OH de la ribosa",
+      "A los puentes de hidrógeno entre las bases",
+      "A los numerosos grupos fosfato a lo largo de la cadena",
+      "A los grupos amino de las bases nitrogenadas"
+     ],
+     "correcta": 2,
+     "explicacion": "Los grupos fosfato débilmente ácidos de la cadena pierden H⁺ y quedan con carga negativa: por eso son «ácidos» y polianiónicos. Los grupos amino, si acaso, aportarían carga positiva."
+    },
+    {
+     "id": "nucleicos-q13",
+     "tipo": "opcion",
+     "seccion": "nucleicos-6",
+     "dificultad": 2,
+     "pagina": 120,
+     "enunciado": "En el laboratorio pones una mezcla de ADN y ARN en una solución diluida de NaCl. ¿Qué esperas?",
+     "opciones": [
+      "El ADN se disuelve y el ARN queda insoluble",
+      "Ambos se separan de sus proteínas",
+      "El ARN se disuelve y el ADN queda insoluble",
+      "Ambos se disuelven por completo"
+     ],
+     "correcta": 2,
+     "explicacion": "Según la tabla, en NaCl diluido el ARN es soluble y el ADN insoluble (el ADN se disuelve en NaCl concentrado). Separarlos de las proteínas requiere detergente o fenol, no sal diluida."
+    },
+    {
+     "id": "nucleicos-q14",
+     "tipo": "opcion",
+     "seccion": "nucleicos-6",
+     "dificultad": 3,
+     "pagina": 121,
+     "enunciado": "Un ADN de doble cadena tiene 22 % de guanina. Aplicando las reglas de Chargaff, ¿qué porcentaje de adenina tiene?",
+     "opciones": [
+      "44 %",
+      "28 %",
+      "56 %",
+      "22 %"
+     ],
+     "correcta": 1,
+     "explicacion": "G = C → 22 % + 22 % = 44 % de G + C. Queda 56 % para A + T, y como A = T, cada una es 28 %. La trampa es contestar 22 % (pensar que A = G) o 56 % (olvidar dividir entre dos)."
+    },
+    {
+     "id": "nucleicos-q15",
+     "tipo": "opcion",
+     "seccion": "nucleicos-7",
+     "dificultad": 2,
+     "pagina": 122,
+     "enunciado": "Una enzima degrada un ácido nucleico quitando nucleótidos uno a uno desde el extremo 3´. ¿Qué tipo de nucleasa es?",
+     "opciones": [
+      "Nucleasa con especificidad de secuencia que corta al centro",
+      "Exonucleasa",
+      "Endonucleasa",
+      "Nucleasa que solo reconoce sitios de purina"
+     ],
+     "correcta": 1,
+     "explicacion": "Las exonucleasas actúan solo sobre enlaces terminales y reconocen el extremo 3´ o 5´. Las endonucleasas cortan enlaces internos."
+    },
+    {
+     "id": "nucleicos-q16",
+     "tipo": "opcion",
+     "seccion": "nucleicos-7",
+     "dificultad": 2,
+     "pagina": 122,
+     "enunciado": "Una nucleasa que solo corta junto a sitios de purina tiene especificidad de:",
+     "opciones": [
+      "Extremo 5´",
+      "Base",
+      "Secuencia",
+      "Cadena doble"
+     ],
+     "correcta": 1,
+     "explicacion": "Reconocer sitios de purina o pirimidina se llama especificidad de base. La especificidad de secuencia es reconocer secuencias concretas de varias bases."
+    },
+    {
+     "id": "nucleicos-q17",
+     "tipo": "opcion",
+     "seccion": "nucleicos-8",
+     "dificultad": 1,
+     "pagina": 123,
+     "enunciado": "¿Qué estabiliza la doble hélice del ADN?",
+     "opciones": [
+      "Enlaces fosfodiéster entre bases opuestas",
+      "Enlaces de hidrógeno entre pares de bases específicos",
+      "Puentes disulfuro entre los azúcares",
+      "Enlaces glucosídicos entre las dos cadenas"
+     ],
+     "correcta": 1,
+     "explicacion": "La doble hélice se estabiliza por enlaces de hidrógeno intercadena entre pares de bases (A–T, G–C). El glucosídico une base con azúcar y el fosfodiéster une nucleótidos dentro de la misma cadena."
+    },
+    {
+     "id": "nucleicos-q18",
+     "tipo": "opcion",
+     "seccion": "nucleicos-8",
+     "dificultad": 2,
+     "pagina": 123,
+     "enunciado": "En la doble hélice, ¿cómo están orientadas las bases nitrogenadas?",
+     "opciones": [
+      "Hacia el centro, paralelas al eje",
+      "Hacia el centro de la hélice, perpendiculares al eje",
+      "Hacia afuera, formando el esqueleto de la hélice",
+      "En la periferia, paralelas al eje"
+     ],
+     "correcta": 1,
+     "explicacion": "Las bases se proyectan desde el esqueleto azúcar-fosfato hacia el centro de la hélice, perpendiculares al eje, como los peldaños de una escalera de caracol. El esqueleto es lo que queda por fuera."
+    },
+    {
+     "id": "nucleicos-q19",
+     "tipo": "opcion",
+     "seccion": "nucleicos-9",
+     "dificultad": 2,
+     "pagina": 127,
+     "caso": true,
+     "enunciado": "Un pescador de 60 años con años de exposición solar llega a consulta con lesiones descamativas en el labio inferior. ¿Qué daño molecular produce típicamente la luz UV en el ADN de esas células?",
+     "opciones": [
+      "Hidrólisis de todos los enlaces fosfodiéster",
+      "Dímeros de purina, sobre todo adenina-guanina entre tiras distintas",
+      "Dímeros de pirimidina, sobre todo de dos timinas juntas en la misma tira",
+      "Sustitución de la timina por uracilo en todo el ADN"
+     ],
+     "correcta": 2,
+     "explicacion": "La luz UV induce dímeros de pirimidina-pirimidina, predominantemente timina-timina en la misma tira. Si no se reparan y quedan retenidos llevan a mutaciones, lo que explica el riesgo de lesiones malignas en el labio."
+    },
+    {
+     "id": "nucleicos-q20",
+     "tipo": "opcion",
+     "seccion": "nucleicos-9",
+     "dificultad": 2,
+     "pagina": 126,
+     "enunciado": "Si una región dañada del ADN no se repara y queda retenida, ¿qué consecuencia señala el material?",
+     "opciones": [
+      "Mutaciones y potencialmente muerte celular",
+      "La célula aumenta su síntesis de nucleasas",
+      "Se repara sola con la información de la tira complementaria",
+      "El ADN se convierte en ARN"
+     ],
+     "correcta": 0,
+     "explicacion": "Las regiones retenidas conducen a mutaciones y potencialmente a la muerte celular. Usar la tira complementaria es justamente la otra opción: la reparación."
+    },
+    {
+     "id": "nucleicos-q21",
+     "tipo": "opcion",
+     "seccion": "nucleicos-10",
+     "dificultad": 1,
+     "pagina": 129,
+     "enunciado": "¿Cómo se llama el proceso por el que el mensaje del ADN se copia en ARN mensajero para llevarlo a los ribosomas?",
+     "opciones": [
+      "Recombinación",
+      "Replicación",
+      "Transcripción",
+      "Traducción"
+     ],
+     "correcta": 2,
+     "explicacion": "Transcripción = ADN → ARNm. Replicación es copiar el ADN en ADN y traducción es descifrar el ARNm en los ribosomas para formar la proteína."
+    },
+    {
+     "id": "nucleicos-q22",
+     "tipo": "opcion",
+     "seccion": "nucleicos-11",
+     "dificultad": 2,
+     "pagina": 131,
+     "figura": 131,
+     "enunciado": "En la figura, el ARNm se lee como GCU · ACG · GAG · CUU… ¿Cuántos nucleótidos forman cada codón y qué bases pueden aparecer?",
+     "opciones": [
+      "3 nucleótidos, con A, G, C y T",
+      "3 nucleótidos, con A, G, C y U",
+      "2 nucleótidos, con A, G, C y U",
+      "4 nucleótidos, con A, G, C y U"
+     ],
+     "correcta": 1,
+     "explicacion": "Cada codón es un conjunto de tres nucleótidos sucesivos, y el ARNm tiene A, G, C y U. La T es exclusiva del ADN, por eso no aparece en los codones."
+    },
+    {
+     "id": "nucleicos-q23",
+     "tipo": "opcion",
+     "seccion": "nucleicos-12",
+     "dificultad": 2,
+     "pagina": 133,
+     "enunciado": "¿En qué molécula se encuentra el anticodón?",
+     "opciones": [
+      "En el ARN ribosomal",
+      "En el ADN molde",
+      "En el ARN mensajero",
+      "En el ARN de transferencia"
+     ],
+     "correcta": 3,
+     "explicacion": "Cada ARNt tiene un trinucleótido característico, el anticodón, complementario al codón del ARNm. El codón está en el ARNm, no el anticodón."
+    },
+    {
+     "id": "nucleicos-q24",
+     "tipo": "opcion",
+     "seccion": "nucleicos-12",
+     "dificultad": 3,
+     "pagina": 133,
+     "figura": 133,
+     "enunciado": "Según la figura, ¿qué describe correctamente la relación entre codón y anticodón?",
+     "opciones": [
+      "El aminoácido se une directamente al codón del ARNm",
+      "El anticodón del ARNt es complementario al codón y se aparea en sentido opuesto (3´→5´ frente a 5´→3´)",
+      "El anticodón es idéntico al codón y se aparea en el mismo sentido",
+      "El anticodón está en el ARNm y el codón en el ARNt"
+     ],
+     "correcta": 1,
+     "explicacion": "En la figura el ARNm va 5´→3´ y el anticodón del ARNt va 3´→5´: son complementarios y antiparalelos. El aminoácido va unido al ARNt, no al ARNm."
+    },
+    {
+     "id": "nucleicos-q25",
+     "tipo": "opcion",
+     "seccion": "nucleicos-12",
+     "dificultad": 2,
+     "pagina": 134,
+     "enunciado": "Según el material, ¿por qué es importante el código genético en medicina?",
+     "opciones": [
+      "Explica cómo los defectos en las proteínas causan enfermedades genéticas y ayuda a diagnosticarlas y tratarlas",
+      "Explica por qué el ATP libera energía",
+      "Indica qué nucleasas digieren el ADN de los alimentos",
+      "Determina la solubilidad del ADN en NaCl"
+     ],
+     "correcta": 0,
+     "explicacion": "El código genético (conjunto de codones) es el fundamento para explicar cómo un defecto en una proteína produce una enfermedad genética, diagnosticarla y dar el tratamiento adecuado."
+    },
+    {
+     "id": "nucleicos-q26",
+     "tipo": "vf",
+     "seccion": "nucleicos-1",
+     "dificultad": 1,
+     "pagina": 110,
+     "enunciado": "Los ácidos nucleicos son moléculas pequeñas que solo almacenan la información genética, pero no la transmiten.",
+     "correcta": false,
+     "explicacion": "Falso: son sustancias poliméricas grandes que almacenan, duplican, recombinan y transmiten la información genética."
+    },
+    {
+     "id": "nucleicos-q27",
+     "tipo": "vf",
+     "seccion": "nucleicos-2",
+     "dificultad": 2,
+     "pagina": 112,
+     "enunciado": "Los nucleótidos sucesivos de una cadena se unen entre la base nitrogenada de uno y el fosfato del siguiente.",
+     "correcta": false,
+     "explicacion": "Falso: se unen por enlace éster entre el azúcar de uno y el fosfato del adyacente (enlace fosfodiéster A-P-A). Las bases quedan libres para aparearse."
+    },
+    {
+     "id": "nucleicos-q28",
+     "tipo": "vf",
+     "seccion": "nucleicos-4",
+     "dificultad": 2,
+     "pagina": 117,
+     "enunciado": "Un nucleótido es un nucleósido más un grupo fosfato unido en la posición 5´ de la pentosa.",
+     "correcta": true,
+     "explicacion": "Verdadero: el nucleótido es el nucleósido (azúcar + base) con un fosfato unido por enlace éster en el C5´."
+    },
+    {
+     "id": "nucleicos-q29",
+     "tipo": "vf",
+     "seccion": "nucleicos-6",
+     "dificultad": 2,
+     "pagina": 121,
+     "enunciado": "Según Chargaff, en el ADN el número de adeninas es igual al número de guaninas.",
+     "correcta": false,
+     "explicacion": "Falso: A = T y G = C. Lo que se iguala es la suma de purinas (A + G) con la de pirimidinas (T + C), no A con G."
+    },
+    {
+     "id": "nucleicos-q30",
+     "tipo": "vf",
+     "seccion": "nucleicos-7",
+     "dificultad": 1,
+     "pagina": 122,
+     "enunciado": "Las endonucleasas actúan solamente sobre los enlaces terminales de la cadena.",
+     "correcta": false,
+     "explicacion": "Falso: eso describe a las exonucleasas. Las endonucleasas actúan sobre enlaces internos."
+    },
+    {
+     "id": "nucleicos-q31",
+     "tipo": "vf",
+     "seccion": "nucleicos-8",
+     "dificultad": 1,
+     "pagina": 123,
+     "enunciado": "Las dos cadenas de la doble hélice del ADN corren en la misma dirección.",
+     "correcta": false,
+     "explicacion": "Falso: cada cadena se enrolla alrededor de la otra, pero se mueven en direcciones opuestas (antiparalelas)."
+    },
+    {
+     "id": "nucleicos-q32",
+     "tipo": "vf",
+     "seccion": "nucleicos-12",
+     "dificultad": 2,
+     "pagina": 132,
+     "enunciado": "El ARNt es el ácido nucleico más pequeño (73–93 nucleótidos) y cada aminoácido tiene por lo menos un ARNt específico.",
+     "correcta": true,
+     "explicacion": "Verdadero, así lo dice el material: hasta 60 por célula, los más pequeños, y cada aminoácido tiene al menos un ARNt."
+    },
+    {
+     "id": "nucleicos-q33",
+     "tipo": "completar",
+     "seccion": "nucleicos-2",
+     "dificultad": 1,
+     "pagina": 112,
+     "enunciado": "El enlace azúcar-fosfato-azúcar a lo largo del esqueleto de una cadena polinucleotídica se llama enlace ___.",
+     "respuestas": [
+      "fosfodiéster",
+      "fosfodiestérico",
+      "fosfodiester"
+     ],
+     "explicacion": "Es el enlace fosfodiéster: un fosfato unido por dos enlaces éster a los azúcares de dos nucleótidos vecinos."
+    },
+    {
+     "id": "nucleicos-q34",
+     "tipo": "completar",
+     "seccion": "nucleicos-3",
+     "dificultad": 1,
+     "pagina": 115,
+     "enunciado": "La pirimidina que ocupa en el ARN el lugar de la timina es el ___.",
+     "respuestas": [
+      "uracilo",
+      "U"
+     ],
+     "explicacion": "El ARN tiene A, G, C y U; el uracilo es la pirimidina propia del ARN y la timina la del ADN."
+    },
+    {
+     "id": "nucleicos-q35",
+     "tipo": "completar",
+     "seccion": "nucleicos-4",
+     "dificultad": 2,
+     "pagina": 117,
+     "enunciado": "La unión de una base nitrogenada con una pentosa, sin fosfato, se llama ___.",
+     "respuestas": [
+      "nucleósido",
+      "nucleosido"
+     ],
+     "explicacion": "Nucleósido = azúcar + base. Al agregarle fosfato en el C5´ se vuelve nucleótido."
+    },
+    {
+     "id": "nucleicos-q36",
+     "tipo": "completar",
+     "seccion": "nucleicos-5",
+     "dificultad": 1,
+     "pagina": 118,
+     "enunciado": "El ___ es el nucleótido que en todas las células funciona como «departamento de entrega y despacho» de energía química.",
+     "respuestas": [
+      "ATP",
+      "adenosín trifosfato",
+      "adenosin trifosfato"
+     ],
+     "explicacion": "El ATP es el más importante de los nucleótidos trifosfato porque entrega y despacha la energía química de la célula."
+    },
+    {
+     "id": "nucleicos-q37",
+     "tipo": "completar",
+     "seccion": "nucleicos-6",
+     "dificultad": 2,
+     "pagina": 119,
+     "enunciado": "Por tener muchas cargas negativas, los ácidos nucleicos son de naturaleza ___.",
+     "respuestas": [
+      "polianiónica",
+      "polianionica"
+     ],
+     "explicacion": "Polianiónica = muchas cargas negativas, aportadas por los grupos fosfato de la cadena."
+    },
+    {
+     "id": "nucleicos-q38",
+     "tipo": "completar",
+     "seccion": "nucleicos-9",
+     "dificultad": 2,
+     "pagina": 127,
+     "enunciado": "La luz ultravioleta forma sobre todo dímeros de ___ juntas en la misma tira del ADN.",
+     "respuestas": [
+      "timina",
+      "timinas",
+      "timina-timina"
+     ],
+     "explicacion": "La UV induce dímeros de pirimidina-pirimidina, predominantemente de dos timinas vecinas en la misma tira."
+    },
+    {
+     "id": "nucleicos-q39",
+     "tipo": "completar",
+     "seccion": "nucleicos-11",
+     "dificultad": 1,
+     "pagina": 131,
+     "enunciado": "Cada conjunto de tres nucleótidos sucesivos del ARNm que especifica un aminoácido se llama ___.",
+     "respuestas": [
+      "codón",
+      "codon"
+     ],
+     "explicacion": "Es el codón; su complemento en el ARNt es el anticodón."
+    },
+    {
+     "id": "nucleicos-q40",
+     "tipo": "completar",
+     "seccion": "nucleicos-11",
+     "dificultad": 2,
+     "pagina": 131,
+     "enunciado": "Según el material, el codón UUU especifica el aminoácido ___.",
+     "respuestas": [
+      "fenilalanina",
+      "Phe"
+     ],
+     "explicacion": "UUU = fenilalanina; el otro ejemplo del material es AUA = isoleucina."
+    },
+    {
+     "id": "nucleicos-q41",
+     "tipo": "ordenar",
+     "seccion": "nucleicos-4",
+     "dificultad": 1,
+     "pagina": 117,
+     "enunciado": "Ordena de la estructura más simple a la más compleja:",
+     "items": [
+      "Base nitrogenada",
+      "Nucleósido (base + azúcar)",
+      "Nucleótido (nucleósido + fosfato)",
+      "Polinucleótido (nucleótidos unidos por enlaces fosfodiéster)",
+      "Ácido nucleico (cadena muy grande de ADN o ARN)"
+     ],
+     "explicacion": "La base se une al azúcar (nucleósido), se agrega el fosfato (nucleótido), los nucleótidos se encadenan por enlaces fosfodiéster (polinucleótido) y las cadenas mucho más grandes son los ácidos nucleicos."
+    },
+    {
+     "id": "nucleicos-q42",
+     "tipo": "ordenar",
+     "seccion": "nucleicos-4",
+     "dificultad": 3,
+     "pagina": 117,
+     "enunciado": "Recorre un nucleótido de purina desde el fosfato hasta la base. Ordena:",
+     "items": [
+      "Grupo fosfato",
+      "Carbono 5´ de la pentosa",
+      "Anillo de la pentosa",
+      "Carbono 1´ de la pentosa",
+      "Nitrógeno N9 de la purina"
+     ],
+     "explicacion": "El fosfato se une al C5´ de la pentosa; del otro lado del anillo, el C1´ forma el enlace glucosídico con el N9 de la purina (sería N1 si fuera pirimidina)."
+    },
+    {
+     "id": "nucleicos-q43",
+     "tipo": "ordenar",
+     "seccion": "nucleicos-9",
+     "dificultad": 2,
+     "pagina": 127,
+     "enunciado": "Ordena lo que ocurre cuando la luz UV daña el ADN y la lesión NO se repara:",
+     "items": [
+      "Exposición a luz ultravioleta",
+      "Se forman dímeros de timina en la misma tira",
+      "La región dañada queda retenida",
+      "Aparecen mutaciones",
+      "Puede ocurrir la muerte celular"
+     ],
+     "explicacion": "La UV dimeriza timinas vecinas; si la región no se repara queda retenida, lo que conduce a mutaciones y potencialmente a la muerte celular."
+    },
+    {
+     "id": "nucleicos-q44",
+     "tipo": "ordenar",
+     "seccion": "nucleicos-10",
+     "dificultad": 2,
+     "pagina": 129,
+     "enunciado": "Ordena el camino de la información desde el gen hasta la proteína:",
+     "items": [
+      "El ADN guarda la secuencia de nucleótidos",
+      "Transcripción: se forma una copia complementaria de ARNm",
+      "El ARNm lleva el mensaje a los ribosomas",
+      "El anticodón del ARNt se aparea con el codón del ARNm",
+      "Se alinean los aminoácidos y se forma el polipéptido"
+     ],
+     "explicacion": "El ADN se transcribe a ARNm, que viaja a los ribosomas; ahí, en la traducción, cada ARNt reconoce un codón con su anticodón y entrega su aminoácido en el orden correcto."
+    },
+    {
+     "id": "nucleicos-q45",
+     "tipo": "relacionar",
+     "seccion": "nucleicos-3",
+     "dificultad": 1,
+     "pagina": 116,
+     "enunciado": "Relaciona cada base con su descripción:",
+     "pares": [
+      [
+       "Adenina",
+       "Purina con grupo amino"
+      ],
+      [
+       "Guanina",
+       "Purina con C=O y grupo amino"
+      ],
+      [
+       "Timina",
+       "Pirimidina con metilo, solo en ADN"
+      ],
+      [
+       "Uracilo",
+       "Pirimidina exclusiva del ARN"
+      ],
+      [
+       "Citosina",
+       "Pirimidina presente en ADN y ARN"
+      ]
+     ],
+     "explicacion": "A y G son purinas (2 anillos); C, T y U son pirimidinas. La timina lleva metilo y está solo en el ADN; el uracilo la sustituye en el ARN; la citosina está en ambos."
+    },
+    {
+     "id": "nucleicos-q46",
+     "tipo": "relacionar",
+     "seccion": "nucleicos-5",
+     "dificultad": 2,
+     "pagina": 118,
+     "enunciado": "Relaciona cada nucleótido o reacción con lo que le corresponde:",
+     "pares": [
+      [
+       "ATP",
+       "Entrega y despacho de energía química"
+      ],
+      [
+       "CTP",
+       "Biosíntesis de fosfolípidos"
+      ],
+      [
+       "UTP",
+       "Biosíntesis e interconversión de carbohidratos"
+      ],
+      [
+       "ATP → ADP + Pᵢ",
+       "Libera energía"
+      ],
+      [
+       "ADP + Pᵢ → ATP",
+       "Requiere energía"
+      ]
+     ],
+     "explicacion": "Así lo plantea el material: CTP para fosfolípidos, UTP para carbohidratos (y ácidos nucleicos) y ATP como moneda energética; romper el ATP libera energía y formarlo la consume."
+    },
+    {
+     "id": "nucleicos-q47",
+     "tipo": "relacionar",
+     "seccion": "nucleicos-7",
+     "dificultad": 2,
+     "pagina": 122,
+     "enunciado": "Relaciona cada término con su definición:",
+     "pares": [
+      [
+       "Endonucleasa",
+       "Corta enlaces internos de la cadena"
+      ],
+      [
+       "Exonucleasa",
+       "Corta solo enlaces terminales (3´ o 5´)"
+      ],
+      [
+       "Especificidad de base",
+       "Reconoce sitios de purina o pirimidina"
+      ],
+      [
+       "Especificidad de secuencia",
+       "Reconoce ciertas secuencias"
+      ]
+     ],
+     "explicacion": "Endo = dentro, exo = desde la punta. La especificidad de base distingue purinas de pirimidinas; la de secuencia reconoce secuencias concretas."
+    },
+    {
+     "id": "nucleicos-q48",
+     "tipo": "relacionar",
+     "seccion": "nucleicos-12",
+     "dificultad": 1,
+     "pagina": 133,
+     "enunciado": "Relaciona cada ácido nucleico con su característica:",
+     "pares": [
+      [
+       "ARNm",
+       "Lleva los codones; copia complementaria del ADN"
+      ],
+      [
+       "ARNt",
+       "Transporta aminoácidos y tiene el anticodón"
+      ],
+      [
+       "ARNr",
+       "Se localiza en los ribosomas"
+      ],
+      [
+       "ADN",
+       "Doble hélice que contiene timina"
+      ]
+     ],
+     "explicacion": "El ARNm lleva el mensaje en codones, el ARNt trae los aminoácidos y lee con su anticodón, el ARNr forma parte de los ribosomas y el ADN es la doble hélice con A–T y G–C."
+    },
+    {
+     "id": "nucleicos-q49",
+     "tipo": "relacionar",
+     "seccion": "nucleicos-9",
+     "dificultad": 2,
+     "pagina": 126,
+     "enunciado": "Relaciona cada concepto de daño al ADN con su descripción:",
+     "pares": [
+      [
+       "Dímero de timina",
+       "Lesión inducida por luz ultravioleta"
+      ],
+      [
+       "Región retenida",
+       "Lleva a mutaciones y posible muerte celular"
+      ],
+      [
+       "Reparación por recombinación",
+       "Usa la información de la tira no afectada"
+      ],
+      [
+       "Integridad del ADN",
+       "Clave para la supervivencia del organismo y la especie"
+      ]
+     ],
+     "explicacion": "La UV produce dímeros de timina; si la región se retiene hay mutaciones; si se repara, se usa la tira complementaria; conservar la integridad es vital para el individuo y la especie."
+    }
+   ],
+   "alertas": [
+    {
+     "pagina": 110,
+     "nota": "Dice que el ácido nucleico es «una sustancia ácida a partir del núcleo celular». Se refiere a que se aisló del núcleo; los libros aclaran que también hay ADN en mitocondrias y que el ARN abunda en el citoplasma."
+    },
+    {
+     "pagina": 112,
+     "nota": "Llama «enlace estérico» a la unión azúcar-fosfato (y en la pág. 122 «enlaces diestéricos»). El término correcto es enlace éster / fosfodiéster; «estérico» en química se refiere al espacio (impedimento estérico). En la guía se usa éster/fosfodiéster."
+    },
+    {
+     "pagina": 117,
+     "nota": "Lo llama «enlace glucosídico»; los libros lo nombran enlace β-N-glucosídico (N-glicosídico) porque se forma con un nitrógeno de la base."
+    },
+    {
+     "pagina": 118,
+     "nota": "Dice que el UTP funciona «en la biosíntesis de ARN y ADN». En los libros el UTP se incorpora al ARN; el ADN usa desoxirribonucleótidos (dTTP), y el UTP solo es precursor indirecto. Además, el material no menciona el GTP (se añadió como dato extra)."
+    },
+    {
+     "pagina": 121,
+     "nota": "Las reglas de Chargaff se presentan después de «cada ARN y ADN…», pero en los libros A = T y G = C se cumplen solo en el ADN de doble cadena, no en el ARN (cadena sencilla). «La razón de purinas es de uno» debe leerse como purinas/pirimidinas ≈ 1."
+    },
+    {
+     "pagina": 124,
+     "nota": "La nota manuscrita dice «uniones de las bases deshidrogenadas»; debe ser bases nitrogenadas unidas por puentes de hidrógeno."
+    },
+    {
+     "pagina": 126,
+     "nota": "Describe la reparación «por recombinación» como usar la información de la tira complementaria no afectada. En los libros eso corresponde a la reparación por escisión; la reparación por recombinación usa la molécula homóloga (cromátida hermana) y se usa sobre todo en roturas de doble cadena."
+    },
+    {
+     "pagina": 132,
+     "nota": "«Cada célula tiene hasta 60 [ARNt]» y «son los ácidos nucleicos más pequeños». Los libros dan cifras variables (al menos 20 tipos, en la práctica 30–50 especies; el genoma humano tiene cientos de genes de ARNt) y existen ARN más pequeños (microARN de ~22 nucleótidos). Se enseña la cifra del material."
+    },
+    {
+     "pagina": 133,
+     "nota": "Dice que los ribosomas se unen al retículo endoplásmico «que es donde finalmente se realiza la síntesis de las proteínas». También hay ribosomas libres en el citosol que sintetizan proteínas; no toda la síntesis ocurre en el RE."
+    },
+    {
+     "pagina": 134,
+     "nota": "La nota manuscrita «cada uno es diferente, todos tenemos un codón diferente» es incorrecta: el código genético es prácticamente universal (cada codón significa el mismo aminoácido en todos los seres vivos); lo que cambia entre personas es la secuencia del ADN. No se incluyó como contenido."
+    }
+   ]
+  },
+  {
+   "id": "saliva",
+   "titulo": "Saliva, jugos digestivos y caries",
+   "emoji": "🦷",
+   "paginas": [
+    135,
+    141
+   ],
+   "descripcion": "Qué contiene la saliva y para qué sirve cada componente, qué aportan el jugo gástrico, el pancreático y la bilis, dónde se absorben los nutrientes y cómo los azúcares y el pH desmineralizan el esmalte (y cómo se remineraliza).",
+   "imprescindibles": [
+    "La saliva total o mixta es la mezcla de la saliva de las glándulas mayores y menores con otros componentes de la boca; es viscosa y tiene 99 % de agua.",
+    "Iones de la saliva: sodio, potasio, cloro, fosfato, bicarbonato y calcio; sustancias orgánicas: urea, ácido úrico y hormonas.",
+    "Amilasa salival (ptialina): la macromolécula de mayor concentración y la enzima más importante de la saliva; inicia la digestión del almidón y el glucógeno.",
+    "Mucina: glucoproteína que forma geles protectores del epitelio y es parte de la película adquirida. Lisozima: protege contra bacterias, virus y hongos (acción bactericida).",
+    "Insalivación: disolver (sabor), lubricar (deglución), iniciar la digestión de carbohidratos, acción bactericida y mantener la humedad de la boca.",
+    "Jugo gástrico: agua + ácido clorhídrico + pepsina, renina gástrica y lipasa gástrica; convierte el bolo en quimo.",
+    "Jugo pancreático: bicarbonato de sodio + proteasas (tripsina, quimotripsina, carboxipeptidasa), amilasa pancreática, nucleasas y lipasa pancreática.",
+    "Bilis: la produce el hígado de forma continua, se guarda en la vesícula y sus sales emulsionan las grasas (como un detergente) para que las enzimas las digieran.",
+    "Absorción: hierro ferroso en el duodeno, la mayoría de los nutrientes en el yeyuno y la vitamina B₁₂ en el íleon.",
+    "Caries = desmineralización del tejido dental por desequilibrio del pH entre biopelícula y diente; primero subclínica, luego lesión de mancha blanca.",
+    "Azúcares (sobre todo sacarosa) → glucólisis → fermentación → ácidos orgánicos → H⁺ → el pH baja a 5.5 → se pierde hidroxiapatita.",
+    "Hidroxiapatita: Ca₁₀(PO₄)₆(OH)₂ con relación Ca²⁺ : PO₄³⁻ : OH⁻ = 10 : 6 : 2; puede sustituir iones como el flúor.",
+    "Esmalte maduro: 95 % mineral, 4 % agua y 1 % proteínas; sin células ni vasos, así que no puede remodelarse ni repararse.",
+    "Solución subsaturada → desmineralización; sobresaturada → remineralización (núcleos y crecimiento de cristales).",
+    "El fluoruro tópico es el agente con mayor efectividad para remineralizar el esmalte."
+   ],
+   "secciones": [
+    {
+     "id": "saliva-1",
+     "titulo": "Composición de la saliva",
+     "paginas": [
+      136,
+      136
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Las **glándulas salivales mayores y menores** aportan distintos tipos de saliva con diferentes componentes, que además se **mezclan con otros de la cavidad bucal**. Esa mezcla se llama **saliva total o mixta**."
+      },
+      {
+       "tipo": "clave",
+       "md": "La saliva bucal es **viscosa** y contiene **99 % de agua**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Grupo",
+        "Componentes"
+       ],
+       "filas": [
+        [
+         "Agua",
+         "≈ 99 %"
+        ],
+        [
+         "Iones",
+         "Sodio (Na⁺), potasio (K⁺), cloro (Cl⁻), fosfato, bicarbonato (HCO₃⁻) y calcio (Ca²⁺)"
+        ],
+        [
+         "Sustancias orgánicas",
+         "Urea, ácido úrico y hormonas"
+        ],
+        [
+         "Componentes proteicos y glucoproteínas",
+         "Amilasa salival (ptialina), mucina y lisozima"
+        ]
+       ]
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Componente",
+        "Qué es",
+        "Función"
+       ],
+       "filas": [
+        [
+         "Amilasa salival o ptialina",
+         "La macromolécula de mayor concentración en la saliva y la enzima más importante",
+         "Digestión inicial del almidón, el glucógeno y otros polisacáridos en la boca"
+        ],
+        [
+         "Mucina",
+         "Glucoproteínas que forman geles viscosos, elásticos e hidrofílicos",
+         "Barrera protectora del epitelio contra el daño mecánico; impide la entrada de virus y bacterias; forma parte de la película adquirida salival"
+        ],
+        [
+         "Lisozima",
+         "Proteína ampliamente distribuida en todos los fluidos corporales",
+         "Protección frente a bacterias, virus y hongos (acción bactericida)"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "La **amilasa salival (ptialina)** es la **macromolécula de mayor concentración** en la saliva y, por su función enzimática, la **enzima más importante** de ella."
+      },
+      {
+       "tipo": "texto",
+       "md": "El **bicarbonato** y el **fosfato** de la saliva funcionan como **amortiguadores**: neutralizan los ácidos de la biopelícula. El **calcio** y el **fosfato** mantienen la saliva sobresaturada respecto al esmalte, lo que favorece la remineralización.",
+       "extra": true
+      },
+      {
+       "tipo": "truco",
+       "md": "**A-M-L** de la saliva: **A**milasa = **A**lmidón · **M**ucina = **M**oco protector · **L**isozima = **L**isa (rompe) bacterias."
+      }
+     ]
+    },
+    {
+     "id": "saliva-2",
+     "titulo": "Funciones de la insalivación",
+     "paginas": [
+      136,
+      136
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "La mezcla de la saliva con el alimento se llama **insalivación** y tiene estos fines:"
+      },
+      {
+       "tipo": "lista",
+       "items": [
+        "**Disolver los alimentos:** permite apreciar el sabor y reconocer cualquier sustancia extraña, tóxica o irritante.",
+        "**Lubricar los alimentos:** facilita la deglución.",
+        "**Iniciar la digestión de algunos carbohidratos**, gracias a la enzima amilasa.",
+        "**Acción bactericida**, por efecto de la lisozima.",
+        "**Mantener la humedad** de la cavidad bucal."
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "**D-L-D-B-H**: «**D**ale **L**a **D**osis **B**ien **H**úmeda» → **D**isolver, **L**ubricar, **D**igerir carbohidratos, **B**actericida, **H**umedad."
+      },
+      {
+       "tipo": "clinica",
+       "md": "**Xerostomía (boca seca)** por radioterapia de cabeza y cuello, síndrome de Sjögren o fármacos: se pierden la lubricación (cuesta tragar y hablar), la acción bactericida de la lisozima, la barrera de la mucina y el efecto amortiguador. Por eso estos pacientes tienen **más caries** e infecciones como la candidiasis.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "La amilasa salival actúa poco tiempo: al llegar al estómago, el pH ácido la inactiva; la digestión del almidón la termina la amilasa pancreática.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "saliva-3",
+     "titulo": "Jugo gástrico, jugo pancreático y bilis",
+     "paginas": [
+      137,
+      138
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "El **jugo gástrico** es un líquido **claro** secretado en abundancia por numerosas **glándulas microscópicas** de la mucosa del estómago. Funcionalmente es un **ácido muy fuerte** que se encuentra en el estómago."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Secreción",
+        "Origen y vía",
+        "Componentes"
+       ],
+       "filas": [
+        [
+         "Jugo gástrico",
+         "Glándulas microscópicas de la mucosa del estómago",
+         "1) Agua, 2) ácido clorhídrico (HCl), 3) enzimas: pepsina, renina gástrica y lipasa gástrica"
+        ],
+        [
+         "Jugo pancreático",
+         "Secreción exocrina de los acinos pancreáticos → conducto pancreático → colédoco → segunda porción del duodeno",
+         "Agua, sales minerales, bicarbonato de sodio y enzimas: proteasas (tripsina, quimotripsina, carboxipeptidasa), amilasa pancreática, nucleasas (desoxirribonucleasas y ribonucleasas) y lipasa pancreática"
+        ],
+        [
+         "Bilis",
+         "Hígado (secreción continua) → se almacena en la vesícula biliar entre comidas → se libera al duodeno tras comer",
+         "Agua (≈ 97 %), sales biliares, proteínas, colesterol y hormonas"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "Gracias a la acción de los jugos gástricos, el **bolo alimenticio** se convierte en una sustancia pastosa llamada **quimo**."
+      },
+      {
+       "tipo": "texto",
+       "md": "En el jugo pancreático, cada grupo de enzimas tiene su blanco: las **proteasas** degradan proteínas, la **amilasa pancreática** digiere almidones, las **nucleasas** digieren ácidos nucleicos y la **lipasa pancreática**, grasas."
+      },
+      {
+       "tipo": "texto",
+       "md": "La **bilis** es un líquido **verde y de sabor amargo** producido por el **hígado**. En la digestión funciona como **emulsionante**: convierte las grasas en **gotitas muy pequeñas** que los jugos digestivos atacan con más facilidad."
+      },
+      {
+       "tipo": "clave",
+       "md": "Las **sales biliares emulsionan las grasas** en el contenido acuoso del intestino igual que los **detergentes** emulsionan la grasa de un sartén. **Cuando las grasas ya están emulsionadas, las enzimas del páncreas y de la mucosa intestinal las digieren.**"
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Recorrido de la bilis",
+       "items": [
+        {
+         "nombre": "1. Hígado",
+         "detalle": "Produce la bilis de forma continua."
+        },
+        {
+         "nombre": "2. Vesícula biliar",
+         "detalle": "La almacena en los periodos interdigestivos (entre comidas)."
+        },
+        {
+         "nombre": "3. Vías biliares → duodeno",
+         "detalle": "Al comer, la bilis sale de la vesícula al intestino delgado y se mezcla con las grasas."
+        },
+        {
+         "nombre": "4. Emulsión",
+         "detalle": "Las sales biliares rompen la grasa en gotitas."
+        },
+        {
+         "nombre": "5. Digestión",
+         "detalle": "Las enzimas del páncreas y de la mucosa intestinal digieren las grasas emulsionadas."
+        }
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "Según los libros, el HCl desnaturaliza proteínas, activa el pepsinógeno a pepsina (que inicia la digestión de proteínas) y destruye microorganismos; el bicarbonato pancreático neutraliza ese ácido al llegar al duodeno.",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "**Reflujo gastroesofágico y bulimia:** el HCl que llega a la boca causa **erosión dental** (sobre todo en las caras palatinas de los dientes anteriores superiores). Es pérdida química de esmalte **sin bacterias**, distinta de la caries.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "saliva-4",
+     "titulo": "Absorción de nutrientes en el tubo digestivo",
+     "paginas": [
+      135,
+      135
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "Notas de clase (apoyadas en un video) con un esquema del tubo digestivo que señala qué se absorbe en cada segmento:"
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Segmento",
+        "Qué se absorbe (según las notas y el esquema)"
+       ],
+       "filas": [
+        [
+         "Estómago",
+         "Alcohol (el esquema lo señala saliendo del estómago)"
+        ],
+        [
+         "Duodeno",
+         "Hierro (hierro ferroso, «inorgánico»), calcio y ácido fólico"
+        ],
+        [
+         "Yeyuno",
+         "Los nutrientes en general: agua, aminoácidos, hierro, calcio, carbohidratos, grasas, vitaminas A, D, E y K, ácido fólico"
+        ],
+        [
+         "Íleon",
+         "Vitamina B₁₂"
+        ],
+        [
+         "Colon",
+         "Según las notas, no absorbe nutrientes como tal; el esquema muestra absorción de agua"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "El **hierro ferroso** se absorbe en el **duodeno**; el **yeyuno** absorbe los nutrientes en general; la **vitamina B₁₂** se absorbe en el **íleon**."
+      },
+      {
+       "tipo": "figura",
+       "pagina": 135,
+       "pie": "Esquema del estómago, duodeno, yeyuno, íleon y colon con los nutrientes que se absorben en cada uno (hierro y calcio en duodeno; casi todo en yeyuno; B₁₂ en íleon; agua en colon)."
+      },
+      {
+       "tipo": "clinica",
+       "md": "Las deficiencias de hierro, ácido fólico o B₁₂ (p. ej., tras quitar el íleon o en enfermedad celíaca, que daña duodeno y yeyuno) se ven en la boca: **glositis** (lengua lisa y roja), **queilitis angular**, úlceras y mucosa pálida. El dentista puede ser el primero en notarlo.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "saliva-5",
+     "titulo": "Caries: definición y bioquímica del proceso carioso",
+     "paginas": [
+      139,
+      141
+     ],
+     "bloques": [
+      {
+       "tipo": "clave",
+       "md": "La **caries dental** es una **desmineralización del tejido dental**, resultado del **desequilibrio en las fluctuaciones de pH entre la biopelícula y el diente**. Nota del profe: *la caries es producida por la pérdida del balance de la biopelícula dental*."
+      },
+      {
+       "tipo": "texto",
+       "md": "En sus primeras fases es **subclínica**; si la disminución del pH se perpetúa, se hace **clínicamente visible**, primero como **lesión de mancha blanca**."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Bioquímica de la caries (notas de clase)",
+       "items": [
+        {
+         "nombre": "1. Azúcares",
+         "detalle": "Glucosa, **sacarosa** (la que resaltó el profe) y lactosa."
+        },
+        {
+         "nombre": "2. Glucólisis",
+         "detalle": "Los azúcares se degradan por glucólisis."
+        },
+        {
+         "nombre": "3. Fermentación",
+         "detalle": "Se fermentan los productos de la glucólisis."
+        },
+        {
+         "nombre": "4. Ácidos orgánicos",
+         "detalle": "Se forman ácidos orgánicos y los protones (H⁺) son expulsados al medio."
+        },
+        {
+         "nombre": "5. Baja el pH a 5.5",
+         "detalle": "La liberación de protones baja el pH a 5.5."
+        },
+        {
+         "nombre": "6. Desmineralización",
+         "detalle": "Se disuelve el tejido dental, compuesto por hidroxiapatita."
+        }
+       ]
+      },
+      {
+       "tipo": "figura",
+       "pagina": 141,
+       "pie": "Notas «Bioquímica de la caries dental»: azúcares → glucólisis → fermentación → ácidos orgánicos → H⁺ → pH 5.5; tejido de hidroxiapatita; caries por pérdida del balance de la biopelícula."
+      },
+      {
+       "tipo": "texto",
+       "md": "Las bacterias de la biopelícula que hacen esa fermentación son sobre todo *Streptococcus mutans* (inicio) y *Lactobacillus* (progresión); el ácido orgánico principal es el **ácido láctico**. El pH de 5.5 es el **pH crítico** del esmalte: por debajo de él la hidroxiapatita se disuelve.",
+       "extra": true
+      },
+      {
+       "tipo": "texto",
+       "md": "Los conceptos actuales de caries obligan a usar **sistemas de diagnóstico integral** que reconozcan **lesiones iniciales o subclínicas** en pacientes de **alto riesgo**, y a adoptar **tratamientos no operatorios** que frenen temprano la pérdida de minerales."
+      },
+      {
+       "tipo": "clave",
+       "md": "La **remineralización** del esmalte ocurre **fisiológicamente** en la boca y se puede propiciar con **agentes remineralizantes**. Según numerosos estudios y revisiones sistemáticas, el **fluoruro tópico** es el de **mayor efectividad**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Nuevos **agentes remineralizantes** ganan espacio en pacientes con **alto riesgo de caries** y en lesiones **subclínicas** y de **mancha blanca leves**: son una alternativa al **fluoruro** y a materiales tipo **selladores**."
+      },
+      {
+       "tipo": "clinica",
+       "md": "En consulta, una **mancha blanca** opaca sin cavidad es caries inicial que todavía puede detenerse: se maneja sin operar (fluoruro tópico, menos frecuencia de azúcares —sobre todo sacarosa— y control de la biopelícula) para que domine la remineralización."
+      },
+      {
+       "tipo": "truco",
+       "md": "Las **4 A** de la caries: **A**zúcar → **Á**cido → **A**bajo el pH (5.5) → **A**diós mineral."
+      }
+     ]
+    },
+    {
+     "id": "saliva-6",
+     "titulo": "El esmalte dental y la hidroxiapatita",
+     "paginas": [
+      139,
+      139
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "El **esmalte** es una **biocerámica nanocompuesta** de **origen epitelial** que protege al diente de agresiones químicas y físicas. Su mineral es muy parecido a la **hidroxiapatita (HAp)**, un **ortofosfato de calcio** que existe en la naturaleza."
+      },
+      {
+       "tipo": "clave",
+       "md": "Los cristales del esmalte están hechos de **calcio, fosfato y grupos hidroxilo**: **Ca₁₀(PO₄)₆(OH)₂**, en relación **10 : 6 : 2**. Pueden tener **sustituciones** de iones como **magnesio, sodio, cloro, potasio, carbonato, flúor** y otros que no están en la HAp ideal."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Concepto",
+        "Qué es"
+       ],
+       "filas": [
+        [
+         "Amelogénesis",
+         "Conjunto de eventos **celulares** que forman el esmalte"
+        ],
+        [
+         "Biomineralización",
+         "Eventos **bioquímicos** de formación del mineral"
+        ],
+        [
+         "Ameloblastos",
+         "Células especializadas que delimitan el espacio biológico del esmalte, transportan iones calcio y fosfato (materia prima de los cristales) y secretan las proteínas que orientan el crecimiento longitudinal de los prismas"
+        ]
+       ]
+      },
+      {
+       "tipo": "texto",
+       "md": "Aunque en el laboratorio se puede sintetizar HAp con calcio y fosfato, el mineral precipitado **nunca alcanza el grado de organización y morfología del esmalte**. Cuando el prisma alcanza su longitud, al final de la formación, **la mayoría de las proteínas se degradan** para lograr una mineralización completa y el patrón altamente organizado del esmalte maduro."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Esmalte maduro (por peso)",
+        "Porcentaje"
+       ],
+       "filas": [
+        [
+         "Mineral",
+         "95 %"
+        ],
+        [
+         "Agua",
+         "4 %"
+        ],
+        [
+         "Proteínas remanentes del desarrollo",
+         "1 %"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "El esmalte **no tiene células ni vasculatura**, por lo que es **incapaz de remodelarse o repararse**. Su pequeño componente orgánico le da, respecto a la HAp ideal, **mayor módulo elástico y dureza** → más resistencia a la **fractura** y al **desgaste**."
+      },
+      {
+       "tipo": "texto",
+       "md": "Los cristales de hidroxiapatita se apilan a lo largo de un eje longitudinal y se agrupan en haces de **hasta mil cristales**, que forman los **prismas del esmalte**. Entre ellos queda el **espacio interprismático**, con gran cantidad de **agua e iones** que fluyen constantemente."
+      },
+      {
+       "tipo": "texto",
+       "md": "**Fluorapatita:** cuando el flúor sustituye al OH⁻ se forma Ca₁₀(PO₄)₆F₂ (o fluorohidroxiapatita), un cristal más estable y menos soluble en ácido, con pH crítico ≈ 4.5 en vez de 5.5. Por eso el flúor protege contra la caries.",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "Como el esmalte no tiene células, lo que pierde solo se recupera por **remineralización físico-química** (iones de la saliva, flúor) o se repone con **materiales restauradores**; no se «regenera» como el hueso.",
+       "extra": true
+      }
+     ]
+    },
+    {
+     "id": "saliva-7",
+     "titulo": "Desmineralización y remineralización",
+     "paginas": [
+      139,
+      140
+     ],
+     "bloques": [
+      {
+       "tipo": "texto",
+       "md": "En el cristal, los iones **Ca²⁺, PO₄³⁻ y OH⁻** (relación **10:6:2**) están unidos por **enlaces iónicos** gracias a sus fuertes cargas opuestas, con un patrón muy organizado. Como tienen carga, pueden **interactuar con las moléculas de agua**, que también tienen carga eléctrica."
+      },
+      {
+       "tipo": "texto",
+       "md": "Si un fragmento de esmalte se deja suficiente tiempo en agua, el agua le retira iones uno a uno, hasta que la concentración en el agua circundante es tan alta que ya no puede extraer más."
+      },
+      {
+       "tipo": "clave",
+       "md": "**Solución subsaturada:** concentración de iones **por debajo** de la del cristal → el agua retira iones → **desmineralización**. **Solución sobresaturada:** **alta** concentración de iones alrededor del cristal (porque salieron muchos o porque se agregaron) → los iones se depositan sobre los cristales ya formados → **remineralización**."
+      },
+      {
+       "tipo": "tabla",
+       "columnas": [
+        "Aspecto",
+        "Desmineralización",
+        "Remineralización"
+       ],
+       "filas": [
+        [
+         "Estado de la solución",
+         "Subsaturada",
+         "Sobresaturada"
+        ],
+        [
+         "Movimiento de iones",
+         "Del cristal hacia el medio",
+         "Del medio hacia el cristal"
+        ],
+        [
+         "Resultado",
+         "Pérdida de mineral",
+         "Ganancia neta de material calcificado"
+        ]
+       ]
+      },
+      {
+       "tipo": "clave",
+       "md": "**Remineralización** = **ganancia neta de material calcificado** en la estructura dental, que **reemplaza lo perdido** por desmineralización. Es un proceso **físico-químico**: sobresaturación de iones → formación de núcleos → crecimiento de cristales."
+      },
+      {
+       "tipo": "pasos",
+       "titulo": "Cómo se remineraliza el esmalte",
+       "items": [
+        {
+         "nombre": "1. Sobresaturación",
+         "detalle": "La solución tiene más iones que el esmalte."
+        },
+        {
+         "nombre": "2. Enlace y deshidratación",
+         "detalle": "Los iones empiezan a formar enlaces y a deshidratarse."
+        },
+        {
+         "nombre": "3. Núcleos sólidos",
+         "detalle": "Se forman núcleos sólidos."
+        },
+        {
+         "nombre": "4. Precipitación",
+         "detalle": "Los núcleos se agrupan y precipitan en forma de cristales."
+        },
+        {
+         "nombre": "5. Crecimiento",
+         "detalle": "Los cristales crecen en los espacios del esmalte que, por la desmineralización, tienen mayor área de contacto."
+        }
+       ]
+      },
+      {
+       "tipo": "truco",
+       "md": "**Sub = sale** (el ion sale del cristal). **Sobre = sobre el cristal** (el ion se deposita encima)."
+      },
+      {
+       "tipo": "texto",
+       "md": "La pág. 140 trae una captura (Figura 2: flujo de iones entre saliva, biopelícula y esmalte) que no se puede leer. Idea general de los libros: los ácidos bacterianos liberan H⁺ que se combinan con PO₄³⁻ y OH⁻ del medio (forman HPO₄²⁻, H₂PO₄⁻ y agua); al bajar esos iones, la solución queda subsaturada y el esmalte cede mineral.",
+       "extra": true
+      },
+      {
+       "tipo": "clinica",
+       "md": "En boca esto pasa todo el día: cada vez que se come azúcar, el pH baja y domina la desmineralización; entre comidas, la saliva recupera el pH y aporta Ca²⁺ y fosfato, y domina la remineralización. Si el balance se pierde (azúcar muy frecuente), aparece la caries.",
+       "extra": true
+      }
+     ]
+    }
+   ],
+   "figuras": [
+    {
+     "pagina": 135,
+     "pie": "Absorción de nutrientes por segmento del tubo digestivo.",
+     "seccion": "saliva-4"
+    },
+    {
+     "pagina": 141,
+     "pie": "Notas de la bioquímica de la caries: de los azúcares al pH 5.5.",
+     "seccion": "saliva-5"
+    }
+   ],
+   "glosario": [
+    {
+     "termino": "Saliva total o mixta",
+     "definicion": "Mezcla de la saliva de glándulas mayores y menores con otros componentes de la boca."
+    },
+    {
+     "termino": "Ptialina",
+     "definicion": "Amilasa salival; inicia la digestión del almidón y el glucógeno en la boca."
+    },
+    {
+     "termino": "Mucina",
+     "definicion": "Glucoproteína salival que forma geles protectores y es parte de la película adquirida."
+    },
+    {
+     "termino": "Película adquirida salival",
+     "definicion": "Capa de proteínas salivales que cubre el diente; la mucina forma parte de ella."
+    },
+    {
+     "termino": "Lisozima",
+     "definicion": "Proteína de los fluidos corporales con acción bactericida."
+    },
+    {
+     "termino": "Insalivación",
+     "definicion": "Mezcla de la saliva con el alimento."
+    },
+    {
+     "termino": "Quimo",
+     "definicion": "Sustancia pastosa en que se convierte el bolo por los jugos gástricos."
+    },
+    {
+     "termino": "Pepsina",
+     "definicion": "Enzima del jugo gástrico (digiere proteínas)."
+    },
+    {
+     "termino": "Bilis",
+     "definicion": "Líquido verde y amargo del hígado que emulsiona las grasas."
+    },
+    {
+     "termino": "Emulsión",
+     "definicion": "Dispersión de la grasa en gotitas muy pequeñas dentro de un medio acuoso."
+    },
+    {
+     "termino": "Biopelícula",
+     "definicion": "Capa de bacterias sobre el diente; su desequilibrio de pH produce caries."
+    },
+    {
+     "termino": "Caries dental",
+     "definicion": "Desmineralización del tejido dental por desequilibrio del pH entre biopelícula y diente."
+    },
+    {
+     "termino": "Lesión de mancha blanca",
+     "definicion": "Primera manifestación visible de la caries."
+    },
+    {
+     "termino": "pH crítico",
+     "definicion": "pH (≈ 5.5) por debajo del cual el esmalte se desmineraliza."
+    },
+    {
+     "termino": "Hidroxiapatita",
+     "definicion": "Ortofosfato de calcio Ca₁₀(PO₄)₆(OH)₂, mineral del esmalte."
+    },
+    {
+     "termino": "Amelogénesis",
+     "definicion": "Eventos celulares de formación del esmalte."
+    },
+    {
+     "termino": "Biomineralización",
+     "definicion": "Eventos bioquímicos de formación del mineral del esmalte."
+    },
+    {
+     "termino": "Ameloblasto",
+     "definicion": "Célula que forma el esmalte: transporta Ca²⁺ y fosfato y secreta proteínas que orientan los prismas."
+    },
+    {
+     "termino": "Prisma del esmalte",
+     "definicion": "Haz de hasta mil cristales de hidroxiapatita."
+    },
+    {
+     "termino": "Solución subsaturada",
+     "definicion": "Con menos iones que el cristal; favorece la desmineralización."
+    },
+    {
+     "termino": "Solución sobresaturada",
+     "definicion": "Con muchos iones alrededor del cristal; favorece la remineralización."
+    },
+    {
+     "termino": "Remineralización",
+     "definicion": "Ganancia neta de material calcificado que reemplaza el perdido."
+    },
+    {
+     "termino": "Fluoruro tópico",
+     "definicion": "Flúor aplicado sobre el diente; el agente remineralizante más efectivo."
+    }
+   ],
+   "tarjetas": [
+    {
+     "id": "saliva-t1",
+     "frente": "¿Qué es la saliva total o mixta?",
+     "reverso": "La mezcla de la saliva de las glándulas mayores y menores con otros componentes de la cavidad bucal.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t2",
+     "frente": "¿Cómo es la saliva bucal y cuánta agua tiene?",
+     "reverso": "Viscosa; contiene 99 % de agua.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t3",
+     "frente": "¿Qué iones contiene la saliva?",
+     "reverso": "Sodio, potasio, cloro, fosfato, bicarbonato y calcio.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t4",
+     "frente": "¿Qué sustancias orgánicas (no proteicas) menciona el material en la saliva?",
+     "reverso": "Urea, ácido úrico y hormonas.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t5",
+     "frente": "¿Cuál es la macromolécula de mayor concentración y la enzima más importante de la saliva?",
+     "reverso": "La amilasa salival o ptialina.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t6",
+     "frente": "¿Qué digiere la amilasa salival?",
+     "reverso": "Inicia la digestión del almidón, el glucógeno y otros polisacáridos en la boca.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t7",
+     "frente": "¿Qué es la mucina y para qué sirve?",
+     "reverso": "Glucoproteínas que forman geles viscosos y elásticos: protegen el epitelio del daño mecánico, impiden la entrada de virus y bacterias y forman parte de la película adquirida.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t8",
+     "frente": "¿Qué hace la lisozima y dónde se encuentra?",
+     "reverso": "Protege frente a bacterias, virus y hongos (acción bactericida); está en todos los fluidos corporales.",
+     "seccion": "saliva-1"
+    },
+    {
+     "id": "saliva-t9",
+     "frente": "¿Cuáles son los 5 fines de la insalivación?",
+     "reverso": "Disolver los alimentos (sabor), lubricarlos (deglución), iniciar la digestión de carbohidratos (amilasa), acción bactericida (lisozima) y mantener la humedad de la boca.",
+     "seccion": "saliva-2"
+    },
+    {
+     "id": "saliva-t10",
+     "frente": "¿Qué contiene el jugo gástrico?",
+     "reverso": "Agua, ácido clorhídrico y enzimas: pepsina, renina gástrica y lipasa gástrica.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t11",
+     "frente": "¿Qué es el quimo?",
+     "reverso": "La sustancia pastosa en que se convierte el bolo alimenticio por acción de los jugos gástricos.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t12",
+     "frente": "¿Qué contiene el jugo pancreático?",
+     "reverso": "Agua, sales minerales, bicarbonato de sodio y enzimas: proteasas (tripsina, quimotripsina, carboxipeptidasa), amilasa pancreática, nucleasas (DNasas y RNasas) y lipasa pancreática.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t13",
+     "frente": "¿Por dónde llega el jugo pancreático al intestino?",
+     "reverso": "Acinos pancreáticos → conducto pancreático → colédoco → segunda porción del duodeno.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t14",
+     "frente": "¿Qué es la bilis y quién la produce?",
+     "reverso": "Un líquido verde y amargo producido por el hígado que emulsiona las grasas.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t15",
+     "frente": "¿De qué está compuesta la bilis?",
+     "reverso": "Sales biliares, proteínas, colesterol, hormonas y agua (≈ 97 %, su mayor componente).",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t16",
+     "frente": "¿Dónde se almacena la bilis y cuándo se libera?",
+     "reverso": "Se almacena en la vesícula biliar entre comidas y se libera al duodeno tras la ingesta.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t17",
+     "frente": "¿Cómo actúan las sales biliares sobre las grasas?",
+     "reverso": "Las emulsionan (gotitas pequeñas) como un detergente con la grasa de un sartén; luego las enzimas del páncreas y del intestino las digieren.",
+     "seccion": "saliva-3"
+    },
+    {
+     "id": "saliva-t18",
+     "frente": "¿Qué se absorbe en duodeno, yeyuno e íleon?",
+     "reverso": "Duodeno: hierro ferroso, calcio, ácido fólico. Yeyuno: los nutrientes en general. Íleon: vitamina B₁₂.",
+     "seccion": "saliva-4"
+    },
+    {
+     "id": "saliva-t19",
+     "frente": "¿Cómo se define la caries dental?",
+     "reverso": "Desmineralización del tejido dental por el desequilibrio en las fluctuaciones de pH entre la biopelícula y el diente.",
+     "seccion": "saliva-5"
+    },
+    {
+     "id": "saliva-t20",
+     "frente": "¿Cuál es la primera forma clínicamente visible de la caries?",
+     "reverso": "La lesión de mancha blanca (antes es subclínica).",
+     "seccion": "saliva-5"
+    },
+    {
+     "id": "saliva-t21",
+     "frente": "Secuencia bioquímica de la caries",
+     "reverso": "Azúcares (glucosa, sacarosa, lactosa) → glucólisis → fermentación → ácidos orgánicos → se expulsan H⁺ → el pH baja a 5.5 → se desmineraliza la hidroxiapatita.",
+     "seccion": "saliva-5"
+    },
+    {
+     "id": "saliva-t22",
+     "frente": "¿Qué azúcar resaltó el profe como el más relacionado con la caries?",
+     "reverso": "La sacarosa.",
+     "seccion": "saliva-5"
+    },
+    {
+     "id": "saliva-t23",
+     "frente": "¿Qué agente tiene la mayor efectividad para remineralizar el esmalte?",
+     "reverso": "El fluoruro tópico (según numerosos estudios y revisiones sistemáticas).",
+     "seccion": "saliva-5"
+    },
+    {
+     "id": "saliva-t24",
+     "frente": "Fórmula de la hidroxiapatita y relación de sus iones",
+     "reverso": "Ca₁₀(PO₄)₆(OH)₂; Ca²⁺ : PO₄³⁻ : OH⁻ = 10 : 6 : 2.",
+     "seccion": "saliva-6"
+    },
+    {
+     "id": "saliva-t25",
+     "frente": "Composición del esmalte maduro",
+     "reverso": "95 % mineral, 4 % agua y 1 % proteínas remanentes del desarrollo.",
+     "seccion": "saliva-6"
+    },
+    {
+     "id": "saliva-t26",
+     "frente": "¿Por qué el esmalte no puede repararse solo?",
+     "reverso": "Porque no tiene células ni vasculatura; es incapaz de remodelarse o repararse.",
+     "seccion": "saliva-6"
+    },
+    {
+     "id": "saliva-t27",
+     "frente": "Amelogénesis vs biomineralización",
+     "reverso": "Amelogénesis: eventos celulares de formación del esmalte. Biomineralización: eventos bioquímicos de formación del mineral.",
+     "seccion": "saliva-6"
+    },
+    {
+     "id": "saliva-t28",
+     "frente": "¿Qué hacen los ameloblastos?",
+     "reverso": "Delimitan el espacio biológico del esmalte, transportan calcio y fosfato y secretan proteínas que orientan el crecimiento de los prismas.",
+     "seccion": "saliva-6"
+    },
+    {
+     "id": "saliva-t29",
+     "frente": "¿Qué es un prisma del esmalte?",
+     "reverso": "Un haz de hasta mil cristales de hidroxiapatita apilados en un eje longitudinal; entre prismas está el espacio interprismático con agua e iones.",
+     "seccion": "saliva-6"
+    },
+    {
+     "id": "saliva-t30",
+     "frente": "Solución subsaturada vs sobresaturada",
+     "reverso": "Subsaturada: menos iones que el cristal → desmineralización. Sobresaturada: muchos iones → remineralización.",
+     "seccion": "saliva-7"
+    },
+    {
+     "id": "saliva-t31",
+     "frente": "Define remineralización y sus 3 pasos físico-químicos.",
+     "reverso": "Ganancia neta de material calcificado que reemplaza el perdido. Pasos: sobresaturación de iones → formación de núcleos → crecimiento de cristales.",
+     "seccion": "saliva-7"
+    }
+   ],
+   "preguntas": [
+    {
+     "id": "saliva-q1",
+     "tipo": "opcion",
+     "seccion": "saliva-1",
+     "dificultad": 1,
+     "pagina": 136,
+     "enunciado": "¿Cuál es la macromolécula de mayor concentración en la saliva?",
+     "opciones": [
+      "Lisozima",
+      "Urea",
+      "Mucina",
+      "Amilasa salival (ptialina)"
+     ],
+     "correcta": 3,
+     "explicacion": "El material dice que la amilasa salival o ptialina es la macromolécula de mayor concentración y la enzima más importante de la saliva. La urea es una sustancia orgánica pequeña, no una macromolécula."
+    },
+    {
+     "id": "saliva-q2",
+     "tipo": "opcion",
+     "seccion": "saliva-1",
+     "dificultad": 2,
+     "pagina": 136,
+     "enunciado": "¿Qué componente salival forma geles viscosos y elásticos que protegen el epitelio y además forma parte de la película adquirida?",
+     "opciones": [
+      "Bicarbonato",
+      "Mucina",
+      "Lisozima",
+      "Amilasa salival"
+     ],
+     "correcta": 1,
+     "explicacion": "Las mucinas son glucoproteínas que forman geles hidrofílicos protectores del epitelio y son parte de la película adquirida salival. La lisozima es bactericida, pero no forma geles."
+    },
+    {
+     "id": "saliva-q3",
+     "tipo": "opcion",
+     "seccion": "saliva-1",
+     "dificultad": 1,
+     "pagina": 136,
+     "enunciado": "¿Qué grupo reúne solo sustancias orgánicas (no proteicas) de la saliva, según el material?",
+     "opciones": [
+      "Fosfato, bicarbonato y calcio",
+      "Sodio, potasio y cloro",
+      "Pepsina, renina y lipasa gástrica",
+      "Urea, ácido úrico y hormonas"
+     ],
+     "correcta": 3,
+     "explicacion": "El material lista urea, ácido úrico y hormonas como sustancias orgánicas. Sodio, potasio, cloro, fosfato, bicarbonato y calcio son los iones; pepsina, renina y lipasa gástrica son del jugo gástrico."
+    },
+    {
+     "id": "saliva-q4",
+     "tipo": "opcion",
+     "seccion": "saliva-2",
+     "dificultad": 2,
+     "pagina": 136,
+     "caso": true,
+     "enunciado": "Paciente de 58 años en radioterapia de cabeza y cuello con boca seca. Le cuesta tragar el pan y tiene más infecciones bucales que antes. ¿Qué funciones de la saliva perdidas explican ambos datos?",
+     "opciones": [
+      "La lubricación de los alimentos y la acción bactericida de la lisozima",
+      "La digestión de proteínas por la pepsina y la emulsión de grasas",
+      "La amelogénesis y la síntesis de hidroxiapatita",
+      "La formación de quimo y la absorción de hierro"
+     ],
+     "correcta": 0,
+     "explicacion": "La saliva lubrica los alimentos (facilita la deglución) y tiene acción bactericida por la lisozima; sin saliva se pierden ambas. La pepsina, la bilis y el quimo son de estómago e intestino, no de la boca."
+    },
+    {
+     "id": "saliva-q5",
+     "tipo": "opcion",
+     "seccion": "saliva-2",
+     "dificultad": 2,
+     "pagina": 136,
+     "enunciado": "Poder notar que un alimento está echado a perder antes de tragarlo depende de que la saliva:",
+     "opciones": [
+      "Mantenga la humedad de la cavidad bucal",
+      "Disuelva los alimentos, lo que permite apreciar el sabor y reconocer sustancias extrañas o tóxicas",
+      "Lubrique el bolo para facilitar la deglución",
+      "Inicie la digestión del almidón con la amilasa"
+     ],
+     "correcta": 1,
+     "explicacion": "Al disolver los alimentos, la saliva permite apreciar el sabor y reconocer sustancias extrañas, tóxicas o irritantes. Las otras opciones también son funciones de la saliva, pero no explican la detección del sabor."
+    },
+    {
+     "id": "saliva-q6",
+     "tipo": "opcion",
+     "seccion": "saliva-3",
+     "dificultad": 1,
+     "pagina": 137,
+     "enunciado": "¿Qué enzimas contiene el jugo gástrico según el material?",
+     "opciones": [
+      "Desoxirribonucleasas y ribonucleasas",
+      "Pepsina, renina gástrica y lipasa gástrica",
+      "Tripsina, quimotripsina y carboxipeptidasa",
+      "Amilasa salival, mucina y lisozima"
+     ],
+     "correcta": 1,
+     "explicacion": "El jugo gástrico tiene agua, HCl y las enzimas pepsina, renina gástrica y lipasa gástrica. Tripsina, quimotripsina, carboxipeptidasa y las nucleasas son del jugo pancreático."
+    },
+    {
+     "id": "saliva-q7",
+     "tipo": "opcion",
+     "seccion": "saliva-3",
+     "dificultad": 2,
+     "pagina": 137,
+     "enunciado": "¿Dónde se vierte el jugo pancreático?",
+     "opciones": [
+      "En el estómago, para formar el quimo",
+      "En la vesícula biliar, donde se almacena",
+      "En la segunda porción del duodeno, por el conducto pancreático y el colédoco",
+      "En el íleon, junto con la vitamina B₁₂"
+     ],
+     "correcta": 2,
+     "explicacion": "Los acinos lo secretan, el conducto pancreático lo lleva al colédoco y de ahí pasa a la segunda porción del duodeno. La vesícula almacena bilis, no jugo pancreático."
+    },
+    {
+     "id": "saliva-q8",
+     "tipo": "opcion",
+     "seccion": "saliva-3",
+     "dificultad": 2,
+     "pagina": 138,
+     "enunciado": "¿Cuál es el papel de la bilis en la digestión de las grasas?",
+     "opciones": [
+      "Emulsionarlas en gotitas pequeñas para que las enzimas del páncreas y del intestino las digieran",
+      "Hidrolizar directamente los triglicéridos, como una lipasa",
+      "Convertir el bolo alimenticio en quimo",
+      "Digerir el almidón en el duodeno"
+     ],
+     "correcta": 0,
+     "explicacion": "Las sales biliares emulsionan las grasas como un detergente; ya emulsionadas, las digieren las enzimas del páncreas y de la mucosa intestinal. La bilis no es una enzima: no hidroliza nada por sí misma."
+    },
+    {
+     "id": "saliva-q9",
+     "tipo": "opcion",
+     "seccion": "saliva-3",
+     "dificultad": 3,
+     "pagina": 137,
+     "caso": true,
+     "enunciado": "A una paciente le extirpan la vesícula biliar (colecistectomía). De acuerdo con el material, ¿qué sigue ocurriendo con la bilis?",
+     "opciones": [
+      "El hígado la sigue secretando de forma continua, aunque ya no se almacena en la vesícula",
+      "Ahora se vierte al estómago en lugar del duodeno",
+      "Desaparecen por completo las sales biliares",
+      "Deja de producirse, porque la vesícula es la que la fabrica"
+     ],
+     "correcta": 0,
+     "explicacion": "La bilis la produce el hígado y su secreción es continua; la vesícula solo la almacena entre comidas. Sin vesícula se pierde el almacén, no la producción. La trampa es pensar que la vesícula la fabrica."
+    },
+    {
+     "id": "saliva-q10",
+     "tipo": "opcion",
+     "seccion": "saliva-4",
+     "dificultad": 2,
+     "pagina": 135,
+     "enunciado": "Según las notas, ¿en qué segmento se absorbe el hierro ferroso?",
+     "opciones": [
+      "Estómago",
+      "Colon",
+      "Íleon",
+      "Duodeno"
+     ],
+     "correcta": 3,
+     "explicacion": "Las notas dicen que el hierro ferroso se absorbe en el duodeno (junto con calcio y ácido fólico). En el íleon se absorbe la B₁₂ y en el colon, según el esquema, agua."
+    },
+    {
+     "id": "saliva-q11",
+     "tipo": "opcion",
+     "seccion": "saliva-4",
+     "dificultad": 2,
+     "pagina": 135,
+     "caso": true,
+     "enunciado": "A un paciente le quitaron el íleon terminal hace años. Ahora tiene la lengua lisa, roja y ardorosa, y anemia. ¿Qué nutriente que se absorbe en el íleon le falta probablemente?",
+     "opciones": [
+      "Hierro ferroso",
+      "Alcohol",
+      "Vitamina B₁₂",
+      "Calcio"
+     ],
+     "correcta": 2,
+     "explicacion": "Según las notas, la vitamina B₁₂ se absorbe en el íleon; sin él, aparece la deficiencia, que se manifiesta con glositis y anemia. El hierro y el calcio se absorben sobre todo en el duodeno."
+    },
+    {
+     "id": "saliva-q12",
+     "tipo": "opcion",
+     "seccion": "saliva-5",
+     "dificultad": 1,
+     "pagina": 139,
+     "enunciado": "¿Cómo define el material la caries dental?",
+     "opciones": [
+      "Desmineralización del tejido dental por desequilibrio en las fluctuaciones de pH entre la biopelícula y el diente",
+      "Pérdida de proteínas del esmalte por exceso de flúor",
+      "Desgaste mecánico del esmalte por cepillado fuerte",
+      "Infección viral del tejido pulpar"
+     ],
+     "correcta": 0,
+     "explicacion": "La caries es una desmineralización causada por el desequilibrio de pH entre biopelícula y diente (el profe: pérdida del balance de la biopelícula). No es desgaste mecánico ni una infección viral."
+    },
+    {
+     "id": "saliva-q13",
+     "tipo": "opcion",
+     "seccion": "saliva-5",
+     "dificultad": 2,
+     "pagina": 141,
+     "figura": 141,
+     "enunciado": "Según las notas de bioquímica de la caries, ¿a qué valor baja el pH cuando se liberan los protones de los ácidos orgánicos?",
+     "opciones": [
+      "7.4",
+      "2.0",
+      "5.5",
+      "8.5"
+     ],
+     "correcta": 2,
+     "explicacion": "Las notas dicen: se liberan protones y el pH baja a 5.5, el punto en que se desmineraliza la hidroxiapatita. 7.4 es el pH de la sangre y 2.0 se parece más al del estómago."
+    },
+    {
+     "id": "saliva-q14",
+     "tipo": "opcion",
+     "seccion": "saliva-5",
+     "dificultad": 2,
+     "pagina": 139,
+     "caso": true,
+     "enunciado": "Niña de 9 años con manchas blancas opacas, sin cavidad, cerca de la encía de los incisivos superiores; toma refresco varias veces al día. ¿Qué manejo es el más acorde con el material?",
+     "opciones": [
+      "Indicar enjuagues con jugo de limón para limpiar la biopelícula",
+      "Restaurar de inmediato todas las manchas con resina",
+      "Extraer los dientes afectados, porque el esmalte no se repara",
+      "Tratamiento no operatorio: favorecer la remineralización con fluoruro tópico y reducir la frecuencia de azúcares"
+     ],
+     "correcta": 3,
+     "explicacion": "La mancha blanca es la lesión inicial; el material propone tratamientos no operatorios que frenen temprano la pérdida de minerales, y el fluoruro tópico es el remineralizante más efectivo. El limón bajaría aún más el pH."
+    },
+    {
+     "id": "saliva-q15",
+     "tipo": "opcion",
+     "seccion": "saliva-6",
+     "dificultad": 1,
+     "pagina": 139,
+     "enunciado": "¿Cuál es la fórmula de la hidroxiapatita del esmalte?",
+     "opciones": [
+      "Ca₁₀(PO₄)₆F₂",
+      "Ca₆(PO₄)₁₀(OH)₂",
+      "CaCO₃",
+      "Ca₁₀(PO₄)₆(OH)₂"
+     ],
+     "correcta": 3,
+     "explicacion": "La hidroxiapatita es Ca₁₀(PO₄)₆(OH)₂ (relación 10:6:2). Ca₁₀(PO₄)₆F₂ sería la fluorapatita, en la que el flúor sustituyó a los hidroxilos."
+    },
+    {
+     "id": "saliva-q16",
+     "tipo": "opcion",
+     "seccion": "saliva-6",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "¿Por qué el esmalte maduro es incapaz de remodelarse o repararse?",
+     "opciones": [
+      "Porque no tiene células ni vasculatura",
+      "Porque su mineral es fluorapatita pura",
+      "Porque está formado por 95 % de agua",
+      "Porque sus ameloblastos se dividen demasiado rápido"
+     ],
+     "correcta": 0,
+     "explicacion": "El material dice que el esmalte no presenta células ni vasculatura, por lo que no puede remodelarse ni repararse. El 95 % es mineral, no agua (el agua es 4 %)."
+    },
+    {
+     "id": "saliva-q17",
+     "tipo": "opcion",
+     "seccion": "saliva-6",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "¿Qué función cumplen los ameloblastos?",
+     "opciones": [
+      "Producen la bilis en el hígado",
+      "Remodelan el esmalte maduro durante toda la vida",
+      "Delimitan el espacio del esmalte, transportan calcio y fosfato y secretan proteínas que orientan los prismas",
+      "Secretan amilasa y mucina a la saliva"
+     ],
+     "correcta": 2,
+     "explicacion": "Los ameloblastos delimitan el espacio biológico, transportan los iones (materia prima de los cristales) y secretan las proteínas que guían el crecimiento de los prismas. El esmalte maduro ya no tiene células que lo remodelen."
+    },
+    {
+     "id": "saliva-q18",
+     "tipo": "opcion",
+     "seccion": "saliva-7",
+     "dificultad": 2,
+     "pagina": 140,
+     "enunciado": "Cuando la solución alrededor del esmalte está subsaturada de iones:",
+     "opciones": [
+      "Se forman núcleos sólidos que precipitan como cristales",
+      "El agua retira iones del cristal y ocurre desmineralización",
+      "Los iones se depositan sobre el cristal y ocurre remineralización",
+      "Se detiene por completo el intercambio de iones"
+     ],
+     "correcta": 1,
+     "explicacion": "Subsaturada = menos iones que en el cristal, así que el agua los va retirando: desmineralización. La formación de núcleos y el depósito de iones ocurren con la solución sobresaturada."
+    },
+    {
+     "id": "saliva-q19",
+     "tipo": "opcion",
+     "seccion": "saliva-7",
+     "dificultad": 3,
+     "pagina": 140,
+     "caso": true,
+     "enunciado": "Sobre una lesión de mancha blanca se aplica un producto con calcio, fosfato y fluoruro, y el medio alrededor del esmalte queda sobresaturado de iones. ¿Qué proceso se favorece y dónde se depositan los nuevos cristales?",
+     "opciones": [
+      "Amelogénesis; gracias a nuevos ameloblastos",
+      "Remineralización; en los espacios desmineralizados del esmalte con mayor área de contacto",
+      "Remineralización; solo en la dentina sana",
+      "Desmineralización; en la superficie intacta del esmalte"
+     ],
+     "correcta": 1,
+     "explicacion": "Con la solución sobresaturada los iones forman núcleos que precipitan como cristales en los espacios que la desmineralización dejó con mayor área de contacto. No hay amelogénesis: en el esmalte maduro ya no hay ameloblastos."
+    },
+    {
+     "id": "saliva-q20",
+     "tipo": "opcion",
+     "seccion": "saliva-5",
+     "dificultad": 3,
+     "pagina": 139,
+     "enunciado": "¿Por qué se dice que la caries es un proceso dinámico y no un evento único?",
+     "opciones": [
+      "Porque el esmalte forma células nuevas cada semana",
+      "Porque solo ocurre cuando el pH sube por encima de 7",
+      "Porque en la superficie dental se alternan desmineralización y remineralización según el pH; la lesión aparece cuando domina la pérdida",
+      "Porque depende únicamente de la cantidad de flúor ingerido"
+     ],
+     "correcta": 2,
+     "explicacion": "Desmineralización y remineralización son «una constante en la superficie dental»; la caries resulta del desequilibrio en las fluctuaciones de pH. El esmalte no tiene células y la caries ocurre cuando el pH baja, no cuando sube."
+    },
+    {
+     "id": "saliva-q21",
+     "tipo": "vf",
+     "seccion": "saliva-1",
+     "dificultad": 1,
+     "pagina": 136,
+     "enunciado": "La lisozima se encuentra únicamente en la saliva.",
+     "correcta": false,
+     "explicacion": "Falso: la lisozima está ampliamente distribuida en todos los fluidos corporales."
+    },
+    {
+     "id": "saliva-q22",
+     "tipo": "vf",
+     "seccion": "saliva-3",
+     "dificultad": 1,
+     "pagina": 137,
+     "enunciado": "Por la acción de los jugos gástricos, el bolo alimenticio se transforma en quimo.",
+     "correcta": true,
+     "explicacion": "Verdadero: el bolo pasa a ser una sustancia pastosa llamada quimo."
+    },
+    {
+     "id": "saliva-q23",
+     "tipo": "vf",
+     "seccion": "saliva-3",
+     "dificultad": 2,
+     "pagina": 137,
+     "enunciado": "La bilis es producida por la vesícula biliar.",
+     "correcta": false,
+     "explicacion": "Falso: la produce el hígado de forma continua; la vesícula solo la almacena y la libera al duodeno después de comer."
+    },
+    {
+     "id": "saliva-q24",
+     "tipo": "vf",
+     "seccion": "saliva-6",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "El esmalte maduro tiene alrededor de 95 % de mineral, 4 % de agua y 1 % de proteínas.",
+     "correcta": true,
+     "explicacion": "Verdadero: esos son los porcentajes por peso que da el material."
+    },
+    {
+     "id": "saliva-q25",
+     "tipo": "vf",
+     "seccion": "saliva-5",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "Según numerosos estudios y revisiones sistemáticas, el fluoruro tópico es el agente con mayor efectividad para remineralizar el esmalte.",
+     "correcta": true,
+     "explicacion": "Verdadero; los nuevos agentes remineralizantes son alternativas, pero el fluoruro tópico sigue siendo el más efectivo."
+    },
+    {
+     "id": "saliva-q26",
+     "tipo": "vf",
+     "seccion": "saliva-6",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "La hidroxiapatita sintetizada en el laboratorio alcanza la misma organización y morfología que el esmalte.",
+     "correcta": false,
+     "explicacion": "Falso: aunque se puede sintetizar HAp con calcio y fosfato, nunca alcanza el grado de organización del esmalte, que depende de la amelogénesis y la biomineralización."
+    },
+    {
+     "id": "saliva-q27",
+     "tipo": "completar",
+     "seccion": "saliva-1",
+     "dificultad": 1,
+     "pagina": 136,
+     "enunciado": "Otro nombre de la amilasa salival es ___.",
+     "respuestas": [
+      "ptialina"
+     ],
+     "explicacion": "Amilasa salival = ptialina, la enzima más importante de la saliva."
+    },
+    {
+     "id": "saliva-q28",
+     "tipo": "completar",
+     "seccion": "saliva-3",
+     "dificultad": 1,
+     "pagina": 137,
+     "enunciado": "Además de agua y enzimas, el jugo gástrico contiene ácido ___.",
+     "respuestas": [
+      "clorhídrico",
+      "clorhidrico",
+      "HCl"
+     ],
+     "explicacion": "El jugo gástrico contiene agua, ácido clorhídrico (HCl) y las enzimas pepsina, renina gástrica y lipasa gástrica."
+    },
+    {
+     "id": "saliva-q29",
+     "tipo": "completar",
+     "seccion": "saliva-3",
+     "dificultad": 2,
+     "pagina": 137,
+     "enunciado": "Las sales ___ emulsionan las grasas en el intestino igual que un detergente.",
+     "respuestas": [
+      "biliares"
+     ],
+     "explicacion": "Las sales biliares de la bilis emulsionan la grasa para que las enzimas la digieran."
+    },
+    {
+     "id": "saliva-q30",
+     "tipo": "completar",
+     "seccion": "saliva-5",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "La caries se hace clínicamente visible primero como lesión de ___ blanca.",
+     "respuestas": [
+      "mancha"
+     ],
+     "explicacion": "En sus primeras fases es subclínica; si el pH bajo se perpetúa aparece la lesión de mancha blanca."
+    },
+    {
+     "id": "saliva-q31",
+     "tipo": "completar",
+     "seccion": "saliva-6",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "En la hidroxiapatita, la relación Ca²⁺ : PO₄³⁻ : OH⁻ es 10 : 6 : ___.",
+     "respuestas": [
+      "2",
+      "dos"
+     ],
+     "explicacion": "Ca₁₀(PO₄)₆(OH)₂ → 10 calcios, 6 fosfatos y 2 hidroxilos."
+    },
+    {
+     "id": "saliva-q32",
+     "tipo": "completar",
+     "seccion": "saliva-7",
+     "dificultad": 2,
+     "pagina": 140,
+     "enunciado": "Una solución con concentración de iones por debajo de la del cristal, que favorece la desmineralización, se llama ___.",
+     "respuestas": [
+      "subsaturada"
+     ],
+     "explicacion": "Subsaturada: el agua retira iones del cristal. Su opuesto es la sobresaturada, que favorece la remineralización."
+    },
+    {
+     "id": "saliva-q33",
+     "tipo": "ordenar",
+     "seccion": "saliva-5",
+     "dificultad": 2,
+     "pagina": 141,
+     "figura": 141,
+     "enunciado": "Ordena la bioquímica de la caries según las notas:",
+     "items": [
+      "Ingesta de azúcares (glucosa, sacarosa, lactosa)",
+      "Glucólisis",
+      "Fermentación",
+      "Formación de ácidos orgánicos y expulsión de H⁺",
+      "El pH baja a 5.5",
+      "Desmineralización de la hidroxiapatita"
+     ],
+     "explicacion": "Los azúcares se degradan por glucólisis y fermentación, se forman ácidos orgánicos que liberan protones, el pH cae a 5.5 y el tejido de hidroxiapatita se desmineraliza."
+    },
+    {
+     "id": "saliva-q34",
+     "tipo": "ordenar",
+     "seccion": "saliva-7",
+     "dificultad": 2,
+     "pagina": 140,
+     "enunciado": "Ordena el proceso físico-químico de remineralización:",
+     "items": [
+      "La solución queda sobresaturada de iones respecto al esmalte",
+      "Los iones forman enlaces y se deshidratan",
+      "Se forman núcleos sólidos",
+      "Los núcleos se agrupan y precipitan como cristales",
+      "Los cristales crecen en los espacios desmineralizados con mayor área de contacto"
+     ],
+     "explicacion": "Sobresaturación → los iones se enlazan y deshidratan → núcleos sólidos → precipitación de cristales → crecimiento en los espacios desmineralizados."
+    },
+    {
+     "id": "saliva-q35",
+     "tipo": "ordenar",
+     "seccion": "saliva-3",
+     "dificultad": 1,
+     "pagina": 137,
+     "enunciado": "Ordena el recorrido de la bilis hasta que se digieren las grasas:",
+     "items": [
+      "El hígado produce la bilis",
+      "La vesícula biliar la almacena entre comidas",
+      "Tras comer, sale por las vías biliares al duodeno",
+      "Las sales biliares emulsionan las grasas",
+      "Las enzimas del páncreas y de la mucosa intestinal digieren las grasas"
+     ],
+     "explicacion": "Hígado (produce) → vesícula (almacena) → duodeno (se libera al comer) → emulsión → digestión enzimática."
+    },
+    {
+     "id": "saliva-q36",
+     "tipo": "ordenar",
+     "seccion": "saliva-3",
+     "dificultad": 1,
+     "pagina": 137,
+     "enunciado": "Ordena el recorrido del jugo pancreático:",
+     "items": [
+      "Acinos pancreáticos",
+      "Conducto pancreático",
+      "Colédoco",
+      "Segunda porción del duodeno"
+     ],
+     "explicacion": "Los acinos lo secretan, el conducto pancreático lo lleva al colédoco y este lo vierte en la segunda porción del duodeno."
+    },
+    {
+     "id": "saliva-q37",
+     "tipo": "relacionar",
+     "seccion": "saliva-1",
+     "dificultad": 1,
+     "pagina": 136,
+     "enunciado": "Relaciona cada componente de la saliva con su función:",
+     "pares": [
+      [
+       "Amilasa salival",
+       "Inicia la digestión del almidón"
+      ],
+      [
+       "Mucina",
+       "Barrera protectora del epitelio"
+      ],
+      [
+       "Lisozima",
+       "Acción bactericida"
+      ],
+      [
+       "Agua (99 %)",
+       "Disuelve los alimentos y mantiene la humedad"
+      ]
+     ],
+     "explicacion": "La amilasa digiere carbohidratos, la mucina forma geles protectores, la lisozima es bactericida y el agua permite disolver los alimentos y mantener la boca húmeda."
+    },
+    {
+     "id": "saliva-q38",
+     "tipo": "relacionar",
+     "seccion": "saliva-3",
+     "dificultad": 2,
+     "pagina": 137,
+     "enunciado": "Relaciona cada sustancia con la secreción que la contiene:",
+     "pares": [
+      [
+       "Ptialina",
+       "Saliva"
+      ],
+      [
+       "Pepsina",
+       "Jugo gástrico"
+      ],
+      [
+       "Tripsina",
+       "Jugo pancreático"
+      ],
+      [
+       "Sales biliares",
+       "Bilis"
+      ]
+     ],
+     "explicacion": "Ptialina = amilasa salival; pepsina = jugo gástrico; tripsina = proteasa pancreática; sales biliares = bilis."
+    },
+    {
+     "id": "saliva-q39",
+     "tipo": "relacionar",
+     "seccion": "saliva-4",
+     "dificultad": 2,
+     "pagina": 135,
+     "figura": 135,
+     "enunciado": "Relaciona cada segmento con lo que se absorbe ahí según las notas:",
+     "pares": [
+      [
+       "Duodeno",
+       "Hierro ferroso"
+      ],
+      [
+       "Yeyuno",
+       "Nutrientes en general"
+      ],
+      [
+       "Íleon",
+       "Vitamina B₁₂"
+      ],
+      [
+       "Estómago",
+       "Alcohol"
+      ],
+      [
+       "Colon",
+       "Agua"
+      ]
+     ],
+     "explicacion": "Duodeno: hierro (y calcio, ácido fólico); yeyuno: casi todo; íleon: B₁₂; estómago: alcohol; colon: agua, no nutrientes como tal."
+    },
+    {
+     "id": "saliva-q40",
+     "tipo": "relacionar",
+     "seccion": "saliva-6",
+     "dificultad": 2,
+     "pagina": 139,
+     "enunciado": "Relaciona cada término con su definición:",
+     "pares": [
+      [
+       "Amelogénesis",
+       "Eventos celulares de formación del esmalte"
+      ],
+      [
+       "Biomineralización",
+       "Eventos bioquímicos de formación del mineral"
+      ],
+      [
+       "Prisma del esmalte",
+       "Haz de hasta mil cristales de hidroxiapatita"
+      ],
+      [
+       "Remineralización",
+       "Ganancia neta de material calcificado"
+      ],
+      [
+       "Desmineralización",
+       "Pérdida de iones hacia una solución subsaturada"
+      ]
+     ],
+     "explicacion": "Amelogénesis (células) y biomineralización (bioquímica) forman el esmalte; los cristales se agrupan en prismas; la desmineralización saca iones y la remineralización los repone."
+    }
+   ],
+   "alertas": [
+    {
+     "pagina": 135,
+     "nota": "Esta página (notas «Absorción de nutrientes» con esquema de un video) cae en el rango de nucleótidos, pero su contenido es de digestión/absorción; se integró en este tema. La letra a mano dice «Íleon: BBC», se interpretó como vitamina B₁₂ (el esquema muestra «B₁₂» en el íleon). La frase del yeyuno («…en general en desayuno») y algunos íconos pequeños del esquema no se leen con certeza."
+    },
+    {
+     "pagina": 136,
+     "nota": "Dice que la lisozima protege «frente a bacterias, virus y hongos». En los libros su acción principal es antibacteriana (rompe el peptidoglucano de la pared, sobre todo de Gram positivas); su efecto antiviral y antifúngico es limitado."
+    },
+    {
+     "pagina": 137,
+     "nota": "Afirma que el jugo gástrico «sirve para eliminar la parte de los alimentos que es útil; es decir, aquella parte que no puede ser transformada en energía». La frase es contradictoria y no coincide con los libros: el HCl y la pepsina inician la digestión de proteínas, desnaturalizan y eliminan microorganismos; no «eliminan la parte útil». No se usó para preguntas."
+    },
+    {
+     "pagina": 137,
+     "nota": "Incluye la «renina gástrica» como enzima del jugo gástrico. La renina (quimosina) es importante en lactantes y rumiantes; en el adulto humano prácticamente no se secreta. No confundir con la renina renal (sistema renina-angiotensina)."
+    },
+    {
+     "pagina": 137,
+     "nota": "Dice que la bilis es «emulsionante de los ácidos grasos»; los libros (y el mismo material más abajo) hablan de emulsionar las grasas (triglicéridos/lípidos) en general."
+    },
+    {
+     "pagina": 140,
+     "nota": "La captura de pantalla de un artículo (Figura 2: flujo de iones entre saliva, biopelícula y esmalte) es ilegible por su baja resolución; solo se distingue el título. Se explicó su idea general como dato extra."
+    },
+    {
+     "pagina": 139,
+     "nota": "El material no menciona la palabra «fluorapatita» ni el pH crítico de forma explícita (solo dice que el flúor puede sustituir iones en la HAp, que el fluoruro tópico es el mejor remineralizante y, en las notas de la pág. 141, que el pH baja a 5.5). Fluorapatita y pH crítico se añadieron como dato extra."
+    }
+   ]
+  }
+ ]
+}

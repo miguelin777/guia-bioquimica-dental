@@ -1,0 +1,368 @@
+{
+ "cambios": [
+  {
+   "id": "respiracion-q2",
+   "problema": "Los apuntes (pág. 99) dicen «por cada piruvato» lo que en rigor es por vuelta; la explicación no lo aclara.",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Por vuelta: 3 NADH (isocitrato, α-cetoglutarato y malato deshidrogenasas), 1 FADH₂ (succinato deshidrogenasa) y 1 GTP (succinil-CoA → succinato). Tus apuntes (pág. 99) lo escriben «por cada piruvato»; en sentido estricto es por vuelta (por acetil-CoA): si sumas la piruvato deshidrogenasa, cada piruvato da 4 NADH."
+   }
+  },
+  {
+   "id": "nucleicos-q32",
+   "problema": "Afirma como verdad absoluta que el ARNt es el ácido nucleico más pequeño sin advertir que en los libros hay ARN menores (microARN).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Verdadero según el material (pág. 132): hasta 60 por célula, los ácidos nucleicos más pequeños (73–93 nucleótidos) y cada aminoácido tiene al menos un ARNt. Ojo: en los libros existen ARN aún más pequeños (los microARN, de ~22 nucleótidos); para el examen usa el dato de tus apuntes."
+   }
+  },
+  {
+   "id": "nucleicos-q38",
+   "problema": "«Dímeros de ___ juntas» admite también «pirimidinas» (igual de cierto en la pág. 127); la respuesta no era única.",
+   "accion": "editar",
+   "campos": {
+    "enunciado": "La luz UV induce dímeros de pirimidina-pirimidina; en forma predominante se dimerizan dos ___ juntas en la misma tira del ADN.",
+    "respuestas": [
+     "timinas",
+     "timina",
+     "timina-timina"
+    ]
+   }
+  },
+  {
+   "id": "nucleicos-q45",
+   "problema": "«Purina con grupo amino» (Adenina) también describe a la guanina, que tiene NH₂: el par encaja con dos bases.",
+   "accion": "editar",
+   "campos": {
+    "pares": [
+     [
+      "Adenina",
+      "Purina con grupo amino y sin C=O"
+     ],
+     [
+      "Guanina",
+      "Purina con C=O y grupo amino"
+     ],
+     [
+      "Timina",
+      "Pirimidina con metilo, solo en ADN"
+     ],
+     [
+      "Uracilo",
+      "Pirimidina exclusiva del ARN"
+     ],
+     [
+      "Citosina",
+      "Pirimidina presente en ADN y ARN"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "nucleicos-q49",
+   "problema": "Enseña «reparación por recombinación = usar la tira complementaria» sin advertir que en los libros eso es la reparación por escisión.",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "La UV produce dímeros de timina; si la región se retiene hay mutaciones; si se repara «por recombinación» (así lo llaman tus apuntes, pág. 126) se usa la información de la tira complementaria no afectada; conservar la integridad es vital para el individuo y la especie. Ojo: en los libros, reparar con la tira complementaria es la reparación por escisión; la recombinación usa la molécula homóloga (cromátida hermana)."
+   }
+  },
+  {
+   "id": "nucleicos-q36",
+   "problema": "Faltan variantes comunes del nombre completo del ATP.",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "ATP",
+     "adenosín trifosfato",
+     "adenosin trifosfato",
+     "adenosina trifosfato",
+     "trifosfato de adenosina",
+     "adenosintrifosfato"
+    ]
+   }
+  },
+  {
+   "id": "nucleicos-t20",
+   "problema": "Enseña sin matiz que el UTP participa en la síntesis de ADN (error del material señalado en alertas).",
+   "accion": "editar",
+   "campos": {
+    "reverso": "En la biosíntesis e interconversión de varios carbohidratos y, según el material, en la biosíntesis de ARN y ADN (en los libros el UTP se incorpora al ARN; el ADN usa dTTP)."
+   }
+  },
+  {
+   "id": "saliva-q24",
+   "problema": "Cifra sin página: la pág. 139 da 95 / 4 agua / 1 proteína, pero la tabla de la pág. 228 da 95 / 1–3 agua / 2–4 orgánica (invertidas); quien estudió la tabla marcaría Falso.",
+   "accion": "editar",
+   "campos": {
+    "enunciado": "Según el artículo de caries (pág. 139), el esmalte maduro tiene alrededor de 95 % de mineral, 4 % de agua y 1 % de proteínas.",
+    "explicacion": "Verdadero: son los porcentajes por peso que da ese texto (pág. 139). Ojo: la tabla resumen de tejidos dentarios (pág. 228) da para el esmalte 95 % inorgánica, 2–4 % orgánica y 1–3 % de agua (agua y orgánico quedan al revés), y la tabla de la pág. 229, 2,3 % de agua y 1,7 % orgánica; si te lo preguntan, di de qué tabla sale tu cifra."
+   }
+  },
+  {
+   "id": "saliva-t25",
+   "problema": "Mismas cifras del esmalte sin página; contradicen la tabla de la pág. 228.",
+   "accion": "editar",
+   "campos": {
+    "reverso": "95 % mineral, 4 % agua y 1 % proteínas remanentes del desarrollo (artículo de caries, pág. 139; la tabla de la pág. 228 da 95 % inorgánica / 2–4 % orgánica / 1–3 % agua)."
+   }
+  },
+  {
+   "id": "digestion-q15",
+   "problema": "Enseña que tripsina y quimotripsina dan aminoácidos sin advertir que en los libros dan péptidos (alerta pág. 155).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Según tus apuntes (pág. 155), las proteasas tripsina y quimotripsina «convierten las proteínas en aminoácidos». La pepsina es gástrica, la ptialina salival y la lipasa y la amilasa actúan sobre grasas y almidón. Ojo: en los libros tripsina y quimotripsina cortan las proteínas en péptidos; los aminoácidos libres los terminan de liberar las carboxipeptidasas y las peptidasas del borde en cepillo."
+   }
+  },
+  {
+   "id": "digestion-q43",
+   "problema": "Mismo dato (tripsina/quimotripsina → aminoácidos) sin la aclaración de libros.",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Ptialina (boca) → almidón; pepsina (estómago) → inicio de proteínas; lipasa → grasas; tripsina y quimotripsina (intestino delgado) → proteínas hasta aminoácidos, como dicen tus apuntes (en los libros dan péptidos y los aminoácidos libres salen por carboxipeptidasas y peptidasas intestinales)."
+   }
+  },
+  {
+   "id": "digestion-q23",
+   "problema": "La explicación cita «pared intestinal» como si fuera textual; los apuntes dicen «pared celular».",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Los restos celulares de las heces son consecuencia de la continua regeneración de la pared (tus apuntes dicen «pared celular», págs. 160–161; se refiere al epitelio de la pared intestinal, que descama células todo el tiempo)."
+   }
+  },
+  {
+   "id": "digestion-q34",
+   "problema": "Faltan variantes razonables de «linfa».",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "linfa",
+     "vía linfática",
+     "sistema linfático",
+     "vasos linfáticos",
+     "circulación linfática"
+    ]
+   }
+  },
+  {
+   "id": "vitaminas-q47",
+   "problema": "Ordenar por número depende de la página: la tabla de la pág. 46 intercambia B3/B5, así que hay dos órdenes «según el material».",
+   "accion": "editar",
+   "campos": {
+    "enunciado": "Según las diapositivas de vitaminas (págs. 180–186), ordena estas vitaminas del complejo B de menor a mayor número:",
+    "explicacion": "B1 tiamina, B2 riboflavina, B3 niacina, B5 ácido pantoténico, B6 piridoxina, B8 biotina, B9 ácido fólico (y luego B12 cianocobalamina). Ojo: la tabla de enzimas (pág. 46) intercambia B3 y B5 (pone «B5 (niacina)» y «B3 (ácido pantoténico)»); sigue las diapositivas de vitaminas, que coinciden con los libros."
+   }
+  },
+  {
+   "id": "vitaminas-q59",
+   "problema": "El lado derecho solo da «B3»/«B5»; con la numeración invertida de la pág. 46 el alumno emparejaría al revés pelagra y pantoténico.",
+   "accion": "editar",
+   "campos": {
+    "pares": [
+     [
+      "Dermatitis, diarrea y pérdida de memoria",
+      "B3 (niacina)"
+     ],
+     [
+      "Diarrea, pérdida de peso e irritabilidad",
+      "B1 (tiamina)"
+     ],
+     [
+      "Ardor y entumecimiento en manos y pies",
+      "B5 (ácido pantoténico)"
+     ],
+     [
+      "Anemia de glóbulos grandes en una vegana",
+      "B12"
+     ],
+     [
+      "Retinopatía pigmentaria y ataxia",
+      "E"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "vitaminas-q36",
+   "problema": "V/F que depende de la numeración: verdadero en la pág. 182, falso según la tabla de la pág. 46 («B5 (niacina)»); no decía de qué página sale.",
+   "accion": "editar",
+   "campos": {
+    "enunciado": "Según la diapositiva de vitaminas (pág. 182), la vitamina PP o nicotinamida corresponde a la vitamina B3.",
+    "explicacion": "Verdadero: B3 = niacina, nicotinamida o vitamina PP (de «previene la pelagra»), como dicen las diapositivas de vitaminas y los libros. Ojo: la tabla de enzimas (pág. 46) intercambia B3 y B5 (pone «B5 (niacina)» y «B3 (ácido pantoténico)»); sigue las diapositivas de vitaminas, que coinciden con los libros."
+   }
+  },
+  {
+   "id": "vitaminas-q58",
+   "problema": "Con B3 y B5 en el mismo ejercicio, la numeración invertida de la pág. 46 permite emparejar PP y W al revés; no indicaba la fuente ni que «vitamina W» no es nombre de libro.",
+   "accion": "editar",
+   "campos": {
+    "enunciado": "Relaciona cada vitamina con su otro nombre según las diapositivas de vitaminas (págs. 180–186):",
+    "explicacion": "C antiescorbútica (previene el escorbuto); B1 aneurina o antiberibérica; B3 vitamina PP o nicotinamida; B8 biotina o vitamina H; B5 ácido pantoténico, que la diapositiva también llama «vitamina W» (nombre que no usan los libros). Ojo: la tabla de enzimas (pág. 46) intercambia B3 y B5 (pone «B5 (niacina)» y «B3 (ácido pantoténico)»); sigue las diapositivas de vitaminas, que coinciden con los libros."
+   }
+  },
+  {
+   "id": "vitaminas-q51",
+   "problema": "No advierte que la pág. 46 llama «B3» al pantoténico (contradice el par B5–pantoténico).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Usa la frase «Todos Recuerdan Nombres Para Pasar Bioquímica Fácil, Compa» para el orden tiamina, riboflavina, niacina, pantoténico, piridoxina, biotina, fólico, cobalamina. B5 = ácido pantoténico según la diapositiva (pág. 184) y los libros; la tabla de enzimas (pág. 46) lo rotula «B3» por error."
+   }
+  },
+  {
+   "id": "vitaminas-q21",
+   "problema": "No advierte la contradicción B3/B5 de la pág. 46 (allí la niacina/pelagra aparece como «B5»).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Pelagra: dermatitis, vómitos, diarrea, cefalea, fatiga y pérdida de memoria; mortal sin tratamiento. Escorbuto = C, beriberi = B1, raquitismo = D. Ojo: la tabla de enzimas (pág. 46) intercambia B3 y B5 (pone «B5 (niacina)» y «B3 (ácido pantoténico)»); sigue las diapositivas de vitaminas, que coinciden con los libros."
+   }
+  },
+  {
+   "id": "vitaminas-q22",
+   "problema": "No advierte que la pág. 46 rotula al pantoténico como «B3».",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "La diapositiva (pág. 184) dice que la B5 (ácido pantoténico) forma parte de la coenzima A y está en una gran variedad de alimentos. Ojo: la tabla de enzimas (pág. 46) intercambia B3 y B5 (pone «B5 (niacina)» y «B3 (ácido pantoténico)»); sigue las diapositivas de vitaminas, que coinciden con los libros."
+   }
+  },
+  {
+   "id": "vitaminas-q55",
+   "problema": "«Grietas en comisuras» (B6) también es signo de B2 y «escamosa alrededor de la boca» (B8) se confunde con «labios escamosos»: pares que encajan en dos vitaminas.",
+   "accion": "editar",
+   "campos": {
+    "pares": [
+     [
+      "Vitamina C",
+      "Pérdida de dientes e infecciones bucales"
+     ],
+     [
+      "Vitamina B2",
+      "Inflamación del revestimiento de boca y garganta"
+     ],
+     [
+      "Vitamina B6",
+      "Labios escamosos, con anemia y erupciones con picazón"
+     ],
+     [
+      "Vitamina B8",
+      "Erupción roja y escamosa alrededor de ojos, nariz y boca"
+     ]
+    ],
+    "explicacion": "C → escorbuto con fragilidad dental; B2 → boca y garganta rojas e inflamadas (además grietas en comisuras y lengua inflamada); B6 → labios escamosos (también grietas en comisuras y lengua inflamada, con anemia); B8 → erupciones rojas y escamosas alrededor de ojos, nariz y boca. B2 y B6 comparten las grietas en las comisuras: distínguelas por la garganta (B2) y los labios escamosos con anemia (B6)."
+   }
+  },
+  {
+   "id": "vitaminas-q23",
+   "problema": "La explicación repite como hechos que la B6 ayuda a absorber B12 y a producir HCl, sin la advertencia de libros (alerta pág. 184).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Según la diapositiva (pág. 184), la B6 actúa en la utilización de grasas, la formación de glóbulos rojos y de niacina (B3), ayuda a absorber la B12, a producir HCl y en el metabolismo del magnesio. Ojo: en los libros la B6 (fosfato de piridoxal) es sobre todo coenzima de transaminaciones, descarboxilaciones y de la síntesis del hemo; lo de la B12 y el HCl no tiene respaldo claro."
+   }
+  },
+  {
+   "id": "vitaminas-t23",
+   "problema": "Enseña K2 = pescados y K3 = flora bacteriana sin advertir que en los libros K2 es la bacteriana y K3 la sintética (la pregunta q14 sí lo advierte).",
+   "accion": "editar",
+   "campos": {
+    "reverso": "Coagulación sanguínea. Según el material: K1 vegetales de hoja verde; K2 derivados de pescados; K3 flora bacteriana intestinal (en los libros la de origen bacteriano es la K2 y la K3 es sintética)."
+   }
+  },
+  {
+   "id": "vitaminas-t35",
+   "problema": "Presenta funciones de divulgación de la B6 (absorber B12, producir HCl) como hechos, sin matiz.",
+   "accion": "editar",
+   "campos": {
+    "reverso": "Piridoxina (según la diapositiva): uso de grasas, formación de glóbulos rojos, formación de niacina, ayuda a absorber B12, producción de HCl gástrico y metabolismo del magnesio. (En los libros: coenzima de transaminaciones como fosfato de piridoxal.)"
+   }
+  },
+  {
+   "id": "vitaminas-t45",
+   "problema": "El orden B3 niacina / B5 pantoténico contradice la tabla de la pág. 46 sin decirlo.",
+   "accion": "editar",
+   "campos": {
+    "reverso": "B1 tiamina, B2 riboflavina, B3 niacina, B5 ácido pantoténico, B6 piridoxina, B8 biotina, B9 ácido fólico, B12 cianocobalamina (así en las diapositivas de vitaminas y en los libros; la tabla de enzimas de la pág. 46 intercambia B3 y B5)."
+   }
+  },
+  {
+   "id": "dentarios-q66",
+   "problema": "Dice «según el material» aunque el cemento tiene cifras distintas en las págs. 216, 218, 228 y 229 (y la pulpa repite 30/50/20 en la 224); debe nombrar la tabla.",
+   "accion": "editar",
+   "campos": {
+    "enunciado": "Relaciona cada tejido con su composición según la tabla resumen (p. 228) y la diapositiva del hueso alveolar (p. 231):"
+   }
+  },
+  {
+   "id": "dentarios-q81",
+   "problema": "La explicación no dice de qué página sale la cifra de la pulpa ni la segunda cifra del cemento (p. 218).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Dentina ≈70 % (p. 204). El esmalte es el de ≈96 % (p. 196), el cemento ≈50 % (p. 216; la p. 218 le da 65 %) y la pulpa es un tejido blando (la p. 224 le da 50 % inorgánica, dato dudoso): ninguna diapositiva le da 95 %."
+   }
+  },
+  {
+   "id": "dentarios-q6",
+   "problema": "Faltan variantes («OH-», «hidroxilos»).",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "OH",
+     "OH-",
+     "hidroxilo",
+     "hidroxilos",
+     "hidroxido"
+    ]
+   }
+  },
+  {
+   "id": "dentarios-q19",
+   "problema": "Faltan variantes («33», «una tercera parte»).",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "1/3",
+     "un tercio",
+     "tercio",
+     "33%",
+     "33",
+     "una tercera parte"
+    ]
+   }
+  },
+  {
+   "id": "dentarios-q25",
+   "problema": "Faltan variantes con guion largo o con %.",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "91-92",
+     "91–92",
+     "91 a 92",
+     "91-92%",
+     "92",
+     "91"
+    ]
+   }
+  },
+  {
+   "id": "dentarios-q65",
+   "problema": "Falta la variante con signo de %.",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "95",
+     "95%"
+    ]
+   }
+  },
+  {
+   "id": "dentarios-q72",
+   "problema": "Falta la variante con signo de %.",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "28",
+     "28%"
+    ]
+   }
+  }
+ ]
+}

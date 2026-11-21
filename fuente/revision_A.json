@@ -1,0 +1,117 @@
+{
+ "cambios": [
+  {
+   "id": "urea-q5",
+   "problema": "La explicación dice que los 2 Pi salen de la CPS I; la CPS I da 2 ADP + 1 Pi y el otro Pi lo libera la ornitina transcarbamilasa (así aparece en los esquemas de las págs. 81 y 84).",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Salen 2 ADP + 1 Pi de la CPS I (2 ATP + HCO₃⁻ + NH₄⁺ → carbamilfosfato), otro Pi de la ornitina transcarbamilasa (al pasar el carbamilo a la ornitina), AMP + PPi de la argininosuccinato sintetasa y fumarato (esqueleto del aspartato, liberado por la argininosuccinasa). El oxalacetato no es producto directo del ciclo."
+   }
+  },
+  {
+   "id": "enzimas-q47",
+   "problema": "Los dos últimos pasos («se liberan P₁ y P₂» y «la enzima recupera su forma») aparecen a la vez en el esquema de la pág. 52, así que admiten dos órdenes; se fusionan en uno.",
+   "accion": "editar",
+   "campos": {
+    "items": [
+     "La enzima tiene un centro activo que todavía no es complementario al sustrato",
+     "El sustrato se acerca y se une",
+     "La enzima cambia a la conformación del estado de transición",
+     "Se liberan los productos P₁ y P₂ y la enzima recupera su forma original"
+    ],
+    "explicacion": "En el esquema de Koshland (p. 52) el centro activo no encaja de entrada; al unirse S la enzima cambia de forma (conformación del estado de transición) y al final libera P₁ y P₂ y queda con su forma inicial, lista para otro ciclo. En llave–cerradura, en cambio, el centro activo ya es complementario desde el principio."
+   }
+  },
+  {
+   "id": "prot-q9",
+   "problema": "La clave sigue a los apuntes (tirosina en la columna de ácidos), pero la explicación no avisa que en los libros la tirosina (y la cisteína) son polares sin carga.",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Según tus apuntes, los ácidos por ionización del R son ácido aspártico, ácido glutámico, cisteína y tirosina. La glutamina es la trampa: se parece al ácido glutámico, pero aparece como neutra; la histidina es básica y la treonina, neutra. Ojo: en los libros la tirosina y la cisteína se clasifican como polares sin carga (solo se ionizan débilmente a pH alto); para el examen sigue la tabla de tus apuntes."
+   }
+  },
+  {
+   "id": "prot-q14",
+   "problema": "La clave sigue a los apuntes (arginina esencial), pero la explicación no menciona que en los libros se considera semiesencial.",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Verdadero según tus apuntes: la arginina está en su lista de 10 esenciales, junto con la histidina y la lisina. En los libros se considera semiesencial (condicionalmente esencial): el adulto la fabrica en el ciclo de la urea, pero no siempre en cantidad suficiente, por ejemplo en etapas de crecimiento. Para el examen sigue la lista de tus apuntes."
+   }
+  },
+  {
+   "id": "prot-q17",
+   "problema": "El par «Tirosina – ácida por ionización» sigue a los apuntes, pero la explicación no avisa que en los libros la tirosina es polar sin carga.",
+   "accion": "editar",
+   "campos": {
+    "explicacion": "Glicina y arginina son los ejemplos de R simple y complejo (pág. 29). La metionina está entre los no polares y los esenciales. La tirosina aparece en la columna de ácidos de la tabla de ionización de tus apuntes y es no esencial (en los libros se le considera polar sin carga; para el examen sigue tus apuntes)."
+   }
+  },
+  {
+   "id": "enzimas-q5",
+   "problema": "Faltan variantes comunes de la respuesta («complejo enzima-sustrato»).",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "ES",
+     "complejo ES",
+     "enzima-sustrato",
+     "enzima sustrato",
+     "complejo enzima-sustrato",
+     "complejo enzima sustrato",
+     "complejo enzima-substrato"
+    ]
+   }
+  },
+  {
+   "id": "enzimas-q21",
+   "problema": "Faltan variantes válidas de la respuesta (vitamina B3, ácido nicotínico).",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "niacina",
+     "vitamina B5",
+     "B5",
+     "B3",
+     "vitamina B3",
+     "ácido nicotínico",
+     "nicotinamida"
+    ]
+   }
+  },
+  {
+   "id": "enzimas-q57",
+   "problema": "Falta la variante «directamente proporcional».",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "lineal",
+     "linealmente",
+     "proporcional",
+     "directamente proporcional",
+     "proporcional directa"
+    ]
+   }
+  },
+  {
+   "id": "urea-q42",
+   "problema": "Faltan variantes comunes de la respuesta (con espacio, «a-», 2-oxoglutarato, forma ácida).",
+   "accion": "editar",
+   "campos": {
+    "respuestas": [
+     "α-cetoglutarato",
+     "alfa-cetoglutarato",
+     "alfacetoglutarato",
+     "cetoglutarato",
+     "alfa cetoglutarato",
+     "α cetoglutarato",
+     "a-cetoglutarato",
+     "2-oxoglutarato",
+     "ácido α-cetoglutárico",
+     "ácido alfa-cetoglutárico",
+     "αKG",
+     "alfa-KG"
+    ]
+   }
+  }
+ ]
+}
