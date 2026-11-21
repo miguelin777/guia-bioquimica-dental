@@ -1,5 +1,7 @@
 # Guía de Bioquímica Dental
 
+**Ábrela aquí:** <https://miguelin777.github.io/guia-bioquimica-dental/>
+
 Guía de estudio interactiva hecha a partir de 233 páginas de apuntes y diapositivas de **bioquímica para odontología**. Sirve para leer cada tema resumido, practicar con preguntas tipo examen y repasar con tarjetas de memoria en el momento justo antes de olvidarlas.
 
 ## Qué incluye
