@@ -1,0 +1,356 @@
+{
+ "secciones": [
+  {
+   "id": "urea-1",
+   "corto": [
+    "El nitrógeno sobrante se excreta; los humanos somos **ureotélicos** y sacamos urea.",
+    "La **urea** se fabrica en el hígado con el ciclo de Krebs-Henseleit (1932).",
+    "Son **5 reacciones**: 2 en la mitocondria y 3 en el citosol.",
+    "Cada vuelta gasta **3 ATP** y usa aspartato, CO₂ y NH₄⁺.",
+    "Los amoniotélicos excretan amonio y los uricotélicos, **ácido úrico**."
+   ],
+   "imagina": "Imagina que el hígado es una planta de reciclaje que convierte el amonio tóxico en urea, un paquete seguro para la orina."
+  },
+  {
+   "id": "urea-2",
+   "corto": [
+    "El primer nitrógeno viene del **NH₄⁺** que libera la glutamato deshidrogenasa en la matriz.",
+    "El segundo nitrógeno llega como **aspartato**, formado por transaminación del glutamato.",
+    "La **CPS I** hace carbamilfosfato con NH₄⁺ y CO₂, y gasta 2 ATP.",
+    "La CPS I es el **paso limitante** y la activa el N-acetilglutamato.",
+    "La **OTC** une carbamilfosfato con ornitina para formar citrulina, que sale al citoplasma."
+   ],
+   "imagina": "Imagina la CPS I como la llave de paso general: si no se abre, ninguna agua llega al resto del ciclo."
+  },
+  {
+   "id": "urea-3",
+   "corto": [
+    "La citrulina sale al citosol y la **argininosuccinato sintetasa** la une al aspartato.",
+    "Esa reacción gasta ATP hasta **AMP + PPi** y pasa por citrulil-AMP.",
+    "La argininosuccinasa rompe el producto y libera **arginina** y fumarato.",
+    "La **arginasa** hidroliza la arginina y suelta urea y ornitina.",
+    "Toda la urea sale de la arginina; la **ornitina** regresa a la mitocondria."
+   ],
+   "imagina": "Imagina la ornitina como un carrito que se carga de nitrógeno, entrega la urea y regresa vacío por más."
+  },
+  {
+   "id": "urea-4",
+   "corto": [
+    "Son 5 enzimas en orden: **CPS I**, OTC, ASS, argininosuccinasa y arginasa.",
+    "Las dos primeras trabajan en la **mitocondria** y las otras tres en el citosol.",
+    "Los productos van de carbamilfosfato a citrulina, argininosuccinato, **arginina** y urea.",
+    "Solo la CPS I y la ASS gastan **ATP**.",
+    "Una deficiencia de cualquier enzima causa **hiperamonemia**."
+   ],
+   "imagina": "Imagina una línea de ensamble de cinco estaciones, donde cada enzima pasa la pieza a la siguiente."
+  },
+  {
+   "id": "urea-5",
+   "corto": [
+    "Más proteína en la dieta o inanición significa **más urea**.",
+    "Con ese estímulo las **cinco enzimas** se sintetizan a mayor velocidad.",
+    "El **N-acetilglutamato** activa alostéricamente a la CPS I.",
+    "Se forma con acetil-CoA y glutamato por la **N-acetilglutamato sintetasa**.",
+    "La **arginina** activa esa sintetasa y avisa que hay que acelerar el ciclo."
+   ],
+   "imagina": "Imagina que la arginina acumulada es una alarma de tráfico: avisa que hay fila y hay que abrir más carriles."
+  },
+  {
+   "id": "urea-6",
+   "corto": [
+    "El **fumarato** del ciclo de la urea conecta con el ciclo de Krebs.",
+    "Esa unión se llama la **bicicleta de Krebs**.",
+    "En el citosol el fumarato pasa a **malato**, que entra a la mitocondria.",
+    "Ahí se vuelve oxalacetato, que por transaminación regenera **aspartato**.",
+    "El oxalacetato también puede dar **glucosa**, citrato o piruvato."
+   ],
+   "imagina": "Imagina dos ruedas de bicicleta unidas: al girar una, la otra recibe el fumarato y las dos avanzan."
+  },
+  {
+   "id": "urea-7",
+   "corto": [
+    "El amonio normal en sangre es de **30–60 μM**.",
+    "El **85 %** del nitrógeno urinario es urea, unos 30 g al día.",
+    "Fallas del ciclo o **cirrosis alcohólica** producen hiperamonemia.",
+    "Con más de 0.2 mM hay visión borrosa, letargia y **coma**.",
+    "El amonio gasta α-cetoglutarato, baja el **ATP** y bajan glutamato y GABA."
+   ],
+   "imagina": "Imagina que el amonio secuestra al α-cetoglutarato y sin esa pieza el motor de la neurona se apaga."
+  },
+  {
+   "id": "respiracion-1",
+   "corto": [
+    "El piruvato entra a la mitocondria y la **piruvato deshidrogenasa** lo vuelve acetil-CoA.",
+    "El ciclo de Krebs tiene **8 reacciones** y es anfibólico.",
+    "Libera el **CO₂** y empieza con citrato.",
+    "Cada vuelta da **3 NADH, 1 FADH₂** y 1 GTP.",
+    "Por glucosa se obtienen **10 NADH y 2 FADH₂** que alimentan la cadena."
+   ],
+   "imagina": "Imagina que NADH y FADH₂ son baterías cargadas que el ciclo de Krebs entrega a la cadena respiratoria."
+  },
+  {
+   "id": "respiracion-2",
+   "corto": [
+    "La **fosforilación oxidativa** oxida NADH y FADH₂ y pasa sus electrones al oxígeno.",
+    "Esa energía se usa para sintetizar **ATP** en la mitocondria.",
+    "La **membrana interna** es impermeable, incluso a los protones.",
+    "Tiene dos componentes: la **cadena de transporte** y la ATP sintasa.",
+    "La cadena crea un **gradiente de H⁺** y la ATP sintasa lo aprovecha."
+   ],
+   "imagina": "Imagina una hidroeléctrica: la cadena sube el agua y la ATP sintasa genera la electricidad al dejarla caer."
+  },
+  {
+   "id": "respiracion-3",
+   "corto": [
+    "La **teoría quimiosmótica** es de Peter Mitchell y ganó el Nobel en 1978.",
+    "Un gradiente de protones guarda energía: la **fuerza protonmotriz**.",
+    "Suma un potencial químico (ΔpH) y uno **eléctrico** (Δψ).",
+    "El espacio intermembrana es ácido y positivo; la **matriz**, alcalina y negativa.",
+    "Los H⁺ regresan por la **ATP sintasa**, que convierte ADP + Pi en ATP."
+   ],
+   "imagina": "Imagina una presa: la cadena bombea agua arriba y la ATP sintasa es la turbina que fabrica ATP."
+  },
+  {
+   "id": "respiracion-4",
+   "corto": [
+    "La cadena es una serie de proteínas de la **membrana interna** que transportan electrones.",
+    "Su objetivo es formar un **gradiente de protones** para sintetizar ATP.",
+    "El orden es **NADH, complejo I, Q, complejo III, citocromo c, complejo IV**.",
+    "El **complejo II** recibe el FADH₂, se salta el I y no bombea H⁺.",
+    "Bombean H⁺ los complejos **I, III y IV**; el IV reduce O₂ a agua."
+   ],
+   "imagina": "Imagina un relevo de postas: cada complejo recibe el testigo, lo pasa al siguiente y la meta es el oxígeno."
+  },
+  {
+   "id": "respiracion-5",
+   "corto": [
+    "El **oxígeno** es el aceptor final de electrones, en el complejo IV.",
+    "Ahí se forma **agua**: ½O₂ + 2H⁺ + 2e⁻ → H₂O.",
+    "Sin oxígeno la cadena se detiene y no hay **ATP** por fosforilación oxidativa.",
+    "NAD y FAD cargan los electrones; la **ubiquinona** los transporta en la membrana.",
+    "Los **citocromos** son proteínas con grupo hemo."
+   ],
+   "imagina": "Imagina que el oxígeno es el basurero final de los electrones: si se llena, toda la cadena se atora."
+  },
+  {
+   "id": "respiracion-6",
+   "corto": [
+    "El **metabolismo** transforma una biomolécula X en una Y.",
+    "Busca producir **energía útil** y construir moléculas como proteínas y lípidos.",
+    "El **catabolismo** desarma moléculas y libera energía, con rutas convergentes.",
+    "El **anabolismo** construye y gasta energía, con rutas divergentes.",
+    "Ambos dependen uno del otro y los regulan las **hormonas**."
+   ],
+   "imagina": "Imagina el catabolismo como demoler una casa para sacar materiales y el anabolismo como construir con ellos."
+  },
+  {
+   "id": "nucleicos-1",
+   "corto": [
+    "Los **ácidos nucleicos** almacenan, duplican y transmiten la información de la herencia.",
+    "Hay dos clases: **ARN** y ADN.",
+    "Los **virus** tienen solo uno de los dos.",
+    "Los **nucleótidos** dan energía, son señales químicas y cofactores.",
+    "También forman los **ácidos nucleicos**, depositarios de la información genética."
+   ],
+   "imagina": "Imagina que el ADN es un libro de recetas de la célula y los nucleótidos son sus letras."
+  },
+  {
+   "id": "nucleicos-2",
+   "corto": [
+    "Un nucleótido tiene **fosfato**, un azúcar pentosa y una base nitrogenada.",
+    "Siempre van en orden **P – A – BN**, con el azúcar en medio.",
+    "Los nucleótidos se unen por **enlaces fosfodiéster** entre azúcar y fosfato.",
+    "La **secuencia de bases** es lo que distingue a cada molécula.",
+    "El ARN tiene **ribosa** con OH en C2; el ADN, desoxirribosa con solo H."
+   ],
+   "imagina": "Imagina una escalera de cuerda: los pasamanos son azúcar-fosfato y los escalones son las bases."
+  },
+  {
+   "id": "nucleicos-3",
+   "corto": [
+    "Las bases nitrogenadas son **purinas** o pirimidinas.",
+    "Las purinas son **adenina y guanina**, de dos anillos.",
+    "Las pirimidinas son **citosina, timina y uracilo**, de un anillo.",
+    "La **timina** solo está en el ADN.",
+    "El **uracilo** solo está en el ARN."
+   ],
+   "imagina": "Imagina las purinas como camas literas de dos pisos y las pirimidinas como camas de un solo nivel."
+  },
+  {
+   "id": "nucleicos-4",
+   "corto": [
+    "Un **nucleósido** es azúcar más base, sin fosfato.",
+    "Su unión es un **enlace glucosídico**: C1 con N1 (pirimidina) o N9 (purina).",
+    "Un **nucleótido** es el nucleósido más un grupo fosfato.",
+    "Los fosfatos se unen en la posición **5´** de la pentosa.",
+    "Se clasifican por pentosa y por número de fosfatos, como **AMP, ADP y ATP**."
+   ],
+   "imagina": "Imagina que el nucleósido es un vagón sin pasajeros y el nucleótido es el mismo vagón con fosfato a bordo."
+  },
+  {
+   "id": "nucleicos-5",
+   "corto": [
+    "El **ATP** es el nucleótido más importante y reparte energía química.",
+    "El **CTP** participa en la biosíntesis de fosfolípidos.",
+    "El **UTP** sirve para carbohidratos y para sintetizar ARN y ADN.",
+    "El ATP es menos estable: **ATP → ADP + Pi libera energía**.",
+    "Formar ATP desde ADP + Pi **requiere energía**."
+   ],
+   "imagina": "Imagina el ATP como una pila cargada: al soltar un fosfato entrega energía y queda ADP, la pila gastada."
+  },
+  {
+   "id": "nucleicos-6",
+   "corto": [
+    "Los **polinucleótidos** se unen por enlaces fosfodiéster y forman ADN y ARN.",
+    "Son **polianiónicos**: tienen muchas cargas negativas por sus fosfatos.",
+    "Ambos son insolubles en **alcohol** y se separan de proteínas con fenol o detergente.",
+    "La **secuencia de bases** define su estructura, no solo la composición.",
+    "Según **Chargaff**: purinas = pirimidinas, A = T y G = C."
+   ],
+   "imagina": "Imagina el ADN como un collar de perlas con muchas cargas negativas, por eso se disuelve en agua con sal."
+  },
+  {
+   "id": "nucleicos-7",
+   "corto": [
+    "Las **nucleasas** hidrolizan los ácidos nucleicos.",
+    "Las **endonucleasas** cortan enlaces fosfodiéster internos de la cadena.",
+    "Las **exonucleasas** cortan solo los enlaces terminales, en el extremo 3´ o 5´.",
+    "Pueden tener especificidad de **base** o de secuencia.",
+    "El **jugo pancreático** trae DNasas y RNasas para digerir los ácidos nucleicos."
+   ],
+   "imagina": "Imagina que la endonucleasa corta un listón por en medio y la exonucleasa lo va mordiendo desde la punta."
+  },
+  {
+   "id": "nucleicos-8",
+   "corto": [
+    "El ADN son **dos cadenas** helicoidales enrolladas hacia la derecha.",
+    "Las cadenas van en direcciones opuestas: son **antiparalelas**.",
+    "Las estabilizan **puentes de hidrógeno** entre pares de bases específicos.",
+    "Los pares son **A–T y G–C**.",
+    "Las bases apuntan al centro, perpendiculares al **eje**."
+   ],
+   "imagina": "Imagina una escalera de caracol: los escalones son los pares A–T y G–C unidos por puentes de hidrógeno."
+  },
+  {
+   "id": "nucleicos-9",
+   "corto": [
+    "Conservar la **integridad del ADN** es vital para el organismo y la especie.",
+    "El daño puede ser de una base, de dos, rotura o **enlace cruzado**.",
+    "Se repara usando la información complementaria de la **cadena sana**.",
+    "Si no se repara, causa **mutaciones** y quizá muerte celular.",
+    "La **luz UV** produce dímeros de timina en la misma cadena."
+   ],
+   "imagina": "Imagina que la cadena sana es la copia de respaldo con la que se corrige la hoja dañada."
+  },
+  {
+   "id": "nucleicos-10",
+   "corto": [
+    "Hay tres tipos de ARN: **mensajero, de transferencia y ribosomal**.",
+    "Los tres participan en la **síntesis de proteínas**.",
+    "La **replicación** copia ADN para formar ADN hijo.",
+    "La **transcripción** pasa el mensaje del ADN a ARNm.",
+    "La **traducción** convierte el ARN en una secuencia de aminoácidos."
+   ],
+   "imagina": "Imagina replicar como fotocopiar, transcribir como copiar a mano en el mismo idioma y traducir como cambiar de idioma."
+  },
+  {
+   "id": "nucleicos-11",
+   "corto": [
+    "El **ARNm** es una copia complementaria de secciones del ADN.",
+    "Es de **una sola cadena** y de largo variable.",
+    "Se sintetiza y se degrada **constantemente**.",
+    "Lleva A, G, C y **U**.",
+    "Cada tres nucleótidos forman un **codón**; UUU es fenilalanina y AUA, isoleucina."
+   ],
+   "imagina": "Imagina el ARNm como una receta fotocopiada que sale del núcleo, mientras el libro original (ADN) se queda guardado."
+  },
+  {
+   "id": "nucleicos-12",
+   "corto": [
+    "El **ARNt** transporta aminoácidos y es el más pequeño: 73 a 93 nucleótidos.",
+    "Cada aminoácido tiene por lo menos un **ARNt específico**.",
+    "El ARNt trae un **anticodón** complementario al codón del ARNm.",
+    "El **ARNr** está en los ribosomas, donde se sintetizan las proteínas.",
+    "El **código genético** es el conjunto de codones; los oncogenes pueden causar cáncer."
+   ],
+   "imagina": "Imagina el ARNt como un taxi que lleva un aminoácido a la dirección marcada por el codón."
+  },
+  {
+   "id": "saliva-1",
+   "corto": [
+    "La **saliva total** mezcla secreciones de glándulas mayores y menores con otros componentes bucales.",
+    "Es viscosa y tiene **99 % de agua**.",
+    "Lleva iones como sodio, potasio, **bicarbonato** y calcio, además de urea y hormonas.",
+    "La **amilasa salival (ptialina)** es la enzima más importante y la más concentrada.",
+    "La **mucina** protege el epitelio y la lisozima actúa contra bacterias."
+   ],
+   "imagina": "Imagina la saliva como un lavado suave: casi puro agua, con una enzima, un moco protector y un antibacterial."
+  },
+  {
+   "id": "saliva-2",
+   "corto": [
+    "La **insalivación** es la mezcla de la saliva con el alimento.",
+    "Disuelve el alimento y deja apreciar el **sabor**.",
+    "Lo lubrica para facilitar la **deglución**.",
+    "La amilasa inicia la digestión de **carbohidratos** y la lisozima actúa como bactericida.",
+    "También mantiene la **humedad** de la cavidad bucal."
+   ],
+   "imagina": "Imagina la saliva como aceite y agua en una bisagra: ablanda, lubrica y deja todo deslizar sin atorarse."
+  },
+  {
+   "id": "saliva-3",
+   "corto": [
+    "El **jugo gástrico** es un ácido fuerte con HCl, pepsina, renina y lipasa gástrica.",
+    "Convierte el bolo alimenticio en **quimo**.",
+    "El **jugo pancreático** trae bicarbonato, proteasas, amilasa, nucleasas y lipasa.",
+    "La **bilis** la produce el hígado y se guarda en la vesícula.",
+    "Las **sales biliares** emulsionan las grasas como detergente y facilitan su digestión."
+   ],
+   "imagina": "Imagina la bilis como el jabón del lavatrastes: rompe la grasa en gotitas para que el agua la arrastre."
+  },
+  {
+   "id": "saliva-4",
+   "corto": [
+    "El **alcohol** se absorbe en el estómago.",
+    "En el **duodeno** se absorben el hierro ferroso, el calcio y el ácido fólico.",
+    "El **yeyuno** absorbe los nutrientes en general.",
+    "La **vitamina B₁₂** se absorbe en el íleon.",
+    "El **colon** no absorbe nutrientes como tal; recupera agua."
+   ],
+   "imagina": "Imagina el intestino como una carretera con casetas: cada segmento cobra y recibe un nutriente distinto."
+  },
+  {
+   "id": "saliva-5",
+   "corto": [
+    "La **caries** es desmineralización por desequilibrio del pH entre biopelícula y diente.",
+    "Los **azúcares**, sobre todo la sacarosa, se degradan por glucólisis y se fermentan.",
+    "Se forman **ácidos orgánicos** y los H⁺ bajan el pH a 5.5.",
+    "Con ese pH se disuelve la **hidroxiapatita** del diente.",
+    "El **fluoruro tópico** es el remineralizante más efectivo."
+   ],
+   "imagina": "Imagina que cada snack de azúcar es una lluvia ácida breve sobre el esmalte, que la saliva luego debe enjuagar."
+  },
+  {
+   "id": "saliva-6",
+   "corto": [
+    "El **esmalte** es una biocerámica epitelial hecha de hidroxiapatita.",
+    "Su fórmula es **Ca₁₀(PO₄)₆(OH)₂**, en relación 10:6:2.",
+    "Está formado por **95 % mineral**, 4 % agua y 1 % proteínas.",
+    "No tiene células ni vasos, así que **no se repara**.",
+    "Los **ameloblastos** lo forman y los cristales se agrupan en prismas."
+   ],
+   "imagina": "Imagina el esmalte como una fachada de cerámica sin albañil de guardia: si se daña, nadie la repara sola."
+  },
+  {
+   "id": "saliva-7",
+   "corto": [
+    "La **desmineralización** ocurre en solución subsaturada: los iones salen del cristal.",
+    "La **remineralización** ocurre en solución sobresaturada: los iones se depositan en el cristal.",
+    "Es una **ganancia neta** de material calcificado que reemplaza lo perdido.",
+    "Es un proceso **físico-químico**: sobresaturación, núcleos y crecimiento de cristales.",
+    "Entre comidas, la **saliva** aporta calcio y fosfato y favorece la remineralización."
+   ],
+   "imagina": "Imagina el cristal como una orilla de playa: con agua sedienta se lleva arena y con agua cargada la deja."
+  }
+ ]
+}

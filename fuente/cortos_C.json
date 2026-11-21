@@ -1,0 +1,285 @@
+{
+ "secciones": [
+  {
+   "id": "digestion-1",
+   "corto": [
+    "**Digerir** es romper el alimento en partes pequeñas para poder absorberlo.",
+    "**Absorber** es cruzar la pared intestinal hacia la sangre o la linfa.",
+    "El agua, los **minerales** y algunos hidratos de carbono se absorben sin digerirse.",
+    "Intervienen glándulas salivales, **hígado** y páncreas, regulados por nervios y hormonas."
+   ],
+   "imagina": "Imagina que digerir es cortar una pizza en trozos pequeños para que quepan por la puerta."
+  },
+  {
+   "id": "digestion-2",
+   "corto": [
+    "La digestión tiene dos procesos: **mecánico** y químico.",
+    "Lo mecánico es masticar, deglutir, peristalsis y defecar: **MDPD**.",
+    "Lo **químico** son las enzimas, que rompen moléculas complejas en unidades simples.",
+    "Si la opción menciona una enzima, es parte **química**."
+   ]
+  },
+  {
+   "id": "digestion-3",
+   "corto": [
+    "En la boca, lengua y dientes trituran y forman el **bolo alimenticio**.",
+    "La saliva humedece, porque las enzimas solo trabajan en medio **acuoso**.",
+    "La **ptialina** (amilasa salival) hidroliza una pequeña parte del almidón a maltosa.",
+    "La lipasa salival inicia la digestión de **triglicéridos**.",
+    "La saliva mantiene el **pH** en 6,5 y ayuda a remineralizar el esmalte."
+   ]
+  },
+  {
+   "id": "digestion-4",
+   "corto": [
+    "El bolo pasa por faringe, esófago y **cardias** hasta llegar al estómago.",
+    "El jugo gástrico tiene **pepsina**, ácido clorhídrico y factor intrínseco.",
+    "La pepsina comienza la digestión de las **proteínas**.",
+    "El **factor intrínseco** es necesario para absorber la vitamina B12.",
+    "El bolo se vuelve **quimo**, líquido espeso y ácido, por 2 a 4 horas."
+   ]
+  },
+  {
+   "id": "digestion-5",
+   "corto": [
+    "En el **intestino delgado** ocurre la mayor parte de digestión y absorción.",
+    "Ahí se mezcla con bilis, jugo **pancreático** y jugos intestinales.",
+    "La **bilis** no es enzima: emulsiona las grasas para ayudar a la lipasa.",
+    "Lipasa rompe grasas, amilasa el almidón, y **tripsina** y quimotripsina las proteínas."
+   ],
+   "imagina": "Imagina la bilis como detergente que parte la grasa en gotitas para que la lipasa llegue mejor."
+  },
+  {
+   "id": "digestion-6",
+   "corto": [
+    "En el **intestino grueso** las bacterias fermentan lo no digerido y producen gases.",
+    "Esas bacterias sintetizan **vitaminas del grupo B** y vitamina K.",
+    "Aquí se **reabsorbe agua** y se almacenan las heces.",
+    "Las heces llevan restos no digeridos y muchos **restos celulares** de la pared."
+   ]
+  },
+  {
+   "id": "digestion-7",
+   "corto": [
+    "La absorción ocurre sobre todo en el **intestino delgado**, con gran eficacia.",
+    "Ahí se absorben agua, azúcares, minerales y vitaminas **hidrosolubles**.",
+    "Las vitaminas **liposolubles** se absorben junto con los ácidos grasos.",
+    "Fibra excesiva y laxantes aceleran el **tránsito** y reducen la absorción.",
+    "El **ácido fítico** reduce el hierro y zinc; la **celiaquía** destruye vellosidades."
+   ]
+  },
+  {
+   "id": "digestion-8",
+   "corto": [
+    "Los nutrientes absorbidos viajan por la **sangre** hasta las células que los usan.",
+    "Las grasas se vuelven **triglicéridos** en la pared intestinal y van por la linfa.",
+    "La glucosa necesita **insulina** para entrar a las células.",
+    "El exceso de glucosa se guarda como **glucógeno** en hígado y músculo.",
+    "Los **aminoácidos** forman el pool para proteínas y enzimas; el exceso da energía."
+   ]
+  },
+  {
+   "id": "respiracion-7",
+   "corto": [
+    "La digestión **no** comienza en el estómago, sino en la boca.",
+    "El recorrido es boca, faringe, esófago, estómago, intestino delgado y **grueso**.",
+    "El estómago convierte el bolo en **quimo**; en el intestino delgado se absorben nutrientes.",
+    "El intestino grueso absorbe el **agua** que queda y tiene flora bacteriana.",
+    "Los órganos anexos son hígado, vesícula, **páncreas** y glándulas salivales."
+   ]
+  },
+  {
+   "id": "vitaminas-1",
+   "corto": [
+    "Las vitaminas son sustancias orgánicas que **no aportan energía**.",
+    "Cada una cumple una función específica, como **coenzimas** o precursoras de coenzimas.",
+    "El cuerpo casi no las sintetiza, así que las obtienes de la **dieta**.",
+    "Tomar vitaminas extra no mejora el rendimiento si no hay **déficit**."
+   ],
+   "imagina": "Imagina la vitamina como la llave del coche: no es gasolina, pero sin ella no arranca."
+  },
+  {
+   "id": "vitaminas-2",
+   "corto": [
+    "La **hipovitaminosis** es carencia de vitaminas; la hipervitaminosis es exceso.",
+    "Hay carencia si la dieta es pobre o aumentan las **necesidades**.",
+    "También si no llegan a la sangre: **alteración gastrointestinal** o destrucción previa.",
+    "El exceso de vitaminas puede ser **tóxico**.",
+    "Alcohol, **tabaco**, estrés y algunos medicamentos destruyen vitaminas."
+   ]
+  },
+  {
+   "id": "vitaminas-3",
+   "corto": [
+    "Las vitaminas se clasifican en **liposolubles** (grasas) e hidrosolubles (agua).",
+    "Las liposolubles son **ADEK** y se almacenan en hígado y tejido graso.",
+    "Las liposolubles en exceso (más de 10 veces lo recomendado) pueden ser **tóxicas**.",
+    "Las **hidrosolubles** (C y B) no se almacenan y se eliminan por la orina.",
+    "Las hidrosolubles son coenzimas o precursores de **coenzimas**."
+   ],
+   "imagina": "Imagina las liposolubles como comida guardada en la alacena; las hidrosolubles se van con el agua."
+  },
+  {
+   "id": "vitaminas-4",
+   "corto": [
+    "Las liposolubles son **A, D, E y K**.",
+    "La **A** cuida la visión; su falta es causa principal de ceguera evitable infantil.",
+    "La **D** regula calcio y fósforo; su falta deja huesos delgados y deformes.",
+    "La **E** es antioxidante; su falta causa síntomas **neurológicos** como ataxia.",
+    "La **K** ayuda a la coagulación; su falta causa hematomas y sangrado."
+   ],
+   "imagina": "Imagina la vitamina E como un escudo antioxidante que protege las membranas de tus células."
+  },
+  {
+   "id": "vitaminas-5",
+   "corto": [
+    "La **vitamina C** (ácido ascórbico) es necesaria para producir **colágeno**.",
+    "Ayuda a cicatrizar y a reparar encías, vasos, huesos y dientes.",
+    "Su falta grave causa **escorbuto**: hemorragias, hematomas y pérdida de dientes.",
+    "La **B1** (tiamina) es coenzima del metabolismo de glúcidos y lípidos.",
+    "Su falta causa **beriberi**: diarrea, pérdida de peso, irritabilidad y mala memoria."
+   ]
+  },
+  {
+   "id": "vitaminas-6",
+   "corto": [
+    "La **B2** (riboflavina) es coenzima y cuida piel, mucosas y vista.",
+    "Su falta inflama la **boca**, agrieta las comisuras y enrojece la lengua.",
+    "La **B3** (PP, niacina) participa en el metabolismo de carbohidratos, grasas y proteínas.",
+    "Su falta grave causa **pelagra**: dermatitis, diarrea y pérdida de memoria.",
+    "Sin tratamiento, la pelagra es **mortal**."
+   ]
+  },
+  {
+   "id": "vitaminas-7",
+   "corto": [
+    "La **B5** (ácido pantoténico) forma parte de la **coenzima A**.",
+    "Su falta causa ardor y entumecimiento en manos y pies, y cansancio.",
+    "La **B6** (piridoxina) ayuda a usar grasas y formar **glóbulos rojos**.",
+    "La B6 también forma niacina, ayuda a absorber B12 y produce **HCl**.",
+    "Su falta causa anemia, **labios escamosos**, comisuras agrietadas y lengua inflamada."
+   ]
+  },
+  {
+   "id": "vitaminas-8",
+   "corto": [
+    "La **B8** (biotina) transfiere grupos carboxilo; su falta causa caída de cabello.",
+    "La **B9** (ácido fólico) permite crecimiento celular y formación de glóbulos rojos.",
+    "Sin ácido fólico hay **anemia megaloblástica**, de glóbulos rojos anormalmente grandes.",
+    "La **B12** no está en vegetales; solo en carnes y lácteos.",
+    "La B12 necesita **factor intrínseco** y su falta también causa anemia megaloblástica."
+   ]
+  },
+  {
+   "id": "vitaminas-9",
+   "corto": [
+    "Liposolubles: **A, D, E y K**; el resto (C y complejo B) son hidrosolubles.",
+    "Con efectos en boca: **C** (dientes), B2, B6, B8 y **K** (sangrado).",
+    "Enfermedades clave: **C** escorbuto, **B1** beriberi, **B3** pelagra.",
+    "**B9 y B12** dan anemia megaloblástica; **A** ceguera nocturna; **D** huesos deformes.",
+    "**K** da sangrado y **E** daño neurológico."
+   ],
+   "imagina": "Imagina la tabla como un directorio: cada vitamina tiene su enfermedad estrella y su señal en la boca."
+  },
+  {
+   "id": "dentarios-1",
+   "corto": [
+    "El diente se divide en tejidos **duros** y blandos.",
+    "Los duros son **esmalte**, cemento y dentina: E-C-D.",
+    "El único tejido blando es la **pulpa** dentaria.",
+    "La **corona** la cubre esmalte y la raíz la cubre **cemento**."
+   ]
+  },
+  {
+   "id": "dentarios-2",
+   "corto": [
+    "El **esmalte** es el tejido calcificado más duro y lo producen los ameloblastos.",
+    "No se reemplaza ni se **regenera**.",
+    "Tiene cerca de **96 %** de material inorgánico, sobre todo hidroxiapatita.",
+    "La **hidroxiapatita** es Ca₁₀(PO₄)₆(OH)₂ y se disuelve en ácidos.",
+    "La superficie es rica en **calcio** y fósforo; la profundidad, en carbonato y magnesio."
+   ]
+  },
+  {
+   "id": "dentarios-3",
+   "corto": [
+    "Las **amelogeninas** son las proteínas del esmalte inmaduro.",
+    "Las **enamelinas** envuelven los cristales; son las que más se confunden.",
+    "El **colágeno** es la proteína más abundante del cuerpo; casi 1/3 es glicina.",
+    "El **ameloblasto** forma el esmalte con su proceso de Tomes.",
+    "El **prisma** recorre todo el grosor del esmalte y deja pasar la luz."
+   ]
+  },
+  {
+   "id": "dentarios-4",
+   "corto": [
+    "La **dentina** forma la masa del diente, es avascular y sensible.",
+    "Cerca del **70 %** de su peso es mineral, de hidroxiapatita.",
+    "Su parte orgánica es sobre todo **colágeno** (91 a 92 %).",
+    "Si se descalcifica, pierde dureza pero conserva su **forma**.",
+    "Las **fosfoproteínas** marcan el frente de mineralización; la predentina no las tiene."
+   ]
+  },
+  {
+   "id": "dentarios-5",
+   "corto": [
+    "La unidad celular de la dentina es el **odontoblasto**.",
+    "La unidad estructural es el **túbulo dentinario**.",
+    "La dentina solo responde con **dolor**, sea cual sea el estímulo.",
+    "La **teoría hidrodinámica** dice que el líquido de los túbulos se mueve.",
+    "Ese movimiento estira o comprime **terminaciones nerviosas** libres cerca de la predentina."
+   ],
+   "imagina": "Imagina los túbulos como popotes llenos de líquido: si el líquido se mueve, el nervio lo siente."
+  },
+  {
+   "id": "dentarios-6",
+   "corto": [
+    "El **cemento** cubre la raíz y se une a la dentina radicular.",
+    "Retiene las **fibras de colágena** que fijan el diente al hueso.",
+    "Tiene el contenido de **fluoruro** más alto de todos los tejidos mineralizados.",
+    "Su colágeno es **tipo I**, con muchos enlaces cruzados.",
+    "Las **sialoproteínas** son muy ramificadas, con ácido siálico y ricas en Glu y Asp."
+   ]
+  },
+  {
+   "id": "dentarios-7",
+   "corto": [
+    "La **pulpa** es tejido conjuntivo laxo dentro de la cavidad pulpar.",
+    "Vasos y nervios entran por los **orificios apicales**.",
+    "Tiene mucho **ARN** por su intensa síntesis de colágeno.",
+    "La célula más **abundante** es el fibroblasto.",
+    "La más **característica** es el odontoblasto."
+   ]
+  },
+  {
+   "id": "dentarios-8",
+   "corto": [
+    "Orgánico, inorgánico y agua: esmalte 3-95-2, dentina 20-69-11, cemento 30-50-20.",
+    "El **mineral** va así: esmalte mayor que dentina mayor que cemento.",
+    "El **agua** y la materia orgánica van al revés: cemento, dentina, esmalte.",
+    "El esmalte casi no tiene **colágeno** (0,35 %); cemento y dentina tienen 18 %.",
+    "Las cifras cambian según la **diapositiva**, así que revisa de cuál sale cada una."
+   ]
+  },
+  {
+   "id": "dentarios-9",
+   "corto": [
+    "El **ligamento periodontal** sostiene la raíz en su alvéolo y permite cierta movilidad.",
+    "Está hecho de **haces de fibras colágenas**, como cuerdas retorcidas.",
+    "El hueso alveolar tiene **33 %** de matriz orgánica: 28 + 5.",
+    "Sus proteínas no colágenas también están en el **cemento**."
+   ],
+   "imagina": "Imagina el ligamento como cuerdas elásticas que sujetan el diente a su hueco, con algo de juego."
+  },
+  {
+   "id": "dentarios-10",
+   "corto": [
+    "La **placa dental** es un cúmulo no calcificado que se adhiere firmemente al diente.",
+    "Contiene microorganismos, restos celulares y **residuos** de alimentos.",
+    "La **materia alba** se remueve con más facilidad.",
+    "Se forma en 3 etapas: **película**, colonización y maduración.",
+    "Por estar adherida, la placa requiere **remoción mecánica**."
+   ]
+  }
+ ]
+}

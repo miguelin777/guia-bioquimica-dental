@@ -205,6 +205,22 @@ for f in glob.glob(os.path.join(FIG, "p*.jpg")):
     if n not in dims:
         os.remove(f)
 
+# ---- resúmenes "en pocas palabras" (cortos_*.json) ----
+secs_all = {s["id"]: s for t in salida for s in t["secciones"]}
+n_cortos = 0
+for f in sorted(glob.glob(os.path.join(FUENTE, "cortos_*.json"))):
+    for x in json.load(open(f, encoding="utf-8")).get("secciones", []):
+        s = secs_all.get(x.get("id"))
+        if not s:
+            aviso("resumen de sección inexistente: %s" % x.get("id")); continue
+        corto = [str(v).strip() for v in (x.get("corto") or []) if str(v).strip()]
+        if corto:
+            s["corto"] = corto[:6]; n_cortos += 1
+        if x.get("imagina"):
+            s["imagina"] = str(x["imagina"]).strip()
+faltan_c = [sid for sid, s in secs_all.items() if not s.get("corto")]
+print("resúmenes:", n_cortos, "secciones; sin resumen:", faltan_c[:10], len(faltan_c))
+
 # ---- rutas animadas ----
 secs_ok = {s["id"]: t["id"] for t in salida for s in t["secciones"]}
 rutas = []

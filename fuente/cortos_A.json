@@ -1,0 +1,326 @@
+{
+ "secciones": [
+  {
+   "id": "betaox-1",
+   "corto": [
+    "La **β-oxidación** rompe los ácidos grasos para obtener energía.",
+    "Ocurre en la **matriz mitocondrial**, dentro de la mitocondria.",
+    "Cada vuelta tiene **4 pasos** y quita 2 carbonos.",
+    "Al final salen **acetil-CoA**, NADH y FADH₂."
+   ],
+   "imagina": "Imagina unas tijeras cortando una cadena de 2 en 2 eslabones; cada pedacito es un acetil-CoA."
+  },
+  {
+   "id": "betaox-2",
+   "corto": [
+    "El ácido graso primero se **activa** uniéndose a la coenzima A.",
+    "La CoA no cruza la membrana interna, así que usa la **carnitina**.",
+    "La **CPT I** pasa el acilo a la carnitina, afuera.",
+    "La **CPT II** lo regresa a una CoA, adentro."
+   ],
+   "imagina": "Imagina que la carnitina es un taxi que lleva el pasajero (acilo) por la aduana mitocondrial."
+  },
+  {
+   "id": "betaox-3",
+   "corto": [
+    "Son **4 pasos**: oxidación, hidratación, oxidación y tiólisis.",
+    "El primero usa **FAD** y el tercero usa NAD⁺.",
+    "La **tiólisis** suelta un acetil-CoA y deja un acilo más corto.",
+    "Cada vuelta da **1 FADH₂, 1 NADH y 1 acetil-CoA**."
+   ],
+   "imagina": "Imagina una línea de ensamble que repite los mismos 4 movimientos hasta acabar con la cadena."
+  },
+  {
+   "id": "betaox-4",
+   "corto": [
+    "El **palmitato** tiene 16 carbonos y da 8 acetil-CoA.",
+    "Necesita solo **7 vueltas**, con 7 FADH₂ y 7 NADH.",
+    "Con los valores del material, el total bruto es **131 ATP**.",
+    "La activación gasta 2, así que quedan **129 ATP** netos."
+   ]
+  },
+  {
+   "id": "carbohidratos-1",
+   "corto": [
+    "Los **carbohidratos** siguen la fórmula (C·H₂O)n.",
+    "Son el alimento principal y dan energía y carbono.",
+    "Sus clases son **monosacáridos**, oligosacáridos y polisacáridos.",
+    "Su función es **estructural** (celulosa) o de almacén (almidón, glucógeno)."
+   ],
+   "imagina": "Imagina que los monosacáridos son ladrillos sueltos y los polisacáridos, una pared ya construida."
+  },
+  {
+   "id": "carbohidratos-2",
+   "corto": [
+    "Los **monosacáridos** tienen de 3 a 9 carbonos.",
+    "Las **aldosas** llevan un aldehído y las cetosas una cetona.",
+    "El **gliceraldehído** es la aldosa más simple; la dihidroxiacetona, la cetosa.",
+    "Las **pentosas** y hexosas son las más abundantes en las células."
+   ]
+  },
+  {
+   "id": "carbohidratos-3",
+   "corto": [
+    "La **glucosa** es el combustible principal de las células.",
+    "El **cerebro** y los eritrocitos la prefieren como energía.",
+    "La **fructosa** es una cetosa dos veces más dulce que la sacarosa.",
+    "La **galactosa** sirve para fabricar lactosa, glucolípidos y glucoproteínas.",
+    "En la **galactosemia** se acumula galactitol y se quita la galactosa de la dieta."
+   ]
+  },
+  {
+   "id": "carbohidratos-4",
+   "corto": [
+    "Un **disacárido** son dos monosacáridos unidos por enlace glucosídico.",
+    "Al unirse se libera una molécula de **agua**.",
+    "La **lactosa** es galactosa más glucosa con enlace β(1,4).",
+    "La **maltosa** es glucosa más glucosa con enlace α(1,4).",
+    "La **sacarosa** es el azúcar de mesa, de caña o remolacha."
+   ],
+   "imagina": "Imagina dos vagones que se enganchan; el enganche es el enlace y al engancharlos suelta agua."
+  },
+  {
+   "id": "carbohidratos-5",
+   "corto": [
+    "Las **enzimas** del intestino delgado digieren los disacáridos.",
+    "Sin la enzima, el disacárido jala agua y causa **diarrea**.",
+    "Las bacterias del colon lo fermentan y dan **gas** y cólico.",
+    "La más común es la **intolerancia a la lactosa**, por falta de lactasa.",
+    "Se trata quitando la lactosa o usando **lactasa**."
+   ],
+   "imagina": "Imagina una llave que ya no existe: la lactosa queda sin abrir y se arma el desorden."
+  },
+  {
+   "id": "carbohidratos-6",
+   "corto": [
+    "Los **homopolisacáridos** tienen todos los residuos iguales.",
+    "La **celulosa** es poliglucosa con enlaces β(1-4) y no la digerimos.",
+    "La **quitina** forma capas externas de invertebrados y paredes de hongos.",
+    "El **almidón** es la reserva de las plantas y sí lo digerimos.",
+    "El **glucógeno** es poliglucosa ramificada, abundante en hígado y músculo."
+   ],
+   "imagina": "Imagina la celulosa como las vigas de una casa, y el almidón y el glucógeno como la despensa."
+  },
+  {
+   "id": "carbohidratos-7",
+   "corto": [
+    "Los **heteropolisacáridos** tienen residuos diferentes.",
+    "El **ácido hialurónico** forma la sustancia fundamental del tejido conjuntivo.",
+    "También está en el **líquido sinovial**, que lubrica y amortigua golpes.",
+    "El **peptidoglicano** es la pared bacteriana: polisacáridos unidos por puentes de péptidos.",
+    "Las **glucoproteínas** son proteínas con azúcares: hormonas, anticuerpos, enzimas y receptores."
+   ]
+  },
+  {
+   "id": "carbohidratos-8",
+   "corto": [
+    "La **glucólisis** convierte una glucosa en piruvato y ocurre en el citosol.",
+    "Tiene **10 etapas**; las etapas 1 y 3 gastan 2 ATP.",
+    "Las etapas 7 y 10 producen **4 ATP** en total.",
+    "El neto es **2 piruvato, 2 ATP y 2 NADH₂**.",
+    "La **fosfofructocinasa** es el control: el ATP alto la frena."
+   ],
+   "imagina": "Imagina que gastas 2 pesos para abrir un negocio y recuperas 4; ganancia neta de 2."
+  },
+  {
+   "id": "carbohidratos-9",
+   "corto": [
+    "Con oxígeno, el piruvato se vuelve **acetil-CoA** en la mitocondria.",
+    "Sin oxígeno suficiente, el músculo lo reduce a **lactato**.",
+    "Las levaduras lo convierten en **etanol** y CO₂.",
+    "En el **ciclo de Cori** el lactato viaja del músculo al hígado.",
+    "El hígado hace **gluconeogénesis** y devuelve glucosa al músculo."
+   ],
+   "imagina": "Imagina que el músculo tira lactato y el hígado lo recicla en glucosa para devolvérsela."
+  },
+  {
+   "id": "prot-1",
+   "corto": [
+    "Las **proteínas** son polímeros de aminoácidos unidos por enlace peptídico.",
+    "Con **50 o más** aminoácidos, el polipéptido ya es una proteína.",
+    "Todo aminoácido tiene **carbono α**, amino, carboxilo, hidrógeno y grupo R.",
+    "El **grupo R** es lo que cambia entre aminoácidos.",
+    "«Si no hay **N**, no hay proteína»."
+   ],
+   "imagina": "Imagina que los aminoácidos son cuentas de colores y la proteína es el collar completo."
+  },
+  {
+   "id": "prot-2",
+   "corto": [
+    "Los aminoácidos se clasifican de **4 maneras**: composición, polaridad, ionización y dieta.",
+    "Por composición del R hay **7 grupos**, como alifáticos y aromáticos.",
+    "Por polaridad son **12 polares** y 8 no polares.",
+    "Por ionización, los **básicos** son solo histidina, arginina y lisina.",
+    "Los **esenciales** del material son 10 y hay que aprenderlos."
+   ]
+  },
+  {
+   "id": "prot-3",
+   "corto": [
+    "El **enlace peptídico** une el carboxilo de uno con el amino del siguiente.",
+    "Al formarse sale una molécula de **agua**.",
+    "Cada posición del péptido es un **residuo**.",
+    "De 2 a 10 residuos es **oligopéptido**; más de 10, polipéptido.",
+    "Con **50 o más** ya es proteína."
+   ],
+   "imagina": "Imagina que dos piezas de Lego encajan y, al encajar, sueltan una gotita de agua."
+  },
+  {
+   "id": "prot-4",
+   "corto": [
+    "Por su función, el material lista **15 tipos** de proteínas.",
+    "Las **catalíticas** son las enzimas; las estructurales, como el colágeno.",
+    "La **hemoglobina** es de transporte y el fibrinógeno es sanguínea.",
+    "Los **citocromos** son respiratorias; la rodopsina, de la visión.",
+    "Los **anticuerpos** y el interferón son de defensa."
+   ]
+  },
+  {
+   "id": "prot-5",
+   "corto": [
+    "Por composición hay **conjugadas** y no conjugadas.",
+    "Las conjugadas llevan un **grupo prostético** no peptídico.",
+    "Son **6**: glico, metalo, hemo, flavo, fosfo y lipoproteínas.",
+    "Por forma, las **fibrosas** son alargadas e insolubles, como el colágeno.",
+    "Las **globulares** son compactas y solubles, como todas las enzimas."
+   ],
+   "imagina": "Imagina una proteína conjugada como un celular con funda: la funda es el grupo prostético."
+  },
+  {
+   "id": "prot-6",
+   "corto": [
+    "Las proteínas tienen **4 niveles** de estructura.",
+    "La **primaria** es la secuencia de aminoácidos.",
+    "La **secundaria** es la hélice α o la lámina β.",
+    "La **terciaria** es el doblez 3D de toda la cadena.",
+    "La **cuaternaria** une dos o más cadenas y solo aplica a algunas."
+   ],
+   "imagina": "Imagina un collar: sus cuentas (primaria), enrollado (secundaria), hecho bola (terciaria) y varios collares juntos (cuaternaria)."
+  },
+  {
+   "id": "prot-7",
+   "corto": [
+    "La estructura **terciaria** se estabiliza sobre todo con uniones no covalentes.",
+    "Son **5 interacciones**: ion-ion, dos de puentes de hidrógeno, hidrofóbicas y con grupo prostético.",
+    "La atracción **ion-ion** une aminoácidos ácidos con básicos.",
+    "Las **hidrofóbicas** juntan las cadenas laterales no polares."
+   ]
+  },
+  {
+   "id": "prot-8",
+   "corto": [
+    "**Desnaturalizar** es perder la forma nativa de la proteína.",
+    "Se pierde la **actividad biológica**, pero la secuencia se conserva.",
+    "Lo causan agentes como el **pH** y la temperatura.",
+    "A veces es reversible y se llama **renaturalización**.",
+    "El profesor dio como ejemplo el **cabello**."
+   ],
+   "imagina": "Imagina un listón que se arruga con el calor: sigue siendo el mismo listón, pero ya no luce igual."
+  },
+  {
+   "id": "enzimas-1",
+   "corto": [
+    "Las **enzimas** son catalizadores biológicos específicos que aceleran reacciones.",
+    "Casi todas son proteínas, salvo las **ribozimas** de RNA.",
+    "Su esquema es **E + S → ES → E + P**.",
+    "No se alteran ni cambian la **constante de equilibrio**.",
+    "Sus tres rasgos: muy eficientes, específicas y de acción **regulada**."
+   ],
+   "imagina": "Imagina la enzima como un atajo: llegas más rápido al mismo destino y el atajo sigue ahí."
+  },
+  {
+   "id": "enzimas-2",
+   "corto": [
+    "Algunas enzimas necesitan **cofactores** para funcionar bien.",
+    "Los cofactores inorgánicos son metales; las **coenzimas** son orgánicas y casi siempre vitaminas.",
+    "**Apoenzima + cofactor = holoenzima**.",
+    "La **apoenzima** casi no tiene actividad.",
+    "La **holoenzima** tiene la máxima actividad catalítica."
+   ],
+   "imagina": "Imagina una linterna: sin pilas (apoenzima) casi no sirve; con pilas (cofactor) funciona completa (holoenzima)."
+  },
+  {
+   "id": "enzimas-3",
+   "corto": [
+    "La mayoría de las coenzimas son **vitaminas** o derivan de ellas.",
+    "Sin la vitamina, la enzima falla y aparece una **enfermedad carencial**.",
+    "La **vitamina C** ayuda al colágeno; su falta causa escorbuto.",
+    "La **tiamina** (B1) se relaciona con el beriberi.",
+    "La **niacina** forma NAD y su falta causa pelagra."
+   ]
+  },
+  {
+   "id": "enzimas-4",
+   "corto": [
+    "Cada enzima tiene un código **EC** de cuatro números.",
+    "El primer número indica una de las **6 clases**.",
+    "Son **oxidorreductasas, transferasas, hidrolasas, liasas, isomerasas y ligasas**.",
+    "La **hidrolasa** rompe con agua; la ligasa une gastando ATP.",
+    "Una **quinasa** es transferasa, no ligasa."
+   ],
+   "imagina": "Imagina el código EC como una dirección: país, estado, calle y número de la enzima."
+  },
+  {
+   "id": "enzimas-5",
+   "corto": [
+    "Las enzimas aumentan la velocidad sin cambiar el **equilibrio**.",
+    "Para reaccionar, hay que **colisionar** con buena orientación y ΔG⁰ negativa.",
+    "La enzima ofrece un camino con menor **energía de activación**.",
+    "Esa energía sale de las **interacciones débiles** con el centro activo."
+   ],
+   "imagina": "Imagina que la enzima baja la altura de la montaña, pero deja igual los valles de ambos lados."
+  },
+  {
+   "id": "enzimas-6",
+   "corto": [
+    "El **centro activo** es donde se une el sustrato y ocurre la catálisis.",
+    "Es un bolsillo pequeño que da **especificidad** a la enzima.",
+    "En **llave-cerradura** (Fischer, 1894) el sitio ya es rígido y complementario.",
+    "En el **ajuste inducido** (Koshland, 1958) la enzima cambia de forma al unir sustrato.",
+    "El ejemplo clásico es la **hexoquinasa** cerrándose sobre la glucosa."
+   ],
+   "imagina": "Imagina un guante que se amolda a la mano, en lugar de una llave que ya trae la forma."
+  },
+  {
+   "id": "enzimas-7",
+   "corto": [
+    "La **especificidad** es una característica principal de las enzimas.",
+    "La **absoluta** actúa sobre un sustrato y da un solo producto.",
+    "La **relativa** actúa sobre sustratos parecidos con la misma reacción.",
+    "La **estereoespecificidad** distingue isómeros, como la glicerol quinasa.",
+    "En la de **función**, un sustrato sirve a varias enzimas distintas."
+   ]
+  },
+  {
+   "id": "enzimas-8",
+   "corto": [
+    "Son **3 tipos** de catálisis enzimática.",
+    "La **ácido-base** usa residuos del centro activo que donan o aceptan H⁺.",
+    "La **covalente** forma un enlace temporal con el sustrato.",
+    "La catálisis por **iones metálicos** usa metales como Zn²⁺ o Mg²⁺.",
+    "Truco: **ACM** (ácido-base, covalente, metales)."
+   ]
+  },
+  {
+   "id": "enzimas-9",
+   "corto": [
+    "En la cinética de **primer orden**, más sustrato da más velocidad.",
+    "Al duplicar el sustrato, la velocidad también se **duplica**.",
+    "En la de **orden cero**, la velocidad no depende del sustrato.",
+    "Con poco sustrato manda el primer orden; con mucho, la **saturación**."
+   ],
+   "imagina": "Imagina cajas de súper: con cajas libres, más clientes se cobran más rápido; con todas ocupadas, no."
+  },
+  {
+   "id": "enzimas-10",
+   "corto": [
+    "Un **inhibidor** interfiere con la enzima; hay 3 tipos.",
+    "En la **competitiva**, inhibidor y sustrato pelean por el sitio activo.",
+    "En la **no competitiva** se forma un complejo EIS no productivo.",
+    "La **irreversible** se une covalentemente, como la penicilina.",
+    "La **biorregulación** enciende y apaga enzimas entre formas activas e inactivas."
+   ],
+   "imagina": "Imagina que un inhibidor competitivo es alguien que te gana el asiento; el irreversible lo pega con resistol."
+  }
+ ]
+}
