@@ -6,7 +6,7 @@ const $$=(s,r=document)=>Array.from(r.querySelectorAll(s));
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const DAY=864e5, NOW=()=>Date.now();
 const pad3=n=>String(n).padStart(3,'0');
-const figSrc=n=>'fig/p'+pad3(n)+'.jpg';
+const figSrc=(n,full)=>'fig/p'+pad3(n)+(!full&&S.figc&&S.figc[n]?'-c':'')+'.jpg';
 const pct=x=>Math.round((x||0)*100)+'%';
 const today=()=>new Date().toLocaleDateString('en-CA');
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -148,7 +148,7 @@ function blocksText(bl){
   }).join('\n');
 }
 function indexData(data){
-  S.figs=data.figs||{};
+  S.figs=data.figs||{};S.figc=data.figc||{};S.pies=data.pies||{};S.figfull=new Set(data.figfull||[]);
   S.temas=data.temas;
   S.temas.forEach((t,i)=>{
     t.num=i+1; S.byId[t.id]=t;
@@ -313,7 +313,9 @@ function initHero(){
 }
 const dots=n=>`<span class="diff" title="Dificultad ${n||1} de 3">${[1,2,3].map(i=>`<i class="${i<=(n||1)?'on':''}"></i>`).join('')}</span>`;
 const TYPE={opcion:'Opción múltiple',vf:'Verdadero o falso',completar:'Completa',ordenar:'Ordena',relacionar:'Relaciona'};
-function figImg(n,alt){const d=S.figs[n];return `<img src="${figSrc(n)}" alt="${esc(alt||('Página '+n+' de tus apuntes'))}" loading="lazy"${d?` width="${d[0]}" height="${d[1]}"`:''}>`;}
+function figImg(n,alt){const d=(S.figc&&S.figc[n])||S.figs[n];return `<img src="${figSrc(n)}" alt="${esc(alt||('Página '+n+' de tus apuntes'))}" loading="lazy"${d?` width="${d[0]}" height="${d[1]}"`:''}>`;}
+const zoomAttrs=(n,cap)=>`data-action="zoom" data-src="${figSrc(n)}" data-full="${figSrc(n,true)}" data-cap="${esc(cap||('Página '+n+' de tus apuntes'))}"`;
+function polaroid(n,sec){const cap=(S.pies&&S.pies[n])||'';const b=(sec.bloques||[]).find(x=>x.tipo==='figura'&&x.pagina===n);return `<figure class="polaroid"><button class="pol-btn" ${zoomAttrs(n,plain(b&&b.pie||cap))} aria-label="Ampliar el esquema de la página ${n}">${figImg(n,cap||plain(b&&b.pie))}</button><figcaption><span class="hand">${esc(cap||'del cuaderno ♡')}</span><span class="pg">pág. ${n}</span></figcaption></figure>`;}
 function answerHTML(q){
   switch(q.tipo){
     case 'opcion': return md(q.opciones[q.correcta]);
@@ -414,7 +416,7 @@ class Quiz{
           ${dots(q.dificultad)}
           ${q.pagina?`<span class="pg">pág. ${q.pagina}</span>`:''}
         </div>
-        ${q.figura?`<button class="fig-btn q-fig" data-action="zoom" data-src="${figSrc(q.figura)}" data-cap="Página ${q.figura} de tus apuntes">${figImg(q.figura)}</button>`:''}
+        ${q.figura?`<button class="fig-btn q-fig" ${zoomAttrs(q.figura)}>${figImg(q.figura)}</button>`:''}
         <h3 class="q-stem">${this.stem(q,s,chk)}</h3>
         ${this.body(q,s,chk)}
         ${chk?this.fb(q,s):''}
@@ -781,7 +783,7 @@ function blockHTML(b){
     case 'clave': return `<div class="b-key">${ex}<span class="b-lab">Clave de examen</span><p><span class="hl">${md(b.md,C)}</span></p></div>`;
     case 'truco': return `<div class="b-tip">${ex}<span class="b-lab">Para recordarlo</span><p>${md(b.md,C)}</p></div>`;
     case 'clinica': return `<div class="b-clin">${ex}<span class="b-lab">En la consulta</span><p>${md(b.md,C)}</p></div>`;
-    case 'figura': return `<figure class="b-fig"><button class="fig-btn" data-action="zoom" data-src="${figSrc(b.pagina)}" data-cap="${esc(plain(b.pie))}" aria-label="Ampliar figura de la página ${b.pagina}">${figImg(b.pagina,plain(b.pie))}</button><figcaption><span>${md(b.pie)}</span><span class="pg">pág. ${b.pagina}</span></figcaption></figure>`;
+    case 'figura': {const full=S.figfull&&S.figfull.has(b.pagina);return `<figure class="b-fig"><button class="fig-btn" ${full?`data-action="zoom" data-src="${figSrc(b.pagina,true)}" data-cap="${esc(plain(b.pie))}"`:zoomAttrs(b.pagina,plain(b.pie))} aria-label="Ampliar figura de la página ${b.pagina}">${full?`<img src="${figSrc(b.pagina,true)}" alt="${esc(plain(b.pie))}" loading="lazy"${S.figs[b.pagina]?` width="${S.figs[b.pagina][0]}" height="${S.figs[b.pagina][1]}"`:''}>`:figImg(b.pagina,plain(b.pie))}</button><figcaption><span>${md(b.pie)}</span><span class="pg">pág. ${b.pagina}</span></figcaption></figure>`;}
     default: return b.md?`${ex}<p class="b-txt">${md(b.md,C)}</p>`:'';
   }
 }
@@ -803,7 +805,7 @@ function viewAprende(t){
   const rs=(S.rutas||[]).filter(r=>r.seccion===s.id);
   const has=s.corto&&s.corto.length;
   const keys=(s.bloques||[]).filter(b=>b.tipo==='clave');
-  const rest=(s.bloques||[]).filter(b=>!has||b.tipo!=='clave');
+  const rest=(s.bloques||[]).filter(b=>!has||(b.tipo!=='clave'&&!(b.tipo==='figura'&&b.pagina===s.figp)));
   return `<div class="focus" id="focus">
     <div class="focus-top">
       <div class="dots" aria-label="Secciones">${t.secciones.map((x,j)=>`<button class="dot ${j===i?'on':''} ${P.r[x.id]>0?'read':''}" data-action="sec-go" data-t="${t.id}" data-i="${j}" title="${esc(x.titulo)}" aria-label="Sección ${j+1}: ${esc(x.titulo)}${P.r[x.id]>0?' (leída)':''}"></button>`).join('')}</div>
@@ -817,6 +819,7 @@ function viewAprende(t){
       <h2>${esc(s.titulo)}</h2>
       ${has?`<div class="poco"><div class="poco-h"><span class="hand">en pocas palabras ✿</span><button class="pill-btn speak" data-action="tts" data-sec="${s.id}" aria-pressed="${S.speaking===s.id}">${SPK}<span>${S.speaking===s.id?'Detener':'Escuchar'}</span></button></div>
         <ul>${s.corto.map(x=>`<li>${md(x,P.cz)}</li>`).join('')}</ul>${s.imagina?`<p class="imagina"><b>imagina:</b> ${md(s.imagina)}</p>`:''}</div>`:''}
+      ${s.figp&&has?polaroid(s.figp,s):''}
       ${has?keys.map(blockHTML).join(''):''}
       ${rs.map(rutaHTML).join('')}
       ${has?`<details class="detalle" data-k="det${s.id}" ${S.more['det'+s.id]?'open':''}><summary><span>Ver todo el detalle</span><small>${min} min de lectura · explicación completa${rest.some(b=>b.tipo==='figura')?', figuras':''}${rest.some(b=>b.tipo==='tabla')?' y tablas':''}</small></summary><div class="detalle-in">${rest.map(blockHTML).join('')}</div></details>`:rest.map(blockHTML).join('')}
@@ -1319,7 +1322,8 @@ const ACT={
   'ru-play':a=>rutaPlay(a.dataset.ruta),
   'ru-hide':a=>{const st=rutaState(a.dataset.ruta);st.hide=!st.hide;st.shown={};rutaUpdate(a.dataset.ruta,true);if(st.hide)toast('Modo recordar: intenta decir el nombre de cada paso antes de mostrarlo.');},
   'ru-show':a=>{const st=rutaState(a.dataset.ruta);st.shown[st.i]=true;rutaUpdate(a.dataset.ruta,true);},
-  'zoom':a=>{const lb=$('#lightbox');lb.querySelector('img').src=a.dataset.src;lb.querySelector('img').alt=a.dataset.cap||'';lb.querySelector('p').textContent=a.dataset.cap||'';lb.hidden=false;},
+  'zoom':a=>{const lb=$('#lightbox');const im=lb.querySelector('img');im.src=a.dataset.src;im.alt=a.dataset.cap||'';lb.querySelector('p').textContent=a.dataset.cap||'';const fb=lb.querySelector('.lb-full');fb.hidden=!a.dataset.full||a.dataset.full===a.dataset.src;fb.dataset.src=a.dataset.src;fb.dataset.full=a.dataset.full||'';fb.textContent='Ver la página completa';lb.hidden=false;},
+  'lb-full':a=>{const im=$('#lightbox img');const showFull=!im.src.endsWith(a.dataset.full);im.src=showFull?a.dataset.full:a.dataset.src;a.textContent=showFull?'Ver solo el esquema':'Ver la página completa';},
   'lb-close':()=>{$('#lightbox').hidden=true;},
   'go-sec':a=>goSec(a.dataset.sec),
   'goto-sec':a=>{scrollToSec(a.dataset.sec);const toc=$('#toc');if(toc&&matchMedia('(max-width:980px)').matches)toc.open=false;},

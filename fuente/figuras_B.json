@@ -1,0 +1,48 @@
+{"figuras": [
+ {"pagina": 113, "recorte": [0.08, 0.08, 0.90, 0.97], "pie_corto": "Fosfato, azúcar y base: las tres partes"},
+ {"pagina": 115, "recorte": [0.08, 0.52, 0.83, 0.87], "pie_corto": "Pirimidina con un anillo, purina con dos"},
+ {"pagina": 116, "recorte": [0.03, 0.0, 0.91, 1.0], "pie_corto": "Las cinco bases: dos purinas y tres pirimidinas"},
+ {"pagina": 124, "recorte": [0.13, 0.06, 0.82, 0.92], "pie_corto": "La doble hélice y sus pares de bases"},
+ {"pagina": 128, "recorte": [0.025, 0.03, 0.958, 0.99], "pie_corto": "ARN: una sola cadena con ribosa y uracilo"},
+ {"pagina": 131, "recorte": [0.03, 0.487, 0.34, 0.98], "pie_corto": "El ARNm se lee de tres en tres"},
+ {"pagina": 133, "recorte": [0.17, 0.35, 0.83, 0.70], "pie_corto": "Anticodón del ARNt frente al codón del ARNm"},
+ {"pagina": 135, "recorte": [0.266, 0.661, 0.675, 0.968], "pie_corto": "Qué se absorbe en cada parte del intestino"},
+ {"pagina": 141, "recorte": [0.01, 0.0, 0.86, 0.47], "pie_corto": "De los azúcares al ácido que daña el esmalte"},
+ {"pagina": 143, "recorte": [0.118, 0.0, 0.878, 1.0], "pie_corto": "En la boca se digiere de dos formas"},
+ {"pagina": 144, "recorte": [0.099, 0.0, 0.902, 1.0], "pie_corto": "Las seis funciones de la saliva"},
+ {"pagina": 145, "recorte": [0.107, 0.0, 0.893, 1.0], "pie_corto": "Del bolo al quimo: esófago y estómago"},
+ {"pagina": 171, "recorte": [0.097, 0.0, 0.902, 1.0], "pie_corto": "Cinco rasgos que comparten todas las vitaminas"},
+ {"pagina": 189, "recorte": [0.103, 0.012, 0.892, 1.0], "pie_corto": "Alcohol, tabaco, estrés y medicamentos gastan vitaminas"},
+ {"pagina": 172, "recorte": [0.124, 0.24, 0.874, 1.0], "pie_corto": "Liposolubles e hidrosolubles, de un vistazo"},
+ {"pagina": 174, "recorte": [0.095, 0.145, 0.906, 0.995], "pie_corto": "Vitaminas A y D: funciones y fuentes"},
+ {"pagina": 177, "recorte": [0.091, 0.11, 0.912, 0.985], "pie_corto": "Vitaminas E y K: funciones y fuentes"},
+ {"pagina": 180, "recorte": [0.099, 0.0, 0.90, 1.0], "pie_corto": "Vitaminas C y B1, con sus alimentos"},
+ {"pagina": 182, "recorte": [0.093, 0.0, 0.904, 1.0], "pie_corto": "Vitaminas B2 y B3 y dónde encontrarlas"},
+ {"pagina": 184, "recorte": [0.124, 0.012, 0.877, 0.985], "pie_corto": "Vitaminas B5 y B6 y sus fuentes"},
+ {"pagina": 186, "recorte": [0.103, 0.0, 0.897, 0.985], "pie_corto": "Biotina (B8) y ácido fólico (B9)"},
+ {"pagina": 188, "recorte": null, "pie_corto": "Vitamina B12: fuentes animales y por qué falta"},
+ {"pagina": 192, "recorte": [0.182, 0.107, 0.806, 0.943], "pie_corto": "Corte de un molar con todas sus capas"},
+ {"pagina": 202, "recorte": [0.087, 0.255, 0.825, 0.935], "pie_corto": "Prismas de esmalte llenos de cristales de hidroxiapatita"},
+ {"pagina": 205, "recorte": [0.14, 0.17, 0.87, 0.885], "pie_corto": "Germen dentario: ameloblastos y odontoblastos, frente a frente"},
+ {"pagina": 212, "recorte": [0.058, 0.052, 0.96, 0.945], "pie_corto": "Túbulos dentinarios vistos al microscopio electrónico"},
+ {"pagina": 217, "recorte": [0.11, 0.18, 0.902, 0.832], "pie_corto": "Cementoblastos sobre el cemento, junto al ligamento"},
+ {"pagina": 219, "recorte": [0.08, 0.605, 0.935, 0.89], "pie_corto": "Minerales del cemento, en porcentaje"},
+ {"pagina": 223, "recorte": [0.24, 0.11, 0.706, 0.795], "pie_corto": "Linfáticos de la pulpa, del centro al ápice"},
+ {"pagina": 227, "recorte": [0.228, 0.103, 0.712, 0.925], "pie_corto": "Dentina, predentina y odontoblastos, de afuera hacia adentro"},
+ {"pagina": 228, "recorte": [0.11, 0.315, 0.92, 0.745], "pie_corto": "Orgánico, inorgánico y agua en cada tejido duro"},
+ {"pagina": 229, "recorte": [0.075, 0.295, 0.935, 0.76], "pie_corto": "Agua, colágeno y minerales de esmalte, cemento y dentina"},
+ {"pagina": 230, "recorte": [0.598, 0.265, 0.925, 0.795], "pie_corto": "El diente en su alvéolo, con su ligamento"},
+ {"pagina": 232, "recorte": [0.062, 0.185, 0.948, 0.945], "pie_corto": "Del esmalte al hueso compacto, capa por capa"}
+],
+ "nuevas": [
+ {"seccion": "nucleicos-6", "pagina": 120, "recorte": [0.03, 0.04, 0.888, 0.965], "pie": "Tabla que compara las propiedades del ADN y del ARN. Fíjate en la sal: el ADN no se disuelve en NaCl diluido (sí en concentrado) y el ARN sí; los dos son insolubles en alcohol y se separan de sus proteínas con detergente o fenol.", "pie_corto": "ADN vs ARN: cómo se comportan en solución"},
+ {"seccion": "dentarios-2", "pagina": 195, "recorte": null, "pie": "Incisivos centrales vistos de frente: el esmalte tiene color blanco amarillento y, hacia el borde incisal, se ve translúcido, casi azulado. Fíjate en esa orilla: ahí casi no hay dentina detrás y la luz pasa a través del esmalte.", "pie_corto": "Esmalte blanco amarillento y translúcido en el borde"}
+ ],
+ "principal": {
+  "nucleicos-2": 113, "nucleicos-3": 116, "nucleicos-6": 120, "nucleicos-8": 124, "nucleicos-10": 128, "nucleicos-11": 131, "nucleicos-12": 133,
+  "saliva-4": 135, "saliva-5": 141,
+  "digestion-3": 143, "digestion-4": 145,
+  "vitaminas-1": 171, "vitaminas-2": 189, "vitaminas-3": 172, "vitaminas-4": 174, "vitaminas-5": 180, "vitaminas-6": 182, "vitaminas-7": 184, "vitaminas-8": 186,
+  "dentarios-1": 192, "dentarios-2": 195, "dentarios-3": 202, "dentarios-4": 205, "dentarios-5": 212, "dentarios-6": 217, "dentarios-7": 227, "dentarios-8": 228, "dentarios-9": 232
+ }
+}

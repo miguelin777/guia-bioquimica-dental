@@ -186,11 +186,41 @@ for tid in ORDEN:
     t.pop("emoji", None)
     salida.append(t)
 
-# ---- figuras: render a buena resolución ----
+# ---- imágenes elegidas por los agentes (figuras_*.json): recortes, pies cortos, nuevas, principal ----
+recortes, pies = {}, {}
+secs_by = {s["id"]: s for t in salida for s in t["secciones"]}
+def ok_rect(r):
+    return isinstance(r, list) and len(r) == 4 and all(isinstance(v, (int, float)) for v in r) and r[2] - r[0] > .1 and r[3] - r[1] > .1
+for f in sorted(glob.glob(os.path.join(FUENTE, "figuras_*.json"))):
+    dfx = json.load(open(f, encoding="utf-8"))
+    for x in dfx.get("figuras", []):
+        try: pgn = int(x["pagina"])
+        except Exception: continue
+        if ok_rect(x.get("recorte")): recortes[pgn] = [max(0, min(1, float(v))) for v in x["recorte"]]
+        if x.get("pie_corto"): pies[pgn] = str(x["pie_corto"]).strip()
+    for x in dfx.get("nuevas", []):
+        s = secs_by.get(x.get("seccion"))
+        try: pgn = int(x["pagina"])
+        except Exception: continue
+        if not s: aviso("figura nueva en sección inexistente: %s" % x.get("seccion")); continue
+        if not any(b.get("tipo") == "figura" and b.get("pagina") == pgn for b in s["bloques"]):
+            s["bloques"].append({"tipo": "figura", "pagina": pgn, "pie": str(x.get("pie") or x.get("pie_corto") or "")})
+        figuras.add(pgn)
+        if ok_rect(x.get("recorte")): recortes[pgn] = [max(0, min(1, float(v))) for v in x["recorte"]]
+        if x.get("pie_corto"): pies[pgn] = str(x["pie_corto"]).strip()
+    for sid, pgn in (dfx.get("principal") or {}).items():
+        s = secs_by.get(sid)
+        try: pgn = int(pgn)
+        except Exception: continue
+        if s and any(b.get("tipo") == "figura" and b.get("pagina") == pgn for b in s["bloques"]):
+            s["figp"] = pgn
+        elif s: aviso("principal %s -> pág %s no es figura de la sección" % (sid, pgn))
+
+# ---- figuras: render a buena resolución (página completa + recorte del esquema) ----
 import fitz
 os.makedirs(FIG, exist_ok=True)
 doc = fitz.open(PDF)
-dims = {}
+dims, dimsc, quedan = {}, {}, set()
 for p in sorted(figuras):
     if not 1 <= p <= doc.page_count:
         aviso("figura fuera de rango: %s" % p); continue
@@ -198,12 +228,19 @@ for p in sorted(figuras):
     z = 2.0 if pg.rect.height < 500 else 1.75
     pix = pg.get_pixmap(matrix=fitz.Matrix(z, z))
     pix.save(os.path.join(FIG, "p%03d.jpg" % p), jpg_quality=78)
-    dims[p] = [pix.width, pix.height]
-# borra figuras que ya no se usan
+    dims[p] = [pix.width, pix.height]; quedan.add("p%03d.jpg" % p)
+    if p in recortes:
+        W, H = pg.rect.width, pg.rect.height; x0, y0, x1, y1 = recortes[p]
+        r = fitz.Rect(x0 * W, y0 * H, x1 * W, y1 * H) & pg.rect
+        zc = min(3.2, 1150 / max(r.width, 1))
+        pc = pg.get_pixmap(matrix=fitz.Matrix(zc, zc), clip=r)
+        pc.save(os.path.join(FIG, "p%03d-c.jpg" % p), jpg_quality=80)
+        dimsc[p] = [pc.width, pc.height]; quedan.add("p%03d-c.jpg" % p)
+# borra imágenes que ya no se usan
 for f in glob.glob(os.path.join(FIG, "p*.jpg")):
-    n = int(os.path.basename(f)[1:4])
-    if n not in dims:
+    if os.path.basename(f) not in quedan:
         os.remove(f)
+print("figuras:", len(dims), "recortes:", len(dimsc), "con principal:", sum(1 for s in secs_by.values() if s.get("figp")), "pies cortos:", len(pies))
 
 # ---- resúmenes "en pocas palabras" (cortos_*.json) ----
 secs_all = {s["id"]: s for t in salida for s in t["secciones"]}
@@ -238,7 +275,7 @@ for f in sorted(glob.glob(os.path.join(FUENTE, "rutas_*.json"))):
             p["sale"] = [str(v) for v in (p.get("sale") or [])]
         rutas.append(r)
 
-out = {"generado": "2026-11-21", "fuente": "Regla1.pdf (233 págs.)", "figs": dims, "temas": salida, "rutas": rutas}
+out = {"generado": "2026-11-21", "fuente": "Regla1.pdf (233 págs.)", "figs": dims, "figc": dimsc, "figfull": [21, 64, 102, 103], "pies": pies, "temas": salida, "rutas": rutas}
 json.dump(out, open(os.path.join(AQUI, "contenido.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 
 tot_q = sum(len(t["preguntas"]) for t in salida)
