@@ -4,7 +4,9 @@
 import os, subprocess
 d = os.path.dirname(os.path.abspath(__file__))
 S = lambda f: open(os.path.join(d, "src", f), encoding="utf-8").read()
-page = S("head.html") + "<style>\n" + S("style.css") + "</style>" + S("body.html") + "<script>\n" + S("app.js") + "</script>\n"
+import hashlib
+cv = hashlib.md5(open(os.path.join(d, "contenido.json"), "rb").read()).hexdigest()[:10]
+page = S("head.html") + "<style>\n" + S("style.css") + "</style>" + S("body.html") + "<script>\n" + S("app.js").replace("__CV__", cv) + "</script>\n"
 open(os.path.join(d, "artifact.html"), "w", encoding="utf-8").write(page)
 sk = ('<!doctype html><html lang="es"><head><meta charset="utf-8">'
       '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'

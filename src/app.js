@@ -1553,7 +1553,7 @@ Responde solo con un arreglo JSON: [{"enunciado":"…","opciones":["…","…","
 async function boot(){
   document.documentElement.lang='es';
   try{
-    const res=await fetch('contenido.json');if(!res.ok)throw new Error(res.status);
+    const res=await fetch('contenido.json?v=__CV__');if(!res.ok)throw new Error(res.status);
     indexData(await res.json());
   }catch(e){
     $('#main').innerHTML='<div class="empty"><b>No se pudo cargar el contenido de la guía</b><p class="muted">Recarga la página. Si sigue sin cargar, revisa tu conexión.</p></div>';return;
